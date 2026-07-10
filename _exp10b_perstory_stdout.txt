@@ -1,0 +1,8 @@
+Analyzing 20 stories per-variant...
+Valid paired stories: 20
+Per-story CV means: orig=0.2718, sent=0.2720, para=0.2697
+Paired t CV (orig vs sent): t=0.120, p=0.4528
+Paired t CV (orig vs para): t=-1.714, p=0.0514
+Traceback (most recent call last):
+  File "<string>", line 112, in <module>
+AttributeError: module 'scipy.stats' has no attribute 'binom_test'. Did you mean: 'binomtest'?

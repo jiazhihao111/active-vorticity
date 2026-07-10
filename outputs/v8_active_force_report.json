@@ -1,0 +1,568 @@
+{
+  "timestamp": "2026-07-09T21:28:02.481626",
+  "framework": "v8.0 Lagrangian with Active Force",
+  "v7_baseline": {
+    "constraint_power": {
+      "pos_mean": 11.319385940001215,
+      "neg_mean": 13.030520564714791,
+      "pos_std": 9.471667615929103,
+      "neg_std": 18.60029538094116,
+      "pos_skew": 1.7623833015181727,
+      "neg_skew": 6.532615638436082,
+      "pos_vs_zero_p": 0.0,
+      "pos_vs_neg_p": 0.00017257010437498157,
+      "ks_stat": 0.03257297589723521,
+      "ks_p": 0.22294059691805687,
+      "cohens_d": -0.11593475079584134,
+      "criteria": {
+        "pos_near_zero": "False",
+        "neg_significantly_lower": "False",
+        "neg_left_skewed": "False"
+      },
+      "passed_count": 0,
+      "total_criteria": 3,
+      "verdict": "OPPOSE"
+    },
+    "velocity_effective_rank": {
+      "pos_effective_rank": 8,
+      "neg_effective_rank": 7,
+      "pos_top3_variance_ratio": 0.8302193768399186,
+      "neg_top3_variance_ratio": 0.8414938964991062,
+      "pos_lower_rank": false,
+      "verdict": "OPPOSE"
+    },
+    "overall_verdict": {
+      "support_count": 0,
+      "total_count": 2,
+      "verdict": "OPPOSE",
+      "framework": "v7.0 Lagrangian Constraint Mechanics",
+      "mass": 1.0,
+      "friction": 0.01
+    }
+  },
+  "v8_results": {
+    "method_D_gamma_0.01_alpha_0.5": {
+      "corrected_constraint_power": {
+        "pos_Pc_mean": 6.075670599721926,
+        "neg_Pc_mean": 7.302914193047067,
+        "pos_Pc_std": 7.047051226926837,
+        "neg_Pc_std": 13.46653746886216,
+        "pos_Pc_skew": 1.58860178277141,
+        "neg_Pc_skew": 6.113133264515918,
+        "pos_vs_zero_p": 8.16411898576215e-236,
+        "pos_vs_neg_p": 0.0002173377560964417,
+        "ks_stat": 0.0360898808290553,
+        "ks_p": 0.13595576554838232,
+        "cohens_d": -0.11419096227074015,
+        "criteria": {
+          "pos_near_zero_after_correction": "False",
+          "neg_far_from_zero": "False",
+          "pos_closer_to_zero_than_neg": "True"
+        },
+        "passed_count": 1,
+        "total_criteria": 3,
+        "verdict": "WEAK_SUPPORT"
+      },
+      "energy_decomposition": {
+        "pos_P_raw_mean": 11.319385940001215,
+        "neg_P_raw_mean": 13.030520564714791,
+        "pos_P_active_mean": 5.243715262871759,
+        "neg_P_active_mean": 5.727606348527341,
+        "pos_P_constraint_mean": 6.075670599721926,
+        "neg_P_constraint_mean": 7.302914193047067,
+        "active_fraction_pos": 0.4632508592444787,
+        "active_fraction_neg": 0.43955314908854143,
+        "correction_improvement": 1.863067747671011
+      },
+      "active_force_alignment": {
+        "pos_alignment_mean": 0.9999999955050216,
+        "neg_alignment_mean": 0.9999999944656783,
+        "pos_vs_neg_p": 0.6387531891335319,
+        "verdict": "OPPOSE"
+      },
+      "overall_verdict": {
+        "support_count": 1,
+        "total_count": 2,
+        "verdict": "WEAK_SUPPORT",
+        "framework": "v8.0 Lagrangian with Active Force",
+        "method": "D",
+        "mass": 1.0,
+        "friction": 0.01
+      }
+    },
+    "method_D_gamma_0.01_alpha_0.8": {
+      "corrected_constraint_power": {
+        "pos_Pc_mean": 2.92944127963548,
+        "neg_Pc_mean": 3.866350219622185,
+        "pos_Pc_std": 6.112119752633314,
+        "neg_Pc_std": 10.731092092968867,
+        "pos_Pc_skew": 1.1067672726583446,
+        "neg_Pc_skew": 5.286842292366317,
+        "pos_vs_zero_p": 5.4536049102069735e-89,
+        "pos_vs_neg_p": 0.000521747820538948,
+        "ks_stat": 0.032786397783865495,
+        "ks_p": 0.2166684891505187,
+        "cohens_d": -0.10728945355038923,
+        "criteria": {
+          "pos_near_zero_after_correction": "False",
+          "neg_far_from_zero": "False",
+          "pos_closer_to_zero_than_neg": "True"
+        },
+        "passed_count": 1,
+        "total_criteria": 3,
+        "verdict": "WEAK_SUPPORT"
+      },
+      "energy_decomposition": {
+        "pos_P_raw_mean": 11.319385940001215,
+        "neg_P_raw_mean": 13.030520564714791,
+        "pos_P_active_mean": 8.389944613872727,
+        "neg_P_active_mean": 9.164170369865612,
+        "pos_P_constraint_mean": 2.92944127963548,
+        "neg_P_constraint_mean": 3.866350219622185,
+        "active_fraction_pos": 0.7412013918661127,
+        "active_fraction_neg": 0.7032850548281888,
+        "correction_improvement": 3.8640084777610983
+      },
+      "active_force_alignment": {
+        "pos_alignment_mean": 0.9999999929496572,
+        "neg_alignment_mean": 0.9999999931097695,
+        "pos_vs_neg_p": 0.9227359211201943,
+        "verdict": "OPPOSE"
+      },
+      "overall_verdict": {
+        "support_count": 1,
+        "total_count": 2,
+        "verdict": "WEAK_SUPPORT",
+        "framework": "v8.0 Lagrangian with Active Force",
+        "method": "D",
+        "mass": 1.0,
+        "friction": 0.01
+      }
+    },
+    "method_D_gamma_0.01_alpha_0.9": {
+      "corrected_constraint_power": {
+        "pos_Pc_mean": 1.8806985929215805,
+        "neg_Pc_mean": 2.7208293647909176,
+        "pos_Pc_std": 5.933944943645924,
+        "neg_Pc_std": 9.925876957396342,
+        "pos_Pc_skew": 0.8565900590616154,
+        "neg_Pc_skew": 4.823761565880525,
+        "pos_vs_zero_p": 3.603651717949916e-42,
+        "pos_vs_neg_p": 0.000902736768466849,
+        "ks_stat": 0.034946035436665975,
+        "ks_p": 0.16059234272474945,
+        "cohens_d": -0.10274005115605098,
+        "criteria": {
+          "pos_near_zero_after_correction": "False",
+          "neg_far_from_zero": "False",
+          "pos_closer_to_zero_than_neg": "True"
+        },
+        "passed_count": 1,
+        "total_criteria": 3,
+        "verdict": "WEAK_SUPPORT"
+      },
+      "energy_decomposition": {
+        "pos_P_raw_mean": 11.319385940001215,
+        "neg_P_raw_mean": 13.030520564714791,
+        "pos_P_active_mean": 9.43868726667417,
+        "neg_P_active_mean": 10.309691208069703,
+        "pos_P_constraint_mean": 1.8806985929215805,
+        "neg_P_constraint_mean": 2.7208293647909176,
+        "active_fraction_pos": 0.8338515283974647,
+        "active_fraction_neg": 0.791195651531228,
+        "correction_improvement": 6.018713462115792
+      },
+      "active_force_alignment": {
+        "pos_alignment_mean": 0.9999999898093298,
+        "neg_alignment_mean": 0.9999999923072929,
+        "pos_vs_neg_p": 0.1093126562136927,
+        "verdict": "OPPOSE"
+      },
+      "overall_verdict": {
+        "support_count": 1,
+        "total_count": 2,
+        "verdict": "WEAK_SUPPORT",
+        "framework": "v8.0 Lagrangian with Active Force",
+        "method": "D",
+        "mass": 1.0,
+        "friction": 0.01
+      }
+    },
+    "method_D_gamma_0.01_alpha_0.95": {
+      "corrected_constraint_power": {
+        "pos_Pc_mean": 1.3563269773682902,
+        "neg_Pc_mean": 2.1480686044875625,
+        "pos_Pc_std": 5.874099952081012,
+        "neg_Pc_std": 9.5511562237151,
+        "pos_Pc_skew": 0.7189072514806891,
+        "neg_Pc_skew": 4.548055916487322,
+        "pos_vs_zero_p": 1.1948861461442699e-23,
+        "pos_vs_neg_p": 0.00126287088622069,
+        "ks_stat": 0.03432111696862267,
+        "ks_p": 0.17548449188823637,
+        "cohens_d": -0.09985726085843316,
+        "criteria": {
+          "pos_near_zero_after_correction": "False",
+          "neg_far_from_zero": "False",
+          "pos_closer_to_zero_than_neg": "True"
+        },
+        "passed_count": 1,
+        "total_criteria": 3,
+        "verdict": "WEAK_SUPPORT"
+      },
+      "energy_decomposition": {
+        "pos_P_raw_mean": 11.319385940001215,
+        "neg_P_raw_mean": 13.030520564714791,
+        "pos_P_active_mean": 9.963058867607234,
+        "neg_P_active_mean": 10.882451965671617,
+        "pos_P_constraint_mean": 1.3563269773682902,
+        "neg_P_constraint_mean": 2.1480686044875625,
+        "active_fraction_pos": 0.8801766209164299,
+        "active_fraction_neg": 0.8351509758602107,
+        "correction_improvement": 8.345617338622798
+      },
+      "active_force_alignment": {
+        "pos_alignment_mean": 0.9999999909792557,
+        "neg_alignment_mean": 0.9999999906193248,
+        "pos_vs_neg_p": 0.8213638828441183,
+        "verdict": "OPPOSE"
+      },
+      "overall_verdict": {
+        "support_count": 1,
+        "total_count": 2,
+        "verdict": "WEAK_SUPPORT",
+        "framework": "v8.0 Lagrangian with Active Force",
+        "method": "D",
+        "mass": 1.0,
+        "friction": 0.01
+      }
+    },
+    "method_D_gamma_0.01_alpha_1.0": {
+      "corrected_constraint_power": {
+        "pos_Pc_mean": 0.8319553410449674,
+        "neg_Pc_mean": 1.5753078337935187,
+        "pos_Pc_std": 5.8346149006840555,
+        "neg_Pc_std": 9.19809457838618,
+        "pos_Pc_skew": 0.575925140306525,
+        "neg_Pc_skew": 4.2421864189138345,
+        "pos_vs_zero_p": 4.376241109154855e-10,
+        "pos_vs_neg_p": 0.0018436596566238433,
+        "ks_stat": 0.030370653867108667,
+        "ks_p": 0.29580084105237525,
+        "cohens_d": -0.09651174854052279,
+        "criteria": {
+          "pos_near_zero_after_correction": "True",
+          "neg_far_from_zero": "False",
+          "pos_closer_to_zero_than_neg": "True"
+        },
+        "passed_count": 2,
+        "total_criteria": 3,
+        "verdict": "STRONG_SUPPORT"
+      },
+      "energy_decomposition": {
+        "pos_P_raw_mean": 11.319385940001215,
+        "neg_P_raw_mean": 13.030520564714791,
+        "pos_P_active_mean": 10.487430525743518,
+        "neg_P_active_mean": 11.455212697054682,
+        "pos_P_constraint_mean": 0.8319553410449674,
+        "neg_P_constraint_mean": 1.5753078337935187,
+        "active_fraction_pos": 0.9265017184889573,
+        "active_fraction_neg": 0.8791062981770829,
+        "correction_improvement": 13.605761487657572
+      },
+      "active_force_alignment": {
+        "pos_alignment_mean": 0.9999999955050216,
+        "neg_alignment_mean": 0.9999999944656783,
+        "pos_vs_neg_p": 0.6387531891335319,
+        "verdict": "OPPOSE"
+      },
+      "overall_verdict": {
+        "support_count": 1,
+        "total_count": 2,
+        "verdict": "WEAK_SUPPORT",
+        "framework": "v8.0 Lagrangian with Active Force",
+        "method": "D",
+        "mass": 1.0,
+        "friction": 0.01
+      }
+    },
+    "method_D_gamma_0.01_alpha_1.05": {
+      "corrected_constraint_power": {
+        "pos_Pc_mean": 0.30758427973251695,
+        "neg_Pc_mean": 1.0025477055062435,
+        "pos_Pc_std": 5.815904508241573,
+        "neg_Pc_std": 8.869279404219943,
+        "pos_Pc_skew": 0.4304792094931221,
+        "neg_Pc_skew": 3.9073457486504206,
+        "pos_vs_zero_p": 0.0200991765916808,
+        "pos_vs_neg_p": 0.0028064058306148114,
+        "ks_stat": 0.03347222541955386,
+        "ks_p": 0.19743140334618656,
+        "cohens_d": -0.09266637724269083,
+        "criteria": {
+          "pos_near_zero_after_correction": "True",
+          "neg_far_from_zero": "True",
+          "pos_closer_to_zero_than_neg": "True"
+        },
+        "passed_count": 3,
+        "total_criteria": 3,
+        "verdict": "STRONG_SUPPORT"
+      },
+      "energy_decomposition": {
+        "pos_P_raw_mean": 11.319385940001215,
+        "neg_P_raw_mean": 13.030520564714791,
+        "pos_P_active_mean": 11.011801566328268,
+        "neg_P_active_mean": 12.02797287472886,
+        "pos_P_constraint_mean": 0.30758427973251695,
+        "neg_P_constraint_mean": 1.0025477055062435,
+        "active_fraction_pos": 0.9728267615045029,
+        "active_fraction_neg": 0.9230615780007265,
+        "correction_improvement": 36.800924761710014
+      },
+      "active_force_alignment": {
+        "pos_alignment_mean": 0.9999999911024058,
+        "neg_alignment_mean": 0.9999999897338332,
+        "pos_vs_neg_p": 0.38548943368254524,
+        "verdict": "OPPOSE"
+      },
+      "overall_verdict": {
+        "support_count": 1,
+        "total_count": 2,
+        "verdict": "WEAK_SUPPORT",
+        "framework": "v8.0 Lagrangian with Active Force",
+        "method": "D",
+        "mass": 1.0,
+        "friction": 0.01
+      }
+    },
+    "method_D_gamma_0.01_alpha_1.1": {
+      "corrected_constraint_power": {
+        "pos_Pc_mean": -0.21678800083896962,
+        "neg_Pc_mean": 0.42978626647021556,
+        "pos_Pc_std": 5.818169248744241,
+        "neg_Pc_std": 8.567501915357065,
+        "pos_Pc_skew": 0.2855798552800586,
+        "neg_Pc_skew": 3.5466640878735936,
+        "pos_vs_zero_p": 0.10136763136218241,
+        "pos_vs_neg_p": 0.00444052269153167,
+        "ks_stat": 0.03193510823607051,
+        "ks_p": 0.2424944904976507,
+        "cohens_d": -0.08829341614070238,
+        "criteria": {
+          "pos_near_zero_after_correction": "True",
+          "neg_far_from_zero": "False",
+          "pos_closer_to_zero_than_neg": "True"
+        },
+        "passed_count": 2,
+        "total_criteria": 3,
+        "verdict": "STRONG_SUPPORT"
+      },
+      "energy_decomposition": {
+        "pos_P_raw_mean": 11.319385940001215,
+        "neg_P_raw_mean": 13.030520564714791,
+        "pos_P_active_mean": 11.53617388264022,
+        "neg_P_active_mean": 12.600734277120761,
+        "pos_P_constraint_mean": -0.21678800083896962,
+        "neg_P_constraint_mean": 0.42978626647021556,
+        "active_fraction_pos": 1.0191519172229113,
+        "active_fraction_neg": 0.9670169518127659,
+        "correction_improvement": 52.214079612219216
+      },
+      "active_force_alignment": {
+        "pos_alignment_mean": 0.999999989347517,
+        "neg_alignment_mean": 0.9999999895124604,
+        "pos_vs_neg_p": 0.9214699613753661,
+        "verdict": "OPPOSE"
+      },
+      "overall_verdict": {
+        "support_count": 1,
+        "total_count": 2,
+        "verdict": "WEAK_SUPPORT",
+        "framework": "v8.0 Lagrangian with Active Force",
+        "method": "D",
+        "mass": 1.0,
+        "friction": 0.01
+      }
+    },
+    "method_D_gamma_0.01_alpha_1.2": {
+      "corrected_constraint_power": {
+        "pos_Pc_mean": -1.265531296395381,
+        "neg_Pc_mean": -0.7157352808361377,
+        "pos_Pc_std": 5.8853029193836,
+        "neg_Pc_std": 8.056951006577371,
+        "pos_Pc_skew": 0.008935031031993544,
+        "neg_Pc_skew": 2.7720043920108717,
+        "pos_vs_zero_p": 8.674537786823626e-21,
+        "pos_vs_neg_p": 0.012177005559764134,
+        "ks_stat": 0.025377061319705026,
+        "ks_p": 0.5163555534694675,
+        "cohens_d": -0.07792794561291914,
+        "criteria": {
+          "pos_near_zero_after_correction": "False",
+          "neg_far_from_zero": "False",
+          "pos_closer_to_zero_than_neg": "False"
+        },
+        "passed_count": 0,
+        "total_criteria": 3,
+        "verdict": "OPPOSE"
+      },
+      "energy_decomposition": {
+        "pos_P_raw_mean": 11.319385940001215,
+        "neg_P_raw_mean": 13.030520564714791,
+        "pos_P_active_mean": 12.584917188337274,
+        "neg_P_active_mean": 13.74625584402899,
+        "pos_P_constraint_mean": -1.265531296395381,
+        "neg_P_constraint_mean": -0.7157352808361377,
+        "active_fraction_pos": 1.111802111433683,
+        "active_fraction_neg": 1.0549276044386775,
+        "correction_improvement": 8.944374565329076
+      },
+      "active_force_alignment": {
+        "pos_alignment_mean": 0.9999999924878443,
+        "neg_alignment_mean": 0.9999999925563373,
+        "pos_vs_neg_p": 0.9662008358700208,
+        "verdict": "OPPOSE"
+      },
+      "overall_verdict": {
+        "support_count": 0,
+        "total_count": 2,
+        "verdict": "OPPOSE",
+        "framework": "v8.0 Lagrangian with Active Force",
+        "method": "D",
+        "mass": 1.0,
+        "friction": 0.01
+      }
+    },
+    "method_D_gamma_0.01_alpha_1.5": {
+      "corrected_constraint_power": {
+        "pos_Pc_mean": -4.411759955085014,
+        "neg_Pc_mean": -4.152298542609509,
+        "pos_Pc_std": 6.546593321375992,
+        "neg_Pc_std": 7.466119895397321,
+        "pos_Pc_skew": -0.5924712306562945,
+        "neg_Pc_skew": 0.7240970205341082,
+        "pos_vs_zero_p": 1.5425963837688496e-159,
+        "pos_vs_neg_p": 0.23656678913221266,
+        "ks_stat": 0.021323004673219917,
+        "ks_p": 0.7314730823454787,
+        "cohens_d": -0.036952811747911415,
+        "criteria": {
+          "pos_near_zero_after_correction": "False",
+          "neg_far_from_zero": "False",
+          "pos_closer_to_zero_than_neg": "False"
+        },
+        "passed_count": 0,
+        "total_criteria": 3,
+        "verdict": "OPPOSE"
+      },
+      "energy_decomposition": {
+        "pos_P_raw_mean": 11.319385940001215,
+        "neg_P_raw_mean": 13.030520564714791,
+        "pos_P_active_mean": 15.731145832841554,
+        "neg_P_active_mean": 17.18281911381329,
+        "pos_P_constraint_mean": -4.411759955085014,
+        "neg_P_constraint_mean": -4.152298542609509,
+        "active_fraction_pos": 1.389752581640563,
+        "active_fraction_neg": 1.31865945250189,
+        "correction_improvement": 2.565730242575385
+      },
+      "active_force_alignment": {
+        "pos_alignment_mean": 0.9999999905174429,
+        "neg_alignment_mean": 0.9999999899552061,
+        "pos_vs_neg_p": 0.729635264974002,
+        "verdict": "OPPOSE"
+      },
+      "overall_verdict": {
+        "support_count": 0,
+        "total_count": 2,
+        "verdict": "OPPOSE",
+        "framework": "v8.0 Lagrangian with Active Force",
+        "method": "D",
+        "mass": 1.0,
+        "friction": 0.01
+      }
+    },
+    "method_D_gamma_0.01_alpha_2.0": {
+      "corrected_constraint_power": {
+        "pos_Pc_mean": -9.655475232988781,
+        "neg_Pc_mean": -9.879904899856866,
+        "pos_Pc_std": 8.72389780166014,
+        "neg_Pc_std": 9.734558600799712,
+        "pos_Pc_skew": -0.9413819338346272,
+        "neg_Pc_skew": -1.0023303560271277,
+        "pos_vs_zero_p": 0.0,
+        "pos_vs_neg_p": 0.4369727067737244,
+        "ks_stat": 0.025405837304419223,
+        "ks_p": 0.5148916251454858,
+        "cohens_d": 0.02428090468337242,
+        "criteria": {
+          "pos_near_zero_after_correction": "False",
+          "neg_far_from_zero": "False",
+          "pos_closer_to_zero_than_neg": "False"
+        },
+        "passed_count": 0,
+        "total_criteria": 3,
+        "verdict": "OPPOSE"
+      },
+      "energy_decomposition": {
+        "pos_P_raw_mean": 11.319385940001215,
+        "neg_P_raw_mean": 13.030520564714791,
+        "pos_P_active_mean": 20.974861051487036,
+        "neg_P_active_mean": 22.910425394109364,
+        "pos_P_constraint_mean": -9.655475232988781,
+        "neg_P_constraint_mean": -9.879904899856866,
+        "active_fraction_pos": 1.8530034369779147,
+        "active_fraction_neg": 1.7582125963541657,
+        "correction_improvement": 1.1723282041271572
+      },
+      "active_force_alignment": {
+        "pos_alignment_mean": 0.9999999955050216,
+        "neg_alignment_mean": 0.9999999944656783,
+        "pos_vs_neg_p": 0.6387531891335319,
+        "verdict": "OPPOSE"
+      },
+      "overall_verdict": {
+        "support_count": 0,
+        "total_count": 2,
+        "verdict": "OPPOSE",
+        "framework": "v8.0 Lagrangian with Active Force",
+        "method": "D",
+        "mass": 1.0,
+        "friction": 0.01
+      }
+    }
+  },
+  "newton_baseline": {
+    "hamiltonian_conservation": {
+      "H_var_pos_mean": 14.443195867538453,
+      "H_var_neg_mean": 41.88227455615997,
+      "t_stat": -2.0217745822105,
+      "p_value": 0.04662911548549234,
+      "legal_more_conserved": "True",
+      "verdict": "SUPPORT"
+    },
+    "force_alignment": {
+      "alignment_pos_mean": 0.007853344591854796,
+      "alignment_neg_mean": 0.010810235548346772,
+      "t_stat": -0.7448477802747548,
+      "p_value": 0.4564057417672705,
+      "legal_more_aligned": "False",
+      "verdict": "OPPOSE"
+    },
+    "potential_barrier": {
+      "delta_V_pos_mean": 1.881801361135143e-06,
+      "delta_V_neg_mean": 1.8419527237319686e-06,
+      "t_stat": 0.042096614088935475,
+      "p_value": 0.9664236957173873,
+      "legal_downhill": "False",
+      "verdict": "OPPOSE"
+    },
+    "overall_verdict": {
+      "support_count": 1,
+      "total_count": 3,
+      "verdict": "WEAK_SUPPORT",
+      "framework": "Newton (flat space + potential)",
+      "upgrade_condition": "If all 3 hypotheses pass, consider Einstein upgrade"
+    }
+  }
+}

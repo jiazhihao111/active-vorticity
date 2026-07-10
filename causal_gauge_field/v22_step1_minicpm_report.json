@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-07-10T10:04:40.875843",
+  "library_version": "0.3.0",
+  "minicpm5_1b_bf16_20prompts": {
+    "pos": {
+      "n_trajectories": 20,
+      "pc_ratio_per_token_mean": 0.13956725411117077,
+      "pc_ratio_per_token_std": 0.03099444185449148,
+      "batch_ratio_artifact_mean": 0.12909222648275454,
+      "inflation_factor": 0.9249463139144688,
+      "vel_norm_mean": 204.82050476074218,
+      "T_eff_mean": 28.335981941223146,
+      "K_sub_mean": 0.6869746241379867,
+      "r_095_mean": 15.15,
+      "sigma_mean": 44035.89167295259,
+      "J_FP_mean": 0.006929675800104937,
+      "CV_mean": 0.19381454145638707,
+      "ness_verdict": "NESS",
+      "prefill_r_095_mean": 6.3,
+      "decode_r_095_mean": 15.15
+    },
+    "scr": {
+      "n_trajectories": 18,
+      "pc_ratio_per_token_mean": 0.1485042447845141,
+      "pc_ratio_per_token_std": 0.028526366606331274,
+      "batch_ratio_artifact_mean": 0.14154716528808017,
+      "inflation_factor": 0.9531522547516975,
+      "vel_norm_mean": 196.78058369954428,
+      "T_eff_mean": 26.282639768388535,
+      "K_sub_mean": 0.6464400412358018,
+      "r_095_mean": 12.666666666666666,
+      "sigma_mean": 41055.697220725575,
+      "J_FP_mean": 0.007723712741776748,
+      "CV_mean": 0.19853452874814426,
+      "ness_verdict": "NESS",
+      "prefill_r_095_mean": 6.15,
+      "decode_r_095_mean": 12.666666666666666
+    },
+    "rnd": {
+      "n_trajectories": 19,
+      "pc_ratio_per_token_mean": 0.14408137178734728,
+      "pc_ratio_per_token_std": 0.018689308648870015,
+      "batch_ratio_artifact_mean": 0.1373745322843477,
+      "inflation_factor": 0.9534509634777215,
+      "vel_norm_mean": 220.7513323332134,
+      "T_eff_mean": 32.93466136330053,
+      "K_sub_mean": 0.6761047445130691,
+      "r_095_mean": 14.947368421052632,
+      "sigma_mean": 49569.384547980946,
+      "J_FP_mean": 0.00934065087584027,
+      "CV_mean": 0.20223021045489314,
+      "ness_verdict": "NESS",
+      "prefill_r_095_mean": 5.2,
+      "decode_r_095_mean": 14.947368421052632
+    }
+  },
+  "minicpm5_1b_affine_compression": {
+    "ridge_dim": 32,
+    "compression_ratio": 0.9791666666666666,
+    "explained_variance": 0.9533069729804993,
+    "alpha_star_calibrated": 1.2882246552517307,
+    "cosine_sim_mean": 0.554046408293095,
+    "mse_mean": 24.274566386608367,
+    "pc_ratio_monitor_mean": 0.23885736063490867,
+    "per_token_pc_ratio": 0.1308007836341858,
+    "cross_prompt": true
+  }
+}

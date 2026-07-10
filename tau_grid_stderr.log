@@ -1,0 +1,245 @@
+2026-07-09 12:04:04,769 - TauGrid - INFO - τ网格: train=240对 val=30对 test=30对
+2026-07-09 12:04:04,773 - TauGrid - INFO - ─── τ 网格 [1/11] τ_train = 0.1 ───
+2026-07-09 12:04:07,198 - Trainer - INFO - Epoch 1/8 | Train Loss: 13.2140 | Val Loss: 3.8205 | LM: 4.0176 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 9.1963
+2026-07-09 12:04:07,612 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.8122 | Val Loss: 3.4403 | LM: 3.6651 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.1470
+2026-07-09 12:04:08,023 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.2267 | Val Loss: 3.1098 | LM: 3.3066 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.9201
+2026-07-09 12:04:08,435 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.2427 | Val Loss: 2.8854 | LM: 3.0229 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.2198
+2026-07-09 12:04:08,857 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.6095 | Val Loss: 2.7590 | LM: 2.8458 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.7638
+2026-07-09 12:04:09,297 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.2017 | Val Loss: 2.6840 | LM: 2.7427 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.4591
+2026-07-09 12:04:09,729 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9488 | Val Loss: 2.6414 | LM: 2.6800 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2688
+2026-07-09 12:04:10,155 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8029 | Val Loss: 2.6157 | LM: 2.6416 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1613
+2026-07-09 12:04:10,391 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:10,618 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=0.1→INCONCLUSIVE
+2026-07-09 12:04:10,855 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=0.2→INCONCLUSIVE
+2026-07-09 12:04:11,097 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=0.3→INCONCLUSIVE
+2026-07-09 12:04:11,312 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=0.4→INCONCLUSIVE
+2026-07-09 12:04:11,521 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:11,741 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=0.6→INCONCLUSIVE
+2026-07-09 12:04:11,982 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=0.7→INCONCLUSIVE
+2026-07-09 12:04:12,205 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=0.8→INCONCLUSIVE
+2026-07-09 12:04:12,434 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=1.0→INCONCLUSIVE
+2026-07-09 12:04:12,652 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=1.5→INCONCLUSIVE
+2026-07-09 12:04:12,892 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=2.0→INCONCLUSIVE
+2026-07-09 12:04:12,893 - TauGrid - INFO -   τ=0.1: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0395 | flex+=0.0392 f-=0.0397 | rf_loss=0.1613
+2026-07-09 12:04:12,893 - TauGrid - INFO - ─── τ 网格 [2/11] τ_train = 0.2 ───
+2026-07-09 12:04:13,388 - Trainer - INFO - Epoch 1/8 | Train Loss: 13.3580 | Val Loss: 3.7923 | LM: 4.0012 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 9.3568
+2026-07-09 12:04:13,823 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.6609 | Val Loss: 3.4375 | LM: 3.6468 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.0141
+2026-07-09 12:04:14,266 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.0955 | Val Loss: 3.1458 | LM: 3.3235 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.7720
+2026-07-09 12:04:14,704 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.1818 | Val Loss: 2.9382 | LM: 3.0712 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.1106
+2026-07-09 12:04:15,171 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.5843 | Val Loss: 2.8001 | LM: 2.8986 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.6857
+2026-07-09 12:04:15,626 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.2025 | Val Loss: 2.7107 | LM: 2.7803 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.4221
+2026-07-09 12:04:16,091 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9649 | Val Loss: 2.6539 | LM: 2.7046 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2603
+2026-07-09 12:04:16,532 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8175 | Val Loss: 2.6204 | LM: 2.6544 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1631
+2026-07-09 12:04:16,788 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:17,004 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=0.1→INCONCLUSIVE
+2026-07-09 12:04:17,232 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=0.2→INCONCLUSIVE
+2026-07-09 12:04:17,457 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=0.3→INCONCLUSIVE
+2026-07-09 12:04:17,729 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=0.4→INCONCLUSIVE
+2026-07-09 12:04:18,013 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:18,291 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=0.6→INCONCLUSIVE
+2026-07-09 12:04:18,566 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=0.7→INCONCLUSIVE
+2026-07-09 12:04:18,802 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=0.8→INCONCLUSIVE
+2026-07-09 12:04:19,057 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=1.0→INCONCLUSIVE
+2026-07-09 12:04:19,301 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=1.5→INCONCLUSIVE
+2026-07-09 12:04:19,544 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=2.0→INCONCLUSIVE
+2026-07-09 12:04:19,544 - TauGrid - INFO -   τ=0.2: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0410 | flex+=0.0414 f-=0.0412 | rf_loss=0.1631
+2026-07-09 12:04:19,544 - TauGrid - INFO - ─── τ 网格 [3/11] τ_train = 0.3 ───
+2026-07-09 12:04:20,279 - Trainer - INFO - Epoch 1/8 | Train Loss: 12.9586 | Val Loss: 3.8531 | LM: 4.0467 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 8.9119
+2026-07-09 12:04:20,984 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.7613 | Val Loss: 3.4822 | LM: 3.7004 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.0609
+2026-07-09 12:04:21,683 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.1799 | Val Loss: 3.1670 | LM: 3.3545 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.8254
+2026-07-09 12:04:22,358 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.2148 | Val Loss: 2.9474 | LM: 3.0854 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.1294
+2026-07-09 12:04:23,030 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.5881 | Val Loss: 2.8052 | LM: 2.9009 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.6872
+2026-07-09 12:04:23,703 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.1876 | Val Loss: 2.7166 | LM: 2.7821 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.4055
+2026-07-09 12:04:24,403 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9588 | Val Loss: 2.6585 | LM: 2.7089 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2499
+2026-07-09 12:04:25,145 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8210 | Val Loss: 2.6230 | LM: 2.6594 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1616
+2026-07-09 12:04:25,475 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:25,836 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=0.1→INCONCLUSIVE
+2026-07-09 12:04:26,150 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=0.2→INCONCLUSIVE
+2026-07-09 12:04:26,470 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=0.3→INCONCLUSIVE
+2026-07-09 12:04:26,773 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=0.4→INCONCLUSIVE
+2026-07-09 12:04:27,065 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:27,357 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=0.6→INCONCLUSIVE
+2026-07-09 12:04:27,637 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=0.7→INCONCLUSIVE
+2026-07-09 12:04:27,932 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=0.8→INCONCLUSIVE
+2026-07-09 12:04:28,246 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=1.0→INCONCLUSIVE
+2026-07-09 12:04:28,570 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=1.5→INCONCLUSIVE
+2026-07-09 12:04:28,887 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=2.0→INCONCLUSIVE
+2026-07-09 12:04:28,887 - TauGrid - INFO -   τ=0.3: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0358 | flex+=0.0362 f-=0.0366 | rf_loss=0.1616
+2026-07-09 12:04:28,889 - TauGrid - INFO - ─── τ 网格 [4/11] τ_train = 0.4 ───
+2026-07-09 12:04:29,782 - Trainer - INFO - Epoch 1/8 | Train Loss: 13.2915 | Val Loss: 3.8335 | LM: 4.0439 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 9.2476
+2026-07-09 12:04:30,378 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.8195 | Val Loss: 3.4591 | LM: 3.6779 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.1416
+2026-07-09 12:04:30,840 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.2608 | Val Loss: 3.1437 | LM: 3.3331 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.9277
+2026-07-09 12:04:31,288 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.2652 | Val Loss: 2.9116 | LM: 3.0565 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.2087
+2026-07-09 12:04:31,729 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.6112 | Val Loss: 2.7743 | LM: 2.8665 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.7447
+2026-07-09 12:04:32,190 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.1901 | Val Loss: 2.6924 | LM: 2.7561 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.4340
+2026-07-09 12:04:32,650 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9413 | Val Loss: 2.6432 | LM: 2.6872 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2541
+2026-07-09 12:04:33,091 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8089 | Val Loss: 2.6155 | LM: 2.6482 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1607
+2026-07-09 12:04:33,336 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:33,549 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=0.1→INCONCLUSIVE
+2026-07-09 12:04:33,784 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=0.2→INCONCLUSIVE
+2026-07-09 12:04:34,026 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=0.3→INCONCLUSIVE
+2026-07-09 12:04:34,256 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=0.4→INCONCLUSIVE
+2026-07-09 12:04:34,489 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:34,729 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=0.6→INCONCLUSIVE
+2026-07-09 12:04:34,960 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=0.7→INCONCLUSIVE
+2026-07-09 12:04:35,184 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=0.8→INCONCLUSIVE
+2026-07-09 12:04:35,447 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=1.0→INCONCLUSIVE
+2026-07-09 12:04:35,687 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=1.5→INCONCLUSIVE
+2026-07-09 12:04:35,986 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=2.0→INCONCLUSIVE
+2026-07-09 12:04:35,987 - TauGrid - INFO -   τ=0.4: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0418 | flex+=0.0420 f-=0.0420 | rf_loss=0.1607
+2026-07-09 12:04:35,987 - TauGrid - INFO - ─── τ 网格 [5/11] τ_train = 0.5 ───
+2026-07-09 12:04:36,630 - Trainer - INFO - Epoch 1/8 | Train Loss: 13.4291 | Val Loss: 3.7812 | LM: 3.9979 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 9.4312
+2026-07-09 12:04:37,303 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.7731 | Val Loss: 3.4178 | LM: 3.6327 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.1404
+2026-07-09 12:04:37,979 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.1834 | Val Loss: 3.1239 | LM: 3.3001 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.8833
+2026-07-09 12:04:38,653 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.1950 | Val Loss: 2.9183 | LM: 3.0506 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.1444
+2026-07-09 12:04:39,332 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.5542 | Val Loss: 2.7848 | LM: 2.8797 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.6745
+2026-07-09 12:04:40,019 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.1608 | Val Loss: 2.7028 | LM: 2.7666 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.3942
+2026-07-09 12:04:40,707 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9392 | Val Loss: 2.6505 | LM: 2.6955 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2437
+2026-07-09 12:04:41,391 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8114 | Val Loss: 2.6194 | LM: 2.6504 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1610
+2026-07-09 12:04:41,661 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:41,957 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=0.1→INCONCLUSIVE
+2026-07-09 12:04:42,261 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=0.2→INCONCLUSIVE
+2026-07-09 12:04:42,538 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=0.3→INCONCLUSIVE
+2026-07-09 12:04:42,833 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=0.4→INCONCLUSIVE
+2026-07-09 12:04:43,107 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:43,401 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=0.6→INCONCLUSIVE
+2026-07-09 12:04:43,718 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=0.7→INCONCLUSIVE
+2026-07-09 12:04:44,015 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=0.8→INCONCLUSIVE
+2026-07-09 12:04:44,328 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=1.0→INCONCLUSIVE
+2026-07-09 12:04:44,606 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=1.5→INCONCLUSIVE
+2026-07-09 12:04:44,900 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=2.0→INCONCLUSIVE
+2026-07-09 12:04:44,901 - TauGrid - INFO -   τ=0.5: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0370 | flex+=0.0369 f-=0.0370 | rf_loss=0.1610
+2026-07-09 12:04:44,901 - TauGrid - INFO - ─── τ 网格 [6/11] τ_train = 0.6 ───
+2026-07-09 12:04:45,662 - Trainer - INFO - Epoch 1/8 | Train Loss: 12.3790 | Val Loss: 3.6927 | LM: 3.8939 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 8.4851
+2026-07-09 12:04:46,174 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.5597 | Val Loss: 3.3577 | LM: 3.5594 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.0003
+2026-07-09 12:04:46,608 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.0663 | Val Loss: 3.0727 | LM: 3.2469 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.8194
+2026-07-09 12:04:47,038 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.1094 | Val Loss: 2.8761 | LM: 3.0000 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.1094
+2026-07-09 12:04:47,472 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.4994 | Val Loss: 2.7502 | LM: 2.8372 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.6622
+2026-07-09 12:04:47,904 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.1288 | Val Loss: 2.6734 | LM: 2.7324 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.3963
+2026-07-09 12:04:48,338 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9173 | Val Loss: 2.6309 | LM: 2.6706 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2467
+2026-07-09 12:04:48,779 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.7987 | Val Loss: 2.6086 | LM: 2.6354 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1632
+2026-07-09 12:04:49,014 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:49,252 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=0.1→INCONCLUSIVE
+2026-07-09 12:04:49,513 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=0.2→INCONCLUSIVE
+2026-07-09 12:04:49,730 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=0.3→INCONCLUSIVE
+2026-07-09 12:04:49,936 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=0.4→INCONCLUSIVE
+2026-07-09 12:04:50,244 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:50,604 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=0.6→INCONCLUSIVE
+2026-07-09 12:04:50,856 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=0.7→INCONCLUSIVE
+2026-07-09 12:04:51,117 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=0.8→INCONCLUSIVE
+2026-07-09 12:04:51,349 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=1.0→INCONCLUSIVE
+2026-07-09 12:04:51,593 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=1.5→INCONCLUSIVE
+2026-07-09 12:04:51,806 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=2.0→INCONCLUSIVE
+2026-07-09 12:04:51,806 - TauGrid - INFO -   τ=0.6: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0406 | flex+=0.0403 f-=0.0400 | rf_loss=0.1632
+2026-07-09 12:04:51,806 - TauGrid - INFO - ─── τ 网格 [7/11] τ_train = 0.7 ───
+2026-07-09 12:04:52,526 - Trainer - INFO - Epoch 1/8 | Train Loss: 14.2109 | Val Loss: 3.7541 | LM: 3.9478 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 10.2631
+2026-07-09 12:04:53,204 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.8281 | Val Loss: 3.4218 | LM: 3.6233 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.2049
+2026-07-09 12:04:53,873 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.2059 | Val Loss: 3.1326 | LM: 3.3103 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.8956
+2026-07-09 12:04:54,553 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.2059 | Val Loss: 2.9194 | LM: 3.0562 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.1497
+2026-07-09 12:04:55,243 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.5700 | Val Loss: 2.7795 | LM: 2.8751 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.6949
+2026-07-09 12:04:55,931 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.1794 | Val Loss: 2.6929 | LM: 2.7584 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.4211
+2026-07-09 12:04:56,625 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9536 | Val Loss: 2.6427 | LM: 2.6861 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2675
+2026-07-09 12:04:57,302 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8188 | Val Loss: 2.6153 | LM: 2.6431 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1756
+2026-07-09 12:04:57,545 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:57,858 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=0.1→INCONCLUSIVE
+2026-07-09 12:04:58,136 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=0.2→INCONCLUSIVE
+2026-07-09 12:04:58,439 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=0.3→INCONCLUSIVE
+2026-07-09 12:04:58,748 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=0.4→INCONCLUSIVE
+2026-07-09 12:04:59,064 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:59,381 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=0.6→INCONCLUSIVE
+2026-07-09 12:04:59,677 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=0.7→INCONCLUSIVE
+2026-07-09 12:04:59,967 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=0.8→INCONCLUSIVE
+2026-07-09 12:05:00,276 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=1.0→INCONCLUSIVE
+2026-07-09 12:05:00,589 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=1.5→INCONCLUSIVE
+2026-07-09 12:05:00,886 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=2.0→INCONCLUSIVE
+2026-07-09 12:05:00,887 - TauGrid - INFO -   τ=0.7: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0398 | flex+=0.0398 f-=0.0399 | rf_loss=0.1756
+2026-07-09 12:05:00,887 - TauGrid - INFO - ─── τ 网格 [8/11] τ_train = 0.8 ───
+2026-07-09 12:05:01,767 - Trainer - INFO - Epoch 1/8 | Train Loss: 12.5552 | Val Loss: 3.8464 | LM: 4.0485 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 8.5067
+2026-07-09 12:05:02,418 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.6686 | Val Loss: 3.4732 | LM: 3.6934 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 2.9752
+2026-07-09 12:05:02,905 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.1472 | Val Loss: 3.1569 | LM: 3.3449 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.8023
+2026-07-09 12:05:03,329 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.1666 | Val Loss: 2.9377 | LM: 3.0732 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.0934
+2026-07-09 12:05:03,762 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.5534 | Val Loss: 2.7971 | LM: 2.8940 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.6594
+2026-07-09 12:05:04,202 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.1819 | Val Loss: 2.7058 | LM: 2.7724 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.4095
+2026-07-09 12:05:04,637 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9592 | Val Loss: 2.6512 | LM: 2.6965 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2626
+2026-07-09 12:05:05,070 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8249 | Val Loss: 2.6207 | LM: 2.6504 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1746
+2026-07-09 12:05:05,302 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=0.5→INCONCLUSIVE
+2026-07-09 12:05:05,568 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=0.1→INCONCLUSIVE
+2026-07-09 12:05:05,865 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=0.2→INCONCLUSIVE
+2026-07-09 12:05:06,117 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=0.3→INCONCLUSIVE
+2026-07-09 12:05:06,352 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=0.4→INCONCLUSIVE
+2026-07-09 12:05:06,584 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=0.5→INCONCLUSIVE
+2026-07-09 12:05:06,817 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=0.6→INCONCLUSIVE
+2026-07-09 12:05:07,046 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=0.7→INCONCLUSIVE
+2026-07-09 12:05:07,248 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=0.8→INCONCLUSIVE
+2026-07-09 12:05:07,466 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=1.0→INCONCLUSIVE
+2026-07-09 12:05:07,685 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=1.5→INCONCLUSIVE
+2026-07-09 12:05:07,881 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=2.0→INCONCLUSIVE
+2026-07-09 12:05:07,881 - TauGrid - INFO -   τ=0.8: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0433 | flex+=0.0426 f-=0.0423 | rf_loss=0.1746
+2026-07-09 12:05:07,881 - TauGrid - INFO - ─── τ 网格 [9/11] τ_train = 1.0 ───
+2026-07-09 12:05:08,360 - Trainer - INFO - Epoch 1/8 | Train Loss: 13.7361 | Val Loss: 3.8548 | LM: 4.0709 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 9.6653
+2026-07-09 12:05:08,952 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.7182 | Val Loss: 3.4724 | LM: 3.6960 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.0222
+2026-07-09 12:05:09,549 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.1158 | Val Loss: 3.1551 | LM: 3.3453 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.7705
+2026-07-09 12:05:10,273 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.1378 | Val Loss: 2.9313 | LM: 3.0705 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.0673
+2026-07-09 12:05:10,972 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.5414 | Val Loss: 2.7856 | LM: 2.8839 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.6575
+2026-07-09 12:05:11,471 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.1846 | Val Loss: 2.6958 | LM: 2.7619 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.4227
+2026-07-09 12:05:11,930 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9652 | Val Loss: 2.6448 | LM: 2.6913 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2739
+2026-07-09 12:05:12,408 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8247 | Val Loss: 2.6169 | LM: 2.6448 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1799
+2026-07-09 12:05:12,694 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=0.5→INCONCLUSIVE
+2026-07-09 12:05:12,946 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=0.1→INCONCLUSIVE
+2026-07-09 12:05:13,194 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=0.2→INCONCLUSIVE
+2026-07-09 12:05:13,417 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=0.3→INCONCLUSIVE
+2026-07-09 12:05:13,765 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=0.4→INCONCLUSIVE
+2026-07-09 12:05:14,048 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=0.5→INCONCLUSIVE
+2026-07-09 12:05:14,291 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=0.6→INCONCLUSIVE
+2026-07-09 12:05:14,598 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=0.7→INCONCLUSIVE
+2026-07-09 12:05:14,876 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=0.8→INCONCLUSIVE
+2026-07-09 12:05:15,125 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=1.0→INCONCLUSIVE
+2026-07-09 12:05:15,396 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=1.5→INCONCLUSIVE
+2026-07-09 12:05:15,676 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=2.0→INCONCLUSIVE
+2026-07-09 12:05:15,677 - TauGrid - INFO -   τ=1.0: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0418 | flex+=0.0418 f-=0.0424 | rf_loss=0.1799
+2026-07-09 12:05:15,677 - TauGrid - INFO - ─── τ 网格 [10/11] τ_train = 1.5 ───
+2026-07-09 12:05:16,458 - Trainer - INFO - Epoch 1/8 | Train Loss: 12.8723 | Val Loss: 3.6980 | LM: 3.8993 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 8.9730
+2026-07-09 12:05:17,153 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.4357 | Val Loss: 3.3726 | LM: 3.5701 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 2.8656
+2026-07-09 12:05:17,839 - Trainer - INFO - Epoch 3/8 | Train Loss: 4.9207 | Val Loss: 3.0944 | LM: 3.2658 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.6549
+2026-07-09 12:05:18,548 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.0380 | Val Loss: 2.8844 | LM: 3.0196 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.0184
+2026-07-09 12:05:19,292 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.4932 | Val Loss: 2.7506 | LM: 2.8414 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.6519
+2026-07-09 12:05:19,715 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.1539 | Val Loss: 2.6752 | LM: 2.7342 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.4197
+2026-07-09 12:05:20,149 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9384 | Val Loss: 2.6325 | LM: 2.6698 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2687
+2026-07-09 12:05:20,612 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8159 | Val Loss: 2.6089 | LM: 2.6359 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1800
+2026-07-09 12:05:20,908 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=0.5→INCONCLUSIVE
+2026-07-09 12:05:21,201 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=0.1→INCONCLUSIVE
+2026-07-09 12:05:21,531 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=0.2→INCONCLUSIVE
+2026-07-09 12:05:21,817 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=0.3→INCONCLUSIVE
+2026-07-09 12:05:22,096 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=0.4→INCONCLUSIVE
+2026-07-09 12:05:22,347 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=0.5→INCONCLUSIVE
+2026-07-09 12:05:22,620 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=0.6→INCONCLUSIVE
+2026-07-09 12:05:22,913 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=0.7→INCONCLUSIVE
+2026-07-09 12:05:23,229 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=0.8→INCONCLUSIVE
+2026-07-09 12:05:23,519 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=1.0→INCONCLUSIVE
+2026-07-09 12:05:23,803 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=1.5→INCONCLUSIVE
+2026-07-09 12:05:24,095 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=2.0→INCONCLUSIVE
+2026-07-09 12:05:24,095 - TauGrid - INFO -   τ=1.5: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0435 | flex+=0.0435 f-=0.0438 | rf_loss=0.1800
+2026-07-09 12:05:24,097 - TauGrid - INFO - ─── τ 网格 [11/11] τ_train = 2.0 ───
+2026-07-09 12:05:24,817 - Trainer - INFO - Epoch 1/8 | Train Loss: 13.4859 | Val Loss: 3.7847 | LM: 3.9946 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 9.4913
+2026-07-09 12:05:25,515 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.5951 | Val Loss: 3.4188 | LM: 3.6331 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 2.9620
+2026-07-09 12:05:26,202 - Trainer - INFO - Epoch 3/8 | Train Loss: 4.9954 | Val Loss: 3.1119 | LM: 3.2953 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.7001
+2026-07-09 12:05:26,872 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.0966 | Val Loss: 2.8870 | LM: 3.0281 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.0685
+2026-07-09 12:05:27,544 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.5435 | Val Loss: 2.7496 | LM: 2.8427 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.7008
+2026-07-09 12:05:28,218 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.1853 | Val Loss: 2.6748 | LM: 2.7318 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.4535
+2026-07-09 12:05:28,900 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9614 | Val Loss: 2.6333 | LM: 2.6694 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2920
+2026-07-09 12:05:29,572 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8328 | Val Loss: 2.6099 | LM: 2.6361 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1967
+2026-07-09 12:05:29,843 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=0.5→INCONCLUSIVE
+2026-07-09 12:05:30,097 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=0.1→INCONCLUSIVE
+2026-07-09 12:05:30,401 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=0.2→INCONCLUSIVE
+2026-07-09 12:05:30,730 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=0.3→INCONCLUSIVE
+2026-07-09 12:05:31,039 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=0.4→INCONCLUSIVE
+2026-07-09 12:05:31,328 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=0.5→INCONCLUSIVE
+2026-07-09 12:05:31,686 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=0.6→INCONCLUSIVE
+2026-07-09 12:05:32,010 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=0.7→INCONCLUSIVE
+2026-07-09 12:05:32,373 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=0.8→INCONCLUSIVE
+2026-07-09 12:05:32,697 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=1.0→INCONCLUSIVE
+2026-07-09 12:05:32,990 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=1.5→INCONCLUSIVE
+2026-07-09 12:05:33,282 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=2.0→INCONCLUSIVE
+2026-07-09 12:05:33,283 - TauGrid - INFO -   τ=2.0: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0387 | flex+=0.0387 f-=0.0390 | rf_loss=0.1967
+2026-07-09 12:05:33,286 - TauGrid - INFO - τ网格报告已保存: C:\Users\51615\Desktop\2026.7.9.8.43对称、破缺与约束场\tau_grid_report.json
+2026-07-09 12:05:33,287 - TauGrid - INFO - MD报告已保存: C:\Users\51615\Desktop\2026.7.9.8.43对称、破缺与约束场\tau_grid_report.md

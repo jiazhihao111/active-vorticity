@@ -1,0 +1,15 @@
+{
+  "model_type": "Qwen3_5ForCausalLM",
+  "device": "cuda:0",
+  "num_layers": 32,
+  "layer_types_sample": [
+    "Qwen3_5DecoderLayer",
+    "Qwen3_5DecoderLayer",
+    "Qwen3_5DecoderLayer",
+    "Qwen3_5DecoderLayer",
+    "Qwen3_5DecoderLayer"
+  ],
+  "vram_allocated_mb": 7293.3,
+  "vram_reserved_mb": 7390.0,
+  "generation_sample": "Thinking Parrot:\n1.  **Analyze the Request:** The user is asking \"What is 2+2?\" and explicitly requests a brief answer"
+}

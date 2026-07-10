@@ -1,0 +1,37 @@
+Analyzing 20 stories per variant...
+Valid paired stories: 20
+
+=== Per-story CV ===
+Mean CV: orig=0.2718, sent=0.2720, para=0.2697
+Paired t CV (orig vs sent): t=0.120, p=0.4528
+Paired t CV (orig vs para): t=-1.714, p=0.0514
+Fraction sent_CV > orig_CV: 50.00% (10/20, binomial p=1.0000)
+Fraction para_CV > orig_CV: 15.00% (3/20)
+
+=== Per-story mean ===
+Mean tanTheta: orig=37.0341, sent=37.0868
+Paired t mean (orig vs sent): t=1.795, p=0.0443
+
+Cohen d (CV sent): 0.010
+Cohen d (mean sent): 0.150
+
+=== Per-story detail ===
+  S0: CV orig=0.2584 < sent=0.2440 (dCV=-0.0144) | mean=37.30 < 37.16 (dMean=-0.14)
+  S1: CV orig=0.2740 < sent=0.2739 (dCV=-0.0001) | mean=36.76 > 36.88 (dMean=+0.13)
+  S2: CV orig=0.2462 < sent=0.2447 (dCV=-0.0015) | mean=37.39 < 37.27 (dMean=-0.12)
+  S3: CV orig=0.2470 < sent=0.2469 (dCV=-0.0001) | mean=37.14 > 37.27 (dMean=+0.13)
+  S4: CV orig=0.2607 > sent=0.2702 (dCV=+0.0094) | mean=37.28 > 37.47 (dMean=+0.20)
+  S5: CV orig=0.2657 > sent=0.2724 (dCV=+0.0067) | mean=36.56 > 36.72 (dMean=+0.16)
+  S6: CV orig=0.3078 < sent=0.3046 (dCV=-0.0032) | mean=36.98 < 36.98 (dMean=-0.00)
+  S7: CV orig=0.2530 < sent=0.2372 (dCV=-0.0158) | mean=37.06 > 37.14 (dMean=+0.08)
+  S8: CV orig=0.2700 > sent=0.2760 (dCV=+0.0061) | mean=37.42 < 37.22 (dMean=-0.20)
+  S9: CV orig=0.3162 > sent=0.3212 (dCV=+0.0050) | mean=36.64 > 36.73 (dMean=+0.09)
+
+Wilcoxon signed-rank (CV, sent > orig): W=112.5, p=0.3897
+Wilcoxon signed-rank (mean, sent > orig): W=149.0, p=0.0527
+
+==================================================
+SUMMARY
+Signals found: 1
+  + Mean change significant
+==================================================

@@ -1,0 +1,886 @@
+{
+  "rootHash": "a0617cb02b1deffe769aa272690fb4354b4f83de34b76a1376823d0c4ef7d039",
+  "timestamp": 1783596609667,
+  "fileCount": 49,
+  "files": [
+    {
+      "path": "_run_exp10.py",
+      "hash": "9d284ec13dd16177794a74ab539cff0d70f64a05178be60dea16a985197ed0fb",
+      "size": 22995,
+      "modified": 1783590366312.2498
+    },
+    {
+      "path": "_run_exp6.py",
+      "hash": "112cee0b9ea9330e68cf3988dff878827f81f407a4a00d8f2e88ab583310b4e4",
+      "size": 6237,
+      "modified": 1783562753619.5757
+    },
+    {
+      "path": "_run_exp6b_salvage.py",
+      "hash": "0fb33f178d82016ffbc49781cd7e6b153e0d306d6a661e3a674580d5b4667d13",
+      "size": 5512,
+      "modified": 1783562927801.0742
+    },
+    {
+      "path": "_run_exp7.py",
+      "hash": "03b6fa1f1884649a9f9bf448e4578896b9938e9a7e83f441ad2a96887e0e70ff",
+      "size": 10387,
+      "modified": 1783565421117.8127
+    },
+    {
+      "path": "_run_exp7_slim.py",
+      "hash": "40278771392eb518427b4d3234529c2b38fa25beccb215203399b864449627a8",
+      "size": 6548,
+      "modified": 1783569995541.2158
+    },
+    {
+      "path": "_run_exp8.py",
+      "hash": "66a7ccdd843b3043ef0de631800ce22c8ea2c9b5cd0915e5724cee2ec6cb3af2",
+      "size": 59317,
+      "modified": 1783583428792.378
+    },
+    {
+      "path": "_run_exp9.py",
+      "hash": "ccf04e3a62e593e04cdecbf93bbc3355695c703e5b5d7f12a9c61fc3d958b6fc",
+      "size": 35692,
+      "modified": 1783586007141.8699
+    },
+    {
+      "path": "_run_tau_grid.py",
+      "hash": "9db41d1a7df4c3c9abd22918e68225289c61314c85b7ed75aa483ad4ece46a63",
+      "size": 12585,
+      "modified": 1783568026667.2158
+    },
+    {
+      "path": "causal_gauge_field\\quick_test.py",
+      "hash": "4a65484bb7da6e5187d3aacef43455151916e2deec0a217d47fb82a68393230b",
+      "size": 1766,
+      "modified": 1783560448602.4934
+    },
+    {
+      "path": "causal_gauge_field\\run_experiments.py",
+      "hash": "f155aaecbfca45278ac69c34a6224d26b18c83f9c58325bea30c224c4d45969e",
+      "size": 8768,
+      "modified": 1783561466843.0083
+    },
+    {
+      "path": "causal_gauge_field\\__init__.py",
+      "hash": "4b0be5fb3e022fdf832ca1b1ca9ed82c51eaacdc047fa919c5a24aac2d72886d",
+      "size": 55,
+      "modified": 1783560448602.4934
+    },
+    {
+      "path": "causal_gauge_field\\utils\\config.py",
+      "hash": "5d542512f765ec286fa15cae9b29cd41ae3c281fc937234b2836c1ac016b8975",
+      "size": 465,
+      "modified": 1783558847028.4133
+    },
+    {
+      "path": "causal_gauge_field\\utils\\frenet_serret.py",
+      "hash": "a2744b347840d047d61db69ecc79217504542f088693e9e1d79f3a1b8c6eca94",
+      "size": 15077,
+      "modified": 1783585643622.3376
+    },
+    {
+      "path": "causal_gauge_field\\utils\\logger.py",
+      "hash": "73d37b9c2c2e0ac270108b67d73201dc2feeb13066322e353f8be8f14d076c05",
+      "size": 902,
+      "modified": 1783558847598.1184
+    },
+    {
+      "path": "causal_gauge_field\\utils\\metrics.py",
+      "hash": "bb33d350a1f6a393e4abf1827a0b9cdcc0ff13ca16dcf3106fbfb6160d3506f5",
+      "size": 6171,
+      "modified": 1783562030776.9946
+    },
+    {
+      "path": "causal_gauge_field\\utils\\__init__.py",
+      "hash": "66c437e45eae25e463c9553a9d50d74ccaca75b032279c58412e26ffa549be90",
+      "size": 229,
+      "modified": 1783558850136.7476
+    },
+    {
+      "path": "causal_gauge_field\\theorems\\theorem_1_ontology.py",
+      "hash": "f7f794aa718571c45992c8b2955a265562dc4a73bd9de103a24aa0404df0ac48",
+      "size": 18423,
+      "modified": 1783596313856.0195
+    },
+    {
+      "path": "causal_gauge_field\\theorems\\theorem_2_conservation.py",
+      "hash": "f9b6637af83e42562ddbd4c6e2b19613cd974577afa8669272081211fca2642f",
+      "size": 16886,
+      "modified": 1783596370271.063
+    },
+    {
+      "path": "causal_gauge_field\\theorems\\theorem_3_residual.py",
+      "hash": "042301a49ad8c302ebf77b25dc67c07f12bdbdb0b72cb089579e7a8bb2e6193b",
+      "size": 16423,
+      "modified": 1783596429379.0989
+    },
+    {
+      "path": "causal_gauge_field\\theorems\\theorem_verifier.py",
+      "hash": "7c50e86df3b1ee4e00d7e9fa468f71aea83a40d2cdd6312cda19b7dbdd647a9f",
+      "size": 23160,
+      "modified": 1783596492816.6604
+    },
+    {
+      "path": "causal_gauge_field\\theorems\\__init__.py",
+      "hash": "aa52fb6249081544533bd06e94681439c1f8f2214e7517e97d07b68e63e21ac2",
+      "size": 1540,
+      "modified": 1783596246438.4768
+    },
+    {
+      "path": "causal_gauge_field\\npnw\\enhanced_generator.py",
+      "hash": "95190196670932282b7856682b4672fa5743aa046bb1fc7e7bcfe2e1d366ee5a",
+      "size": 7052,
+      "modified": 1783563384302.6482
+    },
+    {
+      "path": "causal_gauge_field\\npnw\\story_generator.py",
+      "hash": "b4348a02277a591e74541e42d619136a0a0f1aad7da23a48e2e25ecac789772c",
+      "size": 12768,
+      "modified": 1783565281194.235
+    },
+    {
+      "path": "causal_gauge_field\\npnw\\tokenizer.py",
+      "hash": "93a449cab76ac814967b8a28ad61c2db4407d4fad9979bb43d440be53ea98c66",
+      "size": 4890,
+      "modified": 1783565278661.8394
+    },
+    {
+      "path": "causal_gauge_field\\npnw\\world.py",
+      "hash": "abebae720e46422757144d6d61145f8993f373e2e23bee5e34046468e670cb25",
+      "size": 10240,
+      "modified": 1783560448584.7354
+    },
+    {
+      "path": "causal_gauge_field\\npnw\\__init__.py",
+      "hash": "2ef0c59289d244a5e595facbed0c5040eec217ff0051558036c52c0c40f4cd08",
+      "size": 111,
+      "modified": 1783558849831.061
+    },
+    {
+      "path": "causal_gauge_field\\models\\gauge_field.py",
+      "hash": "ceb9a552392dfb4cd7645978de1c8d276e00194406c59d9da7cfc122c0ae3729",
+      "size": 11024,
+      "modified": 1783565272893.2097
+    },
+    {
+      "path": "causal_gauge_field\\models\\memory_bank.py",
+      "hash": "dc4c37e79fd350b8b1fe447855a278c8772d3b4051029e90326c247de487b4e5",
+      "size": 4409,
+      "modified": 1783561050365.228
+    },
+    {
+      "path": "causal_gauge_field\\models\\transformer.py",
+      "hash": "f5a1830a981a35785bd7862f20775c25b3dcac435affe8f59d9f80502411bb73",
+      "size": 5154,
+      "modified": 1783561018122.7825
+    },
+    {
+      "path": "causal_gauge_field\\models\\__init__.py",
+      "hash": "cc0e0177966063522aba7e5403bfdaaf751a0806daddf24aa8f3489344eea692",
+      "size": 85,
+      "modified": 1783558849435.5044
+    },
+    {
+      "path": "causal_gauge_field\\losses\\causal_geometry.py",
+      "hash": "bf442f467fdd7fcb0f9f9ea21a0e789c251616fab77e7a47697cec411334fe99",
+      "size": 7001,
+      "modified": 1783563295343.0654
+    },
+    {
+      "path": "causal_gauge_field\\losses\\combined.py",
+      "hash": "bc55e6cbca4c5d9b85a171d8fee1900f951f48f2813b75dcaa7dc3f0a60dfc4d",
+      "size": 113,
+      "modified": 1783560448584.7354
+    },
+    {
+      "path": "causal_gauge_field\\losses\\contrastive_push.py",
+      "hash": "59315c8017f3a8bfd6e2e972ad3f6ea8f6165c49b7560a4a654c0445d7fdc3ae",
+      "size": 11035,
+      "modified": 1783586789648.88
+    },
+    {
+      "path": "causal_gauge_field\\losses\\layered.py",
+      "hash": "76ad53e02ca78a63f36d4f2686f37338b09c7ac596ab6906fec7885128aae94e",
+      "size": 3217,
+      "modified": 1783565270360.2473
+    },
+    {
+      "path": "causal_gauge_field\\losses\\__init__.py",
+      "hash": "3e1f809bee29dc446d37d836fa46985fd34105138ce1c426fe4a3a60c08c506d",
+      "size": 418,
+      "modified": 1783586903003.3694
+    },
+    {
+      "path": "causal_gauge_field\\experiments\\exp10_geometric_dynamics.py",
+      "hash": "41b435f96681554f8e8b7fe2830fa13684a2dcde2a4de6b5a7665803cd0014ba",
+      "size": 38439,
+      "modified": 1783596523261.469
+    },
+    {
+      "path": "causal_gauge_field\\experiments\\exp1_curvature_correlation.py",
+      "hash": "134db5a2029c6304dd546028c23ae93a6c4cca064444874e66b15ae1ecc13cff",
+      "size": 7547,
+      "modified": 1783561113910.2366
+    },
+    {
+      "path": "causal_gauge_field\\experiments\\exp2_causal_loss_impact.py",
+      "hash": "8525eabce5b813d87c260f437ff7c3be8405b9e4eddc06f4b7d5e4987cdaae2e",
+      "size": 7999,
+      "modified": 1783560448584.7354
+    },
+    {
+      "path": "causal_gauge_field\\experiments\\exp3_memory_kernel.py",
+      "hash": "e483196a48f59c7305d9d85e2b2f14940240790f0cc13a1bdff3e5a3c0e7c6a3",
+      "size": 9610,
+      "modified": 1783561144016.4038
+    },
+    {
+      "path": "causal_gauge_field\\experiments\\exp4_flatness.py",
+      "hash": "ee97908716a1e00fab4daa8e111241359d83fbeabe84d40bb11e7afb4d4d878d",
+      "size": 7912,
+      "modified": 1783561453661.1958
+    },
+    {
+      "path": "causal_gauge_field\\experiments\\exp5_controlled_closure.py",
+      "hash": "2cb7eae290859015903668aa4f476b4dbef5bd86c72830d4157506a54eca89a9",
+      "size": 7886,
+      "modified": 1783562445246.8655
+    },
+    {
+      "path": "causal_gauge_field\\experiments\\exp6_controlled_closure_closed.py",
+      "hash": "d623a340e8854c08f08e1663ab9f0bd51eae1d1b4e6fd8ec09aeaa69b1df1854",
+      "size": 8045,
+      "modified": 1783562740455.216
+    },
+    {
+      "path": "causal_gauge_field\\experiments\\exp7_controlled_loopback.py",
+      "hash": "6861c27ff25f597e52cd5afb6ecd1b7d62a92f4d91b064d40246462ef1b691e4",
+      "size": 11815,
+      "modified": 1783565555274.299
+    },
+    {
+      "path": "causal_gauge_field\\experiments\\trainer.py",
+      "hash": "7002436d947278ac446eb40aa3b9af599402ca778d05cacae485f894c6bd5466",
+      "size": 15893,
+      "modified": 1783565649926.5889
+    },
+    {
+      "path": "causal_gauge_field\\experiments\\verdict.py",
+      "hash": "c7f2553d3e19e60824521b80074a191780eb51d0df11e6e05a78a499c8405538",
+      "size": 3436,
+      "modified": 1783561153302.1453
+    },
+    {
+      "path": "causal_gauge_field\\experiments\\__init__.py",
+      "hash": "fb96970bc2fb0c7ae1a9c56e4f3dbb17e0802f62c40446de8a4d16c9e2647512",
+      "size": 358,
+      "modified": 1783586901900.9673
+    },
+    {
+      "path": "causal_gauge_field\\dynamics\\fs_brake_tensor.py",
+      "hash": "d53f1233a9d2b441f76f4605d359afe4c33f40bc3529a20968e9d5d81774426f",
+      "size": 25626,
+      "modified": 1783590392572.965
+    },
+    {
+      "path": "causal_gauge_field\\dynamics\\geometric_dynamics_monitor.py",
+      "hash": "0d1f1748d2b4c422f0761f94cfae64c0306d4982ebd9b5a710d5a6d6b4dadb30",
+      "size": 29204,
+      "modified": 1783590154606.9958
+    },
+    {
+      "path": "causal_gauge_field\\dynamics\\__init__.py",
+      "hash": "175519624fee670efc65f51c61e510452ec8669db5638ff7e241b343caecc3c2",
+      "size": 887,
+      "modified": 1783590054244.0835
+    }
+  ],
+  "tree": {
+    "hash": "a0617cb02b1deffe769aa272690fb4354b4f83de34b76a1376823d0c4ef7d039",
+    "left": {
+      "hash": "cc32c717b218dd4bacf51cbd7c92c73c78ef10a2d07787f642eb18c5926196f3",
+      "left": {
+        "hash": "6224000a71e8381985b5e51ea5cd9c3102edf3d133fd1df93689d3f44fe525af",
+        "left": {
+          "hash": "398499f3b9bb61e63c68f8b56018250cb62b32b0e2d8b51f9ae9ec4a87d360fe",
+          "left": {
+            "hash": "b11afaa4fb876c1dfd179099c19df68a5e6674fee3307ad02f5c22840769e47d",
+            "left": {
+              "hash": "535665734186e39dfd99382b27533ab5fa36ad8056fcdd3226bb4351f35f1c7a",
+              "left": {
+                "hash": "9d284ec13dd16177794a74ab539cff0d70f64a05178be60dea16a985197ed0fb",
+                "file": {
+                  "path": "_run_exp10.py",
+                  "hash": "9d284ec13dd16177794a74ab539cff0d70f64a05178be60dea16a985197ed0fb",
+                  "size": 22995,
+                  "modified": 1783590366312.2498
+                }
+              },
+              "right": {
+                "hash": "112cee0b9ea9330e68cf3988dff878827f81f407a4a00d8f2e88ab583310b4e4",
+                "file": {
+                  "path": "_run_exp6.py",
+                  "hash": "112cee0b9ea9330e68cf3988dff878827f81f407a4a00d8f2e88ab583310b4e4",
+                  "size": 6237,
+                  "modified": 1783562753619.5757
+                }
+              }
+            },
+            "right": {
+              "hash": "76f9c8d6bcd0625a9a4ef976fe911ff773defa6d12134ff451d8901a8cb66022",
+              "left": {
+                "hash": "0fb33f178d82016ffbc49781cd7e6b153e0d306d6a661e3a674580d5b4667d13",
+                "file": {
+                  "path": "_run_exp6b_salvage.py",
+                  "hash": "0fb33f178d82016ffbc49781cd7e6b153e0d306d6a661e3a674580d5b4667d13",
+                  "size": 5512,
+                  "modified": 1783562927801.0742
+                }
+              },
+              "right": {
+                "hash": "40278771392eb518427b4d3234529c2b38fa25beccb215203399b864449627a8",
+                "file": {
+                  "path": "_run_exp7_slim.py",
+                  "hash": "40278771392eb518427b4d3234529c2b38fa25beccb215203399b864449627a8",
+                  "size": 6548,
+                  "modified": 1783569995541.2158
+                }
+              }
+            }
+          },
+          "right": {
+            "hash": "42b5820e2c696efc7b21abeeb6bcb7fe66a5012070b7779036d19cd0149c1fca",
+            "left": {
+              "hash": "ee835d7dc7d266f162ccf94c4f4eb8a45bbbfd7e7870f0f00a2b4857fd6f68e2",
+              "left": {
+                "hash": "03b6fa1f1884649a9f9bf448e4578896b9938e9a7e83f441ad2a96887e0e70ff",
+                "file": {
+                  "path": "_run_exp7.py",
+                  "hash": "03b6fa1f1884649a9f9bf448e4578896b9938e9a7e83f441ad2a96887e0e70ff",
+                  "size": 10387,
+                  "modified": 1783565421117.8127
+                }
+              },
+              "right": {
+                "hash": "66a7ccdd843b3043ef0de631800ce22c8ea2c9b5cd0915e5724cee2ec6cb3af2",
+                "file": {
+                  "path": "_run_exp8.py",
+                  "hash": "66a7ccdd843b3043ef0de631800ce22c8ea2c9b5cd0915e5724cee2ec6cb3af2",
+                  "size": 59317,
+                  "modified": 1783583428792.378
+                }
+              }
+            },
+            "right": {
+              "hash": "7fe2256fe16ead85f1b3b8d4b62a52eac1b6654519afe7c657fd3ff82060f3e7",
+              "left": {
+                "hash": "ccf04e3a62e593e04cdecbf93bbc3355695c703e5b5d7f12a9c61fc3d958b6fc",
+                "file": {
+                  "path": "_run_exp9.py",
+                  "hash": "ccf04e3a62e593e04cdecbf93bbc3355695c703e5b5d7f12a9c61fc3d958b6fc",
+                  "size": 35692,
+                  "modified": 1783586007141.8699
+                }
+              },
+              "right": {
+                "hash": "9db41d1a7df4c3c9abd22918e68225289c61314c85b7ed75aa483ad4ece46a63",
+                "file": {
+                  "path": "_run_tau_grid.py",
+                  "hash": "9db41d1a7df4c3c9abd22918e68225289c61314c85b7ed75aa483ad4ece46a63",
+                  "size": 12585,
+                  "modified": 1783568026667.2158
+                }
+              }
+            }
+          }
+        },
+        "right": {
+          "hash": "d021fa78ade47ac45984b5d3412cc37b50e98e03d0b109b2aa4f84fdb7505c70",
+          "left": {
+            "hash": "5fdbb7bff9c62b015382c1445e45246196020f06967702114d56464a15d2f429",
+            "left": {
+              "hash": "cb085e489fcefa5c850206d22907c806bad33c6691ebfdabe22671601366cf98",
+              "left": {
+                "hash": "4b0be5fb3e022fdf832ca1b1ca9ed82c51eaacdc047fa919c5a24aac2d72886d",
+                "file": {
+                  "path": "causal_gauge_field\\__init__.py",
+                  "hash": "4b0be5fb3e022fdf832ca1b1ca9ed82c51eaacdc047fa919c5a24aac2d72886d",
+                  "size": 55,
+                  "modified": 1783560448602.4934
+                }
+              },
+              "right": {
+                "hash": "175519624fee670efc65f51c61e510452ec8669db5638ff7e241b343caecc3c2",
+                "file": {
+                  "path": "causal_gauge_field\\dynamics\\__init__.py",
+                  "hash": "175519624fee670efc65f51c61e510452ec8669db5638ff7e241b343caecc3c2",
+                  "size": 887,
+                  "modified": 1783590054244.0835
+                }
+              }
+            },
+            "right": {
+              "hash": "22d691d78b8ae01938152680dfc7b2d95156561e93c2373948f4fe049a987552",
+              "left": {
+                "hash": "d53f1233a9d2b441f76f4605d359afe4c33f40bc3529a20968e9d5d81774426f",
+                "file": {
+                  "path": "causal_gauge_field\\dynamics\\fs_brake_tensor.py",
+                  "hash": "d53f1233a9d2b441f76f4605d359afe4c33f40bc3529a20968e9d5d81774426f",
+                  "size": 25626,
+                  "modified": 1783590392572.965
+                }
+              },
+              "right": {
+                "hash": "0d1f1748d2b4c422f0761f94cfae64c0306d4982ebd9b5a710d5a6d6b4dadb30",
+                "file": {
+                  "path": "causal_gauge_field\\dynamics\\geometric_dynamics_monitor.py",
+                  "hash": "0d1f1748d2b4c422f0761f94cfae64c0306d4982ebd9b5a710d5a6d6b4dadb30",
+                  "size": 29204,
+                  "modified": 1783590154606.9958
+                }
+              }
+            }
+          },
+          "right": {
+            "hash": "1da4b0777af819cad083385c5c46a17d6e3bff54a8019e40692226624dddac1a",
+            "left": {
+              "hash": "454eb861a4102aad1e18bcceb93dee6a8fce446499059aa014494a8b7c70ce01",
+              "left": {
+                "hash": "fb96970bc2fb0c7ae1a9c56e4f3dbb17e0802f62c40446de8a4d16c9e2647512",
+                "file": {
+                  "path": "causal_gauge_field\\experiments\\__init__.py",
+                  "hash": "fb96970bc2fb0c7ae1a9c56e4f3dbb17e0802f62c40446de8a4d16c9e2647512",
+                  "size": 358,
+                  "modified": 1783586901900.9673
+                }
+              },
+              "right": {
+                "hash": "134db5a2029c6304dd546028c23ae93a6c4cca064444874e66b15ae1ecc13cff",
+                "file": {
+                  "path": "causal_gauge_field\\experiments\\exp1_curvature_correlation.py",
+                  "hash": "134db5a2029c6304dd546028c23ae93a6c4cca064444874e66b15ae1ecc13cff",
+                  "size": 7547,
+                  "modified": 1783561113910.2366
+                }
+              }
+            },
+            "right": {
+              "hash": "ba8494115450f602e4326f44922f25a236ca065fe18cc2d165195195a30f1811",
+              "left": {
+                "hash": "41b435f96681554f8e8b7fe2830fa13684a2dcde2a4de6b5a7665803cd0014ba",
+                "file": {
+                  "path": "causal_gauge_field\\experiments\\exp10_geometric_dynamics.py",
+                  "hash": "41b435f96681554f8e8b7fe2830fa13684a2dcde2a4de6b5a7665803cd0014ba",
+                  "size": 38439,
+                  "modified": 1783596523261.469
+                }
+              },
+              "right": {
+                "hash": "8525eabce5b813d87c260f437ff7c3be8405b9e4eddc06f4b7d5e4987cdaae2e",
+                "file": {
+                  "path": "causal_gauge_field\\experiments\\exp2_causal_loss_impact.py",
+                  "hash": "8525eabce5b813d87c260f437ff7c3be8405b9e4eddc06f4b7d5e4987cdaae2e",
+                  "size": 7999,
+                  "modified": 1783560448584.7354
+                }
+              }
+            }
+          }
+        }
+      },
+      "right": {
+        "hash": "0d9800fffd6bc8955b78d1f9a03b604ffb4ccddf4f71a0d8ac69ccaf99150fa8",
+        "left": {
+          "hash": "109ca043819cbc3ce12cf3dfd0d27177ae121eced5e39e7ed21c6dddd5f42e36",
+          "left": {
+            "hash": "d35c6bef7335df6e0a26a8843c99ed31e571d7829e9a7db5d72c0a1689fb2a13",
+            "left": {
+              "hash": "9bf3edd834c489db11de2b4a68f722d54d852fe31eedd14751b267f00c278395",
+              "left": {
+                "hash": "e483196a48f59c7305d9d85e2b2f14940240790f0cc13a1bdff3e5a3c0e7c6a3",
+                "file": {
+                  "path": "causal_gauge_field\\experiments\\exp3_memory_kernel.py",
+                  "hash": "e483196a48f59c7305d9d85e2b2f14940240790f0cc13a1bdff3e5a3c0e7c6a3",
+                  "size": 9610,
+                  "modified": 1783561144016.4038
+                }
+              },
+              "right": {
+                "hash": "ee97908716a1e00fab4daa8e111241359d83fbeabe84d40bb11e7afb4d4d878d",
+                "file": {
+                  "path": "causal_gauge_field\\experiments\\exp4_flatness.py",
+                  "hash": "ee97908716a1e00fab4daa8e111241359d83fbeabe84d40bb11e7afb4d4d878d",
+                  "size": 7912,
+                  "modified": 1783561453661.1958
+                }
+              }
+            },
+            "right": {
+              "hash": "d57cff83d163346789cccddbf949a3ddaf17a42191b48809cba42b3043367443",
+              "left": {
+                "hash": "2cb7eae290859015903668aa4f476b4dbef5bd86c72830d4157506a54eca89a9",
+                "file": {
+                  "path": "causal_gauge_field\\experiments\\exp5_controlled_closure.py",
+                  "hash": "2cb7eae290859015903668aa4f476b4dbef5bd86c72830d4157506a54eca89a9",
+                  "size": 7886,
+                  "modified": 1783562445246.8655
+                }
+              },
+              "right": {
+                "hash": "d623a340e8854c08f08e1663ab9f0bd51eae1d1b4e6fd8ec09aeaa69b1df1854",
+                "file": {
+                  "path": "causal_gauge_field\\experiments\\exp6_controlled_closure_closed.py",
+                  "hash": "d623a340e8854c08f08e1663ab9f0bd51eae1d1b4e6fd8ec09aeaa69b1df1854",
+                  "size": 8045,
+                  "modified": 1783562740455.216
+                }
+              }
+            }
+          },
+          "right": {
+            "hash": "a6d86d4c5c3adf7e10e05fea2dc19bc88fa36aef1c485e6df2e76e16e0e4ff0f",
+            "left": {
+              "hash": "6a956a8823546b118ce71834e49e5578d508a1581fdd5f1634e605e34da5c897",
+              "left": {
+                "hash": "6861c27ff25f597e52cd5afb6ecd1b7d62a92f4d91b064d40246462ef1b691e4",
+                "file": {
+                  "path": "causal_gauge_field\\experiments\\exp7_controlled_loopback.py",
+                  "hash": "6861c27ff25f597e52cd5afb6ecd1b7d62a92f4d91b064d40246462ef1b691e4",
+                  "size": 11815,
+                  "modified": 1783565555274.299
+                }
+              },
+              "right": {
+                "hash": "7002436d947278ac446eb40aa3b9af599402ca778d05cacae485f894c6bd5466",
+                "file": {
+                  "path": "causal_gauge_field\\experiments\\trainer.py",
+                  "hash": "7002436d947278ac446eb40aa3b9af599402ca778d05cacae485f894c6bd5466",
+                  "size": 15893,
+                  "modified": 1783565649926.5889
+                }
+              }
+            },
+            "right": {
+              "hash": "56982d982594e37bbfedb5dfbbd3a66a09dca4829e3aac1146ee3d0597f3da93",
+              "left": {
+                "hash": "c7f2553d3e19e60824521b80074a191780eb51d0df11e6e05a78a499c8405538",
+                "file": {
+                  "path": "causal_gauge_field\\experiments\\verdict.py",
+                  "hash": "c7f2553d3e19e60824521b80074a191780eb51d0df11e6e05a78a499c8405538",
+                  "size": 3436,
+                  "modified": 1783561153302.1453
+                }
+              },
+              "right": {
+                "hash": "3e1f809bee29dc446d37d836fa46985fd34105138ce1c426fe4a3a60c08c506d",
+                "file": {
+                  "path": "causal_gauge_field\\losses\\__init__.py",
+                  "hash": "3e1f809bee29dc446d37d836fa46985fd34105138ce1c426fe4a3a60c08c506d",
+                  "size": 418,
+                  "modified": 1783586903003.3694
+                }
+              }
+            }
+          }
+        },
+        "right": {
+          "hash": "3f7a5497e85b98f46e94c6aabf8547d50db913389e7d7b0f2aefcf7129458df1",
+          "left": {
+            "hash": "6b8e37da34e49b0b1e1bc73a79f9499814815e687b6b413d4b7abea8faf2b97f",
+            "left": {
+              "hash": "82311c67d8d9cdc415b8cc001e9000aca73777ac1a5e2652270098046267dbd3",
+              "left": {
+                "hash": "bf442f467fdd7fcb0f9f9ea21a0e789c251616fab77e7a47697cec411334fe99",
+                "file": {
+                  "path": "causal_gauge_field\\losses\\causal_geometry.py",
+                  "hash": "bf442f467fdd7fcb0f9f9ea21a0e789c251616fab77e7a47697cec411334fe99",
+                  "size": 7001,
+                  "modified": 1783563295343.0654
+                }
+              },
+              "right": {
+                "hash": "bc55e6cbca4c5d9b85a171d8fee1900f951f48f2813b75dcaa7dc3f0a60dfc4d",
+                "file": {
+                  "path": "causal_gauge_field\\losses\\combined.py",
+                  "hash": "bc55e6cbca4c5d9b85a171d8fee1900f951f48f2813b75dcaa7dc3f0a60dfc4d",
+                  "size": 113,
+                  "modified": 1783560448584.7354
+                }
+              }
+            },
+            "right": {
+              "hash": "510fc9f4a214a4db73adc7d7d3ddb1e7abbab3c42ae4917e19ba25a8af399486",
+              "left": {
+                "hash": "59315c8017f3a8bfd6e2e972ad3f6ea8f6165c49b7560a4a654c0445d7fdc3ae",
+                "file": {
+                  "path": "causal_gauge_field\\losses\\contrastive_push.py",
+                  "hash": "59315c8017f3a8bfd6e2e972ad3f6ea8f6165c49b7560a4a654c0445d7fdc3ae",
+                  "size": 11035,
+                  "modified": 1783586789648.88
+                }
+              },
+              "right": {
+                "hash": "76ad53e02ca78a63f36d4f2686f37338b09c7ac596ab6906fec7885128aae94e",
+                "file": {
+                  "path": "causal_gauge_field\\losses\\layered.py",
+                  "hash": "76ad53e02ca78a63f36d4f2686f37338b09c7ac596ab6906fec7885128aae94e",
+                  "size": 3217,
+                  "modified": 1783565270360.2473
+                }
+              }
+            }
+          },
+          "right": {
+            "hash": "e9cdf483a63b6aac13fe85fbff48d97dec2e88ffd6dec582fdcfe9d25c316bb4",
+            "left": {
+              "hash": "4c4ac8620f5896b3e79f1ec6626f5940313b36ca8c05130b9463e212e5256b47",
+              "left": {
+                "hash": "cc0e0177966063522aba7e5403bfdaaf751a0806daddf24aa8f3489344eea692",
+                "file": {
+                  "path": "causal_gauge_field\\models\\__init__.py",
+                  "hash": "cc0e0177966063522aba7e5403bfdaaf751a0806daddf24aa8f3489344eea692",
+                  "size": 85,
+                  "modified": 1783558849435.5044
+                }
+              },
+              "right": {
+                "hash": "ceb9a552392dfb4cd7645978de1c8d276e00194406c59d9da7cfc122c0ae3729",
+                "file": {
+                  "path": "causal_gauge_field\\models\\gauge_field.py",
+                  "hash": "ceb9a552392dfb4cd7645978de1c8d276e00194406c59d9da7cfc122c0ae3729",
+                  "size": 11024,
+                  "modified": 1783565272893.2097
+                }
+              }
+            },
+            "right": {
+              "hash": "3918aa39568a46a643c88ad436f0ff833a9bb87642b21529396a45737f91c82b",
+              "left": {
+                "hash": "dc4c37e79fd350b8b1fe447855a278c8772d3b4051029e90326c247de487b4e5",
+                "file": {
+                  "path": "causal_gauge_field\\models\\memory_bank.py",
+                  "hash": "dc4c37e79fd350b8b1fe447855a278c8772d3b4051029e90326c247de487b4e5",
+                  "size": 4409,
+                  "modified": 1783561050365.228
+                }
+              },
+              "right": {
+                "hash": "f5a1830a981a35785bd7862f20775c25b3dcac435affe8f59d9f80502411bb73",
+                "file": {
+                  "path": "causal_gauge_field\\models\\transformer.py",
+                  "hash": "f5a1830a981a35785bd7862f20775c25b3dcac435affe8f59d9f80502411bb73",
+                  "size": 5154,
+                  "modified": 1783561018122.7825
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "right": {
+      "hash": "848d60168bf125b4c475c88a1f82e3a2a4b82e8f51db5a0d6e2703b30be0b03b",
+      "left": {
+        "hash": "3a8560a70d5d9f32c880055506e5843fc7b58cf44d8d1b2a4052cbb8649379ee",
+        "left": {
+          "hash": "d8e9ea634a20c93e281297eda331efac680c0b11556aad5d5d896a9fb412a0ff",
+          "left": {
+            "hash": "0f91a46683e412444e578d8d8ba7270acd678eb3b455c92da7c77244aa64a1c7",
+            "left": {
+              "hash": "531ae38a7ed6acd0d61af4e71c63f349da5032cbc62d11d8ff83ea50c43a4aab",
+              "left": {
+                "hash": "2ef0c59289d244a5e595facbed0c5040eec217ff0051558036c52c0c40f4cd08",
+                "file": {
+                  "path": "causal_gauge_field\\npnw\\__init__.py",
+                  "hash": "2ef0c59289d244a5e595facbed0c5040eec217ff0051558036c52c0c40f4cd08",
+                  "size": 111,
+                  "modified": 1783558849831.061
+                }
+              },
+              "right": {
+                "hash": "95190196670932282b7856682b4672fa5743aa046bb1fc7e7bcfe2e1d366ee5a",
+                "file": {
+                  "path": "causal_gauge_field\\npnw\\enhanced_generator.py",
+                  "hash": "95190196670932282b7856682b4672fa5743aa046bb1fc7e7bcfe2e1d366ee5a",
+                  "size": 7052,
+                  "modified": 1783563384302.6482
+                }
+              }
+            },
+            "right": {
+              "hash": "130f81634c63eca3bf08b1d80dacc5052f86a56ac70bbe5243760f56a62d9a6a",
+              "left": {
+                "hash": "b4348a02277a591e74541e42d619136a0a0f1aad7da23a48e2e25ecac789772c",
+                "file": {
+                  "path": "causal_gauge_field\\npnw\\story_generator.py",
+                  "hash": "b4348a02277a591e74541e42d619136a0a0f1aad7da23a48e2e25ecac789772c",
+                  "size": 12768,
+                  "modified": 1783565281194.235
+                }
+              },
+              "right": {
+                "hash": "93a449cab76ac814967b8a28ad61c2db4407d4fad9979bb43d440be53ea98c66",
+                "file": {
+                  "path": "causal_gauge_field\\npnw\\tokenizer.py",
+                  "hash": "93a449cab76ac814967b8a28ad61c2db4407d4fad9979bb43d440be53ea98c66",
+                  "size": 4890,
+                  "modified": 1783565278661.8394
+                }
+              }
+            }
+          },
+          "right": {
+            "hash": "ddbb4c4d2d22ae81c8cc29d40fc71e081f5025ef3c4bb228eabfe7f74ddf6478",
+            "left": {
+              "hash": "903a26cff3a07c94171cac912f08325fece6f5a22a4bb002b3d926f6bf74046a",
+              "left": {
+                "hash": "abebae720e46422757144d6d61145f8993f373e2e23bee5e34046468e670cb25",
+                "file": {
+                  "path": "causal_gauge_field\\npnw\\world.py",
+                  "hash": "abebae720e46422757144d6d61145f8993f373e2e23bee5e34046468e670cb25",
+                  "size": 10240,
+                  "modified": 1783560448584.7354
+                }
+              },
+              "right": {
+                "hash": "4a65484bb7da6e5187d3aacef43455151916e2deec0a217d47fb82a68393230b",
+                "file": {
+                  "path": "causal_gauge_field\\quick_test.py",
+                  "hash": "4a65484bb7da6e5187d3aacef43455151916e2deec0a217d47fb82a68393230b",
+                  "size": 1766,
+                  "modified": 1783560448602.4934
+                }
+              }
+            },
+            "right": {
+              "hash": "928df65db773f26d1ef14d3dc436ae28912700771a1ed7755f571a7437a3dd07",
+              "left": {
+                "hash": "f155aaecbfca45278ac69c34a6224d26b18c83f9c58325bea30c224c4d45969e",
+                "file": {
+                  "path": "causal_gauge_field\\run_experiments.py",
+                  "hash": "f155aaecbfca45278ac69c34a6224d26b18c83f9c58325bea30c224c4d45969e",
+                  "size": 8768,
+                  "modified": 1783561466843.0083
+                }
+              },
+              "right": {
+                "hash": "aa52fb6249081544533bd06e94681439c1f8f2214e7517e97d07b68e63e21ac2",
+                "file": {
+                  "path": "causal_gauge_field\\theorems\\__init__.py",
+                  "hash": "aa52fb6249081544533bd06e94681439c1f8f2214e7517e97d07b68e63e21ac2",
+                  "size": 1540,
+                  "modified": 1783596246438.4768
+                }
+              }
+            }
+          }
+        },
+        "right": {
+          "hash": "f88b19153c865430345bf899e74fcedbb22cdf8624e618947f6a96e80375ac0f",
+          "left": {
+            "hash": "6e01147210187bb1aa84adbddb81800d51b704855494eb4494f08e19b25901d3",
+            "left": {
+              "hash": "a96078f82d99a347797d489c511da820b43a7ac1954dc1ee7023e738f790d733",
+              "left": {
+                "hash": "f7f794aa718571c45992c8b2955a265562dc4a73bd9de103a24aa0404df0ac48",
+                "file": {
+                  "path": "causal_gauge_field\\theorems\\theorem_1_ontology.py",
+                  "hash": "f7f794aa718571c45992c8b2955a265562dc4a73bd9de103a24aa0404df0ac48",
+                  "size": 18423,
+                  "modified": 1783596313856.0195
+                }
+              },
+              "right": {
+                "hash": "f9b6637af83e42562ddbd4c6e2b19613cd974577afa8669272081211fca2642f",
+                "file": {
+                  "path": "causal_gauge_field\\theorems\\theorem_2_conservation.py",
+                  "hash": "f9b6637af83e42562ddbd4c6e2b19613cd974577afa8669272081211fca2642f",
+                  "size": 16886,
+                  "modified": 1783596370271.063
+                }
+              }
+            },
+            "right": {
+              "hash": "1dd27f73a1aec7757d0f91052601c090315ad37a3e87744035210b813634d97d",
+              "left": {
+                "hash": "042301a49ad8c302ebf77b25dc67c07f12bdbdb0b72cb089579e7a8bb2e6193b",
+                "file": {
+                  "path": "causal_gauge_field\\theorems\\theorem_3_residual.py",
+                  "hash": "042301a49ad8c302ebf77b25dc67c07f12bdbdb0b72cb089579e7a8bb2e6193b",
+                  "size": 16423,
+                  "modified": 1783596429379.0989
+                }
+              },
+              "right": {
+                "hash": "7c50e86df3b1ee4e00d7e9fa468f71aea83a40d2cdd6312cda19b7dbdd647a9f",
+                "file": {
+                  "path": "causal_gauge_field\\theorems\\theorem_verifier.py",
+                  "hash": "7c50e86df3b1ee4e00d7e9fa468f71aea83a40d2cdd6312cda19b7dbdd647a9f",
+                  "size": 23160,
+                  "modified": 1783596492816.6604
+                }
+              }
+            }
+          },
+          "right": {
+            "hash": "6719f013d4d837fa3358476fb65142fc9b51a9fbf669eaeb92560c82261550d7",
+            "left": {
+              "hash": "ddbe18fb18ed987c915aaaf40d1ec50eb764c2c36521f7e0bc98e3a4d478189d",
+              "left": {
+                "hash": "66c437e45eae25e463c9553a9d50d74ccaca75b032279c58412e26ffa549be90",
+                "file": {
+                  "path": "causal_gauge_field\\utils\\__init__.py",
+                  "hash": "66c437e45eae25e463c9553a9d50d74ccaca75b032279c58412e26ffa549be90",
+                  "size": 229,
+                  "modified": 1783558850136.7476
+                }
+              },
+              "right": {
+                "hash": "5d542512f765ec286fa15cae9b29cd41ae3c281fc937234b2836c1ac016b8975",
+                "file": {
+                  "path": "causal_gauge_field\\utils\\config.py",
+                  "hash": "5d542512f765ec286fa15cae9b29cd41ae3c281fc937234b2836c1ac016b8975",
+                  "size": 465,
+                  "modified": 1783558847028.4133
+                }
+              }
+            },
+            "right": {
+              "hash": "e1c24a69ecfe1a519ba205d6254cd271867b51ebe594fcf98c7ac4a86d99a147",
+              "left": {
+                "hash": "a2744b347840d047d61db69ecc79217504542f088693e9e1d79f3a1b8c6eca94",
+                "file": {
+                  "path": "causal_gauge_field\\utils\\frenet_serret.py",
+                  "hash": "a2744b347840d047d61db69ecc79217504542f088693e9e1d79f3a1b8c6eca94",
+                  "size": 15077,
+                  "modified": 1783585643622.3376
+                }
+              },
+              "right": {
+                "hash": "73d37b9c2c2e0ac270108b67d73201dc2feeb13066322e353f8be8f14d076c05",
+                "file": {
+                  "path": "causal_gauge_field\\utils\\logger.py",
+                  "hash": "73d37b9c2c2e0ac270108b67d73201dc2feeb13066322e353f8be8f14d076c05",
+                  "size": 902,
+                  "modified": 1783558847598.1184
+                }
+              }
+            }
+          }
+        }
+      },
+      "right": {
+        "hash": "bb33d350a1f6a393e4abf1827a0b9cdcc0ff13ca16dcf3106fbfb6160d3506f5",
+        "file": {
+          "path": "causal_gauge_field\\utils\\metrics.py",
+          "hash": "bb33d350a1f6a393e4abf1827a0b9cdcc0ff13ca16dcf3106fbfb6160d3506f5",
+          "size": 6171,
+          "modified": 1783562030776.9946
+        }
+      }
+    }
+  }
+}

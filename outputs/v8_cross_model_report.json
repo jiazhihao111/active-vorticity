@@ -1,0 +1,476 @@
+{
+  "timestamp": "2026-07-09T22:01:44.836548",
+  "framework": "v8.0 Cross-Model + Constraint Extraction",
+  "results": {
+    "baseline_2L_128D_32B": {
+      "config": {
+        "name": "baseline_2L_128D_32B",
+        "n_layers": 2,
+        "d_model": 128,
+        "base_dim": 32,
+        "d_ff": 512,
+        "n_heads": 4
+      },
+      "n_params": 416349,
+      "alpha_star_mean": 0.32501288657588473,
+      "alpha_star_std": 0.02721837411605055,
+      "v8_results": {
+        "corrected_constraint_power": {
+          "pos_Pc_mean": 0.004646688038579648,
+          "neg_Pc_mean": 0.11111344219284516,
+          "pos_Pc_std": 0.6058372801072112,
+          "neg_Pc_std": 1.1365262821933115,
+          "pos_Pc_skew": -0.7832214322740498,
+          "neg_Pc_skew": 8.436114142458038,
+          "pos_vs_zero_p": 0.7630926375596017,
+          "pos_vs_neg_p": 0.0014811763368462033,
+          "ks_stat": 0.05377870806852697,
+          "ks_p": 0.024494080237589054,
+          "cohens_d": -0.11690714569678308,
+          "criteria": {
+            "pos_near_zero_after_correction": "True",
+            "neg_far_from_zero": "True",
+            "pos_closer_to_zero_than_neg": "True"
+          },
+          "passed_count": 3,
+          "total_criteria": 3,
+          "verdict": "STRONG_SUPPORT"
+        },
+        "energy_decomposition": {
+          "pos_P_raw_mean": 0.38131626737427526,
+          "neg_P_raw_mean": 0.5224250905523217,
+          "pos_P_active_mean": 0.3766695814879483,
+          "neg_P_active_mean": 0.4113116515304837,
+          "pos_P_constraint_mean": 0.004646688038579648,
+          "neg_P_constraint_mean": 0.11111344219284516,
+          "active_fraction_pos": 0.9878140892936322,
+          "active_fraction_neg": 0.7873122077978737,
+          "correction_improvement": 82.06194519669921
+        },
+        "active_force_alignment": {
+          "pos_alignment_mean": 0.9999999954120616,
+          "neg_alignment_mean": 0.9999999985769696,
+          "pos_vs_neg_p": 0.22538402812897504,
+          "verdict": "OPPOSE"
+        },
+        "overall_verdict": {
+          "support_count": 1,
+          "total_count": 2,
+          "verdict": "WEAK_SUPPORT",
+          "framework": "v8.0 Lagrangian with Active Force",
+          "method": "D",
+          "mass": 1.0,
+          "friction": 0.01
+        }
+      },
+      "constraint_subspace": {
+        "F_c_effective_rank": 12,
+        "F_c_eigenvalues_top5": [
+          0.2390995686634222,
+          0.1326303366949681,
+          0.0691059275595444,
+          0.0438075055954732,
+          0.032065533763303185
+        ],
+        "F_c_orthogonality_to_vel": 0.004646709654480219,
+        "F_c_singular_values_top5": [
+          19.31439781188965,
+          14.347944259643555,
+          10.33305549621582,
+          8.23128890991211,
+          7.038565158843994
+        ],
+        "vel_effective_rank": 12,
+        "vel_eigenvalues_top5": [
+          0.4233414160617742,
+          0.17725761046002936,
+          0.12304928095940658,
+          0.09466690597225666,
+          0.07335333267784222
+        ],
+        "F_c_norm_mean": 0.7437284588813782,
+        "vel_norm_mean": 0.9825978875160217,
+        "F_c_to_vel_norm_ratio": 0.7569001198301083,
+        "constraint_subspace_dim": 12,
+        "total_dim": 32,
+        "compression_ratio": 0.375
+      }
+    },
+    "deep_4L_128D_32B": {
+      "config": {
+        "name": "deep_4L_128D_32B",
+        "n_layers": 4,
+        "d_model": 128,
+        "base_dim": 32,
+        "d_ff": 512,
+        "n_heads": 4
+      },
+      "n_params": 812893,
+      "alpha_star_mean": 0.28341171739395027,
+      "alpha_star_std": 0.016709712063582304,
+      "v8_results": {
+        "corrected_constraint_power": {
+          "pos_Pc_mean": 0.00018424499872522212,
+          "neg_Pc_mean": 8.253081193510481e-05,
+          "pos_Pc_std": 0.01505708912832316,
+          "neg_Pc_std": 0.014808747981784482,
+          "pos_Pc_skew": -0.766139721795488,
+          "neg_Pc_skew": -0.8890212709547114,
+          "pos_vs_zero_p": 0.6306051842150439,
+          "pos_vs_neg_p": 0.8518163101087979,
+          "ks_stat": 0.029279450202873588,
+          "ks_p": 0.525673496884427,
+          "cohens_d": 0.006811171540667936,
+          "criteria": {
+            "pos_near_zero_after_correction": "True",
+            "neg_far_from_zero": "False",
+            "pos_closer_to_zero_than_neg": "False"
+          },
+          "passed_count": 1,
+          "total_criteria": 3,
+          "verdict": "WEAK_SUPPORT"
+        },
+        "energy_decomposition": {
+          "pos_P_raw_mean": 0.01605580722493757,
+          "neg_P_raw_mean": 0.016211464631173945,
+          "pos_P_active_mean": 0.015871562218814028,
+          "neg_P_active_mean": 0.01612893388845474,
+          "pos_P_constraint_mean": 0.00018424499872522212,
+          "neg_P_constraint_mean": 8.253081193510481e-05,
+          "active_fraction_pos": 0.9885247062078668,
+          "active_fraction_neg": 0.9949091063585078,
+          "correction_improvement": 87.14374133166355
+        },
+        "active_force_alignment": {
+          "pos_alignment_mean": 0.9999999944867631,
+          "neg_alignment_mean": 0.9999999955682768,
+          "pos_vs_neg_p": 0.6581170501118998,
+          "verdict": "OPPOSE"
+        },
+        "overall_verdict": {
+          "support_count": 1,
+          "total_count": 2,
+          "verdict": "WEAK_SUPPORT",
+          "framework": "v8.0 Lagrangian with Active Force",
+          "method": "D",
+          "mass": 1.0,
+          "friction": 0.01
+        }
+      },
+      "constraint_subspace": {
+        "F_c_effective_rank": 13,
+        "F_c_eigenvalues_top5": [
+          0.006317832577125512,
+          0.005948079306500173,
+          0.004119217068687638,
+          0.0033861697874457827,
+          0.0016747990554772333
+        ],
+        "F_c_orthogonality_to_vel": 0.00018424444715492427,
+        "F_c_singular_values_top5": [
+          3.1295015811920166,
+          3.033524513244629,
+          2.524310350418091,
+          2.292395830154419,
+          1.6089653968811035
+        ],
+        "vel_effective_rank": 13,
+        "vel_eigenvalues_top5": [
+          0.012743734450901772,
+          0.009526663364636551,
+          0.007633883173631315,
+          0.005942660039123417,
+          0.0033966026479106486
+        ],
+        "F_c_norm_mean": 0.16189797222614288,
+        "vel_norm_mean": 0.22497957944869995,
+        "F_c_to_vel_norm_ratio": 0.719611853444227,
+        "constraint_subspace_dim": 13,
+        "total_dim": 32,
+        "compression_ratio": 0.40625
+      }
+    },
+    "shallow_1L_128D_32B": {
+      "config": {
+        "name": "shallow_1L_128D_32B",
+        "n_layers": 1,
+        "d_model": 128,
+        "base_dim": 32,
+        "d_ff": 512,
+        "n_heads": 4
+      },
+      "n_params": 218077,
+      "alpha_star_mean": 0.39721255037513103,
+      "alpha_star_std": 0.033801383001055355,
+      "v8_results": {
+        "corrected_constraint_power": {
+          "pos_Pc_mean": 0.0029426532761973327,
+          "neg_Pc_mean": 0.05734058190772429,
+          "pos_Pc_std": 0.21443902046038904,
+          "neg_Pc_std": 0.4022021227194353,
+          "pos_Pc_skew": 4.844053235428059,
+          "neg_Pc_skew": 5.416199224551776,
+          "pos_vs_zero_p": 0.5896983873931989,
+          "pos_vs_neg_p": 4.583349149832005e-06,
+          "ks_stat": 0.05088606075794772,
+          "ks_p": 0.03874309457878861,
+          "cohens_d": -0.16878201771248202,
+          "criteria": {
+            "pos_near_zero_after_correction": "True",
+            "neg_far_from_zero": "True",
+            "pos_closer_to_zero_than_neg": "True"
+          },
+          "passed_count": 3,
+          "total_criteria": 3,
+          "verdict": "STRONG_SUPPORT"
+        },
+        "energy_decomposition": {
+          "pos_P_raw_mean": 0.33405301612072935,
+          "neg_P_raw_mean": 0.4075390006952994,
+          "pos_P_active_mean": 0.33111036464784,
+          "neg_P_active_mean": 0.3501984210275774,
+          "pos_P_constraint_mean": 0.0029426532761973327,
+          "neg_P_constraint_mean": 0.05734058190772429,
+          "active_fraction_pos": 0.991191064202381,
+          "active_fraction_neg": 0.8593003868198537,
+          "correction_improvement": 113.52102113787252
+        },
+        "active_force_alignment": {
+          "pos_alignment_mean": 0.9999999967229012,
+          "neg_alignment_mean": 0.9999999943485364,
+          "pos_vs_neg_p": 0.3537431015435407,
+          "verdict": "OPPOSE"
+        },
+        "overall_verdict": {
+          "support_count": 1,
+          "total_count": 2,
+          "verdict": "WEAK_SUPPORT",
+          "framework": "v8.0 Lagrangian with Active Force",
+          "method": "D",
+          "mass": 1.0,
+          "friction": 0.01
+        }
+      },
+      "constraint_subspace": {
+        "F_c_effective_rank": 14,
+        "F_c_eigenvalues_top5": [
+          0.1229353474882741,
+          0.0986297577718085,
+          0.06613851021473754,
+          0.04815949080969546,
+          0.0406147997287012
+        ],
+        "F_c_orthogonality_to_vel": 0.002942669438198209,
+        "F_c_singular_values_top5": [
+          13.782756805419922,
+          12.363992691040039,
+          10.108612060546875,
+          8.636682510375977,
+          7.92622709274292
+        ],
+        "vel_effective_rank": 14,
+        "vel_eigenvalues_top5": [
+          0.1759072706362811,
+          0.13106173810764588,
+          0.10443966587287423,
+          0.07881190568814592,
+          0.0741643342425852
+        ],
+        "F_c_norm_mean": 0.6985559463500977,
+        "vel_norm_mean": 0.8983815908432007,
+        "F_c_to_vel_norm_ratio": 0.7775715279480423,
+        "constraint_subspace_dim": 14,
+        "total_dim": 32,
+        "compression_ratio": 0.4375
+      }
+    },
+    "wide_2L_256D_64B": {
+      "config": {
+        "name": "wide_2L_256D_64B",
+        "n_layers": 2,
+        "d_model": 256,
+        "base_dim": 64,
+        "d_ff": 1024,
+        "n_heads": 8
+      },
+      "n_params": 1627261,
+      "alpha_star_mean": 0.310515200282574,
+      "alpha_star_std": 0.0089476859957645,
+      "v8_results": {
+        "corrected_constraint_power": {
+          "pos_Pc_mean": 6.676076866190412e-05,
+          "neg_Pc_mean": 0.0005288184219716393,
+          "pos_Pc_std": 0.007575609021223868,
+          "neg_Pc_std": 0.00804251567607583,
+          "pos_Pc_skew": -0.10855503649011548,
+          "neg_Pc_skew": 0.10361610580751844,
+          "pos_vs_zero_p": 0.7290952050833317,
+          "pos_vs_neg_p": 0.10522332442636241,
+          "ks_stat": 0.033365160101586806,
+          "ks_p": 0.3610940906586355,
+          "cohens_d": -0.05914299176683106,
+          "criteria": {
+            "pos_near_zero_after_correction": "True",
+            "neg_far_from_zero": "False",
+            "pos_closer_to_zero_than_neg": "False"
+          },
+          "passed_count": 1,
+          "total_criteria": 3,
+          "verdict": "WEAK_SUPPORT"
+        },
+        "energy_decomposition": {
+          "pos_P_raw_mean": 0.016141461518891023,
+          "neg_P_raw_mean": 0.01692884130774086,
+          "pos_P_active_mean": 0.01607470071716728,
+          "neg_P_active_mean": 0.016400022793047912,
+          "pos_P_constraint_mean": 6.676076866190412e-05,
+          "neg_P_constraint_mean": 0.0005288184219716393,
+          "active_fraction_pos": 0.9958640113702213,
+          "active_fraction_neg": 0.9687622677798173,
+          "correction_improvement": 241.78028001157296
+        },
+        "active_force_alignment": {
+          "pos_alignment_mean": 0.9999999930217072,
+          "neg_alignment_mean": 0.9999999919903717,
+          "pos_vs_neg_p": 0.6767369358954587,
+          "verdict": "OPPOSE"
+        },
+        "overall_verdict": {
+          "support_count": 1,
+          "total_count": 2,
+          "verdict": "WEAK_SUPPORT",
+          "framework": "v8.0 Lagrangian with Active Force",
+          "method": "D",
+          "mass": 1.0,
+          "friction": 0.01
+        }
+      },
+      "constraint_subspace": {
+        "F_c_effective_rank": 18,
+        "F_c_eigenvalues_top5": [
+          0.004986676786981389,
+          0.0034754134051904247,
+          0.0030981169975679134,
+          0.002530491726154284,
+          0.0020678715249841675
+        ],
+        "F_c_orthogonality_to_vel": 6.676030898233876e-05,
+        "F_c_singular_values_top5": [
+          2.7798492908477783,
+          2.3195018768310547,
+          2.1946661472320557,
+          1.9814717769622803,
+          1.7890585660934448
+        ],
+        "vel_effective_rank": 17,
+        "vel_eigenvalues_top5": [
+          0.00789214626801851,
+          0.0064797806046908,
+          0.005847287266640257,
+          0.004612927289368522,
+          0.0036879364828366684
+        ],
+        "F_c_norm_mean": 0.16271813213825226,
+        "vel_norm_mean": 0.22579218447208405,
+        "F_c_to_vel_norm_ratio": 0.7206544037236354,
+        "constraint_subspace_dim": 18,
+        "total_dim": 64,
+        "compression_ratio": 0.28125
+      }
+    },
+    "narrow_2L_64D_16B": {
+      "config": {
+        "name": "narrow_2L_64D_16B",
+        "n_layers": 2,
+        "d_model": 64,
+        "base_dim": 16,
+        "d_ff": 256,
+        "n_heads": 2
+      },
+      "n_params": 108877,
+      "alpha_star_mean": 0.35158693105248795,
+      "alpha_star_std": 0.018801230081288305,
+      "v8_results": {
+        "corrected_constraint_power": {
+          "pos_Pc_mean": 0.0007161938799647578,
+          "neg_Pc_mean": 0.007483293725176692,
+          "pos_Pc_std": 0.054913402940179726,
+          "neg_Pc_std": 0.07566694669988822,
+          "pos_Pc_skew": 2.5418287187448536,
+          "neg_Pc_skew": 3.7524209275832754,
+          "pos_vs_zero_p": 0.6082731452722834,
+          "pos_vs_neg_p": 0.005219492140520875,
+          "ks_stat": 0.034272311241085124,
+          "ks_p": 0.32946407149852563,
+          "cohens_d": -0.10236177315404521,
+          "criteria": {
+            "pos_near_zero_after_correction": "True",
+            "neg_far_from_zero": "True",
+            "pos_closer_to_zero_than_neg": "True"
+          },
+          "passed_count": 3,
+          "total_criteria": 3,
+          "verdict": "STRONG_SUPPORT"
+        },
+        "energy_decomposition": {
+          "pos_P_raw_mean": 0.0860186108754873,
+          "neg_P_raw_mean": 0.09650966524966646,
+          "pos_P_active_mean": 0.08530241651352095,
+          "neg_P_active_mean": 0.08902637139191447,
+          "pos_P_constraint_mean": 0.0007161938799647578,
+          "neg_P_constraint_mean": 0.007483293725176692,
+          "active_fraction_pos": 0.9916739592299342,
+          "active_fraction_neg": 0.9224606786207465,
+          "correction_improvement": 120.10518558075574
+        },
+        "active_force_alignment": {
+          "pos_alignment_mean": 0.99999999483375,
+          "neg_alignment_mean": 1.000000000447238,
+          "pos_vs_neg_p": 0.024717577037113674,
+          "verdict": "OPPOSE"
+        },
+        "overall_verdict": {
+          "support_count": 1,
+          "total_count": 2,
+          "verdict": "WEAK_SUPPORT",
+          "framework": "v8.0 Lagrangian with Active Force",
+          "method": "D",
+          "mass": 1.0,
+          "friction": 0.01
+        }
+      },
+      "constraint_subspace": {
+        "F_c_effective_rank": 9,
+        "F_c_eigenvalues_top5": [
+          0.04574602456908312,
+          0.02570813152823531,
+          0.01757001728243132,
+          0.012219933201097339,
+          0.0109165300655981
+        ],
+        "F_c_orthogonality_to_vel": 0.0007161990506574512,
+        "F_c_singular_values_top5": [
+          8.40892505645752,
+          6.30888032913208,
+          5.211777210235596,
+          4.345439434051514,
+          4.109467029571533
+        ],
+        "vel_effective_rank": 10,
+        "vel_eigenvalues_top5": [
+          0.07101510934126712,
+          0.04544407509089506,
+          0.030978992782241692,
+          0.02630687136758458,
+          0.02072698342314291
+        ],
+        "F_c_norm_mean": 0.36231401562690735,
+        "vel_norm_mean": 0.47890982031822205,
+        "F_c_to_vel_norm_ratio": 0.7565391231913057,
+        "constraint_subspace_dim": 9,
+        "total_dim": 16,
+        "compression_ratio": 0.5625
+      }
+    }
+  }
+}

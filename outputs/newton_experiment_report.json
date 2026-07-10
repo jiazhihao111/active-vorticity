@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-07-09T20:51:54.414871",
+  "framework": "Newton (flat space + potential)",
+  "results": {
+    "hamiltonian_conservation": {
+      "H_var_pos_mean": 5.632305997610092,
+      "H_var_neg_mean": 10.793167740106583,
+      "t_stat": -4.050700233719095,
+      "p_value": 0.00011966018637068333,
+      "legal_more_conserved": "True",
+      "verdict": "SUPPORT"
+    },
+    "force_alignment": {
+      "alignment_pos_mean": 0.05859111009452205,
+      "alignment_neg_mean": 0.0497062544617717,
+      "t_stat": 1.524335080540813,
+      "p_value": 0.12750089624804478,
+      "legal_more_aligned": "True",
+      "verdict": "OPPOSE"
+    },
+    "potential_barrier": {
+      "delta_V_pos_mean": 0.00022606413834068458,
+      "delta_V_neg_mean": 0.006594883717779909,
+      "t_stat": -1.5470627541897177,
+      "p_value": 0.12192403425721059,
+      "legal_downhill": "True",
+      "verdict": "OPPOSE"
+    },
+    "overall_verdict": {
+      "support_count": 1,
+      "total_count": 3,
+      "verdict": "WEAK_SUPPORT",
+      "framework": "Newton (flat space + potential)",
+      "upgrade_condition": "If all 3 hypotheses pass, consider Einstein upgrade"
+    },
+    "acceleration_flatness": {
+      "accel_pos_mean": 20.658441756382462,
+      "accel_neg_mean": 22.926212144097246,
+      "t_stat": -5.438247756038652,
+      "p_value": 5.6951183276300923e-08,
+      "legal_flatter": "True",
+      "verdict": "SUPPORT"
+    }
+  }
+}

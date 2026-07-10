@@ -1,0 +1,99 @@
+project:
+  name: "causal_gauge_field"
+  description: "因果规范场理论最小可行实验"
+  seed: 42
+
+npnw:
+  grid_size: 5
+  entity_types: ["character", "item", "door", "switch", "light"]
+  character_states: ["position_x", "position_y", "holding_item", "stamina"]
+  actions: ["move", "pick_up", "use", "push", "wait"]
+  personality_types: ["brave", "cautious", "greedy"]
+  brave_stamina_threshold: 0
+  cautious_stamina_threshold: 3
+  greedy_pick_up_always: true
+  max_stamina: 5
+  stamina_recover_wait: 1
+  narrative_template: "get_key_open_door_get_treasure"
+  foreshadow_required: true
+  closure_required: true
+
+data:
+  num_stories: 10000
+  min_steps: 10
+  max_steps: 30
+  neg_per_positive: 3
+  neg_types: ["physical", "narrative", "psychological"]
+  train_ratio: 0.8
+  val_ratio: 0.1
+  test_ratio: 0.1
+  output_dir: "data"
+
+model:
+  d_model: 128
+  base_dim: 32          # C-03: 底因基底 B 的维度，所有几何距离在 π(h) 投影空间计算
+  num_causal_types: 3   # C-08: 三层分解为待涌现工作假设(H-decomp)，可配置
+  gauge_coupling: 0.1   # B-01/C-01: 规范场耦合常数 g 初值
+  n_heads: 4
+  n_layers: 2
+  d_ff: 512
+  dropout: 0.1
+  max_seq_len: 64
+  vocab_size: 256
+  param_budget: 2000000
+
+training:
+  batch_size: 64
+  learning_rate: 0.0003
+  max_epochs: 100
+  patience: 10
+  lambda_values: [0.01, 0.1, 0.5, 1.0, 5.0, 10.0]
+  lambda_default: 1.0
+  margin: 1.0
+  optimizer: "adamw"
+  weight_decay: 0.01
+  warmup_steps: 500
+  grad_clip: 1.0
+
+experiment1:
+  proxy_method: "both"
+  num_test_stories: 500
+  correlation_threshold_support: 0.3
+  correlation_threshold_weaken: 0.1
+  significance_level: 0.01
+
+experiment2:
+  story_lengths:
+    short: [5, 10]
+    medium: [15, 20]
+    long: [25, 30]
+  stories_per_length: 200
+  significance_level: 0.05
+
+experiment3:
+  k_eff_values: [1, 2, 4, 8, 16, 32, 64, -1]
+  num_prefixes: 10
+  stories_per_prefix: 100
+  clustering_method: "causal_guided"
+  random_clusters: 10
+
+experiment4:
+  curvature_metric: "discrete"
+  significance_level: 0.05
+
+# 刚柔分层几何 (论文 §3.7 / 铁律八·九): 物理=刚性(无阈值硬约束) 柔性=带阈值软约束
+rigid_flexible:
+  tau_phys: 0.0            # 物理: 无阈值 (硬约束), 占位
+  tau_narr: 0.5            # 叙事柔性阈值 (须由数据标定, 非先验给定)
+  tau_psych: 0.5           # 心理柔性阈值
+  lambda_phys: 1.0         # 物理层惩罚权重 (无阈值)
+  lambda_flex: 1.0         # 柔性层惩罚权重 (带阈值)
+  margin: 0.3              # 物理负例推离平坦的目标下界
+  phys_curv_threshold: 0.2 # H-rigid 判决: 物理曲率均值应 < 此值
+  layered_rf_lambda: 1.0   # 体制D 训练时分层损失总权重
+
+logging:
+  level: "INFO"
+  log_dir: "logs"
+  log_file: "causal_gauge_field.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

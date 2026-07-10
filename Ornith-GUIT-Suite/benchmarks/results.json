@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "suite": "Ornith-GUIT-Suite",
+    "target_model": "Ornith-1.0-9B",
+    "theory": "GUIT-TRT v9.2",
+    "sim_D": 256,
+    "sim_r": 16,
+    "calibrated_alpha_star": 1.3528626575955256,
+    "note": "基于 OrnithLatentSimulator 忠实代理 (无 GPU/真实模型); 绝对数值以真实 Ornith 实测为准"
+  },
+  "T1_compression": {
+    "trajectory_len": 120,
+    "static_mean_err": 0.6428590177247921,
+    "static_final_err": 0.9345195889472961,
+    "static_degradation": 0.5322440964480242,
+    "stream_mean_err": 0.2519758915528655,
+    "stream_final_err": 0.12390688806772232,
+    "stream_degradation": -0.094763129328688,
+    "err_reduction_ratio": 0.6080386442229625
+  },
+  "T2_hallucination": {
+    "alpha_star": 1.3528626575955256,
+    "clean_guit_auroc": 0.6175434027777778,
+    "clean_velnorm_auroc": 0.6172916666666667,
+    "clean_entropy_auroc": 0.4645182291666667,
+    "quant_noise_guit_auroc": 0.8829600694444445,
+    "quant_noise_velnorm_auroc": 1.0,
+    "quant_noise_entropy_auroc": 0.221796875,
+    "pc_gradient": {
+      "pos": 0.05329249529609115,
+      "scr": 0.10304279741800808,
+      "rnd": 0.10404498619301705,
+      "halluc": 0.1622739999349581
+    }
+  },
+  "T3_guard": {
+    "n_runs": 12,
+    "guit_recall": 1.0,
+    "velnorm_recall": 1.0,
+    "syntax_recall": 0.0,
+    "guit_false_positive_rate": 0.3333333333333333,
+    "velnorm_false_positive_rate": 0.08333333333333333,
+    "flaw_pc_mean": 0.12008701840208635,
+    "clean_pc_mean": 0.0519775861602555,
+    "separation_ratio": 2.3103615416359786,
+    "threshold_note": "clean mean + 3σ (高特异)"
+  },
+  "T4_kv": {
+    "keep_30": {
+      "causalkv_needle_recall": 1.0,
+      "causalkv_causal_retained": 0.6361675711620222,
+      "h2o_needle_recall": 0.5,
+      "h2o_causal_retained": 0.4096314891582426,
+      "random_needle_recall": 0.5,
+      "random_causal_retained": 0.3864656567199341
+    },
+    "keep_50": {
+      "causalkv_needle_recall": 1.0,
+      "causalkv_causal_retained": 0.7616588847877623,
+      "h2o_needle_recall": 1.0,
+      "h2o_causal_retained": 0.7555632626123587,
+      "random_needle_recall": 0.75,
+      "random_causal_retained": 0.5647093886777285
+    },
+    "keep_70": {
+      "causalkv_needle_recall": 1.0,
+      "causalkv_causal_retained": 0.8540011833090213,
+      "h2o_needle_recall": 1.0,
+      "h2o_causal_retained": 0.8573830137043893,
+      "random_needle_recall": 0.75,
+      "random_causal_retained": 0.7349968940974356
+    }
+  },
+  "T5_pi_loop": {
+    "max_new_tokens": 128,
+    "fix_after_iters": 2,
+    "pi_loop_total_tokens": 164,
+    "pi_loop_iterations": 3,
+    "pi_loop_physics_interventions": 2,
+    "posthoc_total_tokens": 384,
+    "posthoc_iterations": 3,
+    "token_saving_ratio": 0.5729166666651747,
+    "converged": true
+  },
+  "T6_ness": {
+    "regimes": {
+      "pos": {
+        "entropy_production_sigma": 0.0032149758043436417,
+        "probability_flow_J": 0.7785310745239258,
+        "mean_velocity_norm": 0.7785310745239258,
+        "first_moment_ratio": 0.09862660991181049,
+        "cv_velocity": 0.12181425078592825,
+        "abnormal_curvature_Ksub": 0.7033594559249209,
+        "is_NESS": true
+      },
+      "scr": {
+        "entropy_production_sigma": 0.9223679009817111,
+        "probability_flow_J": 13.199183464050293,
+        "mean_velocity_norm": 13.199183464050293,
+        "first_moment_ratio": 0.013345474647419317,
+        "cv_velocity": 0.08576720801808994,
+        "abnormal_curvature_Ksub": 0.581192429018421,
+        "is_NESS": true
+      },
+      "rnd": {
+        "entropy_production_sigma": 15.782701399211362,
+        "probability_flow_J": 54.587772369384766,
+        "mean_velocity_norm": 54.587772369384766,
+        "first_moment_ratio": 0.011974008108536435,
+        "cv_velocity": 0.0967637889201099,
+        "abnormal_curvature_Ksub": 0.5693777969161236,
+        "is_NESS": true
+      },
+      "halluc": {
+        "entropy_production_sigma": 16.855883039312427,
+        "probability_flow_J": 22.420846939086914,
+        "mean_velocity_norm": 22.420846939086914,
+        "first_moment_ratio": 0.0018803541531669866,
+        "cv_velocity": 4.52881792146256,
+        "abnormal_curvature_Ksub": 6.181006944817122,
+        "is_NESS": false
+      }
+    },
+    "abnormal_curvature_Ksub": {
+      "pos": 0.7033594534130453,
+      "scr": 0.5811924370744572,
+      "rnd": 0.5693777927350855,
+      "halluc": 6.181015751431913
+    }
+  },
+  "T7_vorticity": {
+    "pos_reject_rmt_null": true,
+    "pos_p_value": 0.0,
+    "pos_ks_observed": 0.4,
+    "rnd_reject_rmt_null": false,
+    "rnd_p_value": 0.6666666666666666,
+    "white_noise_reject_rmt_null": true,
+    "note": "pos 结构化涡流拒绝 rnd 系综零假设; rnd 自身自洽不拒绝; 白噪声在纯随机矩阵零假设下亦拒绝 (无动力学结构)。"
+  },
+  "T8_affine_projection": {
+    "block_pc_raw": 0.34694300183839066,
+    "block_pc_projected": 0.08611796465223592,
+    "reduction_ratio": 0.7517806550480524,
+    "halluc_region": [
+      40,
+      56
+    ],
+    "note": "投影清除 off-ridge 缺陷注入块, 该块 P_c/P_raw 显著下降"
+  },
+  "T9_pc_illusion": {
+    "batch_avg_ratio": 0.7533489811487735,
+    "token_avg_ratio": 0.9906776161105646,
+    "illusion_factor": 0.760438069149142,
+    "note": "GUIT 铁律: 必须使用逐 token 计算, 批量平均为假象"
+  }
+}

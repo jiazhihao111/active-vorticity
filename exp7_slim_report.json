@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-07-09T12:13:14.057898",
+  "regimes": {
+    "A_baseline": {
+      "verdict": "OPPOSE",
+      "n_pos": 20,
+      "n_neg": 20,
+      "pos_loop_flatness_mean": 0.015852883411571383,
+      "neg_loop_flatness_mean": 0.01589769870042801,
+      "pos_loop_count_mean": 0.0,
+      "neg_loop_count_mean": 0.0,
+      "pos_full_closed_flatness_mean": 0.015852883411571383,
+      "neg_full_closed_flatness_mean": 0.01589769870042801,
+      "paired": {
+        "n_pairs": 20,
+        "loop_flatness_diff_median": -1.0698102414608002e-05,
+        "loop_flatness_diff_mean": 4.481528885662556e-05,
+        "frac_neg_flatter": 0.3,
+        "wilcoxon_loop_flatness_p": 0.9143806073754502
+      }
+    },
+    "B_uniform": {
+      "verdict": "OPPOSE",
+      "n_pos": 20,
+      "n_neg": 20,
+      "pos_loop_flatness_mean": 0.020778505504131316,
+      "neg_loop_flatness_mean": 0.02093711132183671,
+      "pos_loop_count_mean": 0.0,
+      "neg_loop_count_mean": 0.0,
+      "pos_full_closed_flatness_mean": 0.020778505504131316,
+      "neg_full_closed_flatness_mean": 0.02093711132183671,
+      "paired": {
+        "n_pairs": 20,
+        "loop_flatness_diff_median": -2.614222466945648e-06,
+        "loop_flatness_diff_mean": 0.00015860581770539285,
+        "frac_neg_flatter": 0.45,
+        "wilcoxon_loop_flatness_p": 0.3145811760862762
+      }
+    },
+    "C_loopback": {
+      "verdict": "SUPPORT",
+      "n_pos": 20,
+      "n_neg": 20,
+      "pos_loop_flatness_mean": 0.02567113284021616,
+      "neg_loop_flatness_mean": 0.02602159194648266,
+      "pos_loop_count_mean": 0.0,
+      "neg_loop_count_mean": 0.0,
+      "pos_full_closed_flatness_mean": 0.02567113284021616,
+      "neg_full_closed_flatness_mean": 0.02602159194648266,
+      "paired": {
+        "n_pairs": 20,
+        "loop_flatness_diff_median": 5.549006164073944e-05,
+        "loop_flatness_diff_mean": 0.00035045910626649854,
+        "frac_neg_flatter": 0.7,
+        "wilcoxon_loop_flatness_p": 0.003953868300700122
+      }
+    },
+    "D_rf": {
+      "loopback_verdict": "OPPOSE",
+      "n_pos": 20,
+      "n_neg": 20,
+      "pos_loop_flatness_mean": 0.00274661403382197,
+      "neg_loop_flatness_mean": 0.002771310869138688,
+      "loopback_paired": {
+        "n_pairs": 20,
+        "loop_flatness_diff_median": -2.7636997401714325e-07,
+        "loop_flatness_diff_mean": 2.4696835316717626e-05,
+        "frac_neg_flatter": 0.4,
+        "wilcoxon_loop_flatness_p": 0.4839500243068173
+      },
+      "h_rigid_verdict": "SUPPORT",
+      "h_flex_verdict": "SUPPORT",
+      "phys_curv_mean": 0.10202010152500907,
+      "flex_pos_curv_mean": 0.10119827782675143,
+      "flex_neg_curv_mean": 0.10266514822929919,
+      "tau": 0.5
+    }
+  }
+}

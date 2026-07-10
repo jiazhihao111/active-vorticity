@@ -1,0 +1,99 @@
+{
+  "timestamp": "2026-07-10T09:35:10.137673",
+  "library_version": "0.3.0",
+  "model": "MiniCPM5-1B",
+  "alpha_star": 1.46,
+  "AB1_per_token_vs_batch": {
+    "pos": {
+      "per_token_mean": 0.12492652982473373,
+      "per_token_std": 0.01942553007374729,
+      "batch_artifact_mean": 0.11900905784951261,
+      "batch_artifact_std": 0.02278735328054225,
+      "inflation_factor": 0.9526323070860437,
+      "n_trajectories": 5
+    },
+    "scr": {
+      "per_token_mean": 0.15240633487701416,
+      "per_token_std": 0.01540011293028401,
+      "batch_artifact_mean": 0.1468591047097481,
+      "batch_artifact_std": 0.015198281014920814,
+      "inflation_factor": 0.9636023016512701,
+      "n_trajectories": 5
+    },
+    "rnd": {
+      "per_token_mean": 0.13713564164936543,
+      "per_token_std": 0.01701506784413609,
+      "batch_artifact_mean": 0.1362368718422515,
+      "batch_artifact_std": 0.017899168498843855,
+      "inflation_factor": 0.9934460528950417,
+      "n_trajectories": 4
+    }
+  },
+  "AB2_bf16_vs_4bit": {
+    "bf16": {
+      "vel_norm_mean": 205.67569986979166,
+      "r_095_mean": 15.333333333333334,
+      "pc_ratio_mean": 0.11416171739498775,
+      "n_samples": 3
+    },
+    "4bit": {
+      "vel_norm_mean": 203.52635192871094,
+      "r_095_mean": 14.666666666666666,
+      "pc_ratio_mean": 0.11447043965260188,
+      "n_samples": 3
+    },
+    "r_095_inflation_rate": -0.04347826086956529
+  },
+  "AB3_causal_gradient": {
+    "pos": {
+      "pc_ratio_per_token_mean": 0.12492652982473373,
+      "vel_norm_mean": 206.02509765625,
+      "T_eff_mean": 28.974967193603515,
+      "K_sub_mean": 0.6892531977458434,
+      "r_095_mean": 15.2,
+      "n_trajectories": 5
+    },
+    "scr": {
+      "pc_ratio_per_token_mean": 0.15240633487701416,
+      "vel_norm_mean": 190.93561096191405,
+      "T_eff_mean": 24.884830665588378,
+      "K_sub_mean": 0.6307139203403935,
+      "r_095_mean": 9.6,
+      "n_trajectories": 5
+    },
+    "rnd": {
+      "pc_ratio_per_token_mean": 0.13713564164936543,
+      "vel_norm_mean": 225.76371002197266,
+      "T_eff_mean": 34.458219051361084,
+      "K_sub_mean": 0.6795239390974694,
+      "r_095_mean": 14.75,
+      "n_trajectories": 4
+    }
+  },
+  "NESS_analysis": {
+    "pos": {
+      "sigma_mean": 45033.012478448276,
+      "J_FP_mean": 0.006561635558803876,
+      "CV_mean": 0.21928896577313503,
+      "macro_DB_broken_frac": 0.0,
+      "ness_pass_count_mean": 4.0,
+      "ness_verdict": "NESS"
+    },
+    "scr": {
+      "sigma_mean": 38930.6856411638,
+      "J_FP_mean": 0.009049994498491287,
+      "CV_mean": 0.18683115638567985,
+      "macro_DB_broken_frac": 0.0,
+      "ness_pass_count_mean": 4.0,
+      "ness_verdict": "NESS"
+    },
+    "rnd": {
+      "sigma_mean": 52067.70231681035,
+      "J_FP_mean": 0.009289958824714024,
+      "CV_mean": 0.20753365933493328,
+      "macro_DB_broken_frac": 0.0,
+      "ness_pass_count_mean": 4.0,
+      "ness_verdict": "NESS"
+    }
+  }
+}

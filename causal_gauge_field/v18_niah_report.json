@@ -1,0 +1,247 @@
+{
+  "pos_0.1": {
+    "prompt_tokens": 4128,
+    "kv_estimate_gb": 0.07086181640625,
+    "baseline": {
+      "vram_gb": 4.687237739562988,
+      "time_s": 1.262697696685791,
+      "recall": false,
+      "text": "，人类对宇宙的认识越来越深入。这些技术的进步既带来了机遇，也带来了挑战。\n\n请回答：上面文本中隐藏的密码是什么？"
+    },
+    "hook": {
+      "vram_gb": 4.687237739562988,
+      "time_s": 0.9115607738494873,
+      "recall": false,
+      "stats": {}
+    },
+    "KV-4096": {
+      "vram_gb": 4.947308540344238,
+      "time_s": 1.5825231075286865,
+      "recall": false,
+      "stats": {
+        "eviction_count": 0,
+        "ratio_mean": 0.11924167722463608,
+        "causal_impact_mean": 127.81719970703125
+      },
+      "text": "Extracted Information: 1. 地铁里挤满了赶着上班的人群，每个人都在低头看手机或者闭目养神。公交车站"
+    },
+    "KV-2048": {
+      "vram_gb": 4.947308540344238,
+      "time_s": 1.4919610023498535,
+      "recall": false,
+      "stats": {
+        "eviction_count": 0,
+        "ratio_mean": 0.11924167722463608,
+        "causal_impact_mean": 127.81719970703125
+      },
+      "text": "Extracted Information: 1. 地铁里挤满了赶着上班的人群，每个人都在低头看手机或者闭目养神。公交车站"
+    },
+    "KV-1024": {
+      "vram_gb": 4.947308540344238,
+      "time_s": 1.5043728351593018,
+      "recall": false,
+      "stats": {
+        "eviction_count": 0,
+        "ratio_mean": 0.11924167722463608,
+        "causal_impact_mean": 127.81719970703125
+      },
+      "text": "Extracted Information: 1. 地铁里挤满了赶着上班的人群，每个人都在低头看手机或者闭目养神。公交车站"
+    }
+  },
+  "pos_0.3": {
+    "prompt_tokens": 4128,
+    "kv_estimate_gb": 0.07086181640625,
+    "baseline": {
+      "vram_gb": 4.687237739562988,
+      "time_s": 0.8976342678070068,
+      "recall": false,
+      "text": "，人类对宇宙的认识越来越深入。这些技术的进步既带来了机遇，也带来了挑战。\n\n请回答：上面文本中隐藏的密码是什么？"
+    },
+    "hook": {
+      "vram_gb": 4.687237739562988,
+      "time_s": 0.9218723773956299,
+      "recall": false,
+      "stats": {}
+    },
+    "KV-4096": {
+      "vram_gb": 4.947308540344238,
+      "time_s": 1.493398904800415,
+      "recall": false,
+      "stats": {
+        "eviction_count": 0,
+        "ratio_mean": 0.17566323280334473,
+        "causal_impact_mean": 107.9562759399414
+      },
+      "text": "Enhanced AI Assistant\nThe text provided does not contain any hidden codes or codes. The text is a collection of descriptions of various topics, including"
+    },
+    "KV-2048": {
+      "vram_gb": 4.947308540344238,
+      "time_s": 1.488537073135376,
+      "recall": false,
+      "stats": {
+        "eviction_count": 0,
+        "ratio_mean": 0.17566323280334473,
+        "causal_impact_mean": 107.9562759399414
+      },
+      "text": "Enhanced AI Assistant\nThe text provided does not contain any hidden codes or codes. The text is a collection of descriptions of various topics, including"
+    },
+    "KV-1024": {
+      "vram_gb": 4.947308540344238,
+      "time_s": 1.555091142654419,
+      "recall": false,
+      "stats": {
+        "eviction_count": 0,
+        "ratio_mean": 0.17566323280334473,
+        "causal_impact_mean": 107.9562759399414
+      },
+      "text": "Enhanced AI Assistant\nThe text provided does not contain any hidden codes or codes. The text is a collection of descriptions of various topics, including"
+    }
+  },
+  "pos_0.5": {
+    "prompt_tokens": 4128,
+    "kv_estimate_gb": 0.07086181640625,
+    "baseline": {
+      "vram_gb": 4.687237739562988,
+      "time_s": 0.9149250984191895,
+      "recall": false,
+      "text": "，人类对宇宙的认识越来越深入。这些技术的进步既带来了机遇，也带来了挑战。\n\n请回答：上面文本中隐藏的密码是什么？"
+    },
+    "hook": {
+      "vram_gb": 4.687237739562988,
+      "time_s": 0.9160301685333252,
+      "recall": false,
+      "stats": {}
+    },
+    "KV-4096": {
+      "vram_gb": 4.947308540344238,
+      "time_s": 1.467839002609253,
+      "recall": true,
+      "stats": {
+        "eviction_count": 0,
+        "ratio_mean": 0.2063649445772171,
+        "causal_impact_mean": 110.59465789794922
+      },
+      "text": "\n根据以上文本内容，隐藏的密码是XKCD-4096。<think>\n### 分析思路：\n\n1. **"
+    },
+    "KV-2048": {
+      "vram_gb": 4.947308540344238,
+      "time_s": 1.5050106048583984,
+      "recall": true,
+      "stats": {
+        "eviction_count": 0,
+        "ratio_mean": 0.2063649445772171,
+        "causal_impact_mean": 110.59465789794922
+      },
+      "text": "\n根据以上文本内容，隐藏的密码是XKCD-4096。<think>\n### 分析思路：\n\n1. **"
+    },
+    "KV-1024": {
+      "vram_gb": 4.947308540344238,
+      "time_s": 1.5096116065979004,
+      "recall": true,
+      "stats": {
+        "eviction_count": 0,
+        "ratio_mean": 0.2063649445772171,
+        "causal_impact_mean": 110.59465789794922
+      },
+      "text": "\n根据以上文本内容，隐藏的密码是XKCD-4096。<think>\n### 分析思路：\n\n1. **"
+    }
+  },
+  "pos_0.7": {
+    "prompt_tokens": 4128,
+    "kv_estimate_gb": 0.07086181640625,
+    "baseline": {
+      "vram_gb": 4.687237739562988,
+      "time_s": 0.90484619140625,
+      "recall": false,
+      "text": "，人类对宇宙的认识越来越深入。这些技术的进步既带来了机遇，也带来了挑战。\n\n请回答：上面文本中隐藏的密码是什么？"
+    },
+    "hook": {
+      "vram_gb": 4.687237739562988,
+      "time_s": 0.9322817325592041,
+      "recall": false,
+      "stats": {}
+    },
+    "KV-4096": {
+      "vram_gb": 4.947308540344238,
+      "time_s": 1.5210621356964111,
+      "recall": true,
+      "stats": {
+        "eviction_count": 0,
+        "ratio_mean": 0.21186043322086334,
+        "causal_impact_mean": 108.97460174560547
+      },
+      "text": "\n根据以上文本内容，密码是XKCD-4096。\n在文本中提到的“密码是XKCD-409"
+    },
+    "KV-2048": {
+      "vram_gb": 4.947308540344238,
+      "time_s": 1.4741995334625244,
+      "recall": true,
+      "stats": {
+        "eviction_count": 0,
+        "ratio_mean": 0.21186043322086334,
+        "causal_impact_mean": 108.97460174560547
+      },
+      "text": "\n根据以上文本内容，密码是XKCD-4096。\n在文本中提到的“密码是XKCD-409"
+    },
+    "KV-1024": {
+      "vram_gb": 4.947308540344238,
+      "time_s": 1.5186939239501953,
+      "recall": true,
+      "stats": {
+        "eviction_count": 0,
+        "ratio_mean": 0.21186043322086334,
+        "causal_impact_mean": 108.97460174560547
+      },
+      "text": "\n根据以上文本内容，密码是XKCD-4096。\n在文本中提到的“密码是XKCD-409"
+    }
+  },
+  "pos_0.9": {
+    "prompt_tokens": 4128,
+    "kv_estimate_gb": 0.07086181640625,
+    "baseline": {
+      "vram_gb": 4.687237739562988,
+      "time_s": 0.9092926979064941,
+      "recall": false,
+      "text": "，人类对宇宙的认识越来越深入。这些技术的进步既带来了机遇，也带来了挑战。\n\n请回答：上面文本中隐藏的密码是什么？"
+    },
+    "hook": {
+      "vram_gb": 4.687237739562988,
+      "time_s": 0.9264984130859375,
+      "recall": false,
+      "stats": {}
+    },
+    "KV-4096": {
+      "vram_gb": 4.947308540344238,
+      "time_s": 1.5472593307495117,
+      "recall": false,
+      "stats": {
+        "eviction_count": 0,
+        "ratio_mean": 0.12570859491825104,
+        "causal_impact_mean": 125.3835678100586
+      },
+      "text": "Extracted Information: 海洋覆盖了地球表面的大部分面积，是生命的摇篮。深海中隐藏着无数未知的生物，有些甚至超出了我们的想象"
+    },
+    "KV-2048": {
+      "vram_gb": 4.947308540344238,
+      "time_s": 1.5369460582733154,
+      "recall": false,
+      "stats": {
+        "eviction_count": 0,
+        "ratio_mean": 0.12570859491825104,
+        "causal_impact_mean": 125.3835678100586
+      },
+      "text": "Extracted Information: 海洋覆盖了地球表面的大部分面积，是生命的摇篮。深海中隐藏着无数未知的生物，有些甚至超出了我们的想象"
+    },
+    "KV-1024": {
+      "vram_gb": 4.947308540344238,
+      "time_s": 1.5378618240356445,
+      "recall": false,
+      "stats": {
+        "eviction_count": 0,
+        "ratio_mean": 0.12570859491825104,
+        "causal_impact_mean": 125.3835678100586
+      },
+      "text": "Extracted Information: 海洋覆盖了地球表面的大部分面积，是生命的摇篮。深海中隐藏着无数未知的生物，有些甚至超出了我们的想象"
+    }
+  }
+}

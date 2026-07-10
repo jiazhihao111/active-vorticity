@@ -1,0 +1,38 @@
+2026-07-09 10:18:09,867 - Exp7 - INFO - 数据集规模: train=480对 val=60对 test=60对
+2026-07-09 10:18:09,868 - Exp7 - INFO - === [A_baseline_LM] 训练 causal 模型 ===
+2026-07-09 10:18:14,889 - Trainer - INFO - Epoch 1/12 | Train Loss: 3.5202 | Val Loss: 3.0629 | LM: 3.5202 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:15,078 - Trainer - INFO - Epoch 2/12 | Train Loss: 2.9247 | Val Loss: 2.7645 | LM: 2.9247 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:15,278 - Trainer - INFO - Epoch 3/12 | Train Loss: 2.7134 | Val Loss: 2.6526 | LM: 2.7134 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:15,468 - Trainer - INFO - Epoch 4/12 | Train Loss: 2.6372 | Val Loss: 2.6059 | LM: 2.6372 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:15,674 - Trainer - INFO - Epoch 5/12 | Train Loss: 2.5879 | Val Loss: 2.5488 | LM: 2.5879 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:15,869 - Trainer - INFO - Epoch 6/12 | Train Loss: 2.5135 | Val Loss: 2.4507 | LM: 2.5135 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:16,057 - Trainer - INFO - Epoch 7/12 | Train Loss: 2.3835 | Val Loss: 2.2563 | LM: 2.3835 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:16,229 - Trainer - INFO - Epoch 8/12 | Train Loss: 2.1400 | Val Loss: 1.8519 | LM: 2.1400 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:16,403 - Trainer - INFO - Epoch 9/12 | Train Loss: 1.8564 | Val Loss: 1.5918 | LM: 1.8564 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:16,575 - Trainer - INFO - Epoch 10/12 | Train Loss: 1.6258 | Val Loss: 1.3963 | LM: 1.6258 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:16,779 - Trainer - INFO - Epoch 11/12 | Train Loss: 1.4529 | Val Loss: 1.2843 | LM: 1.4529 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:16,967 - Trainer - INFO - Epoch 12/12 | Train Loss: 1.3397 | Val Loss: 1.2270 | LM: 1.3397 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:16,967 - Exp7 - INFO - === [A_baseline_LM] 实验7 回环 holonomy 受控检验 ===
+2026-07-09 10:18:16,968 - Experiment7 - INFO - === 实验7(回环 holonomy 受控): A_baseline_LM ===
+2026-07-09 10:18:44,315 - Experiment7 - INFO -   判决=OPPOSE | 回环平坦度: 正=2.1111 负=2.1110 | 回环数: 正=0.00 负=0.00 | 配对差中位=-0.0224 p=0.7096
+2026-07-09 10:18:44,315 - Exp7 - INFO - === [B_uniform_compress] 训练 causal 模型 ===
+2026-07-09 10:18:44,517 - Trainer - INFO - Epoch 1/12 | Train Loss: 3.6218 | Val Loss: 3.1659 | LM: 3.6218 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:44,695 - Trainer - INFO - Epoch 2/12 | Train Loss: 2.9997 | Val Loss: 2.8112 | LM: 2.9997 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:44,898 - Trainer - INFO - Epoch 3/12 | Train Loss: 2.7424 | Val Loss: 2.6609 | LM: 2.7424 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:45,099 - Trainer - INFO - Epoch 4/12 | Train Loss: 2.6381 | Val Loss: 2.5975 | LM: 2.6381 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:45,343 - Trainer - INFO - Epoch 5/12 | Train Loss: 2.5771 | Val Loss: 2.5319 | LM: 2.5771 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:45,526 - Trainer - INFO - Epoch 6/12 | Train Loss: 2.4917 | Val Loss: 2.4186 | LM: 2.4917 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:45,715 - Trainer - INFO - Epoch 7/12 | Train Loss: 2.3236 | Val Loss: 2.0936 | LM: 2.3236 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:45,904 - Trainer - INFO - Epoch 8/12 | Train Loss: 2.0477 | Val Loss: 1.8283 | LM: 2.0477 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:46,106 - Trainer - INFO - Epoch 9/12 | Train Loss: 1.8326 | Val Loss: 1.6156 | LM: 1.8326 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:46,327 - Trainer - INFO - Epoch 10/12 | Train Loss: 1.6465 | Val Loss: 1.4636 | LM: 1.6465 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:46,520 - Trainer - INFO - Epoch 11/12 | Train Loss: 1.4991 | Val Loss: 1.3416 | LM: 1.4991 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:46,728 - Trainer - INFO - Epoch 12/12 | Train Loss: 1.3897 | Val Loss: 1.2752 | LM: 1.3897 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:46,728 - Exp7 - INFO - === [B_uniform_compress] 实验7 回环 holonomy 受控检验 ===
+2026-07-09 10:18:46,728 - Experiment7 - INFO - === 实验7(回环 holonomy 受控): B_uniform_compress ===
+2026-07-09 10:19:15,177 - Experiment7 - INFO -   判决=INCONCLUSIVE | 回环平坦度: 正=2.1362 负=2.1628 | 回环数: 正=0.00 负=0.00 | 配对差中位=0.0010 p=0.3006
+2026-07-09 10:19:15,177 - Exp7 - INFO - === [C_loopback_contrastive] 训练 causal 模型 ===
+2026-07-09 10:23:04,465 - Trainer - INFO - Epoch 1/12 | Train Loss: 5.5306 | Val Loss: 3.1134 | LM: 3.5405 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9901
+2026-07-09 10:26:31,383 - Trainer - INFO - Epoch 2/12 | Train Loss: 4.9580 | Val Loss: 2.7735 | LM: 2.9562 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0018
+2026-07-09 10:30:25,854 - Trainer - INFO - Epoch 3/12 | Train Loss: 4.7174 | Val Loss: 2.6532 | LM: 2.7175 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9999
+2026-07-09 10:34:21,064 - Trainer - INFO - Epoch 4/12 | Train Loss: 4.6431 | Val Loss: 2.6177 | LM: 2.6423 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0008

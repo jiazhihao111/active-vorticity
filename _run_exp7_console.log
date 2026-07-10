@@ -1,0 +1,41 @@
+2026-07-09 11:33:57,550 - Exp7 - INFO - 数据集规模: train=480对 val=60对 test=60对
+2026-07-09 11:33:57,551 - Exp7 - INFO - === [A_baseline_LM] 训练 causal 模型 ===
+2026-07-09 11:34:00,373 - Trainer - INFO - Epoch 1/12 | Train Loss: 3.5202 | Val Loss: 3.0629 | LM: 3.5202 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:01,227 - Trainer - INFO - Epoch 2/12 | Train Loss: 2.9247 | Val Loss: 2.7645 | LM: 2.9247 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:02,090 - Trainer - INFO - Epoch 3/12 | Train Loss: 2.7134 | Val Loss: 2.6526 | LM: 2.7134 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:03,008 - Trainer - INFO - Epoch 4/12 | Train Loss: 2.6372 | Val Loss: 2.6059 | LM: 2.6372 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:03,873 - Trainer - INFO - Epoch 5/12 | Train Loss: 2.5879 | Val Loss: 2.5488 | LM: 2.5879 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:04,750 - Trainer - INFO - Epoch 6/12 | Train Loss: 2.5134 | Val Loss: 2.4506 | LM: 2.5134 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:05,609 - Trainer - INFO - Epoch 7/12 | Train Loss: 2.3834 | Val Loss: 2.2561 | LM: 2.3834 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:06,515 - Trainer - INFO - Epoch 8/12 | Train Loss: 2.1438 | Val Loss: 1.8760 | LM: 2.1438 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:07,510 - Trainer - INFO - Epoch 9/12 | Train Loss: 1.8867 | Val Loss: 1.6465 | LM: 1.8867 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:08,481 - Trainer - INFO - Epoch 10/12 | Train Loss: 1.6725 | Val Loss: 1.4431 | LM: 1.6725 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:09,466 - Trainer - INFO - Epoch 11/12 | Train Loss: 1.4937 | Val Loss: 1.3123 | LM: 1.4937 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:10,441 - Trainer - INFO - Epoch 12/12 | Train Loss: 1.3677 | Val Loss: 1.2420 | LM: 1.3677 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:10,441 - Exp7 - INFO - === [A_baseline_LM] 实验7 回环 holonomy 受控检验 ===
+2026-07-09 11:34:10,442 - Experiment7 - INFO - === 实验7(回环 holonomy 受控): A_baseline_LM ===
+2026-07-09 11:34:39,521 - Experiment7 - INFO -   判决=OPPOSE | 回环平坦度: 正=2.0802 负=2.0811 | 回环数: 正=0.00 负=0.00 | 配对差中位=-0.0157 p=0.6733
+2026-07-09 11:34:39,521 - Exp7 - INFO - === [B_uniform_compress] 训练 causal 模型 ===
+2026-07-09 11:34:40,826 - Trainer - INFO - Epoch 1/12 | Train Loss: 3.6218 | Val Loss: 3.1659 | LM: 3.6218 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:41,752 - Trainer - INFO - Epoch 2/12 | Train Loss: 2.9997 | Val Loss: 2.8112 | LM: 2.9997 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:42,715 - Trainer - INFO - Epoch 3/12 | Train Loss: 2.7424 | Val Loss: 2.6609 | LM: 2.7424 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:43,667 - Trainer - INFO - Epoch 4/12 | Train Loss: 2.6381 | Val Loss: 2.5975 | LM: 2.6381 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:44,593 - Trainer - INFO - Epoch 5/12 | Train Loss: 2.5771 | Val Loss: 2.5319 | LM: 2.5771 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:45,522 - Trainer - INFO - Epoch 6/12 | Train Loss: 2.4917 | Val Loss: 2.4186 | LM: 2.4917 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:46,455 - Trainer - INFO - Epoch 7/12 | Train Loss: 2.3236 | Val Loss: 2.0943 | LM: 2.3236 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:47,389 - Trainer - INFO - Epoch 8/12 | Train Loss: 2.0514 | Val Loss: 1.8409 | LM: 2.0514 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:48,360 - Trainer - INFO - Epoch 9/12 | Train Loss: 1.8570 | Val Loss: 1.6425 | LM: 1.8570 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:49,299 - Trainer - INFO - Epoch 10/12 | Train Loss: 1.6677 | Val Loss: 1.4592 | LM: 1.6677 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:50,238 - Trainer - INFO - Epoch 11/12 | Train Loss: 1.5070 | Val Loss: 1.3464 | LM: 1.5070 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:51,179 - Trainer - INFO - Epoch 12/12 | Train Loss: 1.3911 | Val Loss: 1.2747 | LM: 1.3911 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:51,179 - Exp7 - INFO - === [B_uniform_compress] 实验7 回环 holonomy 受控检验 ===
+2026-07-09 11:34:51,179 - Experiment7 - INFO - === 实验7(回环 holonomy 受控): B_uniform_compress ===
+2026-07-09 11:35:20,491 - Experiment7 - INFO -   判决=INCONCLUSIVE | 回环平坦度: 正=2.1253 负=2.1507 | 回环数: 正=0.00 负=0.00 | 配对差中位=0.0008 p=0.3083
+2026-07-09 11:35:20,491 - Exp7 - INFO - === [C_loopback_contrastive] 训练 causal 模型 ===
+2026-07-09 11:39:02,343 - Trainer - INFO - Epoch 1/12 | Train Loss: 5.5306 | Val Loss: 3.1134 | LM: 3.5405 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9901 | RigidFlex: 0.0000
+2026-07-09 11:42:50,384 - Trainer - INFO - Epoch 2/12 | Train Loss: 4.9580 | Val Loss: 2.7735 | LM: 2.9562 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0018 | RigidFlex: 0.0000
+2026-07-09 11:46:37,396 - Trainer - INFO - Epoch 3/12 | Train Loss: 4.7174 | Val Loss: 2.6532 | LM: 2.7175 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9999 | RigidFlex: 0.0000
+2026-07-09 11:50:24,671 - Trainer - INFO - Epoch 4/12 | Train Loss: 4.6431 | Val Loss: 2.6176 | LM: 2.6423 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0008 | RigidFlex: 0.0000
+2026-07-09 11:54:12,979 - Trainer - INFO - Epoch 5/12 | Train Loss: 4.6104 | Val Loss: 2.5896 | LM: 2.6123 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9981 | RigidFlex: 0.0000
+2026-07-09 11:58:02,151 - Trainer - INFO - Epoch 6/12 | Train Loss: 4.5819 | Val Loss: 2.5671 | LM: 2.5860 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9959 | RigidFlex: 0.0000
+2026-07-09 12:01:45,322 - Trainer - INFO - Epoch 7/12 | Train Loss: 4.4877 | Val Loss: 2.5521 | LM: 2.5658 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9219 | RigidFlex: 0.0000

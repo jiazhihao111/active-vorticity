@@ -1,0 +1,1317 @@
+2026-07-09 09:20:55,517 - QuickTest - INFO - Quick test: data gen + training
+2026-07-09 09:20:55,714 - QuickTest - INFO - train_pos=160, train_neg=480, test_pos=20
+2026-07-09 09:20:55,739 - QuickTest - INFO - Model params: 408623
+2026-07-09 09:21:01,679 - Trainer - INFO - Epoch 1/5 | Train Loss: 3.1976 | Val Loss: 2.8237 | LM: 3.1976 | Causal: 0.0000
+2026-07-09 09:21:01,853 - Trainer - INFO - Epoch 2/5 | Train Loss: 2.7017 | Val Loss: 2.5928 | LM: 2.7017 | Causal: 0.0000
+2026-07-09 09:21:02,021 - Trainer - INFO - Epoch 3/5 | Train Loss: 2.5128 | Val Loss: 2.3992 | LM: 2.5128 | Causal: 0.0000
+2026-07-09 09:21:02,190 - Trainer - INFO - Epoch 4/5 | Train Loss: 2.3189 | Val Loss: 2.1863 | LM: 2.3189 | Causal: 0.0000
+2026-07-09 09:21:02,361 - Trainer - INFO - Epoch 5/5 | Train Loss: 2.1199 | Val Loss: 1.9410 | LM: 2.1199 | Causal: 0.0000
+2026-07-09 09:21:02,361 - QuickTest - INFO - Training done. Final train_loss=2.1199
+2026-07-09 09:22:11,335 - Main - INFO - ============================================================
+2026-07-09 09:22:11,335 - Main - INFO - 因果规范场理论最小可行实验
+2026-07-09 09:22:11,335 - Main - INFO - 开始时间: 2026-07-09T09:22:11.335186
+2026-07-09 09:22:11,336 - Main - INFO - ============================================================
+2026-07-09 09:22:11,336 - Main - INFO - [阶段0] 数据生成...
+2026-07-09 09:22:11,723 - Main - INFO -   正例: train=400, val=50, test=50
+2026-07-09 09:22:11,723 - Main - INFO -   负例: train=1200, val=150, test=150
+2026-07-09 09:22:11,723 - Main - INFO -   词汇表大小: 47
+2026-07-09 09:22:11,723 - Main - INFO - [基线训练] 训练基线Transformer...
+2026-07-09 09:22:11,735 - Main - INFO -   基线模型参数量: 408623
+2026-07-09 09:22:17,061 - Trainer - INFO - Epoch 1/15 | Train Loss: 3.1098 | Val Loss: 2.7440 | LM: 3.1098 | Causal: 0.0000
+2026-07-09 09:22:17,343 - Trainer - INFO - Epoch 2/15 | Train Loss: 2.6043 | Val Loss: 2.4922 | LM: 2.6043 | Causal: 0.0000
+2026-07-09 09:22:17,615 - Trainer - INFO - Epoch 3/15 | Train Loss: 2.3601 | Val Loss: 2.2023 | LM: 2.3601 | Causal: 0.0000
+2026-07-09 09:22:17,890 - Trainer - INFO - Epoch 4/15 | Train Loss: 2.0865 | Val Loss: 1.8416 | LM: 2.0865 | Causal: 0.0000
+2026-07-09 09:22:18,191 - Trainer - INFO - Epoch 5/15 | Train Loss: 1.7734 | Val Loss: 1.5093 | LM: 1.7734 | Causal: 0.0000
+2026-07-09 09:22:18,461 - Trainer - INFO - Epoch 6/15 | Train Loss: 1.4952 | Val Loss: 1.2632 | LM: 1.4952 | Causal: 0.0000
+2026-07-09 09:22:18,729 - Trainer - INFO - Epoch 7/15 | Train Loss: 1.2862 | Val Loss: 1.1474 | LM: 1.2862 | Causal: 0.0000
+2026-07-09 09:22:19,034 - Trainer - INFO - Epoch 8/15 | Train Loss: 1.1773 | Val Loss: 1.1024 | LM: 1.1773 | Causal: 0.0000
+2026-07-09 09:22:19,370 - Trainer - INFO - Epoch 9/15 | Train Loss: 1.1204 | Val Loss: 1.0654 | LM: 1.1204 | Causal: 0.0000
+2026-07-09 09:22:19,665 - Trainer - INFO - Epoch 10/15 | Train Loss: 1.0804 | Val Loss: 1.0222 | LM: 1.0804 | Causal: 0.0000
+2026-07-09 09:22:19,965 - Trainer - INFO - Epoch 11/15 | Train Loss: 1.0382 | Val Loss: 0.9688 | LM: 1.0382 | Causal: 0.0000
+2026-07-09 09:22:20,273 - Trainer - INFO - Epoch 12/15 | Train Loss: 0.9822 | Val Loss: 0.8907 | LM: 0.9822 | Causal: 0.0000
+2026-07-09 09:22:20,571 - Trainer - INFO - Epoch 13/15 | Train Loss: 0.9248 | Val Loss: 0.8370 | LM: 0.9248 | Causal: 0.0000
+2026-07-09 09:22:20,845 - Trainer - INFO - Epoch 14/15 | Train Loss: 0.8814 | Val Loss: 0.8071 | LM: 0.8814 | Causal: 0.0000
+2026-07-09 09:22:21,120 - Trainer - INFO - Epoch 15/15 | Train Loss: 0.8439 | Val Loss: 0.7700 | LM: 0.8439 | Causal: 0.0000
+2026-07-09 09:22:21,120 - Main - INFO - [实验1] 因果曲率代理量效度校准...
+2026-07-09 09:22:21,121 - Experiment1 - INFO - === 实验1: 因果曲率代理量效度校准 ===
+2026-07-09 09:22:21,121 - Experiment1 - INFO - 方法A: 隐状态转移不一致分数
+2026-07-09 09:25:45,539 - Main - INFO - ============================================================
+2026-07-09 09:25:45,539 - Main - INFO - 因果规范场理论最小可行实验
+2026-07-09 09:25:45,539 - Main - INFO - 开始时间: 2026-07-09T09:25:45.539828
+2026-07-09 09:25:45,539 - Main - INFO - ============================================================
+2026-07-09 09:25:45,539 - Main - INFO - [阶段0] 数据生成...
+2026-07-09 09:25:45,893 - Main - INFO -   正例: train=400, val=50, test=50
+2026-07-09 09:25:45,893 - Main - INFO -   负例: train=1200, val=150, test=150
+2026-07-09 09:25:45,893 - Main - INFO -   词汇表大小: 47
+2026-07-09 09:25:45,893 - Main - INFO - [基线训练] 训练基线Transformer...
+2026-07-09 09:25:45,904 - Main - INFO -   基线模型参数量: 408623
+2026-07-09 09:25:50,564 - Trainer - INFO - Epoch 1/15 | Train Loss: 3.1098 | Val Loss: 2.7440 | LM: 3.1098 | Causal: 0.0000
+2026-07-09 09:25:50,903 - Trainer - INFO - Epoch 2/15 | Train Loss: 2.6043 | Val Loss: 2.4922 | LM: 2.6043 | Causal: 0.0000
+2026-07-09 09:25:51,144 - Trainer - INFO - Epoch 3/15 | Train Loss: 2.3601 | Val Loss: 2.2023 | LM: 2.3601 | Causal: 0.0000
+2026-07-09 09:25:51,369 - Trainer - INFO - Epoch 4/15 | Train Loss: 2.0865 | Val Loss: 1.8414 | LM: 2.0865 | Causal: 0.0000
+2026-07-09 09:25:51,595 - Trainer - INFO - Epoch 5/15 | Train Loss: 1.7722 | Val Loss: 1.5039 | LM: 1.7722 | Causal: 0.0000
+2026-07-09 09:25:51,824 - Trainer - INFO - Epoch 6/15 | Train Loss: 1.4938 | Val Loss: 1.2630 | LM: 1.4938 | Causal: 0.0000
+2026-07-09 09:25:52,035 - Trainer - INFO - Epoch 7/15 | Train Loss: 1.2872 | Val Loss: 1.1494 | LM: 1.2872 | Causal: 0.0000
+2026-07-09 09:25:52,261 - Trainer - INFO - Epoch 8/15 | Train Loss: 1.1787 | Val Loss: 1.1037 | LM: 1.1787 | Causal: 0.0000
+2026-07-09 09:25:52,473 - Trainer - INFO - Epoch 9/15 | Train Loss: 1.1218 | Val Loss: 1.0700 | LM: 1.1218 | Causal: 0.0000
+2026-07-09 09:25:52,684 - Trainer - INFO - Epoch 10/15 | Train Loss: 1.0823 | Val Loss: 1.0200 | LM: 1.0823 | Causal: 0.0000
+2026-07-09 09:25:52,905 - Trainer - INFO - Epoch 11/15 | Train Loss: 1.0333 | Val Loss: 0.9673 | LM: 1.0333 | Causal: 0.0000
+2026-07-09 09:25:53,111 - Trainer - INFO - Epoch 12/15 | Train Loss: 0.9739 | Val Loss: 0.8778 | LM: 0.9739 | Causal: 0.0000
+2026-07-09 09:25:53,339 - Trainer - INFO - Epoch 13/15 | Train Loss: 0.9165 | Val Loss: 0.8274 | LM: 0.9165 | Causal: 0.0000
+2026-07-09 09:25:53,594 - Trainer - INFO - Epoch 14/15 | Train Loss: 0.8780 | Val Loss: 0.8098 | LM: 0.8780 | Causal: 0.0000
+2026-07-09 09:25:53,818 - Trainer - INFO - Epoch 15/15 | Train Loss: 0.8427 | Val Loss: 0.7735 | LM: 0.8427 | Causal: 0.0000
+2026-07-09 09:25:53,818 - Main - INFO - [实验1] 因果曲率代理量效度校准...
+2026-07-09 09:25:53,819 - Experiment1 - INFO - === 实验1: 因果曲率代理量效度校准 ===
+2026-07-09 09:25:53,820 - Experiment1 - INFO - 方法A: 隐状态转移不一致分数
+2026-07-09 09:25:54,625 - Experiment1 - INFO - 方法B: 理论测地线距离校准
+2026-07-09 09:25:54,740 - Experiment1 - INFO - 方法A判决: INCONCLUSIVE, r=nan
+2026-07-09 09:25:54,741 - Experiment1 - INFO - 方法B判决: WEAKEN, r=-0.0890
+2026-07-09 09:25:54,741 - Experiment1 - INFO - 总体判决: INCONCLUSIVE
+2026-07-09 09:25:54,741 - Main - INFO -   实验1判决: INCONCLUSIVE
+2026-07-09 09:25:54,741 - Main - INFO - [实验2] 因果几何损失长程增益...
+2026-07-09 09:25:54,741 - Experiment2 - INFO - === 实验2: 因果几何损失对长程一致性的影响 ===
+2026-07-09 09:25:54,741 - Experiment2 - INFO - 训练基线模型 (lambda=0)...
+2026-07-09 09:25:55,015 - Trainer - INFO - Epoch 1/15 | Train Loss: 3.1431 | Val Loss: 2.7702 | LM: 3.1431 | Causal: 0.0000
+2026-07-09 09:25:55,273 - Trainer - INFO - Epoch 2/15 | Train Loss: 2.6213 | Val Loss: 2.4893 | LM: 2.6213 | Causal: 0.0000
+2026-07-09 09:25:55,559 - Trainer - INFO - Epoch 3/15 | Train Loss: 2.3484 | Val Loss: 2.1909 | LM: 2.3484 | Causal: 0.0000
+2026-07-09 09:25:55,821 - Trainer - INFO - Epoch 4/15 | Train Loss: 2.0800 | Val Loss: 1.8485 | LM: 2.0800 | Causal: 0.0000
+2026-07-09 09:25:56,072 - Trainer - INFO - Epoch 5/15 | Train Loss: 1.7742 | Val Loss: 1.5196 | LM: 1.7742 | Causal: 0.0000
+2026-07-09 09:25:56,292 - Trainer - INFO - Epoch 6/15 | Train Loss: 1.5347 | Val Loss: 1.3564 | LM: 1.5347 | Causal: 0.0000
+2026-07-09 09:25:56,507 - Trainer - INFO - Epoch 7/15 | Train Loss: 1.3757 | Val Loss: 1.2114 | LM: 1.3757 | Causal: 0.0000
+2026-07-09 09:25:56,709 - Trainer - INFO - Epoch 8/15 | Train Loss: 1.2359 | Val Loss: 1.1104 | LM: 1.2359 | Causal: 0.0000
+2026-07-09 09:25:56,914 - Trainer - INFO - Epoch 9/15 | Train Loss: 1.1413 | Val Loss: 1.0273 | LM: 1.1413 | Causal: 0.0000
+2026-07-09 09:25:57,118 - Trainer - INFO - Epoch 10/15 | Train Loss: 1.0612 | Val Loss: 0.9490 | LM: 1.0612 | Causal: 0.0000
+2026-07-09 09:25:57,316 - Trainer - INFO - Epoch 11/15 | Train Loss: 0.9834 | Val Loss: 0.8816 | LM: 0.9834 | Causal: 0.0000
+2026-07-09 09:25:57,520 - Trainer - INFO - Epoch 12/15 | Train Loss: 0.9235 | Val Loss: 0.8304 | LM: 0.9235 | Causal: 0.0000
+2026-07-09 09:25:57,743 - Trainer - INFO - Epoch 13/15 | Train Loss: 0.8786 | Val Loss: 0.7944 | LM: 0.8786 | Causal: 0.0000
+2026-07-09 09:25:57,950 - Trainer - INFO - Epoch 14/15 | Train Loss: 0.8431 | Val Loss: 0.7757 | LM: 0.8431 | Causal: 0.0000
+2026-07-09 09:25:58,155 - Trainer - INFO - Epoch 15/15 | Train Loss: 0.8128 | Val Loss: 0.7521 | LM: 0.8128 | Causal: 0.0000
+2026-07-09 09:25:58,155 - Experiment2 - INFO - 训练因果正则化模型...
+2026-07-09 09:25:58,155 - Experiment2 - INFO -   lambda=0.01
+2026-07-09 09:25:58,641 - Trainer - INFO - Epoch 1/15 | Train Loss: 3.1651 | Val Loss: 2.7586 | LM: 3.1551 | Causal: 0.9975
+2026-07-09 09:25:59,007 - Trainer - INFO - Epoch 2/15 | Train Loss: 2.6319 | Val Loss: 2.5089 | LM: 2.6219 | Causal: 0.9994
+2026-07-09 09:25:59,354 - Trainer - INFO - Epoch 3/15 | Train Loss: 2.3822 | Val Loss: 2.2288 | LM: 2.3722 | Causal: 0.9945
+2026-07-09 09:25:59,701 - Trainer - INFO - Epoch 4/15 | Train Loss: 2.1212 | Val Loss: 1.8837 | LM: 2.1113 | Causal: 0.9881
+2026-07-09 09:26:00,069 - Trainer - INFO - Epoch 5/15 | Train Loss: 1.7978 | Val Loss: 1.4960 | LM: 1.7879 | Causal: 0.9853
+2026-07-09 09:26:00,489 - Trainer - INFO - Epoch 6/15 | Train Loss: 1.5277 | Val Loss: 1.2942 | LM: 1.5179 | Causal: 0.9834
+2026-07-09 09:26:00,860 - Trainer - INFO - Epoch 7/15 | Train Loss: 1.3347 | Val Loss: 1.1761 | LM: 1.3249 | Causal: 0.9778
+2026-07-09 09:26:01,205 - Trainer - INFO - Epoch 8/15 | Train Loss: 1.2102 | Val Loss: 1.0990 | LM: 1.2005 | Causal: 0.9727
+2026-07-09 09:26:01,533 - Trainer - INFO - Epoch 9/15 | Train Loss: 1.1247 | Val Loss: 1.0034 | LM: 1.1152 | Causal: 0.9563
+2026-07-09 09:26:01,915 - Trainer - INFO - Epoch 10/15 | Train Loss: 1.0416 | Val Loss: 0.9096 | LM: 1.0321 | Causal: 0.9493
+2026-07-09 09:26:02,264 - Trainer - INFO - Epoch 11/15 | Train Loss: 0.9811 | Val Loss: 0.8547 | LM: 0.9719 | Causal: 0.9211
+2026-07-09 09:26:02,614 - Trainer - INFO - Epoch 12/15 | Train Loss: 0.9297 | Val Loss: 0.8217 | LM: 0.9205 | Causal: 0.9209
+2026-07-09 09:26:02,955 - Trainer - INFO - Epoch 13/15 | Train Loss: 0.8910 | Val Loss: 0.7964 | LM: 0.8819 | Causal: 0.9117
+2026-07-09 09:26:03,319 - Trainer - INFO - Epoch 14/15 | Train Loss: 0.8606 | Val Loss: 0.7722 | LM: 0.8517 | Causal: 0.8974
+2026-07-09 09:26:03,663 - Trainer - INFO - Epoch 15/15 | Train Loss: 0.8301 | Val Loss: 0.7474 | LM: 0.8211 | Causal: 0.9020
+2026-07-09 09:26:03,663 - Experiment2 - INFO -   lambda=0.1
+2026-07-09 09:26:04,042 - Trainer - INFO - Epoch 1/15 | Train Loss: 3.1636 | Val Loss: 2.7211 | LM: 3.0640 | Causal: 0.9967
+2026-07-09 09:26:04,375 - Trainer - INFO - Epoch 2/15 | Train Loss: 2.6866 | Val Loss: 2.4684 | LM: 2.5867 | Causal: 0.9986
+2026-07-09 09:26:04,740 - Trainer - INFO - Epoch 3/15 | Train Loss: 2.4404 | Val Loss: 2.1984 | LM: 2.3412 | Causal: 0.9923
+2026-07-09 09:26:05,146 - Trainer - INFO - Epoch 4/15 | Train Loss: 2.1825 | Val Loss: 1.8704 | LM: 2.0833 | Causal: 0.9923
+2026-07-09 09:26:05,534 - Trainer - INFO - Epoch 5/15 | Train Loss: 1.8718 | Val Loss: 1.4946 | LM: 1.7743 | Causal: 0.9754
+2026-07-09 09:26:05,955 - Trainer - INFO - Epoch 6/15 | Train Loss: 1.5841 | Val Loss: 1.2728 | LM: 1.4871 | Causal: 0.9700
+2026-07-09 09:26:06,370 - Trainer - INFO - Epoch 7/15 | Train Loss: 1.4027 | Val Loss: 1.1700 | LM: 1.3079 | Causal: 0.9474
+2026-07-09 09:26:06,736 - Trainer - INFO - Epoch 8/15 | Train Loss: 1.3088 | Val Loss: 1.0936 | LM: 1.2152 | Causal: 0.9350
+2026-07-09 09:26:07,090 - Trainer - INFO - Epoch 9/15 | Train Loss: 1.2462 | Val Loss: 1.0506 | LM: 1.1543 | Causal: 0.9187
+2026-07-09 09:26:07,522 - Trainer - INFO - Epoch 10/15 | Train Loss: 1.1689 | Val Loss: 0.9576 | LM: 1.0787 | Causal: 0.9016
+2026-07-09 09:26:07,883 - Trainer - INFO - Epoch 11/15 | Train Loss: 1.0863 | Val Loss: 0.8912 | LM: 1.0011 | Causal: 0.8527
+2026-07-09 09:26:08,222 - Trainer - INFO - Epoch 12/15 | Train Loss: 1.0299 | Val Loss: 0.8293 | LM: 0.9423 | Causal: 0.8757
+2026-07-09 09:26:08,552 - Trainer - INFO - Epoch 13/15 | Train Loss: 0.9709 | Val Loss: 0.7992 | LM: 0.8870 | Causal: 0.8389
+2026-07-09 09:26:08,906 - Trainer - INFO - Epoch 14/15 | Train Loss: 0.9324 | Val Loss: 0.7689 | LM: 0.8497 | Causal: 0.8262
+2026-07-09 09:26:09,256 - Trainer - INFO - Epoch 15/15 | Train Loss: 0.9025 | Val Loss: 0.7557 | LM: 0.8207 | Causal: 0.8183
+2026-07-09 09:26:09,256 - Experiment2 - INFO -   lambda=0.5
+2026-07-09 09:26:09,663 - Trainer - INFO - Epoch 1/15 | Train Loss: 3.6288 | Val Loss: 2.7515 | LM: 3.1307 | Causal: 0.9962
+2026-07-09 09:26:10,043 - Trainer - INFO - Epoch 2/15 | Train Loss: 3.1129 | Val Loss: 2.4995 | LM: 2.6136 | Causal: 0.9987
+2026-07-09 09:26:10,480 - Trainer - INFO - Epoch 3/15 | Train Loss: 2.8562 | Val Loss: 2.2074 | LM: 2.3601 | Causal: 0.9922
+2026-07-09 09:26:10,960 - Trainer - INFO - Epoch 4/15 | Train Loss: 2.5691 | Val Loss: 1.8721 | LM: 2.0907 | Causal: 0.9567
+2026-07-09 09:26:11,317 - Trainer - INFO - Epoch 5/15 | Train Loss: 2.2363 | Val Loss: 1.5583 | LM: 1.8117 | Causal: 0.8492
+2026-07-09 09:26:11,678 - Trainer - INFO - Epoch 6/15 | Train Loss: 1.9588 | Val Loss: 1.3116 | LM: 1.5474 | Causal: 0.8226
+2026-07-09 09:26:12,016 - Trainer - INFO - Epoch 7/15 | Train Loss: 1.7460 | Val Loss: 1.1560 | LM: 1.3444 | Causal: 0.8033
+2026-07-09 09:26:12,365 - Trainer - INFO - Epoch 8/15 | Train Loss: 1.6008 | Val Loss: 1.0514 | LM: 1.2033 | Causal: 0.7950
+2026-07-09 09:26:12,705 - Trainer - INFO - Epoch 9/15 | Train Loss: 1.4878 | Val Loss: 0.9544 | LM: 1.1013 | Causal: 0.7732
+2026-07-09 09:26:13,089 - Trainer - INFO - Epoch 10/15 | Train Loss: 1.4118 | Val Loss: 0.9279 | LM: 1.0388 | Causal: 0.7460
+2026-07-09 09:26:13,445 - Trainer - INFO - Epoch 11/15 | Train Loss: 1.3496 | Val Loss: 0.8872 | LM: 0.9875 | Causal: 0.7243
+2026-07-09 09:26:13,785 - Trainer - INFO - Epoch 12/15 | Train Loss: 1.3058 | Val Loss: 0.8570 | LM: 0.9489 | Causal: 0.7137
+2026-07-09 09:26:14,134 - Trainer - INFO - Epoch 13/15 | Train Loss: 1.2634 | Val Loss: 0.8218 | LM: 0.9147 | Causal: 0.6973
+2026-07-09 09:26:14,488 - Trainer - INFO - Epoch 14/15 | Train Loss: 1.2372 | Val Loss: 0.8050 | LM: 0.8925 | Causal: 0.6895
+2026-07-09 09:26:14,838 - Trainer - INFO - Epoch 15/15 | Train Loss: 1.2100 | Val Loss: 0.7889 | LM: 0.8690 | Causal: 0.6819
+2026-07-09 09:26:14,838 - Experiment2 - INFO -   lambda=1.0
+2026-07-09 09:26:15,260 - Trainer - INFO - Epoch 1/15 | Train Loss: 4.0801 | Val Loss: 2.7275 | LM: 3.0843 | Causal: 0.9958
+2026-07-09 09:26:15,639 - Trainer - INFO - Epoch 2/15 | Train Loss: 3.5887 | Val Loss: 2.4659 | LM: 2.5915 | Causal: 0.9972
+2026-07-09 09:26:16,022 - Trainer - INFO - Epoch 3/15 | Train Loss: 3.3249 | Val Loss: 2.2324 | LM: 2.3561 | Causal: 0.9688
+2026-07-09 09:26:16,375 - Trainer - INFO - Epoch 4/15 | Train Loss: 3.0049 | Val Loss: 1.9604 | LM: 2.1505 | Causal: 0.8544
+2026-07-09 09:26:16,799 - Trainer - INFO - Epoch 5/15 | Train Loss: 2.6970 | Val Loss: 1.6165 | LM: 1.8844 | Causal: 0.8127
+2026-07-09 09:26:17,216 - Trainer - INFO - Epoch 6/15 | Train Loss: 2.4079 | Val Loss: 1.3582 | LM: 1.6098 | Causal: 0.7981
+2026-07-09 09:26:17,565 - Trainer - INFO - Epoch 7/15 | Train Loss: 2.1637 | Val Loss: 1.1800 | LM: 1.3897 | Causal: 0.7739
+2026-07-09 09:26:17,889 - Trainer - INFO - Epoch 8/15 | Train Loss: 1.9578 | Val Loss: 1.0485 | LM: 1.2257 | Causal: 0.7321
+2026-07-09 09:26:18,209 - Trainer - INFO - Epoch 9/15 | Train Loss: 1.8364 | Val Loss: 0.9744 | LM: 1.1269 | Causal: 0.7095
+2026-07-09 09:26:18,531 - Trainer - INFO - Epoch 10/15 | Train Loss: 1.7613 | Val Loss: 0.9293 | LM: 1.0579 | Causal: 0.7034
+2026-07-09 09:26:18,883 - Trainer - INFO - Epoch 11/15 | Train Loss: 1.7058 | Val Loss: 0.9031 | LM: 1.0186 | Causal: 0.6873
+2026-07-09 09:26:19,216 - Trainer - INFO - Epoch 12/15 | Train Loss: 1.6402 | Val Loss: 0.8641 | LM: 0.9758 | Causal: 0.6644
+2026-07-09 09:26:19,548 - Trainer - INFO - Epoch 13/15 | Train Loss: 1.5938 | Val Loss: 0.8427 | LM: 0.9407 | Causal: 0.6531
+2026-07-09 09:26:19,897 - Trainer - INFO - Epoch 14/15 | Train Loss: 1.5577 | Val Loss: 0.8364 | LM: 0.9188 | Causal: 0.6389
+2026-07-09 09:26:20,336 - Trainer - INFO - Epoch 15/15 | Train Loss: 1.5252 | Val Loss: 0.8300 | LM: 0.9110 | Causal: 0.6142
+2026-07-09 09:26:20,336 - Experiment2 - INFO -   lambda=5.0
+2026-07-09 09:26:20,776 - Trainer - INFO - Epoch 1/15 | Train Loss: 8.1426 | Val Loss: 2.7960 | LM: 3.1850 | Causal: 0.9915
+2026-07-09 09:26:21,125 - Trainer - INFO - Epoch 2/15 | Train Loss: 7.3125 | Val Loss: 2.6532 | LM: 2.7813 | Causal: 0.9062
+2026-07-09 09:26:21,483 - Trainer - INFO - Epoch 3/15 | Train Loss: 6.7638 | Val Loss: 2.4670 | LM: 2.5583 | Causal: 0.8411
+2026-07-09 09:26:21,815 - Trainer - INFO - Epoch 4/15 | Train Loss: 6.4541 | Val Loss: 2.3749 | LM: 2.4499 | Causal: 0.8008
+2026-07-09 09:26:22,149 - Trainer - INFO - Epoch 5/15 | Train Loss: 6.2377 | Val Loss: 2.2207 | LM: 2.3522 | Causal: 0.7771
+2026-07-09 09:26:22,483 - Trainer - INFO - Epoch 6/15 | Train Loss: 6.0344 | Val Loss: 2.1483 | LM: 2.2516 | Causal: 0.7566
+2026-07-09 09:26:22,838 - Trainer - INFO - Epoch 7/15 | Train Loss: 6.0063 | Val Loss: 2.1164 | LM: 2.1944 | Causal: 0.7624
+2026-07-09 09:26:23,174 - Trainer - INFO - Epoch 8/15 | Train Loss: 5.6809 | Val Loss: 2.0388 | LM: 2.2278 | Causal: 0.6906
+2026-07-09 09:26:23,512 - Trainer - INFO - Epoch 9/15 | Train Loss: 5.5789 | Val Loss: 2.3714 | LM: 2.3198 | Causal: 0.6518
+2026-07-09 09:26:23,878 - Trainer - INFO - Epoch 10/15 | Train Loss: 4.9308 | Val Loss: 2.2149 | LM: 2.4944 | Causal: 0.4873
+2026-07-09 09:26:24,298 - Trainer - INFO - Epoch 11/15 | Train Loss: 4.8148 | Val Loss: 2.3980 | LM: 2.4967 | Causal: 0.4636
+2026-07-09 09:26:24,657 - Trainer - INFO - Epoch 12/15 | Train Loss: 4.8869 | Val Loss: 2.1638 | LM: 2.4554 | Causal: 0.4863
+2026-07-09 09:26:25,051 - Trainer - INFO - Epoch 13/15 | Train Loss: 4.5088 | Val Loss: 2.3914 | LM: 2.4104 | Causal: 0.4197
+2026-07-09 09:26:25,051 - Trainer - INFO - Early stopping at epoch 13
+2026-07-09 09:26:25,051 - Experiment2 - INFO -   lambda=10.0
+2026-07-09 09:26:25,525 - Trainer - INFO - Epoch 1/15 | Train Loss: 12.6504 | Val Loss: 3.2082 | LM: 3.2126 | Causal: 0.9438
+2026-07-09 09:26:25,919 - Trainer - INFO - Epoch 2/15 | Train Loss: 11.4094 | Val Loss: 2.6756 | LM: 2.8844 | Causal: 0.8525
+2026-07-09 09:26:26,278 - Trainer - INFO - Epoch 3/15 | Train Loss: 10.8984 | Val Loss: 2.5360 | LM: 2.5862 | Causal: 0.8312
+2026-07-09 09:26:26,632 - Trainer - INFO - Epoch 4/15 | Train Loss: 9.7722 | Val Loss: 2.5079 | LM: 2.7195 | Causal: 0.7053
+2026-07-09 09:26:26,959 - Trainer - INFO - Epoch 5/15 | Train Loss: 9.2283 | Val Loss: 2.5021 | LM: 2.7697 | Causal: 0.6459
+2026-07-09 09:26:27,299 - Trainer - INFO - Epoch 6/15 | Train Loss: 9.6128 | Val Loss: 2.5655 | LM: 2.6905 | Causal: 0.6922
+2026-07-09 09:26:27,680 - Trainer - INFO - Epoch 7/15 | Train Loss: 9.2304 | Val Loss: 2.6133 | LM: 2.6533 | Causal: 0.6577
+2026-07-09 09:26:28,015 - Trainer - INFO - Epoch 8/15 | Train Loss: 8.7580 | Val Loss: 2.5000 | LM: 2.6467 | Causal: 0.6111
+2026-07-09 09:26:28,340 - Trainer - INFO - Epoch 9/15 | Train Loss: 9.1830 | Val Loss: 2.5023 | LM: 2.6507 | Causal: 0.6532
+2026-07-09 09:26:28,670 - Trainer - INFO - Epoch 10/15 | Train Loss: 8.8256 | Val Loss: 2.6553 | LM: 2.6329 | Causal: 0.6193
+2026-07-09 09:26:29,027 - Trainer - INFO - Epoch 11/15 | Train Loss: 7.9818 | Val Loss: 2.8359 | LM: 2.7064 | Causal: 0.5275
+2026-07-09 09:26:29,350 - Trainer - INFO - Epoch 12/15 | Train Loss: 7.6738 | Val Loss: 2.6781 | LM: 2.7792 | Causal: 0.4895
+2026-07-09 09:26:29,671 - Trainer - INFO - Epoch 13/15 | Train Loss: 7.1012 | Val Loss: 2.9266 | LM: 2.7278 | Causal: 0.4373
+2026-07-09 09:26:29,671 - Trainer - INFO - Early stopping at epoch 13
+2026-07-09 09:26:29,671 - Experiment2 - INFO - 评估各模型在不同长度上的表现...
+2026-07-09 09:27:26,001 - Main - INFO - ============================================================
+2026-07-09 09:27:26,001 - Main - INFO - 因果规范场理论最小可行实验
+2026-07-09 09:27:26,001 - Main - INFO - 开始时间: 2026-07-09T09:27:26.001322
+2026-07-09 09:27:26,001 - Main - INFO - ============================================================
+2026-07-09 09:27:26,001 - Main - INFO - [阶段0] 数据生成...
+2026-07-09 09:27:26,346 - Main - INFO -   正例: train=400, val=50, test=50
+2026-07-09 09:27:26,346 - Main - INFO -   负例: train=1200, val=150, test=150
+2026-07-09 09:27:26,346 - Main - INFO -   词汇表大小: 47
+2026-07-09 09:27:26,346 - Main - INFO - [基线训练] 训练基线Transformer...
+2026-07-09 09:27:26,355 - Main - INFO -   基线模型参数量: 408623
+2026-07-09 09:44:54,608 - Experiment4 - INFO - === 实验4: 规范场平坦化 ===
+2026-07-09 09:45:07,923 - Experiment4 - INFO - === 实验4: 规范场平坦化 ===
+2026-07-09 09:45:23,357 - Experiment4 - INFO - === 实验4: 规范场平坦化 ===
+2026-07-09 09:45:23,603 - Experiment4 - INFO - 基线模型: mean_κ=1.1184, max_κ=1.9315
+2026-07-09 09:45:23,603 - Experiment4 - INFO - 因果模型: mean_κ=1.0097, max_κ=1.7120
+2026-07-09 09:45:23,655 - Experiment4 - INFO - 基线Wilson方差=0.000027, 因果Wilson方差=0.000000
+2026-07-09 09:45:23,655 - Experiment4 - INFO - 实验4判决: INCONCLUSIVE (Wilson辅证=是)
+2026-07-09 09:49:12,301 - Trainer - INFO - Epoch 1/6 | Train Loss: 3.9129 | Val Loss: 3.3196 | LM: 3.7278 | Causal: 0.1850
+2026-07-09 09:49:13,063 - Trainer - INFO - Epoch 2/6 | Train Loss: 3.2005 | Val Loss: 2.8788 | LM: 3.1004 | Causal: 0.1000
+2026-07-09 09:49:13,769 - Trainer - INFO - Epoch 3/6 | Train Loss: 2.8504 | Val Loss: 2.7007 | LM: 2.7939 | Causal: 0.0565
+2026-07-09 09:49:14,454 - Trainer - INFO - Epoch 4/6 | Train Loss: 2.7242 | Val Loss: 2.6133 | LM: 2.6502 | Causal: 0.0740
+2026-07-09 09:49:15,142 - Trainer - INFO - Epoch 5/6 | Train Loss: 2.6441 | Val Loss: 2.5615 | LM: 2.5759 | Causal: 0.0682
+2026-07-09 09:49:15,831 - Trainer - INFO - Epoch 6/6 | Train Loss: 2.5982 | Val Loss: 2.5211 | LM: 2.5295 | Causal: 0.0686
+2026-07-09 09:49:44,439 - Trainer - INFO - Epoch 1/6 | Train Loss: 3.6927 | Val Loss: 3.1986 | LM: 3.5702 | Causal: 0.1225
+2026-07-09 09:49:45,096 - Trainer - INFO - Epoch 2/6 | Train Loss: 3.1453 | Val Loss: 2.8534 | LM: 3.0256 | Causal: 0.1196
+2026-07-09 09:49:45,706 - Trainer - INFO - Epoch 3/6 | Train Loss: 2.8728 | Val Loss: 2.6926 | LM: 2.7717 | Causal: 0.1012
+2026-07-09 09:49:46,313 - Trainer - INFO - Epoch 4/6 | Train Loss: 2.7038 | Val Loss: 2.6094 | LM: 2.6370 | Causal: 0.0667
+2026-07-09 09:49:46,943 - Trainer - INFO - Epoch 5/6 | Train Loss: 2.6317 | Val Loss: 2.5545 | LM: 2.5649 | Causal: 0.0668
+2026-07-09 09:49:47,710 - Trainer - INFO - Epoch 6/6 | Train Loss: 2.5750 | Val Loss: 2.5099 | LM: 2.5177 | Causal: 0.0572
+2026-07-09 09:49:48,125 - Trainer - INFO - Epoch 1/6 | Train Loss: 3.3552 | Val Loss: 2.9897 | LM: 3.3552 | Causal: 0.0000
+2026-07-09 09:49:48,527 - Trainer - INFO - Epoch 2/6 | Train Loss: 2.8800 | Val Loss: 2.7594 | LM: 2.8800 | Causal: 0.0000
+2026-07-09 09:49:48,908 - Trainer - INFO - Epoch 3/6 | Train Loss: 2.6976 | Val Loss: 2.6407 | LM: 2.6976 | Causal: 0.0000
+2026-07-09 09:49:49,322 - Trainer - INFO - Epoch 4/6 | Train Loss: 2.5915 | Val Loss: 2.5468 | LM: 2.5915 | Causal: 0.0000
+2026-07-09 09:49:49,715 - Trainer - INFO - Epoch 5/6 | Train Loss: 2.4964 | Val Loss: 2.4307 | LM: 2.4964 | Causal: 0.0000
+2026-07-09 09:49:50,099 - Trainer - INFO - Epoch 6/6 | Train Loss: 2.3881 | Val Loss: 2.3130 | LM: 2.3881 | Causal: 0.0000
+2026-07-09 09:49:50,100 - Experiment4 - INFO - === 实验4: 规范场平坦化 ===
+2026-07-09 09:49:50,163 - Experiment4 - INFO - 基线模型: mean_κ=0.9813, max_κ=2.0658
+2026-07-09 09:49:50,163 - Experiment4 - INFO - 因果模型: mean_κ=1.1555, max_κ=1.8021
+2026-07-09 09:49:50,231 - Experiment4 - INFO - 基线Wilson方差=0.017327, 因果Wilson方差=0.001219
+2026-07-09 09:49:50,233 - Experiment4 - INFO - 实验4判决: STRONG_OPPOSE (Wilson辅证=是)
+2026-07-09 09:51:59,125 - Trainer - INFO - Epoch 1/12 | Train Loss: 2.9887 | Val Loss: 2.6255 | LM: 2.9887 | Causal: 0.0000
+2026-07-09 09:52:00,444 - Trainer - INFO - Epoch 2/12 | Train Loss: 2.4536 | Val Loss: 2.2663 | LM: 2.4536 | Causal: 0.0000
+2026-07-09 09:52:01,788 - Trainer - INFO - Epoch 3/12 | Train Loss: 2.0752 | Val Loss: 1.8043 | LM: 2.0752 | Causal: 0.0000
+2026-07-09 09:52:03,210 - Trainer - INFO - Epoch 4/12 | Train Loss: 1.6831 | Val Loss: 1.4557 | LM: 1.6831 | Causal: 0.0000
+2026-07-09 09:52:04,538 - Trainer - INFO - Epoch 5/12 | Train Loss: 1.4054 | Val Loss: 1.2423 | LM: 1.4054 | Causal: 0.0000
+2026-07-09 09:52:05,849 - Trainer - INFO - Epoch 6/12 | Train Loss: 1.2236 | Val Loss: 1.1129 | LM: 1.2236 | Causal: 0.0000
+2026-07-09 09:52:07,104 - Trainer - INFO - Epoch 7/12 | Train Loss: 1.1038 | Val Loss: 1.0028 | LM: 1.1038 | Causal: 0.0000
+2026-07-09 09:52:08,552 - Trainer - INFO - Epoch 8/12 | Train Loss: 1.0083 | Val Loss: 0.9190 | LM: 1.0083 | Causal: 0.0000
+2026-07-09 09:52:09,893 - Trainer - INFO - Epoch 9/12 | Train Loss: 0.9441 | Val Loss: 0.8586 | LM: 0.9441 | Causal: 0.0000
+2026-07-09 09:52:11,223 - Trainer - INFO - Epoch 10/12 | Train Loss: 0.8961 | Val Loss: 0.8294 | LM: 0.8961 | Causal: 0.0000
+2026-07-09 09:52:12,609 - Trainer - INFO - Epoch 11/12 | Train Loss: 0.8568 | Val Loss: 0.8026 | LM: 0.8568 | Causal: 0.0000
+2026-07-09 09:52:13,999 - Trainer - INFO - Epoch 12/12 | Train Loss: 0.8261 | Val Loss: 0.7799 | LM: 0.8261 | Causal: 0.0000
+2026-07-09 09:52:16,290 - Trainer - INFO - Epoch 1/12 | Train Loss: 3.3449 | Val Loss: 2.6640 | LM: 3.1024 | Causal: 0.2425
+2026-07-09 09:52:18,735 - Trainer - INFO - Epoch 2/12 | Train Loss: 2.7296 | Val Loss: 2.5058 | LM: 2.5612 | Causal: 0.1685
+2026-07-09 09:52:20,944 - Trainer - INFO - Epoch 3/12 | Train Loss: 2.5949 | Val Loss: 2.3812 | LM: 2.4375 | Causal: 0.1574
+2026-07-09 09:52:23,380 - Trainer - INFO - Epoch 4/12 | Train Loss: 2.4578 | Val Loss: 2.2226 | LM: 2.3069 | Causal: 0.1508
+2026-07-09 09:52:25,805 - Trainer - INFO - Epoch 5/12 | Train Loss: 2.2924 | Val Loss: 2.0758 | LM: 2.1551 | Causal: 0.1373
+2026-07-09 09:52:28,122 - Trainer - INFO - Epoch 6/12 | Train Loss: 2.1232 | Val Loss: 1.8920 | LM: 2.0069 | Causal: 0.1164
+2026-07-09 09:52:30,377 - Trainer - INFO - Epoch 7/12 | Train Loss: 1.9248 | Val Loss: 1.6046 | LM: 1.8064 | Causal: 0.1184
+2026-07-09 09:52:32,547 - Trainer - INFO - Epoch 8/12 | Train Loss: 1.7080 | Val Loss: 1.4512 | LM: 1.6043 | Causal: 0.1037
+2026-07-09 09:52:34,644 - Trainer - INFO - Epoch 9/12 | Train Loss: 1.5681 | Val Loss: 1.3567 | LM: 1.4726 | Causal: 0.0955
+2026-07-09 09:52:36,543 - Trainer - INFO - Epoch 10/12 | Train Loss: 1.4499 | Val Loss: 1.2395 | LM: 1.3624 | Causal: 0.0876
+2026-07-09 09:52:38,627 - Trainer - INFO - Epoch 11/12 | Train Loss: 1.3230 | Val Loss: 1.1331 | LM: 1.2590 | Causal: 0.0640
+2026-07-09 09:52:40,558 - Trainer - INFO - Epoch 12/12 | Train Loss: 1.2304 | Val Loss: 1.0662 | LM: 1.1659 | Causal: 0.0645
+2026-07-09 09:54:48,743 - Trainer - INFO - Epoch 1/12 | Train Loss: 2.9887 | Val Loss: 2.6255 | LM: 2.9887 | Causal: 0.0000
+2026-07-09 09:54:50,173 - Trainer - INFO - Epoch 2/12 | Train Loss: 2.4536 | Val Loss: 2.2663 | LM: 2.4536 | Causal: 0.0000
+2026-07-09 09:54:51,585 - Trainer - INFO - Epoch 3/12 | Train Loss: 2.0752 | Val Loss: 1.8043 | LM: 2.0752 | Causal: 0.0000
+2026-07-09 09:54:53,029 - Trainer - INFO - Epoch 4/12 | Train Loss: 1.6831 | Val Loss: 1.4557 | LM: 1.6831 | Causal: 0.0000
+2026-07-09 09:54:54,524 - Trainer - INFO - Epoch 5/12 | Train Loss: 1.4054 | Val Loss: 1.2423 | LM: 1.4054 | Causal: 0.0000
+2026-07-09 09:54:55,945 - Trainer - INFO - Epoch 6/12 | Train Loss: 1.2236 | Val Loss: 1.1129 | LM: 1.2236 | Causal: 0.0000
+2026-07-09 09:54:57,382 - Trainer - INFO - Epoch 7/12 | Train Loss: 1.1038 | Val Loss: 1.0028 | LM: 1.1038 | Causal: 0.0000
+2026-07-09 09:54:58,879 - Trainer - INFO - Epoch 8/12 | Train Loss: 1.0083 | Val Loss: 0.9190 | LM: 1.0083 | Causal: 0.0000
+2026-07-09 09:55:00,260 - Trainer - INFO - Epoch 9/12 | Train Loss: 0.9441 | Val Loss: 0.8586 | LM: 0.9441 | Causal: 0.0000
+2026-07-09 09:55:01,625 - Trainer - INFO - Epoch 10/12 | Train Loss: 0.8961 | Val Loss: 0.8294 | LM: 0.8961 | Causal: 0.0000
+2026-07-09 09:55:02,966 - Trainer - INFO - Epoch 11/12 | Train Loss: 0.8568 | Val Loss: 0.8026 | LM: 0.8568 | Causal: 0.0000
+2026-07-09 09:55:04,455 - Trainer - INFO - Epoch 12/12 | Train Loss: 0.8261 | Val Loss: 0.7799 | LM: 0.8261 | Causal: 0.0000
+2026-07-09 09:55:07,113 - Trainer - INFO - Epoch 1/12 | Train Loss: 3.3449 | Val Loss: 2.6640 | LM: 3.1024 | Causal: 0.2425
+2026-07-09 09:55:09,638 - Trainer - INFO - Epoch 2/12 | Train Loss: 2.7296 | Val Loss: 2.5058 | LM: 2.5612 | Causal: 0.1685
+2026-07-09 09:55:11,992 - Trainer - INFO - Epoch 3/12 | Train Loss: 2.5949 | Val Loss: 2.3812 | LM: 2.4375 | Causal: 0.1574
+2026-07-09 09:55:14,481 - Trainer - INFO - Epoch 4/12 | Train Loss: 2.4578 | Val Loss: 2.2226 | LM: 2.3069 | Causal: 0.1508
+2026-07-09 09:55:16,774 - Trainer - INFO - Epoch 5/12 | Train Loss: 2.2924 | Val Loss: 2.0758 | LM: 2.1551 | Causal: 0.1373
+2026-07-09 09:55:19,290 - Trainer - INFO - Epoch 6/12 | Train Loss: 2.1232 | Val Loss: 1.8920 | LM: 2.0069 | Causal: 0.1164
+2026-07-09 09:55:21,576 - Trainer - INFO - Epoch 7/12 | Train Loss: 1.9248 | Val Loss: 1.6046 | LM: 1.8064 | Causal: 0.1184
+2026-07-09 09:55:23,947 - Trainer - INFO - Epoch 8/12 | Train Loss: 1.7080 | Val Loss: 1.4512 | LM: 1.6043 | Causal: 0.1037
+2026-07-09 09:55:26,146 - Trainer - INFO - Epoch 9/12 | Train Loss: 1.5681 | Val Loss: 1.3567 | LM: 1.4726 | Causal: 0.0955
+2026-07-09 09:55:28,224 - Trainer - INFO - Epoch 10/12 | Train Loss: 1.4499 | Val Loss: 1.2395 | LM: 1.3624 | Causal: 0.0876
+2026-07-09 09:55:30,305 - Trainer - INFO - Epoch 11/12 | Train Loss: 1.3230 | Val Loss: 1.1331 | LM: 1.2590 | Causal: 0.0640
+2026-07-09 09:55:32,321 - Trainer - INFO - Epoch 12/12 | Train Loss: 1.2304 | Val Loss: 1.0662 | LM: 1.1659 | Causal: 0.0645
+2026-07-09 09:55:32,419 - Experiment4 - INFO - === 实验4: 规范场平坦化 ===
+2026-07-09 09:55:32,479 - Experiment4 - INFO - 基线模型: mean_κ=1.8997, max_κ=2.6474
+2026-07-09 09:55:32,479 - Experiment4 - INFO - 因果模型: mean_κ=1.3598, max_κ=2.0492
+2026-07-09 09:55:32,546 - Experiment4 - INFO - 基线Wilson方差=11546.609713, 因果Wilson方差=0.051262
+2026-07-09 09:55:32,547 - Experiment4 - INFO - 实验4判决: SUPPORT (Wilson辅证=是)
+2026-07-09 10:01:11,958 - Trainer - INFO - Epoch 1/15 | Train Loss: 3.2449 | Val Loss: 2.8000 | LM: 3.2449 | Causal: 0.0000
+2026-07-09 10:01:12,140 - Trainer - INFO - Epoch 2/15 | Train Loss: 2.7092 | Val Loss: 2.5308 | LM: 2.7092 | Causal: 0.0000
+2026-07-09 10:01:12,342 - Trainer - INFO - Epoch 3/15 | Train Loss: 2.5072 | Val Loss: 2.3281 | LM: 2.5072 | Causal: 0.0000
+2026-07-09 10:01:12,540 - Trainer - INFO - Epoch 4/15 | Train Loss: 2.3044 | Val Loss: 2.0826 | LM: 2.3044 | Causal: 0.0000
+2026-07-09 10:01:12,761 - Trainer - INFO - Epoch 5/15 | Train Loss: 2.0911 | Val Loss: 1.7911 | LM: 2.0911 | Causal: 0.0000
+2026-07-09 10:01:12,966 - Trainer - INFO - Epoch 6/15 | Train Loss: 1.8539 | Val Loss: 1.5363 | LM: 1.8539 | Causal: 0.0000
+2026-07-09 10:01:13,166 - Trainer - INFO - Epoch 7/15 | Train Loss: 1.6452 | Val Loss: 1.3813 | LM: 1.6452 | Causal: 0.0000
+2026-07-09 10:01:13,385 - Trainer - INFO - Epoch 8/15 | Train Loss: 1.4736 | Val Loss: 1.2443 | LM: 1.4736 | Causal: 0.0000
+2026-07-09 10:01:13,639 - Trainer - INFO - Epoch 9/15 | Train Loss: 1.3327 | Val Loss: 1.1158 | LM: 1.3327 | Causal: 0.0000
+2026-07-09 10:01:13,874 - Trainer - INFO - Epoch 10/15 | Train Loss: 1.2161 | Val Loss: 1.0213 | LM: 1.2161 | Causal: 0.0000
+2026-07-09 10:01:14,085 - Trainer - INFO - Epoch 11/15 | Train Loss: 1.1303 | Val Loss: 0.9585 | LM: 1.1303 | Causal: 0.0000
+2026-07-09 10:01:14,302 - Trainer - INFO - Epoch 12/15 | Train Loss: 1.0570 | Val Loss: 0.8852 | LM: 1.0570 | Causal: 0.0000
+2026-07-09 10:01:14,510 - Trainer - INFO - Epoch 13/15 | Train Loss: 0.9957 | Val Loss: 0.8371 | LM: 0.9957 | Causal: 0.0000
+2026-07-09 10:01:14,690 - Trainer - INFO - Epoch 14/15 | Train Loss: 0.9470 | Val Loss: 0.7843 | LM: 0.9470 | Causal: 0.0000
+2026-07-09 10:01:14,871 - Trainer - INFO - Epoch 15/15 | Train Loss: 0.9115 | Val Loss: 0.7641 | LM: 0.9115 | Causal: 0.0000
+2026-07-09 10:01:16,247 - Trainer - INFO - Epoch 1/15 | Train Loss: 3.6886 | Val Loss: 2.9470 | LM: 3.4483 | Causal: 0.2403
+2026-07-09 10:01:17,603 - Trainer - INFO - Epoch 2/15 | Train Loss: 2.9886 | Val Loss: 2.5944 | LM: 2.8048 | Causal: 0.1839
+2026-07-09 10:01:18,895 - Trainer - INFO - Epoch 3/15 | Train Loss: 2.7273 | Val Loss: 2.4848 | LM: 2.5920 | Causal: 0.1353
+2026-07-09 10:01:20,286 - Trainer - INFO - Epoch 4/15 | Train Loss: 2.6309 | Val Loss: 2.4218 | LM: 2.5107 | Causal: 0.1202
+2026-07-09 10:01:21,475 - Trainer - INFO - Epoch 5/15 | Train Loss: 2.5667 | Val Loss: 2.3624 | LM: 2.4519 | Causal: 0.1148
+2026-07-09 10:01:22,671 - Trainer - INFO - Epoch 6/15 | Train Loss: 2.5077 | Val Loss: 2.2830 | LM: 2.3908 | Causal: 0.1170
+2026-07-09 10:01:23,906 - Trainer - INFO - Epoch 7/15 | Train Loss: 2.4387 | Val Loss: 2.1953 | LM: 2.3140 | Causal: 0.1246
+2026-07-09 10:01:25,059 - Trainer - INFO - Epoch 8/15 | Train Loss: 2.3375 | Val Loss: 2.1012 | LM: 2.2312 | Causal: 0.1062
+2026-07-09 10:01:26,181 - Trainer - INFO - Epoch 9/15 | Train Loss: 2.2667 | Val Loss: 2.0171 | LM: 2.1538 | Causal: 0.1129
+2026-07-09 10:01:27,301 - Trainer - INFO - Epoch 10/15 | Train Loss: 2.1943 | Val Loss: 1.9247 | LM: 2.0782 | Causal: 0.1160
+2026-07-09 10:01:28,434 - Trainer - INFO - Epoch 11/15 | Train Loss: 2.1075 | Val Loss: 1.8212 | LM: 1.9992 | Causal: 0.1083
+2026-07-09 10:01:29,630 - Trainer - INFO - Epoch 12/15 | Train Loss: 2.0035 | Val Loss: 1.6487 | LM: 1.8967 | Causal: 0.1067
+2026-07-09 10:01:30,797 - Trainer - INFO - Epoch 13/15 | Train Loss: 1.8837 | Val Loss: 1.4899 | LM: 1.7529 | Causal: 0.1308
+2026-07-09 10:01:32,076 - Trainer - INFO - Epoch 14/15 | Train Loss: 1.7440 | Val Loss: 1.3942 | LM: 1.6169 | Causal: 0.1271
+2026-07-09 10:01:33,351 - Trainer - INFO - Epoch 15/15 | Train Loss: 1.6356 | Val Loss: 1.3033 | LM: 1.5146 | Causal: 0.1210
+2026-07-09 10:01:33,352 - Experiment5 - INFO - === 实验5(受控): baseline(控制) 模型 正例vs负例平坦度 ===
+2026-07-09 10:01:33,711 - Experiment5 - INFO -   判决=INCONCLUSIVE | 配对κ差中位=0.0000 p=0.9976 | κ: 正=1.941 负=1.940
+2026-07-09 10:01:33,711 - Experiment5 - INFO - === 实验5(受控): causal(主) 模型 正例vs负例平坦度 ===
+2026-07-09 10:01:34,488 - Experiment5 - INFO -   判决=INCONCLUSIVE | 配对κ差中位=0.0000 p=0.0012 | κ: 正=1.159 负=1.162
+2026-07-09 10:06:11,018 - Trainer - INFO - Epoch 1/15 | Train Loss: 3.1565 | Val Loss: 2.7699 | LM: 3.1565 | Causal: 0.0000
+2026-07-09 10:06:11,249 - Trainer - INFO - Epoch 2/15 | Train Loss: 2.6202 | Val Loss: 2.5045 | LM: 2.6202 | Causal: 0.0000
+2026-07-09 10:06:11,484 - Trainer - INFO - Epoch 3/15 | Train Loss: 2.3727 | Val Loss: 2.2136 | LM: 2.3727 | Causal: 0.0000
+2026-07-09 10:06:11,705 - Trainer - INFO - Epoch 4/15 | Train Loss: 2.0977 | Val Loss: 1.8571 | LM: 2.0977 | Causal: 0.0000
+2026-07-09 10:06:11,929 - Trainer - INFO - Epoch 5/15 | Train Loss: 1.7712 | Val Loss: 1.5392 | LM: 1.7712 | Causal: 0.0000
+2026-07-09 10:06:12,162 - Trainer - INFO - Epoch 6/15 | Train Loss: 1.5318 | Val Loss: 1.3460 | LM: 1.5318 | Causal: 0.0000
+2026-07-09 10:06:12,410 - Trainer - INFO - Epoch 7/15 | Train Loss: 1.3578 | Val Loss: 1.1869 | LM: 1.3578 | Causal: 0.0000
+2026-07-09 10:06:12,641 - Trainer - INFO - Epoch 8/15 | Train Loss: 1.2168 | Val Loss: 1.0748 | LM: 1.2168 | Causal: 0.0000
+2026-07-09 10:06:12,858 - Trainer - INFO - Epoch 9/15 | Train Loss: 1.1047 | Val Loss: 0.9722 | LM: 1.1047 | Causal: 0.0000
+2026-07-09 10:06:13,075 - Trainer - INFO - Epoch 10/15 | Train Loss: 1.0269 | Val Loss: 0.9001 | LM: 1.0269 | Causal: 0.0000
+2026-07-09 10:06:13,295 - Trainer - INFO - Epoch 11/15 | Train Loss: 0.9685 | Val Loss: 0.8505 | LM: 0.9685 | Causal: 0.0000
+2026-07-09 10:06:13,533 - Trainer - INFO - Epoch 12/15 | Train Loss: 0.9213 | Val Loss: 0.8233 | LM: 0.9213 | Causal: 0.0000
+2026-07-09 10:06:13,767 - Trainer - INFO - Epoch 13/15 | Train Loss: 0.8815 | Val Loss: 0.7972 | LM: 0.8815 | Causal: 0.0000
+2026-07-09 10:06:14,025 - Trainer - INFO - Epoch 14/15 | Train Loss: 0.8513 | Val Loss: 0.7699 | LM: 0.8513 | Causal: 0.0000
+2026-07-09 10:06:14,259 - Trainer - INFO - Epoch 15/15 | Train Loss: 0.8206 | Val Loss: 0.7588 | LM: 0.8206 | Causal: 0.0000
+2026-07-09 10:06:14,259 - Experiment6 - INFO - === 实验6(闭合 holonomy 受控): causal 模型 正例vs负例 ===
+2026-07-09 10:06:15,462 - Experiment6 - INFO -   判决=INCONCLUSIVE | 配对平平坦度差中位=0.0000 p=1.0000 | 闭合平坦度: 正=27539.8086 负=25938.5369
+2026-07-09 10:06:15,464 - Experiment5 - INFO - === 实验5(受控): causal 模型 正例vs负例平坦度 ===
+2026-07-09 10:06:16,315 - Experiment5 - INFO -   判决=INCONCLUSIVE | 配对κ差中位=0.0000 p=1.0000 | κ: 正=1.915 负=1.908
+2026-07-09 10:06:51,706 - Trainer - INFO - Epoch 1/15 | Train Loss: 3.1565 | Val Loss: 2.7699 | LM: 3.1565 | Causal: 0.0000
+2026-07-09 10:06:51,933 - Trainer - INFO - Epoch 2/15 | Train Loss: 2.6202 | Val Loss: 2.5044 | LM: 2.6202 | Causal: 0.0000
+2026-07-09 10:06:52,158 - Trainer - INFO - Epoch 3/15 | Train Loss: 2.3727 | Val Loss: 2.2136 | LM: 2.3727 | Causal: 0.0000
+2026-07-09 10:06:52,389 - Trainer - INFO - Epoch 4/15 | Train Loss: 2.0977 | Val Loss: 1.8571 | LM: 2.0977 | Causal: 0.0000
+2026-07-09 10:06:52,632 - Trainer - INFO - Epoch 5/15 | Train Loss: 1.7709 | Val Loss: 1.5329 | LM: 1.7709 | Causal: 0.0000
+2026-07-09 10:06:52,877 - Trainer - INFO - Epoch 6/15 | Train Loss: 1.5219 | Val Loss: 1.3392 | LM: 1.5219 | Causal: 0.0000
+2026-07-09 10:06:53,110 - Trainer - INFO - Epoch 7/15 | Train Loss: 1.3509 | Val Loss: 1.1854 | LM: 1.3509 | Causal: 0.0000
+2026-07-09 10:06:53,337 - Trainer - INFO - Epoch 8/15 | Train Loss: 1.2146 | Val Loss: 1.0719 | LM: 1.2146 | Causal: 0.0000
+2026-07-09 10:06:53,574 - Trainer - INFO - Epoch 9/15 | Train Loss: 1.1052 | Val Loss: 0.9694 | LM: 1.1052 | Causal: 0.0000
+2026-07-09 10:06:53,892 - Trainer - INFO - Epoch 10/15 | Train Loss: 1.0191 | Val Loss: 0.8988 | LM: 1.0191 | Causal: 0.0000
+2026-07-09 10:06:54,174 - Trainer - INFO - Epoch 11/15 | Train Loss: 0.9623 | Val Loss: 0.8466 | LM: 0.9623 | Causal: 0.0000
+2026-07-09 10:06:54,466 - Trainer - INFO - Epoch 12/15 | Train Loss: 0.9162 | Val Loss: 0.8213 | LM: 0.9162 | Causal: 0.0000
+2026-07-09 10:06:54,754 - Trainer - INFO - Epoch 13/15 | Train Loss: 0.8776 | Val Loss: 0.7966 | LM: 0.8776 | Causal: 0.0000
+2026-07-09 10:06:55,035 - Trainer - INFO - Epoch 14/15 | Train Loss: 0.8610 | Val Loss: 0.7781 | LM: 0.8610 | Causal: 0.0000
+2026-07-09 10:06:55,290 - Trainer - INFO - Epoch 15/15 | Train Loss: 0.8286 | Val Loss: 0.7667 | LM: 0.8286 | Causal: 0.0000
+2026-07-09 10:06:55,292 - Experiment6 - INFO - === 实验6(闭合 holonomy 受控): causal 模型 正例vs负例 ===
+2026-07-09 10:07:14,735 - Experiment6 - INFO -   判决=INCONCLUSIVE | 配对平平坦度差中位=0.0000 p=0.0000 | 闭合平坦度: 正=2.5232 负=2.5441
+2026-07-09 10:07:14,738 - Experiment5 - INFO - === 实验5(受控): causal 模型 正例vs负例平坦度 ===
+2026-07-09 10:07:24,958 - Experiment5 - INFO -   判决=INCONCLUSIVE | 配对κ差中位=0.0000 p=1.0000 | κ: 正=1.914 负=1.908
+2026-07-09 10:09:02,656 - Trainer - INFO - Epoch 1/15 | Train Loss: 3.1565 | Val Loss: 2.7699 | LM: 3.1565 | Causal: 0.0000 | Closure: 0.0000
+2026-07-09 10:09:02,904 - Trainer - INFO - Epoch 2/15 | Train Loss: 2.6202 | Val Loss: 2.5045 | LM: 2.6202 | Causal: 0.0000 | Closure: 0.0000
+2026-07-09 10:09:03,151 - Trainer - INFO - Epoch 3/15 | Train Loss: 2.3727 | Val Loss: 2.2137 | LM: 2.3727 | Causal: 0.0000 | Closure: 0.0000
+2026-07-09 10:09:03,381 - Trainer - INFO - Epoch 4/15 | Train Loss: 2.0977 | Val Loss: 1.8572 | LM: 2.0977 | Causal: 0.0000 | Closure: 0.0000
+2026-07-09 10:09:03,642 - Trainer - INFO - Epoch 5/15 | Train Loss: 1.7727 | Val Loss: 1.5380 | LM: 1.7727 | Causal: 0.0000 | Closure: 0.0000
+2026-07-09 10:09:03,884 - Trainer - INFO - Epoch 6/15 | Train Loss: 1.5269 | Val Loss: 1.3429 | LM: 1.5269 | Causal: 0.0000 | Closure: 0.0000
+2026-07-09 10:09:04,165 - Trainer - INFO - Epoch 7/15 | Train Loss: 1.3507 | Val Loss: 1.1832 | LM: 1.3507 | Causal: 0.0000 | Closure: 0.0000
+2026-07-09 10:09:04,442 - Trainer - INFO - Epoch 8/15 | Train Loss: 1.2108 | Val Loss: 1.0641 | LM: 1.2108 | Causal: 0.0000 | Closure: 0.0000
+2026-07-09 10:09:04,733 - Trainer - INFO - Epoch 9/15 | Train Loss: 1.1040 | Val Loss: 0.9674 | LM: 1.1040 | Causal: 0.0000 | Closure: 0.0000
+2026-07-09 10:09:05,013 - Trainer - INFO - Epoch 10/15 | Train Loss: 1.0237 | Val Loss: 0.8973 | LM: 1.0237 | Causal: 0.0000 | Closure: 0.0000
+2026-07-09 10:09:05,265 - Trainer - INFO - Epoch 11/15 | Train Loss: 0.9675 | Val Loss: 0.8469 | LM: 0.9675 | Causal: 0.0000 | Closure: 0.0000
+2026-07-09 10:09:05,529 - Trainer - INFO - Epoch 12/15 | Train Loss: 0.9207 | Val Loss: 0.8144 | LM: 0.9207 | Causal: 0.0000 | Closure: 0.0000
+2026-07-09 10:09:05,793 - Trainer - INFO - Epoch 13/15 | Train Loss: 0.8813 | Val Loss: 0.8004 | LM: 0.8813 | Causal: 0.0000 | Closure: 0.0000
+2026-07-09 10:09:06,034 - Trainer - INFO - Epoch 14/15 | Train Loss: 0.8594 | Val Loss: 0.7791 | LM: 0.8594 | Causal: 0.0000 | Closure: 0.0000
+2026-07-09 10:09:06,276 - Trainer - INFO - Epoch 15/15 | Train Loss: 0.8306 | Val Loss: 0.7639 | LM: 0.8306 | Causal: 0.0000 | Closure: 0.0000
+2026-07-09 10:09:06,278 - Experiment6 - INFO - === 实验6(闭合 holonomy 受控): no_closure 模型 正例vs负例 ===
+2026-07-09 10:09:25,408 - Experiment6 - INFO -   判决=INCONCLUSIVE | 配对平平坦度差中位=0.0000 p=0.0000 | 闭合平坦度: 正=2.5229 负=2.5441
+2026-07-09 10:09:25,776 - Trainer - INFO - Epoch 1/15 | Train Loss: 3.2954 | Val Loss: 2.7881 | LM: 3.2098 | Causal: 0.0000 | Closure: 0.0855
+2026-07-09 10:09:26,024 - Trainer - INFO - Epoch 2/15 | Train Loss: 2.6843 | Val Loss: 2.5899 | LM: 2.6552 | Causal: 0.0000 | Closure: 0.0291
+2026-07-09 10:09:26,288 - Trainer - INFO - Epoch 3/15 | Train Loss: 2.5256 | Val Loss: 2.3873 | LM: 2.4975 | Causal: 0.0000 | Closure: 0.0281
+2026-07-09 10:09:26,555 - Trainer - INFO - Epoch 4/15 | Train Loss: 2.3028 | Val Loss: 2.1319 | LM: 2.2712 | Causal: 0.0000 | Closure: 0.0317
+2026-07-09 10:09:26,821 - Trainer - INFO - Epoch 5/15 | Train Loss: 2.0357 | Val Loss: 1.7359 | LM: 2.0066 | Causal: 0.0000 | Closure: 0.0290
+2026-07-09 10:09:27,085 - Trainer - INFO - Epoch 6/15 | Train Loss: 1.7114 | Val Loss: 1.4641 | LM: 1.6833 | Causal: 0.0000 | Closure: 0.0281
+2026-07-09 10:09:27,345 - Trainer - INFO - Epoch 7/15 | Train Loss: 1.4853 | Val Loss: 1.2945 | LM: 1.4595 | Causal: 0.0000 | Closure: 0.0258
+2026-07-09 10:09:27,617 - Trainer - INFO - Epoch 8/15 | Train Loss: 1.3292 | Val Loss: 1.1605 | LM: 1.3052 | Causal: 0.0000 | Closure: 0.0240
+2026-07-09 10:09:27,883 - Trainer - INFO - Epoch 9/15 | Train Loss: 1.2144 | Val Loss: 1.0970 | LM: 1.1925 | Causal: 0.0000 | Closure: 0.0220
+2026-07-09 10:09:28,148 - Trainer - INFO - Epoch 10/15 | Train Loss: 1.1428 | Val Loss: 1.0496 | LM: 1.1233 | Causal: 0.0000 | Closure: 0.0195
+2026-07-09 10:09:28,415 - Trainer - INFO - Epoch 11/15 | Train Loss: 1.0851 | Val Loss: 0.9895 | LM: 1.0671 | Causal: 0.0000 | Closure: 0.0181
+2026-07-09 10:09:28,703 - Trainer - INFO - Epoch 12/15 | Train Loss: 1.0209 | Val Loss: 0.9106 | LM: 1.0040 | Causal: 0.0000 | Closure: 0.0169
+2026-07-09 10:09:28,983 - Trainer - INFO - Epoch 13/15 | Train Loss: 0.9635 | Val Loss: 0.8693 | LM: 0.9472 | Causal: 0.0000 | Closure: 0.0163
+2026-07-09 10:09:29,287 - Trainer - INFO - Epoch 14/15 | Train Loss: 0.9097 | Val Loss: 0.8024 | LM: 0.8950 | Causal: 0.0000 | Closure: 0.0147
+2026-07-09 10:09:29,555 - Trainer - INFO - Epoch 15/15 | Train Loss: 0.8678 | Val Loss: 0.7666 | LM: 0.8534 | Causal: 0.0000 | Closure: 0.0144
+2026-07-09 10:09:29,555 - Experiment6 - INFO - === 实验6(闭合 holonomy 受控): with_closure 模型 正例vs负例 ===
+2026-07-09 10:09:41,665 - Experiment6 - INFO -   判决=INCONCLUSIVE | 配对平平坦度差中位=0.0000 p=0.0098 | 闭合平坦度: 正=0.1388 负=0.1401
+2026-07-09 10:18:14,889 - Trainer - INFO - Epoch 1/12 | Train Loss: 3.5202 | Val Loss: 3.0629 | LM: 3.5202 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:15,078 - Trainer - INFO - Epoch 2/12 | Train Loss: 2.9247 | Val Loss: 2.7645 | LM: 2.9247 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:15,278 - Trainer - INFO - Epoch 3/12 | Train Loss: 2.7134 | Val Loss: 2.6526 | LM: 2.7134 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:15,468 - Trainer - INFO - Epoch 4/12 | Train Loss: 2.6372 | Val Loss: 2.6059 | LM: 2.6372 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:15,674 - Trainer - INFO - Epoch 5/12 | Train Loss: 2.5879 | Val Loss: 2.5488 | LM: 2.5879 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:15,869 - Trainer - INFO - Epoch 6/12 | Train Loss: 2.5135 | Val Loss: 2.4507 | LM: 2.5135 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:16,057 - Trainer - INFO - Epoch 7/12 | Train Loss: 2.3835 | Val Loss: 2.2563 | LM: 2.3835 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:16,229 - Trainer - INFO - Epoch 8/12 | Train Loss: 2.1400 | Val Loss: 1.8519 | LM: 2.1400 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:16,403 - Trainer - INFO - Epoch 9/12 | Train Loss: 1.8564 | Val Loss: 1.5918 | LM: 1.8564 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:16,575 - Trainer - INFO - Epoch 10/12 | Train Loss: 1.6258 | Val Loss: 1.3963 | LM: 1.6258 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:16,779 - Trainer - INFO - Epoch 11/12 | Train Loss: 1.4529 | Val Loss: 1.2843 | LM: 1.4529 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:16,967 - Trainer - INFO - Epoch 12/12 | Train Loss: 1.3397 | Val Loss: 1.2270 | LM: 1.3397 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:16,968 - Experiment7 - INFO - === 实验7(回环 holonomy 受控): A_baseline_LM ===
+2026-07-09 10:18:44,315 - Experiment7 - INFO -   判决=OPPOSE | 回环平坦度: 正=2.1111 负=2.1110 | 回环数: 正=0.00 负=0.00 | 配对差中位=-0.0224 p=0.7096
+2026-07-09 10:18:44,517 - Trainer - INFO - Epoch 1/12 | Train Loss: 3.6218 | Val Loss: 3.1659 | LM: 3.6218 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:44,695 - Trainer - INFO - Epoch 2/12 | Train Loss: 2.9997 | Val Loss: 2.8112 | LM: 2.9997 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:44,898 - Trainer - INFO - Epoch 3/12 | Train Loss: 2.7424 | Val Loss: 2.6609 | LM: 2.7424 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:45,099 - Trainer - INFO - Epoch 4/12 | Train Loss: 2.6381 | Val Loss: 2.5975 | LM: 2.6381 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:45,343 - Trainer - INFO - Epoch 5/12 | Train Loss: 2.5771 | Val Loss: 2.5319 | LM: 2.5771 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:45,526 - Trainer - INFO - Epoch 6/12 | Train Loss: 2.4917 | Val Loss: 2.4186 | LM: 2.4917 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:45,715 - Trainer - INFO - Epoch 7/12 | Train Loss: 2.3236 | Val Loss: 2.0936 | LM: 2.3236 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:45,904 - Trainer - INFO - Epoch 8/12 | Train Loss: 2.0477 | Val Loss: 1.8283 | LM: 2.0477 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:46,106 - Trainer - INFO - Epoch 9/12 | Train Loss: 1.8326 | Val Loss: 1.6156 | LM: 1.8326 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:46,327 - Trainer - INFO - Epoch 10/12 | Train Loss: 1.6465 | Val Loss: 1.4636 | LM: 1.6465 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:46,520 - Trainer - INFO - Epoch 11/12 | Train Loss: 1.4991 | Val Loss: 1.3416 | LM: 1.4991 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:46,728 - Trainer - INFO - Epoch 12/12 | Train Loss: 1.3897 | Val Loss: 1.2752 | LM: 1.3897 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000
+2026-07-09 10:18:46,728 - Experiment7 - INFO - === 实验7(回环 holonomy 受控): B_uniform_compress ===
+2026-07-09 10:19:15,177 - Experiment7 - INFO -   判决=INCONCLUSIVE | 回环平坦度: 正=2.1362 负=2.1628 | 回环数: 正=0.00 负=0.00 | 配对差中位=0.0010 p=0.3006
+2026-07-09 10:23:04,465 - Trainer - INFO - Epoch 1/12 | Train Loss: 5.5306 | Val Loss: 3.1134 | LM: 3.5405 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9901
+2026-07-09 10:26:31,383 - Trainer - INFO - Epoch 2/12 | Train Loss: 4.9580 | Val Loss: 2.7735 | LM: 2.9562 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0018
+2026-07-09 10:30:25,854 - Trainer - INFO - Epoch 3/12 | Train Loss: 4.7174 | Val Loss: 2.6532 | LM: 2.7175 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9999
+2026-07-09 10:34:21,064 - Trainer - INFO - Epoch 4/12 | Train Loss: 4.6431 | Val Loss: 2.6177 | LM: 2.6423 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0008
+2026-07-09 10:53:06,245 - Experiment7 - INFO -   [分层] phys_curv_mean=1.8703(阈0.2)→INCONCLUSIVE | flex 正=2.1544 负=2.1544 τ=0.5→INCONCLUSIVE
+2026-07-09 10:53:28,210 - Experiment7 - INFO -   [分层] phys_curv_mean=1.8703(阈0.2)→INCONCLUSIVE | flex 正=2.1544 负=2.1544 τ=0.5→INCONCLUSIVE
+2026-07-09 11:00:10,365 - Experiment7 - INFO -   [分层] phys_curv_mean=1.8703(阈0.2)→INCONCLUSIVE | flex 正=2.1544 负=2.1544 τ=0.5→INCONCLUSIVE
+2026-07-09 11:00:13,334 - Trainer - INFO - Epoch 1/1 | Train Loss: 14.8995 | Val Loss: 0.0000 | LM: 4.0325 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 10.8671
+2026-07-09 11:00:33,334 - Experiment7 - INFO -   [分层] phys_curv_mean=1.8703(阈0.2)→INCONCLUSIVE | flex 正=2.1544 负=2.1544 τ=0.5→INCONCLUSIVE
+2026-07-09 11:00:36,402 - Trainer - INFO - Epoch 1/1 | Train Loss: 14.8995 | Val Loss: 0.0000 | LM: 4.0325 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 10.8671
+2026-07-09 11:02:57,354 - Trainer - INFO - Epoch 1/12 | Train Loss: 3.5202 | Val Loss: 3.0629 | LM: 3.5202 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:02:58,217 - Trainer - INFO - Epoch 2/12 | Train Loss: 2.9247 | Val Loss: 2.7645 | LM: 2.9247 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:02:59,082 - Trainer - INFO - Epoch 3/12 | Train Loss: 2.7134 | Val Loss: 2.6526 | LM: 2.7134 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:00,002 - Trainer - INFO - Epoch 4/12 | Train Loss: 2.6372 | Val Loss: 2.6059 | LM: 2.6372 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:00,870 - Trainer - INFO - Epoch 5/12 | Train Loss: 2.5879 | Val Loss: 2.5488 | LM: 2.5879 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:01,722 - Trainer - INFO - Epoch 6/12 | Train Loss: 2.5134 | Val Loss: 2.4506 | LM: 2.5134 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:02,583 - Trainer - INFO - Epoch 7/12 | Train Loss: 2.3834 | Val Loss: 2.2561 | LM: 2.3834 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:03,434 - Trainer - INFO - Epoch 8/12 | Train Loss: 2.1413 | Val Loss: 1.8851 | LM: 2.1413 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:04,300 - Trainer - INFO - Epoch 9/12 | Train Loss: 1.8870 | Val Loss: 1.6470 | LM: 1.8870 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:05,233 - Trainer - INFO - Epoch 10/12 | Train Loss: 1.6780 | Val Loss: 1.4470 | LM: 1.6780 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:06,096 - Trainer - INFO - Epoch 11/12 | Train Loss: 1.4953 | Val Loss: 1.3120 | LM: 1.4953 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:06,960 - Trainer - INFO - Epoch 12/12 | Train Loss: 1.3672 | Val Loss: 1.2413 | LM: 1.3672 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:06,960 - Experiment7 - INFO - === 实验7(回环 holonomy 受控): A_baseline_LM ===
+2026-07-09 11:03:31,334 - Experiment7 - INFO -   判决=OPPOSE | 回环平坦度: 正=2.0807 负=2.0813 | 回环数: 正=0.00 负=0.00 | 配对差中位=-0.0156 p=0.6680
+2026-07-09 11:03:32,352 - Trainer - INFO - Epoch 1/12 | Train Loss: 3.6218 | Val Loss: 3.1659 | LM: 3.6218 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:33,283 - Trainer - INFO - Epoch 2/12 | Train Loss: 2.9997 | Val Loss: 2.8112 | LM: 2.9997 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:34,287 - Trainer - INFO - Epoch 3/12 | Train Loss: 2.7424 | Val Loss: 2.6609 | LM: 2.7424 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:35,234 - Trainer - INFO - Epoch 4/12 | Train Loss: 2.6381 | Val Loss: 2.5975 | LM: 2.6381 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:36,217 - Trainer - INFO - Epoch 5/12 | Train Loss: 2.5771 | Val Loss: 2.5319 | LM: 2.5771 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:37,256 - Trainer - INFO - Epoch 6/12 | Train Loss: 2.4917 | Val Loss: 2.4186 | LM: 2.4917 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:38,247 - Trainer - INFO - Epoch 7/12 | Train Loss: 2.3236 | Val Loss: 2.0944 | LM: 2.3236 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:39,239 - Trainer - INFO - Epoch 8/12 | Train Loss: 2.0511 | Val Loss: 1.8359 | LM: 2.0511 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:40,290 - Trainer - INFO - Epoch 9/12 | Train Loss: 1.8460 | Val Loss: 1.6362 | LM: 1.8460 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:41,253 - Trainer - INFO - Epoch 10/12 | Train Loss: 1.6540 | Val Loss: 1.4477 | LM: 1.6540 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:42,185 - Trainer - INFO - Epoch 11/12 | Train Loss: 1.4873 | Val Loss: 1.3290 | LM: 1.4873 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:43,143 - Trainer - INFO - Epoch 12/12 | Train Loss: 1.3727 | Val Loss: 1.2612 | LM: 1.3727 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:03:43,143 - Experiment7 - INFO - === 实验7(回环 holonomy 受控): B_uniform_compress ===
+2026-07-09 11:04:10,603 - Experiment7 - INFO -   判决=OPPOSE | 回环平坦度: 正=2.2395 负=2.2681 | 回环数: 正=0.00 负=0.00 | 配对差中位=-0.0023 p=0.2930
+2026-07-09 11:07:48,526 - Trainer - INFO - Epoch 1/12 | Train Loss: 5.5306 | Val Loss: 3.1134 | LM: 3.5405 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9901 | RigidFlex: 0.0000
+2026-07-09 11:11:43,183 - Trainer - INFO - Epoch 2/12 | Train Loss: 4.9580 | Val Loss: 2.7735 | LM: 2.9562 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0018 | RigidFlex: 0.0000
+2026-07-09 11:16:28,945 - Trainer - INFO - Epoch 3/12 | Train Loss: 4.7173 | Val Loss: 2.6532 | LM: 2.7175 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9999 | RigidFlex: 0.0000
+2026-07-09 11:20:40,652 - Trainer - INFO - Epoch 4/12 | Train Loss: 4.6431 | Val Loss: 2.6176 | LM: 2.6423 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0008 | RigidFlex: 0.0000
+2026-07-09 11:25:09,039 - Trainer - INFO - Epoch 5/12 | Train Loss: 4.6104 | Val Loss: 2.5897 | LM: 2.6123 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9981 | RigidFlex: 0.0000
+2026-07-09 11:29:20,207 - Trainer - INFO - Epoch 6/12 | Train Loss: 4.5821 | Val Loss: 2.5671 | LM: 2.5861 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9960 | RigidFlex: 0.0000
+2026-07-09 11:34:00,373 - Trainer - INFO - Epoch 1/12 | Train Loss: 3.5202 | Val Loss: 3.0629 | LM: 3.5202 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:01,227 - Trainer - INFO - Epoch 2/12 | Train Loss: 2.9247 | Val Loss: 2.7645 | LM: 2.9247 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:02,090 - Trainer - INFO - Epoch 3/12 | Train Loss: 2.7134 | Val Loss: 2.6526 | LM: 2.7134 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:03,008 - Trainer - INFO - Epoch 4/12 | Train Loss: 2.6372 | Val Loss: 2.6059 | LM: 2.6372 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:03,873 - Trainer - INFO - Epoch 5/12 | Train Loss: 2.5879 | Val Loss: 2.5488 | LM: 2.5879 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:04,750 - Trainer - INFO - Epoch 6/12 | Train Loss: 2.5134 | Val Loss: 2.4506 | LM: 2.5134 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:05,609 - Trainer - INFO - Epoch 7/12 | Train Loss: 2.3834 | Val Loss: 2.2561 | LM: 2.3834 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:06,515 - Trainer - INFO - Epoch 8/12 | Train Loss: 2.1438 | Val Loss: 1.8760 | LM: 2.1438 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:07,510 - Trainer - INFO - Epoch 9/12 | Train Loss: 1.8867 | Val Loss: 1.6465 | LM: 1.8867 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:08,481 - Trainer - INFO - Epoch 10/12 | Train Loss: 1.6725 | Val Loss: 1.4431 | LM: 1.6725 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:09,466 - Trainer - INFO - Epoch 11/12 | Train Loss: 1.4937 | Val Loss: 1.3123 | LM: 1.4937 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:10,441 - Trainer - INFO - Epoch 12/12 | Train Loss: 1.3677 | Val Loss: 1.2420 | LM: 1.3677 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:10,442 - Experiment7 - INFO - === 实验7(回环 holonomy 受控): A_baseline_LM ===
+2026-07-09 11:34:39,521 - Experiment7 - INFO -   判决=OPPOSE | 回环平坦度: 正=2.0802 负=2.0811 | 回环数: 正=0.00 负=0.00 | 配对差中位=-0.0157 p=0.6733
+2026-07-09 11:34:40,826 - Trainer - INFO - Epoch 1/12 | Train Loss: 3.6218 | Val Loss: 3.1659 | LM: 3.6218 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:41,752 - Trainer - INFO - Epoch 2/12 | Train Loss: 2.9997 | Val Loss: 2.8112 | LM: 2.9997 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:42,715 - Trainer - INFO - Epoch 3/12 | Train Loss: 2.7424 | Val Loss: 2.6609 | LM: 2.7424 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:43,667 - Trainer - INFO - Epoch 4/12 | Train Loss: 2.6381 | Val Loss: 2.5975 | LM: 2.6381 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:44,593 - Trainer - INFO - Epoch 5/12 | Train Loss: 2.5771 | Val Loss: 2.5319 | LM: 2.5771 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:45,522 - Trainer - INFO - Epoch 6/12 | Train Loss: 2.4917 | Val Loss: 2.4186 | LM: 2.4917 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:46,455 - Trainer - INFO - Epoch 7/12 | Train Loss: 2.3236 | Val Loss: 2.0943 | LM: 2.3236 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:47,389 - Trainer - INFO - Epoch 8/12 | Train Loss: 2.0514 | Val Loss: 1.8409 | LM: 2.0514 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:48,360 - Trainer - INFO - Epoch 9/12 | Train Loss: 1.8570 | Val Loss: 1.6425 | LM: 1.8570 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:49,299 - Trainer - INFO - Epoch 10/12 | Train Loss: 1.6677 | Val Loss: 1.4592 | LM: 1.6677 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:50,238 - Trainer - INFO - Epoch 11/12 | Train Loss: 1.5070 | Val Loss: 1.3464 | LM: 1.5070 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:51,179 - Trainer - INFO - Epoch 12/12 | Train Loss: 1.3911 | Val Loss: 1.2747 | LM: 1.3911 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 11:34:51,179 - Experiment7 - INFO - === 实验7(回环 holonomy 受控): B_uniform_compress ===
+2026-07-09 11:35:20,491 - Experiment7 - INFO -   判决=INCONCLUSIVE | 回环平坦度: 正=2.1253 负=2.1507 | 回环数: 正=0.00 负=0.00 | 配对差中位=0.0008 p=0.3083
+2026-07-09 11:39:02,343 - Trainer - INFO - Epoch 1/12 | Train Loss: 5.5306 | Val Loss: 3.1134 | LM: 3.5405 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9901 | RigidFlex: 0.0000
+2026-07-09 11:42:50,384 - Trainer - INFO - Epoch 2/12 | Train Loss: 4.9580 | Val Loss: 2.7735 | LM: 2.9562 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0018 | RigidFlex: 0.0000
+2026-07-09 11:46:37,396 - Trainer - INFO - Epoch 3/12 | Train Loss: 4.7174 | Val Loss: 2.6532 | LM: 2.7175 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9999 | RigidFlex: 0.0000
+2026-07-09 11:50:24,671 - Trainer - INFO - Epoch 4/12 | Train Loss: 4.6431 | Val Loss: 2.6176 | LM: 2.6423 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0008 | RigidFlex: 0.0000
+2026-07-09 11:54:12,979 - Trainer - INFO - Epoch 5/12 | Train Loss: 4.6104 | Val Loss: 2.5896 | LM: 2.6123 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9981 | RigidFlex: 0.0000
+2026-07-09 11:58:02,151 - Trainer - INFO - Epoch 6/12 | Train Loss: 4.5819 | Val Loss: 2.5671 | LM: 2.5860 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9959 | RigidFlex: 0.0000
+2026-07-09 12:01:45,322 - Trainer - INFO - Epoch 7/12 | Train Loss: 4.4877 | Val Loss: 2.5521 | LM: 2.5658 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9219 | RigidFlex: 0.0000
+2026-07-09 12:04:07,198 - Trainer - INFO - Epoch 1/8 | Train Loss: 13.2140 | Val Loss: 3.8205 | LM: 4.0176 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 9.1963
+2026-07-09 12:04:07,612 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.8122 | Val Loss: 3.4403 | LM: 3.6651 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.1470
+2026-07-09 12:04:08,023 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.2267 | Val Loss: 3.1098 | LM: 3.3066 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.9201
+2026-07-09 12:04:08,435 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.2427 | Val Loss: 2.8854 | LM: 3.0229 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.2198
+2026-07-09 12:04:08,857 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.6095 | Val Loss: 2.7590 | LM: 2.8458 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.7638
+2026-07-09 12:04:09,297 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.2017 | Val Loss: 2.6840 | LM: 2.7427 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.4591
+2026-07-09 12:04:09,729 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9488 | Val Loss: 2.6414 | LM: 2.6800 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2688
+2026-07-09 12:04:10,155 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8029 | Val Loss: 2.6157 | LM: 2.6416 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1613
+2026-07-09 12:04:10,391 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:10,618 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=0.1→INCONCLUSIVE
+2026-07-09 12:04:10,855 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=0.2→INCONCLUSIVE
+2026-07-09 12:04:11,097 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=0.3→INCONCLUSIVE
+2026-07-09 12:04:11,312 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=0.4→INCONCLUSIVE
+2026-07-09 12:04:11,521 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:11,741 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=0.6→INCONCLUSIVE
+2026-07-09 12:04:11,982 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=0.7→INCONCLUSIVE
+2026-07-09 12:04:12,205 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=0.8→INCONCLUSIVE
+2026-07-09 12:04:12,434 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=1.0→INCONCLUSIVE
+2026-07-09 12:04:12,652 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=1.5→INCONCLUSIVE
+2026-07-09 12:04:12,892 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0395(阈0.2)→SUPPORT | flex 正=0.0392 负=0.0397 τ=2.0→INCONCLUSIVE
+2026-07-09 12:04:13,388 - Trainer - INFO - Epoch 1/8 | Train Loss: 13.3580 | Val Loss: 3.7923 | LM: 4.0012 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 9.3568
+2026-07-09 12:04:13,823 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.6609 | Val Loss: 3.4375 | LM: 3.6468 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.0141
+2026-07-09 12:04:14,266 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.0955 | Val Loss: 3.1458 | LM: 3.3235 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.7720
+2026-07-09 12:04:14,704 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.1818 | Val Loss: 2.9382 | LM: 3.0712 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.1106
+2026-07-09 12:04:15,171 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.5843 | Val Loss: 2.8001 | LM: 2.8986 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.6857
+2026-07-09 12:04:15,626 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.2025 | Val Loss: 2.7107 | LM: 2.7803 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.4221
+2026-07-09 12:04:16,091 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9649 | Val Loss: 2.6539 | LM: 2.7046 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2603
+2026-07-09 12:04:16,532 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8175 | Val Loss: 2.6204 | LM: 2.6544 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1631
+2026-07-09 12:04:16,788 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:17,004 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=0.1→INCONCLUSIVE
+2026-07-09 12:04:17,232 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=0.2→INCONCLUSIVE
+2026-07-09 12:04:17,457 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=0.3→INCONCLUSIVE
+2026-07-09 12:04:17,729 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=0.4→INCONCLUSIVE
+2026-07-09 12:04:18,013 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:18,291 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=0.6→INCONCLUSIVE
+2026-07-09 12:04:18,566 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=0.7→INCONCLUSIVE
+2026-07-09 12:04:18,802 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=0.8→INCONCLUSIVE
+2026-07-09 12:04:19,057 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=1.0→INCONCLUSIVE
+2026-07-09 12:04:19,301 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=1.5→INCONCLUSIVE
+2026-07-09 12:04:19,544 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0410(阈0.2)→SUPPORT | flex 正=0.0414 负=0.0412 τ=2.0→INCONCLUSIVE
+2026-07-09 12:04:20,279 - Trainer - INFO - Epoch 1/8 | Train Loss: 12.9586 | Val Loss: 3.8531 | LM: 4.0467 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 8.9119
+2026-07-09 12:04:20,984 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.7613 | Val Loss: 3.4822 | LM: 3.7004 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.0609
+2026-07-09 12:04:21,683 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.1799 | Val Loss: 3.1670 | LM: 3.3545 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.8254
+2026-07-09 12:04:22,358 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.2148 | Val Loss: 2.9474 | LM: 3.0854 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.1294
+2026-07-09 12:04:23,030 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.5881 | Val Loss: 2.8052 | LM: 2.9009 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.6872
+2026-07-09 12:04:23,703 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.1876 | Val Loss: 2.7166 | LM: 2.7821 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.4055
+2026-07-09 12:04:24,403 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9588 | Val Loss: 2.6585 | LM: 2.7089 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2499
+2026-07-09 12:04:25,145 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8210 | Val Loss: 2.6230 | LM: 2.6594 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1616
+2026-07-09 12:04:25,475 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:25,836 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=0.1→INCONCLUSIVE
+2026-07-09 12:04:26,150 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=0.2→INCONCLUSIVE
+2026-07-09 12:04:26,470 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=0.3→INCONCLUSIVE
+2026-07-09 12:04:26,773 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=0.4→INCONCLUSIVE
+2026-07-09 12:04:27,065 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:27,357 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=0.6→INCONCLUSIVE
+2026-07-09 12:04:27,637 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=0.7→INCONCLUSIVE
+2026-07-09 12:04:27,932 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=0.8→INCONCLUSIVE
+2026-07-09 12:04:28,246 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=1.0→INCONCLUSIVE
+2026-07-09 12:04:28,570 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=1.5→INCONCLUSIVE
+2026-07-09 12:04:28,887 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0358(阈0.2)→SUPPORT | flex 正=0.0362 负=0.0366 τ=2.0→INCONCLUSIVE
+2026-07-09 12:04:29,782 - Trainer - INFO - Epoch 1/8 | Train Loss: 13.2915 | Val Loss: 3.8335 | LM: 4.0439 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 9.2476
+2026-07-09 12:04:30,378 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.8195 | Val Loss: 3.4591 | LM: 3.6779 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.1416
+2026-07-09 12:04:30,840 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.2608 | Val Loss: 3.1437 | LM: 3.3331 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.9277
+2026-07-09 12:04:31,288 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.2652 | Val Loss: 2.9116 | LM: 3.0565 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.2087
+2026-07-09 12:04:31,729 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.6112 | Val Loss: 2.7743 | LM: 2.8665 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.7447
+2026-07-09 12:04:32,190 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.1901 | Val Loss: 2.6924 | LM: 2.7561 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.4340
+2026-07-09 12:04:32,650 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9413 | Val Loss: 2.6432 | LM: 2.6872 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2541
+2026-07-09 12:04:33,091 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8089 | Val Loss: 2.6155 | LM: 2.6482 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1607
+2026-07-09 12:04:33,336 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:33,549 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=0.1→INCONCLUSIVE
+2026-07-09 12:04:33,784 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=0.2→INCONCLUSIVE
+2026-07-09 12:04:34,026 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=0.3→INCONCLUSIVE
+2026-07-09 12:04:34,256 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=0.4→INCONCLUSIVE
+2026-07-09 12:04:34,489 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:34,729 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=0.6→INCONCLUSIVE
+2026-07-09 12:04:34,960 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=0.7→INCONCLUSIVE
+2026-07-09 12:04:35,184 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=0.8→INCONCLUSIVE
+2026-07-09 12:04:35,447 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=1.0→INCONCLUSIVE
+2026-07-09 12:04:35,687 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=1.5→INCONCLUSIVE
+2026-07-09 12:04:35,986 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0420 负=0.0420 τ=2.0→INCONCLUSIVE
+2026-07-09 12:04:36,630 - Trainer - INFO - Epoch 1/8 | Train Loss: 13.4291 | Val Loss: 3.7812 | LM: 3.9979 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 9.4312
+2026-07-09 12:04:37,303 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.7731 | Val Loss: 3.4178 | LM: 3.6327 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.1404
+2026-07-09 12:04:37,979 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.1834 | Val Loss: 3.1239 | LM: 3.3001 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.8833
+2026-07-09 12:04:38,653 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.1950 | Val Loss: 2.9183 | LM: 3.0506 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.1444
+2026-07-09 12:04:39,332 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.5542 | Val Loss: 2.7848 | LM: 2.8797 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.6745
+2026-07-09 12:04:40,019 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.1608 | Val Loss: 2.7028 | LM: 2.7666 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.3942
+2026-07-09 12:04:40,707 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9392 | Val Loss: 2.6505 | LM: 2.6955 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2437
+2026-07-09 12:04:41,391 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8114 | Val Loss: 2.6194 | LM: 2.6504 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1610
+2026-07-09 12:04:41,661 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:41,957 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=0.1→INCONCLUSIVE
+2026-07-09 12:04:42,261 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=0.2→INCONCLUSIVE
+2026-07-09 12:04:42,538 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=0.3→INCONCLUSIVE
+2026-07-09 12:04:42,833 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=0.4→INCONCLUSIVE
+2026-07-09 12:04:43,107 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:43,401 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=0.6→INCONCLUSIVE
+2026-07-09 12:04:43,718 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=0.7→INCONCLUSIVE
+2026-07-09 12:04:44,015 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=0.8→INCONCLUSIVE
+2026-07-09 12:04:44,328 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=1.0→INCONCLUSIVE
+2026-07-09 12:04:44,606 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=1.5→INCONCLUSIVE
+2026-07-09 12:04:44,900 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0370(阈0.2)→SUPPORT | flex 正=0.0369 负=0.0370 τ=2.0→INCONCLUSIVE
+2026-07-09 12:04:45,662 - Trainer - INFO - Epoch 1/8 | Train Loss: 12.3790 | Val Loss: 3.6927 | LM: 3.8939 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 8.4851
+2026-07-09 12:04:46,174 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.5597 | Val Loss: 3.3577 | LM: 3.5594 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.0003
+2026-07-09 12:04:46,608 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.0663 | Val Loss: 3.0727 | LM: 3.2469 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.8194
+2026-07-09 12:04:47,038 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.1094 | Val Loss: 2.8761 | LM: 3.0000 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.1094
+2026-07-09 12:04:47,472 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.4994 | Val Loss: 2.7502 | LM: 2.8372 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.6622
+2026-07-09 12:04:47,904 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.1288 | Val Loss: 2.6734 | LM: 2.7324 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.3963
+2026-07-09 12:04:48,338 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9173 | Val Loss: 2.6309 | LM: 2.6706 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2467
+2026-07-09 12:04:48,779 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.7987 | Val Loss: 2.6086 | LM: 2.6354 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1632
+2026-07-09 12:04:49,014 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:49,252 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=0.1→INCONCLUSIVE
+2026-07-09 12:04:49,513 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=0.2→INCONCLUSIVE
+2026-07-09 12:04:49,730 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=0.3→INCONCLUSIVE
+2026-07-09 12:04:49,936 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=0.4→INCONCLUSIVE
+2026-07-09 12:04:50,244 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:50,604 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=0.6→INCONCLUSIVE
+2026-07-09 12:04:50,856 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=0.7→INCONCLUSIVE
+2026-07-09 12:04:51,117 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=0.8→INCONCLUSIVE
+2026-07-09 12:04:51,349 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=1.0→INCONCLUSIVE
+2026-07-09 12:04:51,593 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=1.5→INCONCLUSIVE
+2026-07-09 12:04:51,806 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0406(阈0.2)→SUPPORT | flex 正=0.0403 负=0.0400 τ=2.0→INCONCLUSIVE
+2026-07-09 12:04:52,526 - Trainer - INFO - Epoch 1/8 | Train Loss: 14.2109 | Val Loss: 3.7541 | LM: 3.9478 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 10.2631
+2026-07-09 12:04:53,204 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.8281 | Val Loss: 3.4218 | LM: 3.6233 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.2049
+2026-07-09 12:04:53,873 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.2059 | Val Loss: 3.1326 | LM: 3.3103 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.8956
+2026-07-09 12:04:54,553 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.2059 | Val Loss: 2.9194 | LM: 3.0562 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.1497
+2026-07-09 12:04:55,243 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.5700 | Val Loss: 2.7795 | LM: 2.8751 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.6949
+2026-07-09 12:04:55,931 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.1794 | Val Loss: 2.6929 | LM: 2.7584 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.4211
+2026-07-09 12:04:56,625 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9536 | Val Loss: 2.6427 | LM: 2.6861 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2675
+2026-07-09 12:04:57,302 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8188 | Val Loss: 2.6153 | LM: 2.6431 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1756
+2026-07-09 12:04:57,545 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:57,858 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=0.1→INCONCLUSIVE
+2026-07-09 12:04:58,136 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=0.2→INCONCLUSIVE
+2026-07-09 12:04:58,439 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=0.3→INCONCLUSIVE
+2026-07-09 12:04:58,748 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=0.4→INCONCLUSIVE
+2026-07-09 12:04:59,064 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=0.5→INCONCLUSIVE
+2026-07-09 12:04:59,381 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=0.6→INCONCLUSIVE
+2026-07-09 12:04:59,677 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=0.7→INCONCLUSIVE
+2026-07-09 12:04:59,967 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=0.8→INCONCLUSIVE
+2026-07-09 12:05:00,276 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=1.0→INCONCLUSIVE
+2026-07-09 12:05:00,589 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=1.5→INCONCLUSIVE
+2026-07-09 12:05:00,886 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0398(阈0.2)→SUPPORT | flex 正=0.0398 负=0.0399 τ=2.0→INCONCLUSIVE
+2026-07-09 12:05:01,767 - Trainer - INFO - Epoch 1/8 | Train Loss: 12.5552 | Val Loss: 3.8464 | LM: 4.0485 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 8.5067
+2026-07-09 12:05:02,418 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.6686 | Val Loss: 3.4732 | LM: 3.6934 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 2.9752
+2026-07-09 12:05:02,905 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.1472 | Val Loss: 3.1569 | LM: 3.3449 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.8023
+2026-07-09 12:05:03,329 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.1666 | Val Loss: 2.9377 | LM: 3.0732 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.0934
+2026-07-09 12:05:03,762 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.5534 | Val Loss: 2.7971 | LM: 2.8940 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.6594
+2026-07-09 12:05:04,202 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.1819 | Val Loss: 2.7058 | LM: 2.7724 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.4095
+2026-07-09 12:05:04,637 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9592 | Val Loss: 2.6512 | LM: 2.6965 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2626
+2026-07-09 12:05:05,070 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8249 | Val Loss: 2.6207 | LM: 2.6504 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1746
+2026-07-09 12:05:05,302 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=0.5→INCONCLUSIVE
+2026-07-09 12:05:05,568 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=0.1→INCONCLUSIVE
+2026-07-09 12:05:05,865 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=0.2→INCONCLUSIVE
+2026-07-09 12:05:06,117 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=0.3→INCONCLUSIVE
+2026-07-09 12:05:06,352 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=0.4→INCONCLUSIVE
+2026-07-09 12:05:06,584 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=0.5→INCONCLUSIVE
+2026-07-09 12:05:06,817 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=0.6→INCONCLUSIVE
+2026-07-09 12:05:07,046 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=0.7→INCONCLUSIVE
+2026-07-09 12:05:07,248 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=0.8→INCONCLUSIVE
+2026-07-09 12:05:07,466 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=1.0→INCONCLUSIVE
+2026-07-09 12:05:07,685 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=1.5→INCONCLUSIVE
+2026-07-09 12:05:07,881 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0433(阈0.2)→SUPPORT | flex 正=0.0426 负=0.0423 τ=2.0→INCONCLUSIVE
+2026-07-09 12:05:08,360 - Trainer - INFO - Epoch 1/8 | Train Loss: 13.7361 | Val Loss: 3.8548 | LM: 4.0709 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 9.6653
+2026-07-09 12:05:08,952 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.7182 | Val Loss: 3.4724 | LM: 3.6960 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.0222
+2026-07-09 12:05:09,549 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.1158 | Val Loss: 3.1551 | LM: 3.3453 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.7705
+2026-07-09 12:05:10,273 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.1378 | Val Loss: 2.9313 | LM: 3.0705 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.0673
+2026-07-09 12:05:10,972 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.5414 | Val Loss: 2.7856 | LM: 2.8839 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.6575
+2026-07-09 12:05:11,471 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.1846 | Val Loss: 2.6958 | LM: 2.7619 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.4227
+2026-07-09 12:05:11,930 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9652 | Val Loss: 2.6448 | LM: 2.6913 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2739
+2026-07-09 12:05:12,408 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8247 | Val Loss: 2.6169 | LM: 2.6448 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1799
+2026-07-09 12:05:12,694 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=0.5→INCONCLUSIVE
+2026-07-09 12:05:12,946 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=0.1→INCONCLUSIVE
+2026-07-09 12:05:13,194 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=0.2→INCONCLUSIVE
+2026-07-09 12:05:13,417 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=0.3→INCONCLUSIVE
+2026-07-09 12:05:13,765 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=0.4→INCONCLUSIVE
+2026-07-09 12:05:14,048 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=0.5→INCONCLUSIVE
+2026-07-09 12:05:14,291 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=0.6→INCONCLUSIVE
+2026-07-09 12:05:14,598 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=0.7→INCONCLUSIVE
+2026-07-09 12:05:14,876 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=0.8→INCONCLUSIVE
+2026-07-09 12:05:15,125 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=1.0→INCONCLUSIVE
+2026-07-09 12:05:15,396 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=1.5→INCONCLUSIVE
+2026-07-09 12:05:15,676 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0418(阈0.2)→SUPPORT | flex 正=0.0418 负=0.0424 τ=2.0→INCONCLUSIVE
+2026-07-09 12:05:16,458 - Trainer - INFO - Epoch 1/8 | Train Loss: 12.8723 | Val Loss: 3.6980 | LM: 3.8993 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 8.9730
+2026-07-09 12:05:17,153 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.4357 | Val Loss: 3.3726 | LM: 3.5701 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 2.8656
+2026-07-09 12:05:17,839 - Trainer - INFO - Epoch 3/8 | Train Loss: 4.9207 | Val Loss: 3.0944 | LM: 3.2658 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.6549
+2026-07-09 12:05:18,548 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.0380 | Val Loss: 2.8844 | LM: 3.0196 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.0184
+2026-07-09 12:05:19,292 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.4932 | Val Loss: 2.7506 | LM: 2.8414 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.6519
+2026-07-09 12:05:19,715 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.1539 | Val Loss: 2.6752 | LM: 2.7342 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.4197
+2026-07-09 12:05:20,149 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9384 | Val Loss: 2.6325 | LM: 2.6698 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2687
+2026-07-09 12:05:20,612 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8159 | Val Loss: 2.6089 | LM: 2.6359 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1800
+2026-07-09 12:05:20,908 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=0.5→INCONCLUSIVE
+2026-07-09 12:05:21,201 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=0.1→INCONCLUSIVE
+2026-07-09 12:05:21,531 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=0.2→INCONCLUSIVE
+2026-07-09 12:05:21,817 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=0.3→INCONCLUSIVE
+2026-07-09 12:05:22,096 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=0.4→INCONCLUSIVE
+2026-07-09 12:05:22,347 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=0.5→INCONCLUSIVE
+2026-07-09 12:05:22,620 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=0.6→INCONCLUSIVE
+2026-07-09 12:05:22,913 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=0.7→INCONCLUSIVE
+2026-07-09 12:05:23,229 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=0.8→INCONCLUSIVE
+2026-07-09 12:05:23,519 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=1.0→INCONCLUSIVE
+2026-07-09 12:05:23,803 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=1.5→INCONCLUSIVE
+2026-07-09 12:05:24,095 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0435(阈0.2)→SUPPORT | flex 正=0.0435 负=0.0438 τ=2.0→INCONCLUSIVE
+2026-07-09 12:05:24,817 - Trainer - INFO - Epoch 1/8 | Train Loss: 13.4859 | Val Loss: 3.7847 | LM: 3.9946 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 9.4913
+2026-07-09 12:05:25,515 - Trainer - INFO - Epoch 2/8 | Train Loss: 6.5951 | Val Loss: 3.4188 | LM: 3.6331 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 2.9620
+2026-07-09 12:05:26,202 - Trainer - INFO - Epoch 3/8 | Train Loss: 4.9954 | Val Loss: 3.1119 | LM: 3.2953 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.7001
+2026-07-09 12:05:26,872 - Trainer - INFO - Epoch 4/8 | Train Loss: 4.0966 | Val Loss: 2.8870 | LM: 3.0281 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.0685
+2026-07-09 12:05:27,544 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.5435 | Val Loss: 2.7496 | LM: 2.8427 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.7008
+2026-07-09 12:05:28,218 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.1853 | Val Loss: 2.6748 | LM: 2.7318 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.4535
+2026-07-09 12:05:28,900 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.9614 | Val Loss: 2.6333 | LM: 2.6694 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.2920
+2026-07-09 12:05:29,572 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.8328 | Val Loss: 2.6099 | LM: 2.6361 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1967
+2026-07-09 12:05:29,843 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=0.5→INCONCLUSIVE
+2026-07-09 12:05:30,097 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=0.1→INCONCLUSIVE
+2026-07-09 12:05:30,401 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=0.2→INCONCLUSIVE
+2026-07-09 12:05:30,730 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=0.3→INCONCLUSIVE
+2026-07-09 12:05:31,039 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=0.4→INCONCLUSIVE
+2026-07-09 12:05:31,328 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=0.5→INCONCLUSIVE
+2026-07-09 12:05:31,686 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=0.6→INCONCLUSIVE
+2026-07-09 12:05:32,010 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=0.7→INCONCLUSIVE
+2026-07-09 12:05:32,373 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=0.8→INCONCLUSIVE
+2026-07-09 12:05:32,697 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=1.0→INCONCLUSIVE
+2026-07-09 12:05:32,990 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=1.5→INCONCLUSIVE
+2026-07-09 12:05:33,282 - Experiment7 - INFO -   [分层] phys_curv_mean=0.0387(阈0.2)→SUPPORT | flex 正=0.0387 负=0.0390 τ=2.0→INCONCLUSIVE
+2026-07-09 12:06:45,429 - Trainer - INFO - Epoch 1/6 | Train Loss: 3.9042 | Val Loss: 3.5743 | LM: 3.9042 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 12:06:45,679 - Trainer - INFO - Epoch 2/6 | Train Loss: 3.4500 | Val Loss: 3.2515 | LM: 3.4500 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 12:06:45,932 - Trainer - INFO - Epoch 3/6 | Train Loss: 3.1902 | Val Loss: 3.0672 | LM: 3.1902 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 12:06:46,181 - Trainer - INFO - Epoch 4/6 | Train Loss: 3.0282 | Val Loss: 2.9406 | LM: 3.0282 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 12:06:46,429 - Trainer - INFO - Epoch 5/6 | Train Loss: 2.9102 | Val Loss: 2.8436 | LM: 2.9102 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 12:06:46,671 - Trainer - INFO - Epoch 6/6 | Train Loss: 2.8181 | Val Loss: 2.7702 | LM: 2.8181 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 12:06:46,671 - Experiment7 - INFO - === 实验7(回环 holonomy 受控): A_baseline ===
+2026-07-09 12:06:51,728 - Experiment7 - INFO -   判决=OPPOSE | 回环平坦度: 正=0.0159 负=0.0159 | 回环数: 正=0.00 负=0.00 | 配对差中位=-0.0000 p=0.9144
+2026-07-09 12:06:52,099 - Trainer - INFO - Epoch 1/6 | Train Loss: 3.9563 | Val Loss: 3.6236 | LM: 3.9563 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 12:06:52,430 - Trainer - INFO - Epoch 2/6 | Train Loss: 3.4963 | Val Loss: 3.3075 | LM: 3.4963 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 12:06:52,777 - Trainer - INFO - Epoch 3/6 | Train Loss: 3.2457 | Val Loss: 3.1220 | LM: 3.2457 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 12:06:53,126 - Trainer - INFO - Epoch 4/6 | Train Loss: 3.0774 | Val Loss: 2.9826 | LM: 3.0774 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 12:06:53,479 - Trainer - INFO - Epoch 5/6 | Train Loss: 2.9479 | Val Loss: 2.8744 | LM: 2.9479 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 12:06:53,830 - Trainer - INFO - Epoch 6/6 | Train Loss: 2.8446 | Val Loss: 2.7919 | LM: 2.8446 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 12:06:53,830 - Experiment7 - INFO - === 实验7(回环 holonomy 受控): B_uniform ===
+2026-07-09 12:06:59,598 - Experiment7 - INFO -   判决=OPPOSE | 回环平坦度: 正=0.0208 负=0.0209 | 回环数: 正=0.00 负=0.00 | 配对差中位=-0.0000 p=0.3146
+2026-07-09 12:07:54,668 - Trainer - INFO - Epoch 1/6 | Train Loss: 5.8796 | Val Loss: 3.5716 | LM: 3.8784 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0012 | RigidFlex: 0.0000
+2026-07-09 12:08:55,576 - Trainer - INFO - Epoch 2/6 | Train Loss: 5.4620 | Val Loss: 3.2729 | LM: 3.4568 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0052 | RigidFlex: 0.0000
+2026-07-09 12:09:56,832 - Trainer - INFO - Epoch 3/6 | Train Loss: 5.2124 | Val Loss: 3.0890 | LM: 3.2111 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0013 | RigidFlex: 0.0000
+2026-07-09 12:10:57,192 - Trainer - INFO - Epoch 4/6 | Train Loss: 5.0467 | Val Loss: 2.9556 | LM: 3.0476 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9991 | RigidFlex: 0.0000
+2026-07-09 12:11:58,740 - Trainer - INFO - Epoch 5/6 | Train Loss: 4.9214 | Val Loss: 2.8538 | LM: 2.9232 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9983 | RigidFlex: 0.0000
+2026-07-09 12:13:00,381 - Trainer - INFO - Epoch 6/6 | Train Loss: 4.8260 | Val Loss: 2.7777 | LM: 2.8261 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9999 | RigidFlex: 0.0000
+2026-07-09 12:13:00,381 - Experiment7 - INFO - === 实验7(回环 holonomy 受控): C_loopback ===
+2026-07-09 12:13:06,338 - Experiment7 - INFO -   判决=SUPPORT | 回环平坦度: 正=0.0257 负=0.0260 | 回环数: 正=0.00 负=0.00 | 配对差中位=0.0001 p=0.0040
+2026-07-09 12:13:06,949 - Trainer - INFO - Epoch 1/6 | Train Loss: 16.3737 | Val Loss: 3.9872 | LM: 4.1210 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 12.2526
+2026-07-09 12:13:07,364 - Trainer - INFO - Epoch 2/6 | Train Loss: 8.9755 | Val Loss: 3.7547 | LM: 3.8990 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 5.0765
+2026-07-09 12:13:07,642 - Trainer - INFO - Epoch 3/6 | Train Loss: 6.7688 | Val Loss: 3.5264 | LM: 3.6678 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.1010
+2026-07-09 12:13:07,918 - Trainer - INFO - Epoch 4/6 | Train Loss: 5.7445 | Val Loss: 3.3206 | LM: 3.4481 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 2.2964
+2026-07-09 12:13:08,193 - Trainer - INFO - Epoch 5/6 | Train Loss: 4.9852 | Val Loss: 3.1512 | LM: 3.2556 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.7296
+2026-07-09 12:13:08,469 - Trainer - INFO - Epoch 6/6 | Train Loss: 4.3885 | Val Loss: 3.0155 | LM: 3.0981 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 1.2903
+2026-07-09 12:13:08,469 - Experiment7 - INFO - === 实验7(回环 holonomy 受控): D_rf ===
+2026-07-09 12:13:13,900 - Experiment7 - INFO -   判决=OPPOSE | 回环平坦度: 正=0.0027 负=0.0028 | 回环数: 正=0.00 负=0.00 | 配对差中位=-0.0000 p=0.4840
+2026-07-09 12:13:14,056 - Experiment7 - INFO -   [分层] phys_curv_mean=0.1020(阈0.2)→SUPPORT | flex 正=0.1012 负=0.1027 τ=0.5→SUPPORT
+2026-07-09 15:00:45,300 - Trainer - INFO - Epoch 1/8 | Train Loss: 3.2269 | Val Loss: 2.7503 | LM: 3.2269 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:00:45,798 - Trainer - INFO - Epoch 2/8 | Train Loss: 2.6819 | Val Loss: 2.5871 | LM: 2.6819 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:00:46,298 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.5752 | Val Loss: 2.4549 | LM: 2.5752 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:00:46,797 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.3647 | Val Loss: 2.0337 | LM: 2.3647 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:00:47,290 - Trainer - INFO - Epoch 5/8 | Train Loss: 1.8790 | Val Loss: 1.4694 | LM: 1.8790 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:00:47,784 - Trainer - INFO - Epoch 6/8 | Train Loss: 1.4832 | Val Loss: 1.2414 | LM: 1.4832 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:00:48,278 - Trainer - INFO - Epoch 7/8 | Train Loss: 1.2980 | Val Loss: 1.1616 | LM: 1.2980 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:00:48,773 - Trainer - INFO - Epoch 8/8 | Train Loss: 1.2080 | Val Loss: 1.1229 | LM: 1.2080 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:00:49,502 - Trainer - INFO - Epoch 1/8 | Train Loss: 7.4078 | Val Loss: 2.9313 | LM: 3.4824 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.9254
+2026-07-09 15:00:50,092 - Trainer - INFO - Epoch 2/8 | Train Loss: 3.2772 | Val Loss: 2.6349 | LM: 2.7727 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.5046
+2026-07-09 15:00:50,692 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.7510 | Val Loss: 2.5971 | LM: 2.6426 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1085
+2026-07-09 15:00:51,312 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.6741 | Val Loss: 2.5823 | LM: 2.6213 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0528
+2026-07-09 15:00:51,947 - Trainer - INFO - Epoch 5/8 | Train Loss: 2.6464 | Val Loss: 2.5739 | LM: 2.6096 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0368
+2026-07-09 15:00:52,592 - Trainer - INFO - Epoch 6/8 | Train Loss: 2.6240 | Val Loss: 2.5476 | LM: 2.5929 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0311
+2026-07-09 15:00:53,271 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.5963 | Val Loss: 2.5212 | LM: 2.5667 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0296
+2026-07-09 15:00:53,932 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.5599 | Val Loss: 2.4565 | LM: 2.5327 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0272
+2026-07-09 15:01:06,914 - Trainer - INFO - Epoch 1/8 | Train Loss: 3.2269 | Val Loss: 2.7503 | LM: 3.2269 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:01:07,425 - Trainer - INFO - Epoch 2/8 | Train Loss: 2.6819 | Val Loss: 2.5871 | LM: 2.6819 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:01:07,935 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.5752 | Val Loss: 2.4549 | LM: 2.5752 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:01:08,442 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.3647 | Val Loss: 2.0337 | LM: 2.3647 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:01:08,945 - Trainer - INFO - Epoch 5/8 | Train Loss: 1.8790 | Val Loss: 1.4694 | LM: 1.8790 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:01:09,455 - Trainer - INFO - Epoch 6/8 | Train Loss: 1.4832 | Val Loss: 1.2414 | LM: 1.4832 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:01:09,961 - Trainer - INFO - Epoch 7/8 | Train Loss: 1.2980 | Val Loss: 1.1616 | LM: 1.2980 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:01:10,484 - Trainer - INFO - Epoch 8/8 | Train Loss: 1.2080 | Val Loss: 1.1229 | LM: 1.2080 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:01:11,214 - Trainer - INFO - Epoch 1/8 | Train Loss: 7.4078 | Val Loss: 2.9313 | LM: 3.4824 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.9254
+2026-07-09 15:01:11,826 - Trainer - INFO - Epoch 2/8 | Train Loss: 3.2772 | Val Loss: 2.6349 | LM: 2.7727 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.5046
+2026-07-09 15:01:12,420 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.7510 | Val Loss: 2.5971 | LM: 2.6426 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1085
+2026-07-09 15:01:13,059 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.6741 | Val Loss: 2.5823 | LM: 2.6213 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0528
+2026-07-09 15:01:13,701 - Trainer - INFO - Epoch 5/8 | Train Loss: 2.6464 | Val Loss: 2.5739 | LM: 2.6096 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0368
+2026-07-09 15:01:14,355 - Trainer - INFO - Epoch 6/8 | Train Loss: 2.6240 | Val Loss: 2.5476 | LM: 2.5929 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0311
+2026-07-09 15:01:15,011 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.5963 | Val Loss: 2.5212 | LM: 2.5667 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0296
+2026-07-09 15:01:15,657 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.5599 | Val Loss: 2.4565 | LM: 2.5327 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0272
+2026-07-09 15:01:25,466 - Trainer - INFO - Epoch 1/8 | Train Loss: 3.2269 | Val Loss: 2.7503 | LM: 3.2269 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:01:26,019 - Trainer - INFO - Epoch 2/8 | Train Loss: 2.6819 | Val Loss: 2.5871 | LM: 2.6819 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:01:26,561 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.5752 | Val Loss: 2.4549 | LM: 2.5752 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:01:27,077 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.3647 | Val Loss: 2.0337 | LM: 2.3647 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:01:27,594 - Trainer - INFO - Epoch 5/8 | Train Loss: 1.8790 | Val Loss: 1.4694 | LM: 1.8790 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:01:28,109 - Trainer - INFO - Epoch 6/8 | Train Loss: 1.4832 | Val Loss: 1.2414 | LM: 1.4832 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:01:28,624 - Trainer - INFO - Epoch 7/8 | Train Loss: 1.2980 | Val Loss: 1.1616 | LM: 1.2980 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:01:29,140 - Trainer - INFO - Epoch 8/8 | Train Loss: 1.2080 | Val Loss: 1.1229 | LM: 1.2080 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:01:29,880 - Trainer - INFO - Epoch 1/8 | Train Loss: 7.4078 | Val Loss: 2.9313 | LM: 3.4824 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.9254
+2026-07-09 15:01:30,486 - Trainer - INFO - Epoch 2/8 | Train Loss: 3.2772 | Val Loss: 2.6349 | LM: 2.7727 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.5046
+2026-07-09 15:01:31,098 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.7510 | Val Loss: 2.5971 | LM: 2.6426 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1085
+2026-07-09 15:01:31,722 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.6741 | Val Loss: 2.5823 | LM: 2.6213 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0528
+2026-07-09 15:01:32,361 - Trainer - INFO - Epoch 5/8 | Train Loss: 2.6464 | Val Loss: 2.5739 | LM: 2.6096 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0368
+2026-07-09 15:01:33,010 - Trainer - INFO - Epoch 6/8 | Train Loss: 2.6240 | Val Loss: 2.5476 | LM: 2.5929 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0311
+2026-07-09 15:01:33,656 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.5963 | Val Loss: 2.5212 | LM: 2.5667 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0296
+2026-07-09 15:01:34,310 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.5599 | Val Loss: 2.4565 | LM: 2.5327 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0272
+2026-07-09 15:04:42,744 - Trainer - INFO - Epoch 1/8 | Train Loss: 3.2269 | Val Loss: 2.7503 | LM: 3.2269 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:04:43,267 - Trainer - INFO - Epoch 2/8 | Train Loss: 2.6819 | Val Loss: 2.5871 | LM: 2.6819 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:04:43,812 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.5752 | Val Loss: 2.4549 | LM: 2.5752 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:04:44,334 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.3647 | Val Loss: 2.0337 | LM: 2.3647 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:04:44,854 - Trainer - INFO - Epoch 5/8 | Train Loss: 1.8790 | Val Loss: 1.4694 | LM: 1.8790 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:04:45,374 - Trainer - INFO - Epoch 6/8 | Train Loss: 1.4832 | Val Loss: 1.2414 | LM: 1.4832 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:04:45,886 - Trainer - INFO - Epoch 7/8 | Train Loss: 1.2980 | Val Loss: 1.1616 | LM: 1.2980 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:04:46,408 - Trainer - INFO - Epoch 8/8 | Train Loss: 1.2080 | Val Loss: 1.1229 | LM: 1.2080 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:04:47,349 - Trainer - INFO - Epoch 1/8 | Train Loss: 7.4078 | Val Loss: 2.9313 | LM: 3.4824 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.9254
+2026-07-09 15:04:48,198 - Trainer - INFO - Epoch 2/8 | Train Loss: 3.2772 | Val Loss: 2.6349 | LM: 2.7727 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.5046
+2026-07-09 15:04:48,856 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.7510 | Val Loss: 2.5971 | LM: 2.6426 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1085
+2026-07-09 15:04:49,491 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.6741 | Val Loss: 2.5823 | LM: 2.6213 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0528
+2026-07-09 15:04:50,179 - Trainer - INFO - Epoch 5/8 | Train Loss: 2.6464 | Val Loss: 2.5739 | LM: 2.6096 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0368
+2026-07-09 15:04:50,846 - Trainer - INFO - Epoch 6/8 | Train Loss: 2.6240 | Val Loss: 2.5476 | LM: 2.5929 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0311
+2026-07-09 15:04:51,500 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.5963 | Val Loss: 2.5212 | LM: 2.5667 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0296
+2026-07-09 15:04:52,159 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.5599 | Val Loss: 2.4565 | LM: 2.5327 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0272
+2026-07-09 15:04:52,810 - Trainer - INFO - Epoch 1/8 | Train Loss: 3.2054 | Val Loss: 2.7478 | LM: 3.2054 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:04:53,371 - Trainer - INFO - Epoch 2/8 | Train Loss: 2.6773 | Val Loss: 2.5788 | LM: 2.6773 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:04:53,921 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.5571 | Val Loss: 2.4240 | LM: 2.5571 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:04:54,521 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.3052 | Val Loss: 1.8603 | LM: 2.3052 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:04:55,089 - Trainer - INFO - Epoch 5/8 | Train Loss: 1.8072 | Val Loss: 1.4191 | LM: 1.8072 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:04:55,680 - Trainer - INFO - Epoch 6/8 | Train Loss: 1.4583 | Val Loss: 1.2578 | LM: 1.4583 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:04:56,290 - Trainer - INFO - Epoch 7/8 | Train Loss: 1.3001 | Val Loss: 1.1761 | LM: 1.3001 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:04:56,871 - Trainer - INFO - Epoch 8/8 | Train Loss: 1.2173 | Val Loss: 1.1353 | LM: 1.2173 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:12:39,252 - Trainer - INFO - Epoch 1/8 | Train Loss: 3.2269 | Val Loss: 2.7503 | LM: 3.2269 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:12:39,800 - Trainer - INFO - Epoch 2/8 | Train Loss: 2.6819 | Val Loss: 2.5871 | LM: 2.6819 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:12:40,310 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.5752 | Val Loss: 2.4549 | LM: 2.5752 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:12:40,840 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.3647 | Val Loss: 2.0337 | LM: 2.3647 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:12:41,404 - Trainer - INFO - Epoch 5/8 | Train Loss: 1.8790 | Val Loss: 1.4694 | LM: 1.8790 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:12:41,909 - Trainer - INFO - Epoch 6/8 | Train Loss: 1.4832 | Val Loss: 1.2414 | LM: 1.4832 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:12:42,405 - Trainer - INFO - Epoch 7/8 | Train Loss: 1.2980 | Val Loss: 1.1616 | LM: 1.2980 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:12:42,911 - Trainer - INFO - Epoch 8/8 | Train Loss: 1.2080 | Val Loss: 1.1229 | LM: 1.2080 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:12:43,725 - Trainer - INFO - Epoch 1/8 | Train Loss: 7.4078 | Val Loss: 2.9313 | LM: 3.4824 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.9254
+2026-07-09 15:12:44,319 - Trainer - INFO - Epoch 2/8 | Train Loss: 3.2772 | Val Loss: 2.6349 | LM: 2.7727 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.5046
+2026-07-09 15:12:44,927 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.7510 | Val Loss: 2.5971 | LM: 2.6426 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1085
+2026-07-09 15:12:45,550 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.6741 | Val Loss: 2.5823 | LM: 2.6213 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0528
+2026-07-09 15:12:46,187 - Trainer - INFO - Epoch 5/8 | Train Loss: 2.6464 | Val Loss: 2.5739 | LM: 2.6096 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0368
+2026-07-09 15:12:46,825 - Trainer - INFO - Epoch 6/8 | Train Loss: 2.6240 | Val Loss: 2.5476 | LM: 2.5929 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0311
+2026-07-09 15:12:47,468 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.5963 | Val Loss: 2.5212 | LM: 2.5667 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0296
+2026-07-09 15:12:48,123 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.5599 | Val Loss: 2.4565 | LM: 2.5327 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0272
+2026-07-09 15:12:48,767 - Trainer - INFO - Epoch 1/8 | Train Loss: 3.2054 | Val Loss: 2.7478 | LM: 3.2054 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:12:49,310 - Trainer - INFO - Epoch 2/8 | Train Loss: 2.6773 | Val Loss: 2.5788 | LM: 2.6773 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:12:49,861 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.5571 | Val Loss: 2.4240 | LM: 2.5571 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:12:50,405 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.3052 | Val Loss: 1.8603 | LM: 2.3052 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:12:50,957 - Trainer - INFO - Epoch 5/8 | Train Loss: 1.8072 | Val Loss: 1.4191 | LM: 1.8072 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:12:51,503 - Trainer - INFO - Epoch 6/8 | Train Loss: 1.4583 | Val Loss: 1.2578 | LM: 1.4583 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:12:52,053 - Trainer - INFO - Epoch 7/8 | Train Loss: 1.3001 | Val Loss: 1.1761 | LM: 1.3001 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:12:52,604 - Trainer - INFO - Epoch 8/8 | Train Loss: 1.2173 | Val Loss: 1.1353 | LM: 1.2173 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:45:14,646 - Trainer - INFO - Epoch 1/8 | Train Loss: 3.2256 | Val Loss: 2.7502 | LM: 3.2256 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:45:15,173 - Trainer - INFO - Epoch 2/8 | Train Loss: 2.6816 | Val Loss: 2.5878 | LM: 2.6816 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:45:15,687 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.5714 | Val Loss: 2.4478 | LM: 2.5714 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:45:16,203 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.3461 | Val Loss: 1.9670 | LM: 2.3461 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:45:16,711 - Trainer - INFO - Epoch 5/8 | Train Loss: 1.8455 | Val Loss: 1.4695 | LM: 1.8455 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:45:17,216 - Trainer - INFO - Epoch 6/8 | Train Loss: 1.4887 | Val Loss: 1.2427 | LM: 1.4887 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:45:17,724 - Trainer - INFO - Epoch 7/8 | Train Loss: 1.2987 | Val Loss: 1.1598 | LM: 1.2987 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:45:18,238 - Trainer - INFO - Epoch 8/8 | Train Loss: 1.2064 | Val Loss: 1.1214 | LM: 1.2064 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:47:57,705 - Trainer - INFO - Epoch 1/2 | Train Loss: 3.7065 | Val Loss: 3.2656 | LM: 3.7065 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:47:57,825 - Trainer - INFO - Epoch 2/2 | Train Loss: 3.1387 | Val Loss: 2.9418 | LM: 3.1387 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:49:42,783 - Trainer - INFO - Epoch 1/8 | Train Loss: 3.2256 | Val Loss: 2.7502 | LM: 3.2256 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:49:43,295 - Trainer - INFO - Epoch 2/8 | Train Loss: 2.6816 | Val Loss: 2.5878 | LM: 2.6816 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:49:43,803 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.5714 | Val Loss: 2.4478 | LM: 2.5714 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:49:44,311 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.3461 | Val Loss: 1.9670 | LM: 2.3461 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:49:44,822 - Trainer - INFO - Epoch 5/8 | Train Loss: 1.8455 | Val Loss: 1.4695 | LM: 1.8455 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:49:45,330 - Trainer - INFO - Epoch 6/8 | Train Loss: 1.4887 | Val Loss: 1.2427 | LM: 1.4887 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:49:45,838 - Trainer - INFO - Epoch 7/8 | Train Loss: 1.2987 | Val Loss: 1.1598 | LM: 1.2987 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:49:46,343 - Trainer - INFO - Epoch 8/8 | Train Loss: 1.2064 | Val Loss: 1.1214 | LM: 1.2064 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:03,184 - Trainer - INFO - Epoch 1/8 | Train Loss: 3.2269 | Val Loss: 2.7503 | LM: 3.2269 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:03,707 - Trainer - INFO - Epoch 2/8 | Train Loss: 2.6819 | Val Loss: 2.5871 | LM: 2.6819 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:04,271 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.5752 | Val Loss: 2.4549 | LM: 2.5752 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:04,796 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.3647 | Val Loss: 2.0337 | LM: 2.3647 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:05,370 - Trainer - INFO - Epoch 5/8 | Train Loss: 1.8790 | Val Loss: 1.4694 | LM: 1.8790 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:05,922 - Trainer - INFO - Epoch 6/8 | Train Loss: 1.4832 | Val Loss: 1.2414 | LM: 1.4832 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:06,447 - Trainer - INFO - Epoch 7/8 | Train Loss: 1.2980 | Val Loss: 1.1616 | LM: 1.2980 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:06,952 - Trainer - INFO - Epoch 8/8 | Train Loss: 1.2080 | Val Loss: 1.1229 | LM: 1.2080 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:09,922 - Trainer - INFO - Epoch 1/8 | Train Loss: 7.4078 | Val Loss: 2.9313 | LM: 3.4824 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.9254
+2026-07-09 15:51:10,577 - Trainer - INFO - Epoch 2/8 | Train Loss: 3.2772 | Val Loss: 2.6349 | LM: 2.7727 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.5046
+2026-07-09 15:51:11,236 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.7510 | Val Loss: 2.5971 | LM: 2.6426 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1085
+2026-07-09 15:51:11,925 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.6741 | Val Loss: 2.5823 | LM: 2.6213 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0528
+2026-07-09 15:51:12,580 - Trainer - INFO - Epoch 5/8 | Train Loss: 2.6464 | Val Loss: 2.5739 | LM: 2.6096 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0368
+2026-07-09 15:51:13,230 - Trainer - INFO - Epoch 6/8 | Train Loss: 2.6240 | Val Loss: 2.5476 | LM: 2.5929 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0311
+2026-07-09 15:51:13,885 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.5963 | Val Loss: 2.5212 | LM: 2.5667 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0296
+2026-07-09 15:51:14,547 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.5599 | Val Loss: 2.4565 | LM: 2.5327 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0272
+2026-07-09 15:51:17,517 - Trainer - INFO - Epoch 1/8 | Train Loss: 3.2054 | Val Loss: 2.7478 | LM: 3.2054 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:18,160 - Trainer - INFO - Epoch 2/8 | Train Loss: 2.6773 | Val Loss: 2.5788 | LM: 2.6773 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:18,840 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.5571 | Val Loss: 2.4240 | LM: 2.5571 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:19,534 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.3052 | Val Loss: 1.8603 | LM: 2.3052 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:20,301 - Trainer - INFO - Epoch 5/8 | Train Loss: 1.8072 | Val Loss: 1.4191 | LM: 1.8072 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:21,072 - Trainer - INFO - Epoch 6/8 | Train Loss: 1.4583 | Val Loss: 1.2578 | LM: 1.4583 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:21,834 - Trainer - INFO - Epoch 7/8 | Train Loss: 1.3001 | Val Loss: 1.1761 | LM: 1.3001 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:22,612 - Trainer - INFO - Epoch 8/8 | Train Loss: 1.2173 | Val Loss: 1.1353 | LM: 1.2173 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 16:53:30,849 - Trainer - INFO - Epoch 1/20 | Train Loss: 52.2972 | Val Loss: 2.5610 | LM: 3.6806 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.4380 | RigidFlex: 47.3975
+2026-07-09 16:56:08,199 - Trainer - INFO - Epoch 2/20 | Train Loss: 6.7315 | Val Loss: 2.5248 | LM: 2.5559 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0001 | RigidFlex: 3.1756
+2026-07-09 16:58:44,728 - Trainer - INFO - Epoch 3/20 | Train Loss: 3.6475 | Val Loss: 2.4810 | LM: 2.5049 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.1426
+2026-07-09 17:01:09,181 - Trainer - INFO - Epoch 4/20 | Train Loss: 3.5644 | Val Loss: 2.4741 | LM: 2.4851 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0793
+2026-07-09 17:03:37,534 - Trainer - INFO - Epoch 5/20 | Train Loss: 3.5432 | Val Loss: 2.4554 | LM: 2.4679 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0753
+2026-07-09 17:06:11,686 - Trainer - INFO - Epoch 6/20 | Train Loss: 3.5196 | Val Loss: 2.4312 | LM: 2.4460 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0736
+2026-07-09 17:08:48,755 - Trainer - INFO - Epoch 7/20 | Train Loss: 3.4238 | Val Loss: 1.9633 | LM: 2.3397 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0840
+2026-07-09 17:11:29,013 - Trainer - INFO - Epoch 8/20 | Train Loss: 3.0094 | Val Loss: 1.6205 | LM: 1.8572 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.1522
+2026-07-09 17:14:09,517 - Trainer - INFO - Epoch 9/20 | Train Loss: 2.6840 | Val Loss: 1.4260 | LM: 1.5444 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.1395
+2026-07-09 17:16:48,914 - Trainer - INFO - Epoch 10/20 | Train Loss: 2.5421 | Val Loss: 1.3661 | LM: 1.4237 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.1184
+2026-07-09 17:19:27,154 - Trainer - INFO - Epoch 11/20 | Train Loss: 2.4734 | Val Loss: 1.3072 | LM: 1.3664 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.1070
+2026-07-09 17:21:58,388 - Trainer - INFO - Epoch 1/3 | Train Loss: 97.3112 | Val Loss: 3.3185 | LM: 4.4554 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 3.3005 | RigidFlex: 91.2055
+2026-07-09 17:22:26,044 - Trainer - INFO - Epoch 2/3 | Train Loss: 30.8611 | Val Loss: 2.5613 | LM: 2.9237 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9963 | RigidFlex: 26.9393
+2026-07-09 17:22:58,226 - Trainer - INFO - Epoch 3/3 | Train Loss: 16.2035 | Val Loss: 2.4925 | LM: 2.5755 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 12.6280
+2026-07-09 17:23:10,398 - Trainer - INFO - Epoch 1/3 | Train Loss: 15.8552 | Val Loss: 4.9982 | LM: 5.3020 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9949 | RigidFlex: 9.5558
+2026-07-09 17:23:23,214 - Trainer - INFO - Epoch 2/3 | Train Loss: 9.1138 | Val Loss: 4.4907 | LM: 4.7966 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0004 | RigidFlex: 3.3170
+2026-07-09 17:23:36,016 - Trainer - INFO - Epoch 3/3 | Train Loss: 7.3112 | Val Loss: 4.0198 | LM: 4.3058 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0019 | RigidFlex: 2.0044
+2026-07-09 17:23:36,017 - Experiment10 - INFO - ============================================================
+2026-07-09 17:23:36,017 - Experiment10 - INFO - Part A: H-helix 重测 — FS 螺旋升角稳定性
+2026-07-09 17:23:36,017 - Experiment10 - INFO - ============================================================
+2026-07-09 17:23:36,017 - Experiment10 - INFO - [高维 128D] 提取隐状态并计算 FS 标架...
+2026-07-09 17:23:37,478 - Experiment10 - INFO -   [高维] 正例 CV=0.1820, 负例 CV=0.1832, R²=0.0005 → SUPPORT
+2026-07-09 17:23:37,478 - Experiment10 - INFO - [低维 32D] 提取隐状态并计算 FS 标架...
+2026-07-09 17:23:38,183 - Experiment10 - INFO -   [低维] 正例 CV=0.2932, R²=0.0073
+2026-07-09 17:23:38,183 - Experiment10 - INFO -   维度增益: R² 0.0073→0.0005 (+-92.6%)
+2026-07-09 17:23:38,183 - Experiment10 - INFO - ============================================================
+2026-07-09 17:23:38,183 - Experiment10 - INFO - Part B: H-push 重测 — InfoNCE vs 铰链推离
+2026-07-09 17:23:38,183 - Experiment10 - INFO - ============================================================
+2026-07-09 17:23:38,200 - Experiment10 - INFO -   InfoNCE 负例构造方法: temporal_contrast
+2026-07-09 17:23:38,211 - Experiment10 - INFO -   InfoNCE 负例构造方法: divergent
+2026-07-09 17:23:38,214 - Experiment10 - INFO -   InfoNCE 负例构造方法: shuffle
+2026-07-09 17:23:38,222 - Experiment10 - INFO -   铰链推离对照...
+2026-07-09 17:23:38,223 - Experiment10 - INFO -   InfoNCE 最佳推离率=1.000 (方法=temporal_contrast), 铰链 Cohen's d=-128.4645 → SUPPORT
+2026-07-09 17:23:38,223 - Experiment10 - INFO - ============================================================
+2026-07-09 17:23:38,223 - Experiment10 - INFO - Part C: H-phase 重测 — 变长序列陈数相变检测
+2026-07-09 17:23:38,223 - Experiment10 - INFO - ============================================================
+2026-07-09 17:23:38,223 - Experiment10 - INFO -   长度桶 L=16...
+2026-07-09 17:24:12,675 - Experiment10 - INFO -     Chern mean=0.0138±0.0001, CV_tanΘ=0.18578383322950084
+2026-07-09 17:24:12,675 - Experiment10 - INFO -   长度桶 L=32...
+2026-07-09 17:24:58,608 - Experiment10 - INFO -     Chern mean=0.0138±0.0001, CV_tanΘ=0.18670839327875396
+2026-07-09 17:24:58,608 - Experiment10 - INFO -   长度桶 L=64...
+2026-07-09 17:26:13,600 - Experiment10 - INFO -     Chern mean=0.0138±0.0001, CV_tanΘ=0.18708138489025927
+2026-07-09 17:26:13,600 - Experiment10 - INFO -   长度桶 L=128...
+2026-07-09 17:27:28,663 - Experiment10 - INFO -     Chern mean=0.0138±0.0001, CV_tanΘ=0.18589603367975235
+2026-07-09 17:27:28,663 - Experiment10 - INFO -   长度桶 L=256...
+2026-07-09 17:28:43,802 - Experiment10 - INFO -     Chern mean=0.0138±0.0001, CV_tanΘ=0.18655976664128074
+2026-07-09 17:28:43,802 - Experiment10 - INFO -   长度桶 L=512...
+2026-07-09 17:29:59,029 - Experiment10 - INFO -     Chern mean=0.0138±0.0001, CV_tanΘ=0.18524645769956305
+2026-07-09 17:29:59,059 - Experiment10 - INFO -     16→32: 陈数Δ=0.0000±0.0000, d=1.12 → NO_TRANSITION
+2026-07-09 17:29:59,089 - Experiment10 - INFO -     32→64: 陈数Δ=-0.0000±0.0000, d=-1.56 → NO_TRANSITION
+2026-07-09 17:29:59,120 - Experiment10 - INFO -     64→128: 陈数Δ=-0.0000±0.0000, d=-0.37 → NO_TRANSITION
+2026-07-09 17:29:59,150 - Experiment10 - INFO -     128→256: 陈数Δ=0.0000±0.0000, d=0.34 → NO_TRANSITION
+2026-07-09 17:29:59,182 - Experiment10 - INFO -     256→512: 陈数Δ=0.0000±0.0000, d=1.19 → NO_TRANSITION
+2026-07-09 17:29:59,184 - Experiment10 - INFO - ============================================================
+2026-07-09 17:29:59,184 - Experiment10 - INFO - Part D: 集成判决 — 三层假设联合更新
+2026-07-09 17:29:59,184 - Experiment10 - INFO - ============================================================
+2026-07-09 17:29:59,184 - Experiment10 - INFO -   先验固化度: 0.48
+2026-07-09 17:29:59,184 - Experiment10 - INFO -   判决: A=SUPPORT(+0.15) B=SUPPORT(+0.15) C=REFUTED(-0.10)
+2026-07-09 17:29:59,184 - Experiment10 - INFO -   后验固化度: 0.57 (++0.09)
+2026-07-09 17:29:59,184 - Experiment10 - INFO -   叙事位置: 涅槃II-断舍剥离: 保留刚性+拓扑，中间层仍需迭代
+2026-07-09 17:29:59,184 - Experiment10 - INFO -   可固化: FS标架在128D空间有效 (H-helix 升级为铁律)
+2026-07-09 17:29:59,184 - Experiment10 - INFO -   可固化: InfoNCE推离取代铰链推离 (H-push 从REFUTED复活)
+2026-07-09 17:29:59,186 - Experiment10 - INFO - exp10 完成，耗时 383.2s
+2026-07-09 19:39:25,945 - Trainer - INFO - Epoch 1/3 | Train Loss: 97.7991 | Val Loss: 3.4472 | LM: 4.6754 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 3.2990 | RigidFlex: 91.4743
+2026-07-09 19:39:57,443 - Trainer - INFO - Epoch 2/3 | Train Loss: 30.9240 | Val Loss: 2.5629 | LM: 2.9758 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0028 | RigidFlex: 26.9468
+2026-07-09 19:40:28,182 - Trainer - INFO - Epoch 3/3 | Train Loss: 16.0313 | Val Loss: 2.4946 | LM: 2.5770 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9987 | RigidFlex: 12.4550
+2026-07-09 19:40:39,286 - Trainer - INFO - Epoch 1/3 | Train Loss: 16.1517 | Val Loss: 5.1200 | LM: 5.4081 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9896 | RigidFlex: 9.7488
+2026-07-09 19:40:50,132 - Trainer - INFO - Epoch 2/3 | Train Loss: 9.1801 | Val Loss: 4.5954 | LM: 4.8996 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0011 | RigidFlex: 3.2799
+2026-07-09 19:41:00,483 - Trainer - INFO - Epoch 3/3 | Train Loss: 7.4137 | Val Loss: 4.1008 | LM: 4.3877 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9992 | RigidFlex: 2.0264
+2026-07-09 19:41:00,486 - Experiment10 - INFO - ============================================================
+2026-07-09 19:41:00,486 - Experiment10 - INFO - Part A: H-helix 重测 — FS 螺旋升角稳定性
+2026-07-09 19:41:00,486 - Experiment10 - INFO - ============================================================
+2026-07-09 19:41:00,486 - Experiment10 - INFO - [高维 128D] 提取隐状态并计算 FS 标架...
+2026-07-09 19:41:01,536 - Experiment10 - INFO -   [高维] 正例 CV=0.1500, 负例 CV=0.1525, R²=0.0003 → SUPPORT
+2026-07-09 19:41:01,536 - Experiment10 - INFO - [低维 32D] 提取隐状态并计算 FS 标架...
+2026-07-09 19:41:02,065 - Experiment10 - INFO -   [低维] 正例 CV=0.3832, R²=0.0224
+2026-07-09 19:41:02,065 - Experiment10 - INFO -   维度增益: R² 0.0224→0.0003 (+-98.7%)
+2026-07-09 19:41:02,065 - Experiment10 - INFO - ============================================================
+2026-07-09 19:41:02,065 - Experiment10 - INFO - Part B: H-push 重测 — InfoNCE vs 铰链推离
+2026-07-09 19:41:02,065 - Experiment10 - INFO - ============================================================
+2026-07-09 19:41:02,079 - Experiment10 - INFO -   InfoNCE 负例构造方法: temporal_contrast
+2026-07-09 19:41:02,105 - Experiment10 - INFO -   InfoNCE 负例构造方法: divergent
+2026-07-09 19:41:02,110 - Experiment10 - INFO -   InfoNCE 负例构造方法: shuffle
+2026-07-09 19:41:02,121 - Experiment10 - INFO -   铰链推离对照...
+2026-07-09 19:41:02,123 - Experiment10 - INFO -   InfoNCE 最佳推离率=1.000 (方法=temporal_contrast), 铰链 Cohen's d=-95.2380 → SUPPORT
+2026-07-09 19:41:02,123 - Experiment10 - INFO - ============================================================
+2026-07-09 19:41:02,123 - Experiment10 - INFO - Part C: H-phase 重测 — 变长序列陈数相变检测
+2026-07-09 19:41:02,123 - Experiment10 - INFO - ============================================================
+2026-07-09 19:41:02,123 - Experiment10 - INFO -   长度桶 L=16...
+2026-07-09 19:41:25,073 - Experiment10 - INFO -     Chern mean=0.0154±0.0001, CV_tanΘ=0.1539836349148546
+2026-07-09 19:41:25,073 - Experiment10 - INFO -   长度桶 L=32...
+2026-07-09 19:41:47,673 - Experiment10 - INFO -     Chern mean=0.0154±0.0001, CV_tanΘ=0.15328751435681848
+2026-07-09 19:41:47,673 - Experiment10 - INFO -   长度桶 L=64...
+2026-07-09 19:42:10,250 - Experiment10 - INFO -     Chern mean=0.0154±0.0001, CV_tanΘ=0.1548743524706687
+2026-07-09 19:42:10,250 - Experiment10 - INFO -   长度桶 L=128...
+2026-07-09 19:42:33,176 - Experiment10 - INFO -     Chern mean=0.0154±0.0001, CV_tanΘ=0.15410984300901898
+2026-07-09 19:42:33,176 - Experiment10 - INFO -   长度桶 L=256...
+2026-07-09 19:42:55,973 - Experiment10 - INFO -     Chern mean=0.0154±0.0001, CV_tanΘ=0.15399778399319017
+2026-07-09 19:42:55,973 - Experiment10 - INFO -   长度桶 L=512...
+2026-07-09 19:43:18,600 - Experiment10 - INFO -     Chern mean=0.0154±0.0001, CV_tanΘ=0.15296235999045454
+2026-07-09 19:43:18,619 - Experiment10 - INFO -     16→32: 陈数Δ=-0.0000±0.0000, d=-0.28 → NO_TRANSITION
+2026-07-09 19:43:18,639 - Experiment10 - INFO -     32→64: 陈数Δ=-0.0000±0.0000, d=-1.03 → NO_TRANSITION
+2026-07-09 19:43:18,659 - Experiment10 - INFO -     64→128: 陈数Δ=0.0000±0.0000, d=0.19 → NO_TRANSITION
+2026-07-09 19:43:18,677 - Experiment10 - INFO -     128→256: 陈数Δ=0.0000±0.0000, d=0.47 → NO_TRANSITION
+2026-07-09 19:43:18,698 - Experiment10 - INFO -     256→512: 陈数Δ=0.0000±0.0000, d=0.65 → NO_TRANSITION
+2026-07-09 19:43:18,701 - Experiment10 - INFO - ============================================================
+2026-07-09 19:43:18,701 - Experiment10 - INFO - Part D: 集成判决 — 三层假设联合更新
+2026-07-09 19:43:18,701 - Experiment10 - INFO - ============================================================
+2026-07-09 19:43:18,701 - Experiment10 - INFO -   先验固化度: 0.48
+2026-07-09 19:43:18,701 - Experiment10 - INFO -   判决: A=SUPPORT(+0.15) B=SUPPORT(+0.15) C=REFUTED(-0.10)
+2026-07-09 19:43:18,701 - Experiment10 - INFO -   后验固化度: 0.57 (++0.09)
+2026-07-09 19:43:18,701 - Experiment10 - INFO -   叙事位置: 涅槃II-断舍剥离: 保留刚性+拓扑，中间层仍需迭代
+2026-07-09 19:43:18,701 - Experiment10 - INFO -   可固化: FS标架在128D空间有效 (H-helix 升级为铁律)
+2026-07-09 19:43:18,701 - Experiment10 - INFO -   可固化: InfoNCE推离取代铰链推离 (H-push 从REFUTED复活)
+2026-07-09 19:43:18,701 - Experiment10 - INFO - ============================================================
+2026-07-09 19:43:18,701 - Experiment10 - INFO - Part D2: 几何动力学演化监控 (基于EvolutionCycleEngine)
+2026-07-09 19:43:18,701 - Experiment10 - INFO - ============================================================
+2026-07-09 19:43:18,701 - Experiment10 - INFO -   提取测试集隐状态用于几何动力学分析...
+2026-07-09 19:43:18,716 - Experiment10 - INFO -   运行 2 个伪epoch的动力学监控...
+2026-07-09 19:43:19,453 - Experiment10 - INFO -     Epoch 0: ψ_geo=-0.393 [◯ steady] κ_mean=0.0562 τ_mean=0.6745 正交度=1.000 条件数=3314673.0
+2026-07-09 19:43:20,149 - Experiment10 - INFO -     Epoch 1: ψ_geo=-0.396 [◯ steady] κ_mean=0.0562 τ_mean=0.6741 正交度=1.000 条件数=3369408.2
+2026-07-09 19:43:20,150 - Experiment10 - INFO -   动力学判决: 几何约束场在边缘振荡 — 动力学处于临界状态
+2026-07-09 19:43:20,150 - Experiment10 - INFO -   制动状态: 窗口=False, 预算=0.900, 谱条件数=3.47
+2026-07-09 19:43:20,150 - Experiment10 - INFO - ============================================================
+2026-07-09 19:43:20,150 - Experiment10 - INFO - Part D3: 三定理验证（十三字公理固化）
+2026-07-09 19:43:20,150 - Experiment10 - INFO -   公理：'信息化为世界模型，世界模型遵守几何规则'
+2026-07-09 19:43:20,150 - Experiment10 - INFO - ============================================================
+2026-07-09 19:43:20,470 - Experiment10 - INFO -   定理一（信息本体论 χ≠0）：INCONCLUSIVE (置信度 30.00%)
+2026-07-09 19:43:20,470 - Experiment10 - INFO -   定理二（几何守恒论 τ/κ=const）：WEAK (置信度 36.59%)
+2026-07-09 19:43:20,470 - Experiment10 - INFO -   定理三（拓扑残差论 ε_min>0）：PENDING (置信度 0.00%)
+2026-07-09 19:43:20,470 - Experiment10 - INFO -   综合支持度：18.30%
+2026-07-09 19:43:20,470 - Experiment10 - INFO -   公理验证：✗ 未通过
+2026-07-09 19:43:20,470 - Experiment10 - INFO -   自洽性：75.00%
+2026-07-09 19:43:20,470 - Experiment10 - INFO - exp10 完成，耗时 140.0s
+2026-07-09 19:50:28,669 - Trainer - INFO - Epoch 1/3 | Train Loss: 96.4872 | Val Loss: 3.5771 | LM: 4.7963 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 3.2396 | RigidFlex: 90.0712
+2026-07-09 19:51:03,283 - Trainer - INFO - Epoch 2/3 | Train Loss: 30.3660 | Val Loss: 2.5984 | LM: 3.0467 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9954 | RigidFlex: 26.3216
+2026-07-09 19:51:35,799 - GeometricTrainer - INFO - 基线模型参数量: 416349
+2026-07-09 19:51:38,268 - Trainer - INFO - Epoch 3/3 | Train Loss: 15.6658 | Val Loss: 2.5080 | LM: 2.5982 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0024 | RigidFlex: 12.0664
+2026-07-09 19:51:40,809 - GeometricTrainer - INFO -   基线 Epoch 5/15 Loss: 1.8345
+2026-07-09 19:51:45,127 - GeometricTrainer - INFO -   基线 Epoch 10/15 Loss: 1.0750
+2026-07-09 19:51:49,403 - GeometricTrainer - INFO -   基线 Epoch 15/15 Loss: 0.8323
+2026-07-09 19:51:49,419 - GeometricTrainer - INFO - 几何模型参数量: 2330693
+2026-07-09 19:55:16,622 - Trainer - INFO - Epoch 1/15 | Train Loss: 71.2920 | Val Loss: 2.6962 | LM: 3.9181 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.7736 | RigidFlex: 65.9871
+2026-07-09 19:56:37,204 - GeometricTrainer - INFO - 基线模型参数量: 416349
+2026-07-09 19:56:41,085 - GeometricTrainer - INFO -   基线 Epoch 5/15 Loss: 1.8345
+2026-07-09 19:56:44,745 - GeometricTrainer - INFO -   基线 Epoch 10/15 Loss: 1.0673
+2026-07-09 19:56:48,533 - GeometricTrainer - INFO -   基线 Epoch 15/15 Loss: 0.8246
+2026-07-09 19:56:48,549 - GeometricTrainer - INFO - 几何模型参数量: 462557
+2026-07-09 19:56:53,802 - GeometricTrainer - INFO -   几何 Epoch 5/15 Total: 3.4030 LM: 2.5045 Causal: 0.8984
+2026-07-09 19:56:58,884 - GeometricTrainer - INFO -   几何 Epoch 10/15 Total: 2.5353 LM: 2.3945 Causal: 0.1407
+2026-07-09 19:57:03,914 - GeometricTrainer - INFO -   几何 Epoch 15/15 Total: 2.0739 LM: 2.0026 Causal: 0.0713
+2026-07-09 19:57:03,914 - GeometricTrainer - INFO - ============================================================
+2026-07-09 19:57:03,914 - GeometricTrainer - INFO - 验证公理: 信息化为世界模型，世界模型遵守几何规则
+2026-07-09 19:57:03,914 - GeometricTrainer - INFO - ============================================================
+2026-07-09 19:57:12,097 - Trainer - INFO - Epoch 2/15 | Train Loss: 14.4269 | Val Loss: 2.5621 | LM: 2.5781 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0009 | RigidFlex: 10.8483
+2026-07-09 19:57:40,982 - GeometricTrainer - INFO -   实验1(曲率相关性): r=-0.0005, p=0.9601, 判决=INCONCLUSIVE
+2026-07-09 19:57:40,984 - GeometricTrainer - INFO -   实验2(测地线分离): d_pos=0.9993, d_neg=0.9991, satisfied=False, p=0.9896
+2026-07-09 19:57:40,985 - GeometricTrainer - INFO -   实验3(场强区分): F_pos=0.0886, F_neg=0.0885, discriminates=False, p=0.9975
+2026-07-09 19:57:40,985 - GeometricTrainer - INFO -   实验4(路径平坦化): pos_κ=1.0572, neg_κ=1.0571, flatter=False, p=0.9935
+2026-07-09 19:57:40,985 - GeometricTrainer - INFO - ============================================================
+2026-07-09 19:57:40,985 - GeometricTrainer - INFO - 总判决: OPPOSE (0/4 支持)
+2026-07-09 19:57:40,985 - GeometricTrainer - INFO -   '信息化为世界模型': 未通过
+2026-07-09 19:57:40,985 - GeometricTrainer - INFO -   '世界模型遵守几何规则': 未通过
+2026-07-09 19:57:40,985 - GeometricTrainer - INFO - ============================================================
+2026-07-09 19:59:21,105 - Trainer - INFO - Epoch 3/15 | Train Loss: 5.0092 | Val Loss: 2.5446 | LM: 2.5559 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0001 | RigidFlex: 1.4532
+2026-07-09 20:01:18,206 - Trainer - INFO - Epoch 4/15 | Train Loss: 3.6957 | Val Loss: 2.5065 | LM: 2.5153 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.1803
+2026-07-09 20:01:21,584 - GeometricTrainer - INFO - 基线模型参数量: 416349
+2026-07-09 20:01:36,537 - GeometricTrainer - INFO -   基线 Epoch 5/30 Loss: 0.7599
+2026-07-09 20:01:51,350 - GeometricTrainer - INFO -   基线 Epoch 10/30 Loss: 0.6066
+2026-07-09 20:02:06,123 - GeometricTrainer - INFO -   基线 Epoch 15/30 Loss: 0.5473
+2026-07-09 20:02:20,984 - GeometricTrainer - INFO -   基线 Epoch 20/30 Loss: 0.5096
+2026-07-09 20:02:35,794 - GeometricTrainer - INFO -   基线 Epoch 25/30 Loss: 0.4455
+2026-07-09 20:02:50,270 - GeometricTrainer - INFO -   基线 Epoch 30/30 Loss: 0.4007
+2026-07-09 20:02:50,282 - GeometricTrainer - INFO - 几何模型参数量: 462557
+2026-07-09 20:03:10,826 - GeometricTrainer - INFO -   几何 Epoch 5/30 Total: 2.0385 LM: 1.8730 Causal: 0.0331
+2026-07-09 20:03:32,285 - Trainer - INFO - Epoch 5/15 | Train Loss: 3.5911 | Val Loss: 2.4975 | LM: 2.4953 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0958
+2026-07-09 20:04:03,233 - GeometricTrainer - INFO - 基线模型参数量: 416349
+2026-07-09 20:04:09,462 - GeometricTrainer - INFO -   基线 Epoch 5/20 Loss: 1.2430
+2026-07-09 20:04:15,407 - GeometricTrainer - INFO -   基线 Epoch 10/20 Loss: 0.8231
+2026-07-09 20:04:21,401 - GeometricTrainer - INFO -   基线 Epoch 15/20 Loss: 0.7097
+2026-07-09 20:04:27,434 - GeometricTrainer - INFO -   基线 Epoch 20/20 Loss: 0.6405
+2026-07-09 20:04:27,446 - GeometricTrainer - INFO - 几何模型参数量: 462557
+2026-07-09 20:04:35,705 - GeometricTrainer - INFO -   几何 Epoch 5/20 Total: 2.7554 LM: 2.4857 Causal: 0.0539
+2026-07-09 20:04:44,124 - GeometricTrainer - INFO -   几何 Epoch 10/20 Total: 2.1962 LM: 2.0617 Causal: 0.0269
+2026-07-09 20:04:51,858 - GeometricTrainer - INFO -   几何 Epoch 15/20 Total: 1.6304 LM: 1.4646 Causal: 0.0332
+2026-07-09 20:04:59,397 - GeometricTrainer - INFO -   几何 Epoch 20/20 Total: 1.3747 LM: 1.1846 Causal: 0.0380
+2026-07-09 20:04:59,398 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:04:59,398 - GeometricTrainer - INFO - 验证公理: 信息化为世界模型，世界模型遵守几何规则
+2026-07-09 20:04:59,398 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:05:52,704 - Trainer - INFO - Epoch 6/15 | Train Loss: 3.5685 | Val Loss: 2.4924 | LM: 2.4877 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0809
+2026-07-09 20:05:54,209 - GeometricTrainer - INFO -   实验1(曲率相关性): r=0.0010, p=0.8980, 判决=INCONCLUSIVE
+2026-07-09 20:05:54,210 - GeometricTrainer - INFO -   实验2(测地线分离): d_pos=2.1397, d_neg=2.1348, satisfied=False, p=0.7948
+2026-07-09 20:05:54,211 - GeometricTrainer - INFO -   实验3(场强区分): F_pos=0.2106, F_neg=0.2122, discriminates=True, p=0.5883
+2026-07-09 20:05:54,212 - GeometricTrainer - INFO -   实验4(路径平坦化): pos_κ=1.1195, neg_κ=1.1227, flatter=True, p=0.6773
+2026-07-09 20:05:54,212 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:05:54,212 - GeometricTrainer - INFO - 总判决: OPPOSE (0/4 支持)
+2026-07-09 20:05:54,212 - GeometricTrainer - INFO -   '信息化为世界模型': 未通过
+2026-07-09 20:05:54,212 - GeometricTrainer - INFO -   '世界模型遵守几何规则': 未通过
+2026-07-09 20:05:54,212 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:07:27,993 - Trainer - INFO - Epoch 7/15 | Train Loss: 3.5561 | Val Loss: 2.4726 | LM: 2.4776 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0786
+2026-07-09 20:09:05,652 - Trainer - INFO - Epoch 8/15 | Train Loss: 3.5389 | Val Loss: 2.4535 | LM: 2.4618 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0772
+2026-07-09 20:10:44,760 - Trainer - INFO - Epoch 9/15 | Train Loss: 3.5184 | Val Loss: 2.4275 | LM: 2.4435 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0748
+2026-07-09 20:10:49,043 - GeometricTrainer - INFO - 基线模型参数量: 416349
+2026-07-09 20:10:54,561 - GeometricTrainer - INFO -   基线 Epoch 5/20 Loss: 1.2467
+2026-07-09 20:10:59,900 - GeometricTrainer - INFO -   基线 Epoch 10/20 Loss: 0.8132
+2026-07-09 20:11:05,467 - GeometricTrainer - INFO -   基线 Epoch 15/20 Loss: 0.7076
+2026-07-09 20:11:10,850 - GeometricTrainer - INFO -   基线 Epoch 20/20 Loss: 0.6395
+2026-07-09 20:11:10,850 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:11:10,850 - GeometricTrainer - INFO - 基线几何验证: 纯LM模型的隐状态是否自然具有因果几何结构
+2026-07-09 20:11:10,851 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:11:24,531 - GeometricTrainer - INFO -   欧几里得距离: d_pos=3.8318, d_neg=3.8196, closer=False, p=0.5687
+2026-07-09 20:11:24,533 - GeometricTrainer - INFO -   余弦相似度: cos_pos=0.4422, cos_neg=0.4469, aligned=False, p=0.3404
+2026-07-09 20:11:24,533 - GeometricTrainer - INFO -   轨迹曲率: pos_κ=0.5553, neg_κ=0.5588, flatter=True, p=0.6250
+2026-07-09 20:11:24,535 - GeometricTrainer - INFO -   基线几何总判决: OPPOSE (0/3)
+2026-07-09 20:11:24,535 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:11:24,543 - GeometricTrainer - INFO - 几何模型参数量: 462557
+2026-07-09 20:11:32,471 - GeometricTrainer - INFO -   几何 Epoch 5/20 Total: 2.7537 LM: 2.4817 Causal: 0.0544
+2026-07-09 20:11:40,291 - GeometricTrainer - INFO -   几何 Epoch 10/20 Total: 2.1821 LM: 2.0474 Causal: 0.0269
+2026-07-09 20:11:48,142 - GeometricTrainer - INFO -   几何 Epoch 15/20 Total: 1.6313 LM: 1.4263 Causal: 0.0410
+2026-07-09 20:11:55,968 - GeometricTrainer - INFO -   几何 Epoch 20/20 Total: 1.3449 LM: 1.1690 Causal: 0.0352
+2026-07-09 20:11:55,968 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:11:55,968 - GeometricTrainer - INFO - 验证公理: 信息化为世界模型，世界模型遵守几何规则
+2026-07-09 20:11:55,968 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:13:01,360 - Trainer - INFO - Epoch 10/15 | Train Loss: 3.4773 | Val Loss: 2.3288 | LM: 2.4027 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0747
+2026-07-09 20:13:48,104 - GeometricTrainer - INFO - 基线模型参数量: 416349
+2026-07-09 20:13:54,428 - GeometricTrainer - INFO -   基线 Epoch 5/20 Loss: 1.2440
+2026-07-09 20:14:00,523 - GeometricTrainer - INFO -   基线 Epoch 10/20 Loss: 0.8244
+2026-07-09 20:14:06,647 - GeometricTrainer - INFO -   基线 Epoch 15/20 Loss: 0.7105
+2026-07-09 20:14:13,213 - GeometricTrainer - INFO -   基线 Epoch 20/20 Loss: 0.6417
+2026-07-09 20:14:13,214 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:14:13,214 - GeometricTrainer - INFO - 基线几何验证: 纯LM模型的隐状态是否自然具有因果几何结构
+2026-07-09 20:14:13,214 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:14:16,734 - GeometricTrainer - INFO -   基线几何总判决: OPPOSE (0/0)
+2026-07-09 20:14:16,734 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:14:16,747 - GeometricTrainer - INFO - 几何模型参数量: 462557
+2026-07-09 20:14:25,051 - GeometricTrainer - INFO -   几何 Epoch 5/20 Total: 2.7793 LM: 2.4815 Causal: 0.0596
+2026-07-09 20:14:33,191 - GeometricTrainer - INFO -   几何 Epoch 10/20 Total: 2.1610 LM: 2.0436 Causal: 0.0235
+2026-07-09 20:14:41,902 - GeometricTrainer - INFO -   几何 Epoch 15/20 Total: 1.6752 LM: 1.5124 Causal: 0.0326
+2026-07-09 20:14:50,531 - GeometricTrainer - INFO -   几何 Epoch 20/20 Total: 1.4034 LM: 1.2255 Causal: 0.0356
+2026-07-09 20:14:50,532 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:14:50,532 - GeometricTrainer - INFO - 验证公理: 信息化为世界模型，世界模型遵守几何规则
+2026-07-09 20:14:50,532 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:15:05,070 - GeometricTrainer - INFO -   实验1: 标签恒定，无法计算相关
+2026-07-09 20:15:05,070 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:15:05,070 - GeometricTrainer - INFO - 总判决: OPPOSE (0/4 支持)
+2026-07-09 20:15:05,070 - GeometricTrainer - INFO -   '信息化为世界模型': 未通过
+2026-07-09 20:15:05,071 - GeometricTrainer - INFO -   '世界模型遵守几何规则': 未通过
+2026-07-09 20:15:05,071 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:15:12,814 - Trainer - INFO - Epoch 11/15 | Train Loss: 3.2855 | Val Loss: 1.9623 | LM: 2.1833 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.1022
+2026-07-09 20:15:44,234 - GeometricTrainer - INFO - 基线模型参数量: 416349
+2026-07-09 20:15:50,155 - GeometricTrainer - INFO -   基线 Epoch 5/20 Loss: 1.2489
+2026-07-09 20:15:55,885 - GeometricTrainer - INFO -   基线 Epoch 10/20 Loss: 0.8074
+2026-07-09 20:16:01,635 - GeometricTrainer - INFO -   基线 Epoch 15/20 Loss: 0.7067
+2026-07-09 20:16:07,343 - GeometricTrainer - INFO -   基线 Epoch 20/20 Loss: 0.6391
+2026-07-09 20:16:07,344 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:16:07,344 - GeometricTrainer - INFO - 基线几何验证: 纯LM模型的隐状态是否自然具有因果几何结构
+2026-07-09 20:16:07,344 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:16:11,129 - GeometricTrainer - INFO -   欧几里得距离: d_pos=3.8437, d_neg=3.8101, closer=False, p=0.3654
+2026-07-09 20:16:11,131 - GeometricTrainer - INFO -   余弦相似度: cos_pos=0.4353, cos_neg=0.4415, aligned=False, p=0.4682
+2026-07-09 20:16:11,131 - GeometricTrainer - INFO -   轨迹曲率: pos_κ=0.5545, neg_κ=0.5788, flatter=True, p=0.0560
+2026-07-09 20:16:11,132 - GeometricTrainer - INFO -   基线几何总判决: OPPOSE (0/3)
+2026-07-09 20:16:11,132 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:16:11,142 - GeometricTrainer - INFO - 几何模型参数量: 462557
+2026-07-09 20:16:18,906 - GeometricTrainer - INFO -   几何 Epoch 5/20 Total: 2.7526 LM: 2.4842 Causal: 0.0537
+2026-07-09 20:16:26,664 - GeometricTrainer - INFO -   几何 Epoch 10/20 Total: 2.1774 LM: 2.0485 Causal: 0.0258
+2026-07-09 20:16:34,619 - GeometricTrainer - INFO -   几何 Epoch 15/20 Total: 1.6729 LM: 1.4830 Causal: 0.0380
+2026-07-09 20:16:42,534 - GeometricTrainer - INFO -   几何 Epoch 20/20 Total: 1.3977 LM: 1.2060 Causal: 0.0383
+2026-07-09 20:16:42,534 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:16:42,534 - GeometricTrainer - INFO - 验证公理: 信息化为世界模型，世界模型遵守几何规则
+2026-07-09 20:16:42,534 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:16:57,203 - GeometricTrainer - INFO -   实验1(曲率相关性): r=-0.0016, p=0.9190, 判决=INCONCLUSIVE
+2026-07-09 20:16:57,204 - GeometricTrainer - INFO -   实验2(测地线分离): d_pos=1.9735, d_neg=1.9454, satisfied=False, p=0.3318
+2026-07-09 20:16:57,204 - GeometricTrainer - INFO -   实验3(场强区分): F_pos=0.1934, F_neg=0.1920, discriminates=False, p=0.7396
+2026-07-09 20:16:57,205 - GeometricTrainer - INFO -   实验4(路径平坦化): pos_κ=1.1440, neg_κ=1.1704, flatter=True, p=0.0187
+2026-07-09 20:16:57,205 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:16:57,205 - GeometricTrainer - INFO - 总判决: WEAK_SUPPORT (1/4 支持)
+2026-07-09 20:16:57,205 - GeometricTrainer - INFO -   '信息化为世界模型': 未通过
+2026-07-09 20:16:57,205 - GeometricTrainer - INFO -   '世界模型遵守几何规则': 验证通过
+2026-07-09 20:16:57,205 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:17:22,637 - Trainer - INFO - Epoch 12/15 | Train Loss: 2.9906 | Val Loss: 1.6614 | LM: 1.8669 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.1238
+2026-07-09 20:17:56,157 - GeometricTrainer - INFO - 基线模型参数量: 416349
+2026-07-09 20:18:02,756 - GeometricTrainer - INFO -   基线 Epoch 5/20 Loss: 1.2419
+2026-07-09 20:18:08,706 - GeometricTrainer - INFO -   基线 Epoch 10/20 Loss: 0.8177
+2026-07-09 20:18:14,437 - GeometricTrainer - INFO -   基线 Epoch 15/20 Loss: 0.7090
+2026-07-09 20:18:20,098 - GeometricTrainer - INFO -   基线 Epoch 20/20 Loss: 0.6398
+2026-07-09 20:18:20,098 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:18:20,098 - GeometricTrainer - INFO - 基线几何验证: 纯LM模型的隐状态是否自然具有因果几何结构
+2026-07-09 20:18:20,098 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:18:23,778 - GeometricTrainer - INFO -   欧几里得距离: d_pos=3.8398, d_neg=3.8080, closer=False, p=0.3877
+2026-07-09 20:18:23,779 - GeometricTrainer - INFO -   余弦相似度: cos_pos=0.4369, cos_neg=0.4424, aligned=False, p=0.5153
+2026-07-09 20:18:23,780 - GeometricTrainer - INFO -   轨迹曲率: pos_κ=0.5505, neg_κ=0.5739, flatter=True, p=0.0629
+2026-07-09 20:18:23,780 - GeometricTrainer - INFO -   基线几何总判决: OPPOSE (0/3)
+2026-07-09 20:18:23,780 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:18:23,790 - GeometricTrainer - INFO - 几何模型参数量: 462557
+2026-07-09 20:18:31,931 - GeometricTrainer - INFO -   几何 Epoch 5/20 Total: 2.7786 LM: 2.4860 Causal: 0.0585
+2026-07-09 20:18:40,098 - GeometricTrainer - INFO -   几何 Epoch 10/20 Total: 2.1928 LM: 2.0698 Causal: 0.0246
+2026-07-09 20:18:47,834 - GeometricTrainer - INFO -   几何 Epoch 15/20 Total: 1.7063 LM: 1.5197 Causal: 0.0373
+2026-07-09 20:18:55,830 - GeometricTrainer - INFO -   几何 Epoch 20/20 Total: 1.4007 LM: 1.2089 Causal: 0.0384
+2026-07-09 20:18:55,830 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:18:55,830 - GeometricTrainer - INFO - 验证公理: 信息化为世界模型，世界模型遵守几何规则
+2026-07-09 20:18:55,830 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:19:10,596 - GeometricTrainer - INFO -   实验1(曲率相关性): r=-0.0100, p=0.5179, 判决=INCONCLUSIVE
+2026-07-09 20:19:10,598 - GeometricTrainer - INFO -   实验2(测地线分离): d_pos=1.9335, d_neg=1.9031, satisfied=False, p=0.2882
+2026-07-09 20:19:10,599 - GeometricTrainer - INFO -   实验3(场强区分): F_pos=0.1900, F_neg=0.1915, discriminates=True, p=0.7175
+2026-07-09 20:19:10,599 - GeometricTrainer - INFO -   实验4(路径平坦化): pos_κ=1.1586, neg_κ=1.1866, flatter=True, p=0.0119
+2026-07-09 20:19:10,599 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:19:10,599 - GeometricTrainer - INFO - 总判决: WEAK_SUPPORT (1/4 支持)
+2026-07-09 20:19:10,599 - GeometricTrainer - INFO -   '信息化为世界模型': 未通过
+2026-07-09 20:19:10,599 - GeometricTrainer - INFO -   '世界模型遵守几何规则': 验证通过
+2026-07-09 20:19:10,599 - GeometricTrainer - INFO - ============================================================
+2026-07-09 20:19:33,638 - Trainer - INFO - Epoch 13/15 | Train Loss: 2.7642 | Val Loss: 1.4837 | LM: 1.6271 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.1372
+2026-07-09 20:21:15,979 - Trainer - INFO - Epoch 14/15 | Train Loss: 2.6234 | Val Loss: 1.4275 | LM: 1.4948 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.1287
+2026-07-09 20:29:08,218 - Trainer - INFO - Epoch 1/8 | Train Loss: 70.7209 | Val Loss: 2.6770 | LM: 3.8550 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.7484 | RigidFlex: 65.4917
+2026-07-09 20:30:57,948 - Trainer - INFO - Epoch 2/8 | Train Loss: 14.6332 | Val Loss: 2.5602 | LM: 2.5796 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0021 | RigidFlex: 11.0526
+2026-07-09 20:32:56,266 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.0215 | Val Loss: 2.5421 | LM: 2.5538 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9999 | RigidFlex: 1.4677
+2026-07-09 20:34:51,462 - Trainer - INFO - Epoch 4/8 | Train Loss: 3.6869 | Val Loss: 2.5046 | LM: 2.5150 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.1719
+2026-07-09 20:36:41,078 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.5846 | Val Loss: 2.4942 | LM: 2.4918 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0928
+2026-07-09 20:38:27,887 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.5683 | Val Loss: 2.4858 | LM: 2.4870 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0813
+2026-07-09 20:40:11,682 - Trainer - INFO - Epoch 7/8 | Train Loss: 3.5539 | Val Loss: 2.4718 | LM: 2.4754 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0785
+2026-07-09 20:41:53,303 - Trainer - INFO - Epoch 8/8 | Train Loss: 3.5400 | Val Loss: 2.4562 | LM: 2.4629 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0771
+2026-07-09 20:47:16,481 - NewtonTrainer - INFO - 基线模型参数量: 416349
+2026-07-09 20:47:23,838 - NewtonTrainer - INFO -   基线 Epoch 5/20 Loss: 1.2464
+2026-07-09 20:47:29,339 - NewtonTrainer - INFO -   基线 Epoch 10/20 Loss: 0.8195
+2026-07-09 20:47:34,736 - NewtonTrainer - INFO -   基线 Epoch 15/20 Loss: 0.7090
+2026-07-09 20:47:40,491 - NewtonTrainer - INFO -   基线 Epoch 20/20 Loss: 0.6404
+2026-07-09 20:47:40,496 - NewtonTrainer - INFO - 牛顿模型参数量: 418222
+2026-07-09 20:47:47,439 - NewtonTrainer - INFO -   牛顿 Epoch 5/20 Total: 7.8882 LM: 2.4773 Accel: 0.9822 Barrier: 0.5001
+2026-07-09 20:47:53,903 - NewtonTrainer - INFO -   牛顿 Epoch 10/20 Total: 7.8430 LM: 2.3934 Accel: 0.9899 Barrier: 0.5001
+2026-07-09 20:48:00,331 - NewtonTrainer - INFO -   牛顿 Epoch 15/20 Total: 3.0729 LM: 2.0938 Accel: 0.0958 Barrier: 0.5000
+2026-07-09 20:48:07,757 - NewtonTrainer - INFO -   牛顿 Epoch 20/20 Total: 1.4921 LM: 1.0265 Accel: 0.0096 Barrier: 0.4175
+2026-07-09 20:48:07,759 - NewtonTrainer - INFO - ============================================================
+2026-07-09 20:48:07,759 - NewtonTrainer - INFO - 牛顿版本验证: 平直空间 + 势函数 + 加速度惩罚
+2026-07-09 20:48:07,759 - NewtonTrainer - INFO - ============================================================
+2026-07-09 20:48:44,357 - NewtonTrainer - INFO - 基线模型参数量: 416349
+2026-07-09 20:48:51,134 - NewtonTrainer - INFO -   基线 Epoch 5/20 Loss: 1.2439
+2026-07-09 20:48:57,681 - NewtonTrainer - INFO -   基线 Epoch 10/20 Loss: 0.8256
+2026-07-09 20:49:04,166 - NewtonTrainer - INFO -   基线 Epoch 15/20 Loss: 0.7106
+2026-07-09 20:49:10,285 - NewtonTrainer - INFO -   基线 Epoch 20/20 Loss: 0.6409
+2026-07-09 20:49:10,294 - NewtonTrainer - INFO - 牛顿模型参数量: 418222
+2026-07-09 20:49:17,339 - NewtonTrainer - INFO -   牛顿 Epoch 5/20 Total: 7.8786 LM: 2.4767 Accel: 0.9804 Barrier: 0.5001
+2026-07-09 20:49:23,806 - NewtonTrainer - INFO -   牛顿 Epoch 10/20 Total: 7.8878 LM: 2.4009 Accel: 0.9974 Barrier: 0.5001
+2026-07-09 20:49:30,273 - NewtonTrainer - INFO -   牛顿 Epoch 15/20 Total: 3.6424 LM: 2.2574 Accel: 0.1770 Barrier: 0.5001
+2026-07-09 20:49:36,886 - NewtonTrainer - INFO -   牛顿 Epoch 20/20 Total: 1.6762 LM: 1.1216 Accel: 0.0259 Barrier: 0.4252
+2026-07-09 20:49:36,887 - NewtonTrainer - INFO - ============================================================
+2026-07-09 20:49:36,887 - NewtonTrainer - INFO - 牛顿版本验证: 平直空间 + 势函数 + 加速度惩罚
+2026-07-09 20:49:36,887 - NewtonTrainer - INFO - ============================================================
+2026-07-09 20:51:01,564 - NewtonTrainer - INFO - 基线模型参数量: 416349
+2026-07-09 20:51:08,387 - NewtonTrainer - INFO -   基线 Epoch 5/20 Loss: 1.2487
+2026-07-09 20:51:14,120 - NewtonTrainer - INFO -   基线 Epoch 10/20 Loss: 0.8121
+2026-07-09 20:51:19,925 - NewtonTrainer - INFO -   基线 Epoch 15/20 Loss: 0.7064
+2026-07-09 20:51:25,707 - NewtonTrainer - INFO -   基线 Epoch 20/20 Loss: 0.6391
+2026-07-09 20:51:25,714 - NewtonTrainer - INFO - 牛顿模型参数量: 418222
+2026-07-09 20:51:32,729 - NewtonTrainer - INFO -   牛顿 Epoch 5/20 Total: 7.8771 LM: 2.4771 Accel: 0.9800 Barrier: 0.5001
+2026-07-09 20:51:39,790 - NewtonTrainer - INFO -   牛顿 Epoch 10/20 Total: 7.8766 LM: 2.3991 Accel: 0.9955 Barrier: 0.5001
+2026-07-09 20:51:46,788 - NewtonTrainer - INFO -   牛顿 Epoch 15/20 Total: 3.0392 LM: 2.1018 Accel: 0.0875 Barrier: 0.5000
+2026-07-09 20:51:53,843 - NewtonTrainer - INFO -   牛顿 Epoch 20/20 Total: 1.5160 LM: 1.0543 Accel: 0.0085 Barrier: 0.4195
+2026-07-09 20:51:53,843 - NewtonTrainer - INFO - ============================================================
+2026-07-09 20:51:53,843 - NewtonTrainer - INFO - 牛顿版本验证: 平直空间 + 势函数 + 加速度惩罚
+2026-07-09 20:51:53,843 - NewtonTrainer - INFO - ============================================================
+2026-07-09 20:51:54,413 - NewtonTrainer - INFO -   加速度平坦化: pos=20.6584, neg=22.9262, flatter=True, p=0.0000
+2026-07-09 20:51:54,413 - NewtonTrainer - INFO -   hamiltonian_conservation: 5.632305997610092 vs 10.793167740106583, verdict=SUPPORT
+2026-07-09 20:51:54,413 - NewtonTrainer - INFO -   force_alignment: 0.05859111009452205 vs 0.0497062544617717, verdict=OPPOSE
+2026-07-09 20:51:54,413 - NewtonTrainer - INFO -   potential_barrier: 0.00022606413834068458 vs 0.006594883717779909, verdict=OPPOSE
+2026-07-09 20:51:54,413 - NewtonTrainer - INFO - ============================================================
+2026-07-09 20:51:54,413 - NewtonTrainer - INFO - 牛顿版本总判决: WEAK_SUPPORT (1/3)
+2026-07-09 20:51:54,413 - NewtonTrainer - INFO - ============================================================
+2026-07-09 21:02:32,012 - NewtonTrainer - INFO - 牛顿模型参数量: 418222
+2026-07-09 21:02:38,211 - NewtonTrainer - INFO -   牛顿 Epoch 5/20 Total: 7.9466 LM: 2.4654 Accel: 0.9962 Barrier: 0.5001
+2026-07-09 21:02:43,832 - NewtonTrainer - INFO -   牛顿 Epoch 10/20 Total: 7.7430 LM: 2.3513 Accel: 0.9783 Barrier: 0.5001
+2026-07-09 21:02:49,577 - NewtonTrainer - INFO -   牛顿 Epoch 15/20 Total: 2.6706 LM: 1.5770 Accel: 0.1187 Barrier: 0.5000
+2026-07-09 21:02:55,297 - NewtonTrainer - INFO -   牛顿 Epoch 20/20 Total: 1.5743 LM: 0.9093 Accel: 0.0330 Barrier: 0.5000
+2026-07-09 21:03:47,755 - NewtonTrainer - INFO - 牛顿模型参数量: 418222
+2026-07-09 21:03:54,075 - NewtonTrainer - INFO -   牛顿 Epoch 5/20 Total: 7.9486 LM: 2.4648 Accel: 0.9967 Barrier: 0.5001
+2026-07-09 21:03:59,857 - NewtonTrainer - INFO -   牛顿 Epoch 10/20 Total: 7.8061 LM: 2.3572 Accel: 0.9898 Barrier: 0.5001
+2026-07-09 21:04:05,850 - NewtonTrainer - INFO -   牛顿 Epoch 15/20 Total: 2.5374 LM: 1.6170 Accel: 0.0841 Barrier: 0.5000
+2026-07-09 21:04:11,816 - NewtonTrainer - INFO -   牛顿 Epoch 20/20 Total: 1.8992 LM: 0.9173 Accel: 0.0964 Barrier: 0.5000
+2026-07-09 21:13:27,396 - NewtonTrainer - INFO - 牛顿模型参数量: 418222
+2026-07-09 21:13:34,618 - NewtonTrainer - INFO -   牛顿 Epoch 5/20 Total: 7.9480 LM: 2.4670 Accel: 0.9962 Barrier: 0.5001
+2026-07-09 21:13:41,401 - NewtonTrainer - INFO -   牛顿 Epoch 10/20 Total: 7.8126 LM: 2.3556 Accel: 0.9914 Barrier: 0.5001
+2026-07-09 21:13:47,861 - NewtonTrainer - INFO -   牛顿 Epoch 15/20 Total: 2.6275 LM: 1.5578 Accel: 0.1139 Barrier: 0.5000
+2026-07-09 21:13:54,622 - NewtonTrainer - INFO -   牛顿 Epoch 20/20 Total: 1.6675 LM: 0.9120 Accel: 0.0511 Barrier: 0.5000
+2026-07-09 21:16:26,250 - NewtonTrainer - INFO - 牛顿模型参数量: 418222
+2026-07-09 21:16:32,754 - NewtonTrainer - INFO -   牛顿 Epoch 5/20 Total: 7.9504 LM: 2.4660 Accel: 0.9969 Barrier: 0.5001
+2026-07-09 21:16:38,603 - NewtonTrainer - INFO -   牛顿 Epoch 10/20 Total: 7.7625 LM: 2.3545 Accel: 0.9816 Barrier: 0.5001
+2026-07-09 21:16:44,255 - NewtonTrainer - INFO -   牛顿 Epoch 15/20 Total: 2.6733 LM: 1.5796 Accel: 0.1187 Barrier: 0.5000
+2026-07-09 21:16:49,888 - NewtonTrainer - INFO -   牛顿 Epoch 20/20 Total: 1.7268 LM: 0.9102 Accel: 0.0633 Barrier: 0.5000
+2026-07-09 21:17:22,495 - NewtonTrainer - INFO - 牛顿模型参数量: 418222
+2026-07-09 21:17:28,542 - NewtonTrainer - INFO -   牛顿 Epoch 5/20 Total: 7.9528 LM: 2.4677 Accel: 0.9970 Barrier: 0.5001
+2026-07-09 21:17:34,212 - NewtonTrainer - INFO -   牛顿 Epoch 10/20 Total: 7.8186 LM: 2.3532 Accel: 0.9931 Barrier: 0.5001
+2026-07-09 21:17:40,105 - NewtonTrainer - INFO -   牛顿 Epoch 15/20 Total: 2.4654 LM: 1.6164 Accel: 0.0698 Barrier: 0.5000
+2026-07-09 21:17:45,906 - NewtonTrainer - INFO -   牛顿 Epoch 20/20 Total: 1.7106 LM: 0.9368 Accel: 0.0548 Barrier: 0.5000
+2026-07-09 21:20:46,474 - NewtonTrainer - INFO - 牛顿模型参数量: 418222
+2026-07-09 21:20:52,637 - NewtonTrainer - INFO -   牛顿 Epoch 5/20 Total: 7.9465 LM: 2.4654 Accel: 0.9962 Barrier: 0.5001
+2026-07-09 21:20:58,206 - NewtonTrainer - INFO -   牛顿 Epoch 10/20 Total: 7.8053 LM: 2.3515 Accel: 0.9907 Barrier: 0.5001
+2026-07-09 21:21:03,973 - NewtonTrainer - INFO -   牛顿 Epoch 15/20 Total: 3.0747 LM: 1.5445 Accel: 0.2060 Barrier: 0.5000
+2026-07-09 21:21:09,696 - NewtonTrainer - INFO -   牛顿 Epoch 20/20 Total: 1.6864 LM: 0.8982 Accel: 0.0576 Barrier: 0.5000
+2026-07-09 21:23:28,878 - NewtonTrainer - INFO - 牛顿模型参数量: 418222
+2026-07-09 21:23:35,040 - NewtonTrainer - INFO -   牛顿 Epoch 5/20 Total: 7.9552 LM: 2.4655 Accel: 0.9979 Barrier: 0.5001
+2026-07-09 21:23:40,856 - NewtonTrainer - INFO -   牛顿 Epoch 10/20 Total: 7.7813 LM: 2.3501 Accel: 0.9862 Barrier: 0.5001
+2026-07-09 21:23:46,591 - NewtonTrainer - INFO -   牛顿 Epoch 15/20 Total: 2.6107 LM: 1.5594 Accel: 0.1103 Barrier: 0.5000
+2026-07-09 21:23:52,335 - NewtonTrainer - INFO -   牛顿 Epoch 20/20 Total: 1.7642 LM: 0.9159 Accel: 0.0696 Barrier: 0.5000
+2026-07-09 21:25:11,131 - NewtonTrainer - INFO - 牛顿模型参数量: 418222
+2026-07-09 21:25:17,372 - NewtonTrainer - INFO -   牛顿 Epoch 5/20 Total: 7.9562 LM: 2.4646 Accel: 0.9983 Barrier: 0.5001
+2026-07-09 21:25:23,090 - NewtonTrainer - INFO -   牛顿 Epoch 10/20 Total: 7.7648 LM: 2.3515 Accel: 0.9826 Barrier: 0.5001
+2026-07-09 21:25:28,961 - NewtonTrainer - INFO -   牛顿 Epoch 15/20 Total: 2.8044 LM: 1.5135 Accel: 0.1582 Barrier: 0.5000
+2026-07-09 21:25:34,968 - NewtonTrainer - INFO -   牛顿 Epoch 20/20 Total: 1.6756 LM: 0.8987 Accel: 0.0554 Barrier: 0.5000
+2026-07-09 21:26:14,584 - NewtonTrainer - INFO - 牛顿模型参数量: 418222
+2026-07-09 21:26:20,571 - NewtonTrainer - INFO -   牛顿 Epoch 5/20 Total: 7.9470 LM: 2.4668 Accel: 0.9960 Barrier: 0.5001
+2026-07-09 21:26:26,070 - NewtonTrainer - INFO -   牛顿 Epoch 10/20 Total: 7.8254 LM: 2.3601 Accel: 0.9931 Barrier: 0.5001
+2026-07-09 21:26:31,682 - NewtonTrainer - INFO -   牛顿 Epoch 15/20 Total: 2.5181 LM: 1.6654 Accel: 0.0705 Barrier: 0.5000
+2026-07-09 21:26:37,376 - NewtonTrainer - INFO -   牛顿 Epoch 20/20 Total: 1.7830 LM: 0.9300 Accel: 0.0706 Barrier: 0.5000
+2026-07-09 21:27:38,695 - NewtonTrainer - INFO - 牛顿模型参数量: 418222
+2026-07-09 21:27:44,673 - NewtonTrainer - INFO -   牛顿 Epoch 5/20 Total: 7.9564 LM: 2.4693 Accel: 0.9974 Barrier: 0.5001
+2026-07-09 21:27:50,214 - NewtonTrainer - INFO -   牛顿 Epoch 10/20 Total: 7.8639 LM: 2.3595 Accel: 1.0009 Barrier: 0.5001
+2026-07-09 21:27:55,843 - NewtonTrainer - INFO -   牛顿 Epoch 15/20 Total: 2.3940 LM: 1.5891 Accel: 0.0610 Barrier: 0.5000
+2026-07-09 21:28:01,545 - NewtonTrainer - INFO -   牛顿 Epoch 20/20 Total: 1.7154 LM: 0.9062 Accel: 0.0618 Barrier: 0.5000
+2026-07-09 21:40:08,943 - NewtonTrainer - INFO - 牛顿模型参数量: 418222
+2026-07-09 21:40:14,901 - NewtonTrainer - INFO -   牛顿 Epoch 5/20 Total: 7.9577 LM: 2.4650 Accel: 0.9985 Barrier: 0.5001
+2026-07-09 21:40:20,438 - NewtonTrainer - INFO -   牛顿 Epoch 10/20 Total: 7.8717 LM: 2.3603 Accel: 1.0023 Barrier: 0.5001
+2026-07-09 21:40:26,000 - NewtonTrainer - INFO -   牛顿 Epoch 15/20 Total: 2.4204 LM: 1.7056 Accel: 0.0430 Barrier: 0.5000
+2026-07-09 21:40:31,615 - NewtonTrainer - INFO -   牛顿 Epoch 20/20 Total: 1.7701 LM: 0.9295 Accel: 0.0681 Barrier: 0.5000
+2026-07-09 21:41:10,049 - NewtonTrainer - INFO - 牛顿模型参数量: 418222
+2026-07-09 21:41:15,887 - NewtonTrainer - INFO -   牛顿 Epoch 5/20 Total: 7.9517 LM: 2.4672 Accel: 0.9969 Barrier: 0.5001
+2026-07-09 21:41:21,288 - NewtonTrainer - INFO -   牛顿 Epoch 10/20 Total: 7.7879 LM: 2.3526 Accel: 0.9870 Barrier: 0.5001
+2026-07-09 21:41:26,733 - NewtonTrainer - INFO -   牛顿 Epoch 15/20 Total: 2.5788 LM: 1.6228 Accel: 0.0912 Barrier: 0.5000
+2026-07-09 21:41:32,192 - NewtonTrainer - INFO -   牛顿 Epoch 20/20 Total: 1.8094 LM: 0.9485 Accel: 0.0722 Barrier: 0.5000
+2026-07-09 21:42:09,208 - NewtonTrainer - INFO - 牛顿模型参数量: 418222
+2026-07-09 21:42:15,091 - NewtonTrainer - INFO -   牛顿 Epoch 5/20 Total: 7.9656 LM: 2.4687 Accel: 0.9994 Barrier: 0.5001
+2026-07-09 21:42:20,497 - NewtonTrainer - INFO -   牛顿 Epoch 10/20 Total: 7.9308 LM: 2.3567 Accel: 1.0148 Barrier: 0.5001
+2026-07-09 21:42:26,045 - NewtonTrainer - INFO -   牛顿 Epoch 15/20 Total: 2.4265 LM: 1.7472 Accel: 0.0358 Barrier: 0.5000
+2026-07-09 21:42:31,524 - NewtonTrainer - INFO -   牛顿 Epoch 20/20 Total: 1.6128 LM: 0.9421 Accel: 0.0342 Barrier: 0.5000
+2026-07-09 21:42:55,612 - NewtonTrainer - INFO - 牛顿模型参数量: 418222
+2026-07-09 21:43:01,581 - NewtonTrainer - INFO -   牛顿 Epoch 5/20 Total: 7.9429 LM: 2.4648 Accel: 0.9956 Barrier: 0.5001
+2026-07-09 21:43:07,002 - NewtonTrainer - INFO -   牛顿 Epoch 10/20 Total: 7.8302 LM: 2.3554 Accel: 0.9949 Barrier: 0.5001
+2026-07-09 21:43:12,489 - NewtonTrainer - INFO -   牛顿 Epoch 15/20 Total: 2.9271 LM: 1.5484 Accel: 0.1757 Barrier: 0.5000
+2026-07-09 21:43:17,968 - NewtonTrainer - INFO -   牛顿 Epoch 20/20 Total: 1.7236 LM: 0.9335 Accel: 0.0580 Barrier: 0.5000

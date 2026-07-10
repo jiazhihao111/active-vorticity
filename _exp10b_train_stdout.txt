@@ -1,0 +1,11 @@
+Model: 3,484,032 params
+Data: train=320, val=40
+2026-07-09 20:29:08,218 - Trainer - INFO - Epoch 1/8 | Train Loss: 70.7209 | Val Loss: 2.6770 | LM: 3.8550 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.7484 | RigidFlex: 65.4917
+2026-07-09 20:30:57,948 - Trainer - INFO - Epoch 2/8 | Train Loss: 14.6332 | Val Loss: 2.5602 | LM: 2.5796 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0021 | RigidFlex: 11.0526
+2026-07-09 20:32:56,266 - Trainer - INFO - Epoch 3/8 | Train Loss: 5.0215 | Val Loss: 2.5421 | LM: 2.5538 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 1.9999 | RigidFlex: 1.4677
+2026-07-09 20:34:51,462 - Trainer - INFO - Epoch 4/8 | Train Loss: 3.6869 | Val Loss: 2.5046 | LM: 2.5150 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.1719
+2026-07-09 20:36:41,078 - Trainer - INFO - Epoch 5/8 | Train Loss: 3.5846 | Val Loss: 2.4942 | LM: 2.4918 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0928
+2026-07-09 20:38:27,887 - Trainer - INFO - Epoch 6/8 | Train Loss: 3.5683 | Val Loss: 2.4858 | LM: 2.4870 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0813
+2026-07-09 20:40:11,682 - Trainer - INFO - Epoch 7/8 | Train Loss: 3.5539 | Val Loss: 2.4718 | LM: 2.4754 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0785
+2026-07-09 20:41:53,303 - Trainer - INFO - Epoch 8/8 | Train Loss: 3.5400 | Val Loss: 2.4562 | LM: 2.4629 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0771
+Model saved to exp10_outputs/exp10b_model.pt

@@ -1,0 +1,25 @@
+2026-07-09 12:04:04,769 - TauGrid - INFO - τ网格: train=240对 val=30对 test=30对
+2026-07-09 12:04:04,773 - TauGrid - INFO - ─── τ 网格 [1/11] τ_train = 0.1 ───
+2026-07-09 12:04:12,893 - TauGrid - INFO -   τ=0.1: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0395 | flex+=0.0392 f-=0.0397 | rf_loss=0.1613
+2026-07-09 12:04:12,893 - TauGrid - INFO - ─── τ 网格 [2/11] τ_train = 0.2 ───
+2026-07-09 12:04:19,544 - TauGrid - INFO -   τ=0.2: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0410 | flex+=0.0414 f-=0.0412 | rf_loss=0.1631
+2026-07-09 12:04:19,544 - TauGrid - INFO - ─── τ 网格 [3/11] τ_train = 0.3 ───
+2026-07-09 12:04:28,887 - TauGrid - INFO -   τ=0.3: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0358 | flex+=0.0362 f-=0.0366 | rf_loss=0.1616
+2026-07-09 12:04:28,889 - TauGrid - INFO - ─── τ 网格 [4/11] τ_train = 0.4 ───
+2026-07-09 12:04:35,987 - TauGrid - INFO -   τ=0.4: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0418 | flex+=0.0420 f-=0.0420 | rf_loss=0.1607
+2026-07-09 12:04:35,987 - TauGrid - INFO - ─── τ 网格 [5/11] τ_train = 0.5 ───
+2026-07-09 12:04:44,901 - TauGrid - INFO -   τ=0.5: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0370 | flex+=0.0369 f-=0.0370 | rf_loss=0.1610
+2026-07-09 12:04:44,901 - TauGrid - INFO - ─── τ 网格 [6/11] τ_train = 0.6 ───
+2026-07-09 12:04:51,806 - TauGrid - INFO -   τ=0.6: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0406 | flex+=0.0403 f-=0.0400 | rf_loss=0.1632
+2026-07-09 12:04:51,806 - TauGrid - INFO - ─── τ 网格 [7/11] τ_train = 0.7 ───
+2026-07-09 12:05:00,887 - TauGrid - INFO -   τ=0.7: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0398 | flex+=0.0398 f-=0.0399 | rf_loss=0.1756
+2026-07-09 12:05:00,887 - TauGrid - INFO - ─── τ 网格 [8/11] τ_train = 0.8 ───
+2026-07-09 12:05:07,881 - TauGrid - INFO -   τ=0.8: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0433 | flex+=0.0426 f-=0.0423 | rf_loss=0.1746
+2026-07-09 12:05:07,881 - TauGrid - INFO - ─── τ 网格 [9/11] τ_train = 1.0 ───
+2026-07-09 12:05:15,677 - TauGrid - INFO -   τ=1.0: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0418 | flex+=0.0418 f-=0.0424 | rf_loss=0.1799
+2026-07-09 12:05:15,677 - TauGrid - INFO - ─── τ 网格 [10/11] τ_train = 1.5 ───
+2026-07-09 12:05:24,095 - TauGrid - INFO -   τ=1.5: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0435 | flex+=0.0435 f-=0.0438 | rf_loss=0.1800
+2026-07-09 12:05:24,097 - TauGrid - INFO - ─── τ 网格 [11/11] τ_train = 2.0 ───
+2026-07-09 12:05:33,283 - TauGrid - INFO -   τ=2.0: H-rigid=SUPPORT | H-flex=INCONCLUSIVE | phys=0.0387 | flex+=0.0387 f-=0.0390 | rf_loss=0.1967
+2026-07-09 12:05:33,286 - TauGrid - INFO - τ网格报告已保存: C:\Users\51615\Desktop\2026.7.9.8.43对称、破缺与约束场\tau_grid_report.json
+2026-07-09 12:05:33,287 - TauGrid - INFO - MD报告已保存: C:\Users\51615\Desktop\2026.7.9.8.43对称、破缺与约束场\tau_grid_report.md

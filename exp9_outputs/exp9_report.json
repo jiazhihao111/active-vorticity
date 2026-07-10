@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-07-09T16:34:55",
+  "config": {
+    "d_model": 128,
+    "base_dim": 32,
+    "hidden_dim": 32,
+    "r": 16,
+    "num_stories": 400
+  },
+  "H_helix": {
+    "all": {
+      "n_samples": 400,
+      "mean_tan_theta": 1.101135492324829,
+      "std_tan_theta": 0.36354851722717285,
+      "cv_tan_theta": 0.33015784139299,
+      "pearson_r": -0.23904707489338414,
+      "r_squared": 0.05714350401508321,
+      "slope": -0.3646835386753082,
+      "iqr": 0.42382127046585083,
+      "verdict": "REFUTED",
+      "detail": "R²=0.057 < 0.3, CV=0.330 — 螺旋升角不稳定"
+    },
+    "flex_pos": {
+      "n_samples": 200,
+      "mean_tan_theta": 1.101135492324829,
+      "std_tan_theta": 0.36354851722717285,
+      "cv_tan_theta": 0.33015784139299,
+      "pearson_r": -0.23904707489338414,
+      "r_squared": 0.05714350401508321,
+      "slope": -0.3646835386753082,
+      "iqr": 0.42382127046585083,
+      "verdict": "REFUTED",
+      "detail": "R²=0.057 < 0.3, CV=0.330 — 螺旋升角不稳定"
+    },
+    "flex_neg": {
+      "n_samples": 200,
+      "mean_tan_theta": 1.101135492324829,
+      "std_tan_theta": 0.36354851722717285,
+      "cv_tan_theta": 0.33015784139299,
+      "pearson_r": -0.23904707489338414,
+      "r_squared": 0.05714350401508321,
+      "slope": -0.3646835386753082,
+      "iqr": 0.42382127046585083,
+      "verdict": "REFUTED",
+      "detail": "R²=0.057 < 0.3, CV=0.330 — 螺旋升角不稳定"
+    }
+  },
+  "H_phase": {
+    "seq_lengths": [
+      40,
+      80,
+      120,
+      160,
+      240,
+      320
+    ],
+    "chern_estimates": [
+      0.0,
+      1.5008091926574707,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "chern_std": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "jump_detected": false,
+    "jump_position": null,
+    "verdict": "UNCERTAIN",
+    "detail": "陈数随长度平滑变化，无显著跳变 (max_diff=1.5008)"
+  },
+  "H_topo_inhibit": {
+    "baseline_tau_final": 0.01718813106417656,
+    "treatment_tau_final": 0.612664008140564,
+    "baseline_diversity": 0.010241697285557141,
+    "treatment_diversity": 0.16539343052670918,
+    "tau_collapse_prevented": true,
+    "diversity_improved": true,
+    "verdict": "SUPPORT",
+    "detail": "Treatment τ 高于 baseline 35.64x, diversity 提升 16.15x"
+  },
+  "overall_verdict": "S_WEAK",
+  "overall_detail": "仅 1/3 假设通过 — 基本几何洞察成立，动力学需重新设计"
+}

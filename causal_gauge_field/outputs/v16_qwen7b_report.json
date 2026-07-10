@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-07-09T23:55:29.749971",
+  "framework": "v16 Qwen2.5-7B Cross-Model Verification",
+  "model_config": {
+    "model": "Qwen2.5-7B-Instruct",
+    "hidden_size": 3584,
+    "num_layers": 28,
+    "num_attention_heads": 28,
+    "num_key_value_heads": 4,
+    "alpha_star": 1.4109388595099794,
+    "quantization": "4-bit NF4"
+  },
+  "alpha_star": 1.4109388595099794,
+  "alpha_star_std": 0.02008450389707064
+}

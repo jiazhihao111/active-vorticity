@@ -1,0 +1,148 @@
+{
+  "timestamp": "2026-07-09T16:11:42.650106",
+  "config": {
+    "num_stories": 300,
+    "max_seq_len": 160,
+    "flex_label_counts": {
+      "phys": 300,
+      "flex_pos": 300,
+      "flex_neg": 300
+    }
+  },
+  "regimes": {
+    "A_baseline": {
+      "regime": "A",
+      "tag": "A_baseline_LM",
+      "evaluation": {
+        "snr": 0.017705025469013497,
+        "mu_pos": 0.14602276330192884,
+        "mu_neg": 0.1460802940527598,
+        "cohens_d": 0.017705025469013497,
+        "wilcoxon_p": 0.8299260236211915,
+        "dip_p_pos": 0.53,
+        "dip_p_neg": 0.47,
+        "dip_p_combined": 0.48,
+        "auc": 0.5113000000000001,
+        "f_star_drift": 13.602276330192883,
+        "F_flex_star_initial": 0.01,
+        "F_flex_star_final": 0.14602276330192884,
+        "phys_curv_mean": 0.17540918429692587,
+        "H_attractor": "REFUTED",
+        "H_attractor_detail": "F* 退化 1360.2% > 80%",
+        "H_push": "REFUTED",
+        "H_push_detail": "Cohen's d=0.018 < 0.2, p=0.830 > 0.05",
+        "overall": "REFUTED",
+        "Q1_stable_Fstar": "FAIL",
+        "Q2_differentiation": "FAIL",
+        "Q3_decoupling": "PENDING",
+        "n_pos_samples": 300,
+        "n_neg_samples": 300,
+        "n_phys_samples": 300,
+        "eval_errors": 0
+      }
+    },
+    "B_threshold": {
+      "regime": "B",
+      "tag": "B_threshold_R",
+      "evaluation": {
+        "snr": 0.5024559150277331,
+        "mu_pos": 0.00032869710237719117,
+        "mu_neg": 0.0003434912131827635,
+        "cohens_d": 0.5024559150277332,
+        "wilcoxon_p": 3.8110071609268826e-19,
+        "dip_p_pos": 0.67,
+        "dip_p_neg": 1.0,
+        "dip_p_combined": 0.57,
+        "auc": 0.5252888888888888,
+        "f_star_drift": 0.9671302897622809,
+        "F_flex_star_initial": 0.01,
+        "F_flex_star_final": 0.00032869710237719117,
+        "phys_curv_mean": 0.000263030784020278,
+        "H_attractor": "REFUTED",
+        "H_attractor_detail": "F* 退化 96.7% > 80%",
+        "H_push": "SUPPORT",
+        "H_push_detail": "Cohen's d=0.502 >= 0.5",
+        "overall": "REFUTED",
+        "Q1_stable_Fstar": "FAIL",
+        "Q2_differentiation": "FAIL",
+        "Q3_decoupling": "PENDING",
+        "n_pos_samples": 300,
+        "n_neg_samples": 300,
+        "n_phys_samples": 300,
+        "eval_errors": 0
+      }
+    },
+    "C_attractor": {
+      "regime": "C",
+      "tag": "C_attractor_A",
+      "phase1": {
+        "F_flex_star": 0.0024759939584570625,
+        "m": 0.0025658575977369957,
+        "shapiro_p": 1.0897034812725806e-13,
+        "normality": "REJECTED",
+        "n_samples": 300
+      },
+      "evaluation": {
+        "snr": 0.0068096412229576705,
+        "mu_pos": 0.001124571025914823,
+        "mu_neg": 0.0011249113705707715,
+        "cohens_d": 0.0068096412229576705,
+        "wilcoxon_p": 0.9830221836089846,
+        "dip_p_pos": 0.54,
+        "dip_p_neg": 0.69,
+        "dip_p_combined": 0.74,
+        "auc": 0.5578555555555555,
+        "f_star_drift": 0.5458102706294125,
+        "F_flex_star_initial": 0.0024759939584570625,
+        "F_flex_star_final": 0.001124571025914823,
+        "phys_curv_mean": 9.211376792033358e-05,
+        "H_attractor": "UNCERTAIN",
+        "H_attractor_detail": "F* 退化 54.6% 在灰色地带 (50-80%)",
+        "H_push": "REFUTED",
+        "H_push_detail": "Cohen's d=0.007 < 0.2, p=0.983 > 0.05",
+        "overall": "REFUTED",
+        "Q1_stable_Fstar": "PASS",
+        "Q2_differentiation": "FAIL",
+        "Q3_decoupling": "PENDING",
+        "grad_cos_sim_mean": 0.0,
+        "n_pos_samples": 300,
+        "n_neg_samples": 300,
+        "n_phys_samples": 300,
+        "eval_errors": 0
+      },
+      "phase3": {
+        "n_configs": 60,
+        "sample_ablation": [
+          {
+            "N_pos": 10,
+            "F_flex_star": 0.0031247643986716867,
+            "sigma": 3.998670059230996e-05,
+            "m": 0.0032047377998563067,
+            "m_percentile": 0.0031612858874723315
+          },
+          {
+            "N_pos": 50,
+            "F_flex_star": 0.0032489768136292696,
+            "sigma": 6.245500475276697e-05,
+            "m": 0.003373886823134804,
+            "m_percentile": 0.0033403258654288947
+          },
+          {
+            "N_pos": 100,
+            "F_flex_star": 0.0028114123945124445,
+            "sigma": 5.4248527226105194e-05,
+            "m": 0.002919909448964655,
+            "m_percentile": 0.0028977164532989264
+          },
+          {
+            "N_pos": 300,
+            "F_flex_star": 0.00270938903093338,
+            "sigma": 5.044192549594506e-05,
+            "m": 0.00281027288192527,
+            "m_percentile": 0.0028009092318825425
+          }
+        ]
+      }
+    }
+  }
+}

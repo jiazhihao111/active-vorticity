@@ -1,0 +1,202 @@
+{
+  "model": "Qwen2.5-7B-Instruct",
+  "alpha_star": 1.41,
+  "probe_layers": [
+    8,
+    16,
+    20,
+    27
+  ],
+  "total_decode_steps": 147,
+  "per_layer_stats": {
+    "8": {
+      "num_steps": 147,
+      "ratio_mean": 0.09285242855548859,
+      "ratio_std": 0.07012844830751419,
+      "top1_accuracy": 0.006802720949053764,
+      "mean_kl_divergence": 12.837841987609863
+    },
+    "16": {
+      "num_steps": 147,
+      "ratio_mean": 0.09725266695022583,
+      "ratio_std": 0.07128161936998367,
+      "top1_accuracy": 0.006802720949053764,
+      "mean_kl_divergence": 12.587462425231934
+    },
+    "20": {
+      "num_steps": 147,
+      "ratio_mean": 0.09299426525831223,
+      "ratio_std": 0.07028976827859879,
+      "top1_accuracy": 0.054421767592430115,
+      "mean_kl_divergence": 10.859833717346191
+    },
+    "27": {
+      "num_steps": 147,
+      "ratio_mean": 0.09450031816959381,
+      "ratio_std": 0.07077381759881973,
+      "top1_accuracy": 0,
+      "mean_kl_divergence": 0
+    }
+  },
+  "exit_analysis": {
+    "8": {
+      "ratio_distribution": {
+        "mean": 0.09285242855548859,
+        "std": 0.07012844830751419,
+        "p25": 0.03352266177535057,
+        "p50": 0.08211764693260193,
+        "p75": 0.14025431871414185
+      },
+      "exit_analysis": [
+        {
+          "threshold": 0.01,
+          "exit_fraction": 0.10204081982374191,
+          "top1_accuracy": 0.0,
+          "mean_kl_divergence": 13.279354095458984,
+          "flops_saved_fraction": 0.0692419848803963
+        },
+        {
+          "threshold": 0.02,
+          "exit_fraction": 0.17687074840068817,
+          "top1_accuracy": 0.0,
+          "mean_kl_divergence": 13.246631622314453,
+          "flops_saved_fraction": 0.1200194364147527
+        },
+        {
+          "threshold": 0.05,
+          "exit_fraction": 0.3265306055545807,
+          "top1_accuracy": 0.0,
+          "mean_kl_divergence": 13.109023094177246,
+          "flops_saved_fraction": 0.22157433948346547
+        },
+        {
+          "threshold": 0.1,
+          "exit_fraction": 0.5782312750816345,
+          "top1_accuracy": 0.0117647061124444,
+          "mean_kl_divergence": 12.724790573120117,
+          "flops_saved_fraction": 0.3923712223768234
+        },
+        {
+          "threshold": 0.15,
+          "exit_fraction": 0.761904776096344,
+          "top1_accuracy": 0.008928571827709675,
+          "mean_kl_divergence": 12.806736946105957,
+          "flops_saved_fraction": 0.5170068123510906
+        },
+        {
+          "threshold": 0.2,
+          "exit_fraction": 0.9115646481513977,
+          "top1_accuracy": 0.007462686393409967,
+          "mean_kl_divergence": 12.886185646057129,
+          "flops_saved_fraction": 0.6185617255313056
+        }
+      ]
+    },
+    "16": {
+      "ratio_distribution": {
+        "mean": 0.09725266695022583,
+        "std": 0.07128161936998367,
+        "p25": 0.03641684725880623,
+        "p50": 0.08609256893396378,
+        "p75": 0.14419570565223694
+      },
+      "exit_analysis": [
+        {
+          "threshold": 0.01,
+          "exit_fraction": 0.095238097012043,
+          "top1_accuracy": 0.0,
+          "mean_kl_divergence": 14.919766426086426,
+          "flops_saved_fraction": 0.03741496668330261
+        },
+        {
+          "threshold": 0.02,
+          "exit_fraction": 0.14965985715389252,
+          "top1_accuracy": 0.0,
+          "mean_kl_divergence": 14.613709449768066,
+          "flops_saved_fraction": 0.05879494388188635
+        },
+        {
+          "threshold": 0.05,
+          "exit_fraction": 0.31292515993118286,
+          "top1_accuracy": 0.0,
+          "mean_kl_divergence": 13.880675315856934,
+          "flops_saved_fraction": 0.122934884258679
+        },
+        {
+          "threshold": 0.1,
+          "exit_fraction": 0.5442177057266235,
+          "top1_accuracy": 0.012500000186264515,
+          "mean_kl_divergence": 13.353750228881836,
+          "flops_saved_fraction": 0.2137998129640307
+        },
+        {
+          "threshold": 0.15,
+          "exit_fraction": 0.7687074542045593,
+          "top1_accuracy": 0.008849557489156723,
+          "mean_kl_divergence": 12.970795631408691,
+          "flops_saved_fraction": 0.3019922141517912
+        },
+        {
+          "threshold": 0.2,
+          "exit_fraction": 0.884353756904602,
+          "top1_accuracy": 0.007692307699471712,
+          "mean_kl_divergence": 12.760976791381836,
+          "flops_saved_fraction": 0.34742469021252226
+        }
+      ]
+    },
+    "20": {
+      "ratio_distribution": {
+        "mean": 0.09299426525831223,
+        "std": 0.07028976827859879,
+        "p25": 0.039533987641334534,
+        "p50": 0.08116403222084045,
+        "p75": 0.128825381398201
+      },
+      "exit_analysis": [
+        {
+          "threshold": 0.01,
+          "exit_fraction": 0.095238097012043,
+          "top1_accuracy": 0.1428571492433548,
+          "mean_kl_divergence": 12.28089714050293,
+          "flops_saved_fraction": 0.02380952425301075
+        },
+        {
+          "threshold": 0.02,
+          "exit_fraction": 0.15646257996559143,
+          "top1_accuracy": 0.08695652335882187,
+          "mean_kl_divergence": 12.221349716186523,
+          "flops_saved_fraction": 0.03911564499139786
+        },
+        {
+          "threshold": 0.05,
+          "exit_fraction": 0.2857142984867096,
+          "top1_accuracy": 0.0714285746216774,
+          "mean_kl_divergence": 11.873234748840332,
+          "flops_saved_fraction": 0.0714285746216774
+        },
+        {
+          "threshold": 0.1,
+          "exit_fraction": 0.6122449040412903,
+          "top1_accuracy": 0.06666667014360428,
+          "mean_kl_divergence": 10.872676849365234,
+          "flops_saved_fraction": 0.15306122601032257
+        },
+        {
+          "threshold": 0.15,
+          "exit_fraction": 0.8299319744110107,
+          "top1_accuracy": 0.05737704783678055,
+          "mean_kl_divergence": 10.66821002960205,
+          "flops_saved_fraction": 0.20748299360275269
+        },
+        {
+          "threshold": 0.2,
+          "exit_fraction": 0.9251700639724731,
+          "top1_accuracy": 0.05882352963089943,
+          "mean_kl_divergence": 10.731372833251953,
+          "flops_saved_fraction": 0.2312925159931183
+        }
+      ]
+    }
+  }
+}

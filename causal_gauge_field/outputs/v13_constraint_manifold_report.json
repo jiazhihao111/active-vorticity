@@ -1,0 +1,174 @@
+{
+  "timestamp": "2026-07-09T23:18:30.418411",
+  "framework": "v13 Constraint Manifold Differential Geometry",
+  "alpha_star": 1.4670024326761815,
+  "results": {
+    "manifold_dimensions": {
+      "ambient_dim": 1536,
+      "tangent_rank": 137,
+      "normal_rank": 1518,
+      "compression_ratio": 0.08919270833333333
+    },
+    "constraint_parameterization": [
+      {
+        "constraint_idx": 0,
+        "r_squared_linear": 1.0,
+        "r_squared_quadratic": 1.0,
+        "improvement_quad": 0.0,
+        "rms_violation": 4.0961222648620605,
+        "is_holonomic": "True",
+        "cv_bins": 0.11452755886258056,
+        "n_i_norm": 0.9999999403953552
+      },
+      {
+        "constraint_idx": 1,
+        "r_squared_linear": 1.0,
+        "r_squared_quadratic": 1.0,
+        "improvement_quad": 0.0,
+        "rms_violation": 4.049233913421631,
+        "is_holonomic": "True",
+        "cv_bins": 0.11664296741356621,
+        "n_i_norm": 0.9999999403953552
+      },
+      {
+        "constraint_idx": 2,
+        "r_squared_linear": 1.0,
+        "r_squared_quadratic": 1.0,
+        "improvement_quad": 0.0,
+        "rms_violation": 4.0266947746276855,
+        "is_holonomic": "True",
+        "cv_bins": 0.116306875326393,
+        "n_i_norm": 1.0
+      },
+      {
+        "constraint_idx": 3,
+        "r_squared_linear": 1.0,
+        "r_squared_quadratic": 1.0,
+        "improvement_quad": 0.0,
+        "rms_violation": 4.0041184425354,
+        "is_holonomic": "True",
+        "cv_bins": 0.11994530097001804,
+        "n_i_norm": 1.0
+      },
+      {
+        "constraint_idx": 4,
+        "r_squared_linear": 1.0,
+        "r_squared_quadratic": 1.0,
+        "improvement_quad": 0.0,
+        "rms_violation": 3.980989694595337,
+        "is_holonomic": "True",
+        "cv_bins": 0.07173954665244486,
+        "n_i_norm": 1.0
+      },
+      {
+        "constraint_idx": 5,
+        "r_squared_linear": 1.0,
+        "r_squared_quadratic": 1.0,
+        "improvement_quad": 0.0,
+        "rms_violation": 3.9201502799987793,
+        "is_holonomic": "False",
+        "cv_bins": 0.18527468377925316,
+        "n_i_norm": 0.9999999403953552
+      },
+      {
+        "constraint_idx": 6,
+        "r_squared_linear": 1.0,
+        "r_squared_quadratic": 1.0,
+        "improvement_quad": 0.0,
+        "rms_violation": 3.8941516876220703,
+        "is_holonomic": "True",
+        "cv_bins": 0.07579990366322735,
+        "n_i_norm": 1.0
+      },
+      {
+        "constraint_idx": 7,
+        "r_squared_linear": 1.0,
+        "r_squared_quadratic": 1.0,
+        "improvement_quad": 0.0,
+        "rms_violation": 3.8633663654327393,
+        "is_holonomic": "True",
+        "cv_bins": 0.08542444987180679,
+        "n_i_norm": 1.0
+      },
+      {
+        "constraint_idx": 8,
+        "r_squared_linear": 1.0,
+        "r_squared_quadratic": 1.0,
+        "improvement_quad": 0.0,
+        "rms_violation": 3.8249237537384033,
+        "is_holonomic": "True",
+        "cv_bins": 0.11138555439105964,
+        "n_i_norm": 1.0
+      },
+      {
+        "constraint_idx": 9,
+        "r_squared_linear": 1.0,
+        "r_squared_quadratic": 1.0,
+        "improvement_quad": 0.0,
+        "rms_violation": 3.783989667892456,
+        "is_holonomic": "True",
+        "cv_bins": 0.07603779689455593,
+        "n_i_norm": 1.0
+      }
+    ],
+    "induced_metric": {
+      "g_induced_eigenvalues_top5": [
+        6044.526421126158,
+        2289.6706701082276,
+        1040.292115848027,
+        677.7292158900499,
+        624.4823426838614
+      ],
+      "g_induced_condition_number": 357.6239770653901,
+      "vel_cov_eigenvalues_top10": [
+        6044.526801608452,
+        2289.670642521188,
+        1040.2932019841141,
+        677.7346995889103,
+        624.4831529444907,
+        358.57080024626816,
+        307.6497639868977,
+        249.34753456142846,
+        226.05865842080178,
+        198.51065111994538
+      ]
+    },
+    "curvature": {
+      "curvature_approx": 0.011486913020123524,
+      "mean_normal_acc": 40.41223335266113,
+      "mean_tangent_acc": 3518.1108520507814,
+      "normal_acc_per_constraint": [
+        47.85405349731445,
+        42.377620697021484,
+        43.49888229370117,
+        41.12380599975586,
+        36.39011001586914
+      ],
+      "tangent_acc_per_dim": [
+        17707.97265625,
+        6665.0732421875,
+        3178.476806640625,
+        1710.799072265625,
+        1953.140380859375
+      ]
+    },
+    "topology": {
+      "n_clusters_approx": 0,
+      "vel_effective_rank_per_traj": [
+        16,
+        21,
+        15,
+        18,
+        17,
+        18,
+        19,
+        18,
+        22,
+        22
+      ],
+      "vel_rank_mean": 18.6
+    },
+    "n_trajectories": 10,
+    "n_samples": 308
+  }
+}

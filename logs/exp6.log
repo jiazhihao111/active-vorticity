@@ -1,0 +1,72 @@
+2026-07-09 10:06:05,835 - Exp6 - INFO - === 实验6 数据生成 ===
+2026-07-09 10:06:06,195 - Exp6 - INFO - === 因果模型 + 规范场训练 (lambda=1.0) ===
+2026-07-09 10:06:14,259 - Exp6 - INFO - === 实验6: 闭合 holonomy 受控检验 (因果模型) ===
+2026-07-09 10:06:15,462 - Exp6 - INFO -   model_label: causal
+2026-07-09 10:06:15,462 - Exp6 - INFO -   n_pos: 50
+2026-07-09 10:06:15,462 - Exp6 - INFO -   n_neg: 150
+2026-07-09 10:06:15,462 - Exp6 - INFO -   pos_closed_flatness_mean: 27539.80859248161
+2026-07-09 10:06:15,462 - Exp6 - INFO -   pos_closed_flatness_std: 22638.78319314208
+2026-07-09 10:06:15,462 - Exp6 - INFO -   neg_closed_flatness_mean: 25938.53689500332
+2026-07-09 10:06:15,462 - Exp6 - INFO -   neg_closed_flatness_std: 21480.100659336927
+2026-07-09 10:06:15,464 - Exp6 - INFO -   pos_closed_trace_dev_mean: 27008.038606033326
+2026-07-09 10:06:15,464 - Exp6 - INFO -   neg_closed_trace_dev_mean: 25398.036338806152
+2026-07-09 10:06:15,464 - Exp6 - INFO -   pos_kappa_mean: 1.9149048633634564
+2026-07-09 10:06:15,464 - Exp6 - INFO -   neg_kappa_mean: 1.9084311707817188
+2026-07-09 10:06:15,464 - Exp6 - INFO -   paired: {'n_pairs': 150, 'flatness_diff_median': 0.0, 'flatness_diff_mean': -1601.2716974782943, 'frac_neg_flatter': 0.04666666666666667, 'wilcoxon_flatness_p': 0.9999999909471357, 'trace_dev_diff_median': 0.0, 'wilcoxon_tracedev_p': 0.999999990628021, 'kappa_diff_median': 0.0, 'wilcoxon_kappa_p': 0.9999999999829494}
+2026-07-09 10:06:15,464 - Exp6 - INFO -   verdict: INCONCLUSIVE
+2026-07-09 10:06:15,464 - Exp6 - INFO - === 实验5(开环对照): 同模型同数据, 用开环指标 ===
+2026-07-09 10:06:16,315 - Exp6 - INFO -   model_label: causal
+2026-07-09 10:06:16,315 - Exp6 - INFO -   n_pos: 50
+2026-07-09 10:06:16,315 - Exp6 - INFO -   n_neg: 150
+2026-07-09 10:06:16,315 - Exp6 - INFO -   pos_kappa_mean: 1.9149048633634564
+2026-07-09 10:06:16,316 - Exp6 - INFO -   pos_kappa_std: 0.04216183507854357
+2026-07-09 10:06:16,316 - Exp6 - INFO -   neg_kappa_mean: 1.9084311707817188
+2026-07-09 10:06:16,316 - Exp6 - INFO -   neg_kappa_std: 0.04233995511292149
+2026-07-09 10:06:16,316 - Exp6 - INFO -   pos_stepnorm_mean: 3.938784303665161
+2026-07-09 10:06:16,316 - Exp6 - INFO -   neg_stepnorm_mean: 3.9244205490748088
+2026-07-09 10:06:16,316 - Exp6 - INFO -   mannwhitneyU_p: 0.8052790988271109
+2026-07-09 10:06:16,316 - Exp6 - INFO -   ttest_p: 0.8228399713371161
+2026-07-09 10:06:16,316 - Exp6 - INFO -   rank_biserial: -0.08119999999999994
+2026-07-09 10:06:16,316 - Exp6 - INFO -   paired: {'n_pairs': 150, 'kappa_diff_median': 0.0, 'kappa_diff_mean': -0.0064736925817376716, 'frac_neg_flatter': 0.03333333333333333, 'wilcoxon_stat': 99.0, 'wilcoxon_p': 0.9999999999829494, 'stepnorm_diff_median': 0.0, 'frac_stepnorm_larger': 0.04666666666666667, 'wilson_diff_median': 0.0, 'wilcoxon_wilson_p': 0.9999999991161079}
+2026-07-09 10:06:16,316 - Exp6 - INFO -   verdict: INCONCLUSIVE
+2026-07-09 10:06:16,316 - Exp6 - INFO -   wilson_available: True
+2026-07-09 10:06:16,316 - Exp6 - INFO -   wilson_confounded: True
+2026-07-09 10:06:16,316 - Exp6 - INFO -   pos_wilson_var: 243064171.9424488
+2026-07-09 10:06:16,316 - Exp6 - INFO -   neg_wilson_var: 222195307.8025468
+2026-07-09 10:06:16,317 - Exp6 - INFO - 报告已保存: C:\Users\51615\Desktop\2026.7.9.8.43对称、破缺与约束场\exp6_report.md
+2026-07-09 10:06:46,640 - Exp6 - INFO - === 实验6 数据生成 ===
+2026-07-09 10:06:46,978 - Exp6 - INFO - === 因果模型 + 规范场训练 (lambda=1.0) ===
+2026-07-09 10:06:55,290 - Exp6 - INFO - === 实验6: 闭合 holonomy 受控检验 (因果模型) ===
+2026-07-09 10:07:14,737 - Exp6 - INFO -   model_label: causal
+2026-07-09 10:07:14,737 - Exp6 - INFO -   n_pos: 50
+2026-07-09 10:07:14,737 - Exp6 - INFO -   n_neg: 150
+2026-07-09 10:07:14,737 - Exp6 - INFO -   pos_closed_flatness_mean: 2.52318635225296
+2026-07-09 10:07:14,737 - Exp6 - INFO -   pos_closed_flatness_std: 0.7809351489453119
+2026-07-09 10:07:14,737 - Exp6 - INFO -   neg_closed_flatness_mean: 2.5440949730078377
+2026-07-09 10:07:14,737 - Exp6 - INFO -   neg_closed_flatness_std: 0.7832633336809999
+2026-07-09 10:07:14,737 - Exp6 - INFO -   pos_closed_trace_dev_mean: 3.4881435012817383
+2026-07-09 10:07:14,737 - Exp6 - INFO -   neg_closed_trace_dev_mean: 3.5429394149780276
+2026-07-09 10:07:14,737 - Exp6 - INFO -   pos_kappa_mean: 1.914327321151129
+2026-07-09 10:07:14,737 - Exp6 - INFO -   neg_kappa_mean: 1.9077394687179101
+2026-07-09 10:07:14,737 - Exp6 - INFO -   paired: {'n_pairs': 150, 'flatness_diff_median': 0.0, 'flatness_diff_mean': 0.020908620754877726, 'frac_neg_flatter': 0.42, 'wilcoxon_flatness_p': 1.6195882421777463e-10, 'trace_dev_diff_median': 0.0, 'wilcoxon_tracedev_p': 2.468287894877052e-10, 'kappa_diff_median': 0.0, 'wilcoxon_kappa_p': 0.9999999999871687}
+2026-07-09 10:07:14,737 - Exp6 - INFO -   verdict: INCONCLUSIVE
+2026-07-09 10:07:14,737 - Exp6 - INFO - === 实验5(开环对照): 同模型同数据, 用开环指标 ===
+2026-07-09 10:07:24,958 - Exp6 - INFO -   model_label: causal
+2026-07-09 10:07:24,958 - Exp6 - INFO -   n_pos: 50
+2026-07-09 10:07:24,958 - Exp6 - INFO -   n_neg: 150
+2026-07-09 10:07:24,959 - Exp6 - INFO -   pos_kappa_mean: 1.914327321151129
+2026-07-09 10:07:24,959 - Exp6 - INFO -   pos_kappa_std: 0.0420421219588626
+2026-07-09 10:07:24,959 - Exp6 - INFO -   neg_kappa_mean: 1.9077394687179101
+2026-07-09 10:07:24,959 - Exp6 - INFO -   neg_kappa_std: 0.04200081010315116
+2026-07-09 10:07:24,959 - Exp6 - INFO -   pos_stepnorm_mean: 3.9591270065307618
+2026-07-09 10:07:24,959 - Exp6 - INFO -   neg_stepnorm_mean: 3.942964487075806
+2026-07-09 10:07:24,959 - Exp6 - INFO -   mannwhitneyU_p: 0.8052790988271109
+2026-07-09 10:07:24,959 - Exp6 - INFO -   ttest_p: 0.8280147116566952
+2026-07-09 10:07:24,959 - Exp6 - INFO -   rank_biserial: -0.08119999999999994
+2026-07-09 10:07:24,959 - Exp6 - INFO -   paired: {'n_pairs': 150, 'kappa_diff_median': 0.0, 'kappa_diff_mean': -0.006587852433218311, 'frac_neg_flatter': 0.04, 'wilcoxon_stat': 92.0, 'wilcoxon_p': 0.9999999999871687, 'stepnorm_diff_median': 0.0, 'frac_stepnorm_larger': 0.04, 'wilson_diff_median': 0.0, 'wilcoxon_wilson_p': 0.9999999794077125}
+2026-07-09 10:07:24,959 - Exp6 - INFO -   verdict: INCONCLUSIVE
+2026-07-09 10:07:24,959 - Exp6 - INFO -   wilson_available: True
+2026-07-09 10:07:24,959 - Exp6 - INFO -   wilson_confounded: True
+2026-07-09 10:07:24,959 - Exp6 - INFO -   pos_wilson_var: 2.190053887561989
+2026-07-09 10:07:24,959 - Exp6 - INFO -   neg_wilson_var: 2.2313915252222962
+2026-07-09 10:07:24,961 - Exp6 - INFO - 报告已保存: C:\Users\51615\Desktop\2026.7.9.8.43对称、破缺与约束场\exp6_report.md

@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-07-09T20:19:10.600546",
+  "axiom": "信息化为世界模型，世界模型遵守几何规则",
+  "baseline_geometry": {
+    "euclidean_distance": {
+      "d_pos_mean": 3.8397994003888325,
+      "d_neg_mean": 3.8079618396765555,
+      "t_stat": 0.86383921004463,
+      "p_value": 0.3877259323193198,
+      "legal_closer": "False",
+      "verdict": "OPPOSE"
+    },
+    "cosine_similarity": {
+      "cos_pos_mean": 0.43693295961928363,
+      "cos_neg_mean": 0.44244214824894096,
+      "t_stat": -0.6507016399791599,
+      "p_value": 0.5152749720363421,
+      "legal_more_aligned": "False",
+      "verdict": "OPPOSE"
+    },
+    "trajectory_curvature": {
+      "pos_mean_curvature": 0.5504648946265556,
+      "neg_mean_curvature": 0.5739361437498813,
+      "t_stat": -1.8870942631329057,
+      "p_value": 0.06286810893879917,
+      "legal_flatter": "True",
+      "verdict": "OPPOSE"
+    },
+    "overall_verdict": {
+      "support_count": 0,
+      "total_count": 3,
+      "verdict": "OPPOSE",
+      "interpretation": "几何结构未自然涌现"
+    }
+  },
+  "geometric_model": {
+    "experiment_1_curvature_correlation": {
+      "correlation": -0.010014692303931861,
+      "p_value": 0.5179384643852448,
+      "n_points": 4170,
+      "verdict": "INCONCLUSIVE"
+    },
+    "experiment_2_geodesic_separation": {
+      "d_pos_mean": 1.933463393910392,
+      "d_neg_mean": 1.903100145269277,
+      "t_stat": 1.0621507668326846,
+      "p_value": 0.2882287836796199,
+      "geodesic_satisfied": "False",
+      "verdict": "OPPOSE"
+    },
+    "experiment_3_field_strength_discrimination": {
+      "F_pos_mean": 0.18995695543661148,
+      "F_neg_mean": 0.19147257296981438,
+      "t_stat": -0.36179319055721304,
+      "p_value": 0.7175249209913378,
+      "field_discriminates": "True",
+      "verdict": "OPPOSE"
+    },
+    "experiment_4_trajectory_flatness": {
+      "pos_mean_curvature": 1.1586370885372161,
+      "neg_mean_curvature": 1.1865583062171936,
+      "t_stat": -2.57696210135689,
+      "p_value": 0.011853255577048884,
+      "legal_flatter": "True",
+      "verdict": "SUPPORT"
+    },
+    "experiment_5_gauge_invariance": {},
+    "overall_verdict": {
+      "support_count": 1,
+      "total_count": 4,
+      "verdict": "WEAK_SUPPORT",
+      "axiom_half_1_verified": false,
+      "axiom_half_2_verified": true
+    }
+  }
+}

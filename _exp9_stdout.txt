@@ -1,0 +1,14 @@
+2026-07-09 16:30:50,234 - exp9 - INFO - ============================================================
+2026-07-09 16:30:50,234 - exp9 - INFO - exp9: GUIT-TRT 融合理论三假设检验
+2026-07-09 16:30:50,234 - exp9 - INFO - 设备: cuda, 时间: 16:30:50
+2026-07-09 16:30:50,234 - exp9 - INFO - ============================================================
+2026-07-09 16:30:50,238 - exp9 - INFO - 配置: d_model=128, base_dim=32, hidden_dim=32, r=16
+2026-07-09 16:30:50,346 - exp9 - INFO - 模型初始化完成
+2026-07-09 16:30:50,346 - exp9 - INFO - 生成叙事数据...
+Traceback (most recent call last):
+  File "C:\Users\51615\Desktop\2026.7.9.8.43对称、破缺与约束场\_run_exp9.py", line 891, in <module>
+    main()
+  File "C:\Users\51615\Desktop\2026.7.9.8.43对称、破缺与约束场\_run_exp9.py", line 653, in main
+    stories_data = generator.generate_stories(num_stories=200)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EnhancedClosureGenerator' object has no attribute 'generate_stories'

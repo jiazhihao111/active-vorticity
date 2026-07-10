@@ -1,0 +1,6 @@
+2026-07-09 12:06:43,379 - Exp7slim - INFO - 数据: train=160对 val=20对 test=20对
+2026-07-09 12:06:43,380 - Exp7slim - INFO - === [A_baseline] ===
+2026-07-09 12:06:51,728 - Exp7slim - INFO - === [B_uniform] ===
+2026-07-09 12:06:59,598 - Exp7slim - INFO - === [C_loopback] ===
+2026-07-09 12:13:06,338 - Exp7slim - INFO - === [D_rf] ===
+2026-07-09 12:13:14,059 - Exp7slim - INFO - 精简版exp7完成.

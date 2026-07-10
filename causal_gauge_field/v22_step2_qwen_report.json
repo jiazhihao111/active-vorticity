@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-07-10T10:08:42.730526",
+  "library_version": "0.3.0",
+  "qwen25_7b_bf16_5prompts": {
+    "pos": {
+      "n_trajectories": 5,
+      "pc_ratio_per_token_mean": 0.10877907872200013,
+      "pc_ratio_per_token_std": 0.03627110378872571,
+      "batch_ratio_artifact_mean": 0.10390291785699346,
+      "inflation_factor": 0.9551736374858923,
+      "vel_norm_mean": 430.8972229003906,
+      "T_eff_mean": 55.89339599609375,
+      "K_sub_mean": 0.6470030973354974,
+      "r_095_mean": 9.6,
+      "sigma_mean": 208566.21174107143,
+      "J_FP_mean": 0.010504508124930517,
+      "CV_mean": 0.21290313992794713,
+      "ness_verdict": "NESS",
+      "prefill_r_095_mean": 7.8,
+      "decode_r_095_mean": 9.6
+    },
+    "scr": {
+      "n_trajectories": 5,
+      "pc_ratio_per_token_mean": 0.09950439780950546,
+      "pc_ratio_per_token_std": 0.014155879057815304,
+      "batch_ratio_artifact_mean": 0.1053556778058993,
+      "inflation_factor": 1.0588041286331327,
+      "vel_norm_mean": 356.5934326171875,
+      "T_eff_mean": 37.11362228393555,
+      "K_sub_mean": 0.6778635188937188,
+      "r_095_mean": 9.8,
+      "sigma_mean": 139847.8096875,
+      "J_FP_mean": 0.009958451773439134,
+      "CV_mean": 0.18465680114037103,
+      "ness_verdict": "NESS",
+      "prefill_r_095_mean": 9.4,
+      "decode_r_095_mean": 9.8
+    },
+    "rnd": {
+      "n_trajectories": 5,
+      "pc_ratio_per_token_mean": 0.11236688569188118,
+      "pc_ratio_per_token_std": 0.035952412033542894,
+      "batch_ratio_artifact_mean": 0.10781998235136822,
+      "inflation_factor": 0.9595351165259478,
+      "vel_norm_mean": 492.5114685058594,
+      "T_eff_mean": 75.23526382446289,
+      "K_sub_mean": 0.7034966478745142,
+      "r_095_mean": 9.0,
+      "sigma_mean": 249840.1330245536,
+      "J_FP_mean": 0.012641274716172901,
+      "CV_mean": 0.25029702551377375,
+      "ness_verdict": "NESS",
+      "prefill_r_095_mean": 6.8,
+      "decode_r_095_mean": 9.0
+    }
+  }
+}

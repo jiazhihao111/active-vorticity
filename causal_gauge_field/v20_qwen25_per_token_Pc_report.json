@@ -1,0 +1,8 @@
+{
+  "model": "Qwen2.5-7B-Instruct",
+  "quantization": "bf16",
+  "alpha_star": 1.41,
+  "gamma": 0.01,
+  "prompt": "Explain the concept of entropy in thermodynamics in two sentences.",
+  "num_generated": 39
+}

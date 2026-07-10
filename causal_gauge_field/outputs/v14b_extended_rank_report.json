@@ -1,0 +1,828 @@
+{
+  "timestamp": "2026-07-09T23:39:32.832478",
+  "framework": "v14b Extended Rank Artifact Verification",
+  "trajectory_lengths": [
+    218,
+    193,
+    209
+  ],
+  "rank_results": [
+    {
+      "traj_idx": 0,
+      "T": 15,
+      "method": "raw_diff",
+      "effective_rank": 8.92,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 15,
+      "method": "central_diff",
+      "effective_rank": 7.92,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 15,
+      "method": "sg(w=5)",
+      "effective_rank": 3.89,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 15,
+      "method": "sg(w=11)",
+      "effective_rank": 2.61,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 30,
+      "method": "raw_diff",
+      "effective_rank": 14.35,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 30,
+      "method": "central_diff",
+      "effective_rank": 13.31,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 30,
+      "method": "sg(w=5)",
+      "effective_rank": 8.16,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 30,
+      "method": "sg(w=11)",
+      "effective_rank": 6.46,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 30,
+      "method": "sg(w=21)",
+      "effective_rank": 3.46,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 50,
+      "method": "raw_diff",
+      "effective_rank": 19.21,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 50,
+      "method": "central_diff",
+      "effective_rank": 21.37,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 50,
+      "method": "sg(w=5)",
+      "effective_rank": 13.9,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 50,
+      "method": "sg(w=11)",
+      "effective_rank": 10.27,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 50,
+      "method": "sg(w=21)",
+      "effective_rank": 5.84,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 80,
+      "method": "raw_diff",
+      "effective_rank": 26.09,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 80,
+      "method": "central_diff",
+      "effective_rank": 27.74,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 80,
+      "method": "sg(w=5)",
+      "effective_rank": 19.54,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 80,
+      "method": "sg(w=11)",
+      "effective_rank": 16.86,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 80,
+      "method": "sg(w=21)",
+      "effective_rank": 9.12,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 100,
+      "method": "raw_diff",
+      "effective_rank": 29.46,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 100,
+      "method": "central_diff",
+      "effective_rank": 30.72,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 100,
+      "method": "sg(w=5)",
+      "effective_rank": 22.97,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 100,
+      "method": "sg(w=11)",
+      "effective_rank": 19.1,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 100,
+      "method": "sg(w=21)",
+      "effective_rank": 12.78,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 150,
+      "method": "raw_diff",
+      "effective_rank": 36.55,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 150,
+      "method": "central_diff",
+      "effective_rank": 39.64,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 150,
+      "method": "sg(w=5)",
+      "effective_rank": 33.84,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 150,
+      "method": "sg(w=11)",
+      "effective_rank": 28.49,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 150,
+      "method": "sg(w=21)",
+      "effective_rank": 18.08,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 200,
+      "method": "raw_diff",
+      "effective_rank": 40.89,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 200,
+      "method": "central_diff",
+      "effective_rank": 44.23,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 200,
+      "method": "sg(w=5)",
+      "effective_rank": 39.09,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 200,
+      "method": "sg(w=11)",
+      "effective_rank": 33.57,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 0,
+      "T": 200,
+      "method": "sg(w=21)",
+      "effective_rank": 23.89,
+      "T_max": 218
+    },
+    {
+      "traj_idx": 1,
+      "T": 15,
+      "method": "raw_diff",
+      "effective_rank": 8.36,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 15,
+      "method": "central_diff",
+      "effective_rank": 7.47,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 15,
+      "method": "sg(w=5)",
+      "effective_rank": 4.2,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 15,
+      "method": "sg(w=11)",
+      "effective_rank": 2.95,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 30,
+      "method": "raw_diff",
+      "effective_rank": 12.68,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 30,
+      "method": "central_diff",
+      "effective_rank": 11.75,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 30,
+      "method": "sg(w=5)",
+      "effective_rank": 7.07,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 30,
+      "method": "sg(w=11)",
+      "effective_rank": 6.29,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 30,
+      "method": "sg(w=21)",
+      "effective_rank": 2.94,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 50,
+      "method": "raw_diff",
+      "effective_rank": 19.19,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 50,
+      "method": "central_diff",
+      "effective_rank": 18.16,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 50,
+      "method": "sg(w=5)",
+      "effective_rank": 12.84,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 50,
+      "method": "sg(w=11)",
+      "effective_rank": 11.47,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 50,
+      "method": "sg(w=21)",
+      "effective_rank": 5.93,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 80,
+      "method": "raw_diff",
+      "effective_rank": 27.02,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 80,
+      "method": "central_diff",
+      "effective_rank": 26.02,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 80,
+      "method": "sg(w=5)",
+      "effective_rank": 20.31,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 80,
+      "method": "sg(w=11)",
+      "effective_rank": 17.16,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 80,
+      "method": "sg(w=21)",
+      "effective_rank": 10.69,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 100,
+      "method": "raw_diff",
+      "effective_rank": 31.49,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 100,
+      "method": "central_diff",
+      "effective_rank": 29.98,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 100,
+      "method": "sg(w=5)",
+      "effective_rank": 24.13,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 100,
+      "method": "sg(w=11)",
+      "effective_rank": 21.81,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 100,
+      "method": "sg(w=21)",
+      "effective_rank": 13.35,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 150,
+      "method": "raw_diff",
+      "effective_rank": 39.61,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 150,
+      "method": "central_diff",
+      "effective_rank": 38.99,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 150,
+      "method": "sg(w=5)",
+      "effective_rank": 33.49,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 150,
+      "method": "sg(w=11)",
+      "effective_rank": 29.61,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 1,
+      "T": 150,
+      "method": "sg(w=21)",
+      "effective_rank": 19.11,
+      "T_max": 193
+    },
+    {
+      "traj_idx": 2,
+      "T": 15,
+      "method": "raw_diff",
+      "effective_rank": 8.56,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 15,
+      "method": "central_diff",
+      "effective_rank": 7.13,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 15,
+      "method": "sg(w=5)",
+      "effective_rank": 4.7,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 15,
+      "method": "sg(w=11)",
+      "effective_rank": 2.63,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 30,
+      "method": "raw_diff",
+      "effective_rank": 12.77,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 30,
+      "method": "central_diff",
+      "effective_rank": 10.77,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 30,
+      "method": "sg(w=5)",
+      "effective_rank": 7.94,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 30,
+      "method": "sg(w=11)",
+      "effective_rank": 6.62,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 30,
+      "method": "sg(w=21)",
+      "effective_rank": 2.95,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 50,
+      "method": "raw_diff",
+      "effective_rank": 17.66,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 50,
+      "method": "central_diff",
+      "effective_rank": 15.66,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 50,
+      "method": "sg(w=5)",
+      "effective_rank": 11.38,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 50,
+      "method": "sg(w=11)",
+      "effective_rank": 9.37,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 50,
+      "method": "sg(w=21)",
+      "effective_rank": 6.01,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 80,
+      "method": "raw_diff",
+      "effective_rank": 22.68,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 80,
+      "method": "central_diff",
+      "effective_rank": 21.07,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 80,
+      "method": "sg(w=5)",
+      "effective_rank": 15.82,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 80,
+      "method": "sg(w=11)",
+      "effective_rank": 14.24,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 80,
+      "method": "sg(w=21)",
+      "effective_rank": 10.44,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 100,
+      "method": "raw_diff",
+      "effective_rank": 24.11,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 100,
+      "method": "central_diff",
+      "effective_rank": 22.46,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 100,
+      "method": "sg(w=5)",
+      "effective_rank": 18.85,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 100,
+      "method": "sg(w=11)",
+      "effective_rank": 16.88,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 100,
+      "method": "sg(w=21)",
+      "effective_rank": 12.39,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 150,
+      "method": "raw_diff",
+      "effective_rank": 33.0,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 150,
+      "method": "central_diff",
+      "effective_rank": 30.29,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 150,
+      "method": "sg(w=5)",
+      "effective_rank": 25.71,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 150,
+      "method": "sg(w=11)",
+      "effective_rank": 22.03,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 150,
+      "method": "sg(w=21)",
+      "effective_rank": 16.06,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 200,
+      "method": "raw_diff",
+      "effective_rank": 39.61,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 200,
+      "method": "central_diff",
+      "effective_rank": 36.86,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 200,
+      "method": "sg(w=5)",
+      "effective_rank": 31.53,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 200,
+      "method": "sg(w=11)",
+      "effective_rank": 28.89,
+      "T_max": 209
+    },
+    {
+      "traj_idx": 2,
+      "T": 200,
+      "method": "sg(w=21)",
+      "effective_rank": 22.41,
+      "T_max": 209
+    }
+  ],
+  "rank_aggregate": {
+    "T=15,raw_diff": {
+      "mean": 8.613333333333335,
+      "std": 0.23170862929310368
+    },
+    "T=15,central_diff": {
+      "mean": 7.506666666666667,
+      "std": 0.32355662392986007
+    },
+    "T=15,sg(w=5)": {
+      "mean": 4.263333333333333,
+      "std": 0.33369979855486215
+    },
+    "T=15,sg(w=11)": {
+      "mean": 2.7300000000000004,
+      "std": 0.15577761927397243
+    },
+    "T=30,raw_diff": {
+      "mean": 13.266666666666666,
+      "std": 0.7669130039030213
+    },
+    "T=30,central_diff": {
+      "mean": 11.943333333333333,
+      "std": 1.045923302903017
+    },
+    "T=30,sg(w=5)": {
+      "mean": 7.723333333333334,
+      "std": 0.47062606057132966
+    },
+    "T=30,sg(w=11)": {
+      "mean": 6.456666666666667,
+      "std": 0.1347425528760516
+    },
+    "T=30,sg(w=21)": {
+      "mean": 3.116666666666667,
+      "std": 0.2428076513529908
+    },
+    "T=50,raw_diff": {
+      "mean": 18.686666666666667,
+      "std": 0.7260088765909749
+    },
+    "T=50,central_diff": {
+      "mean": 18.396666666666665,
+      "std": 2.337096964659837
+    },
+    "T=50,sg(w=5)": {
+      "mean": 12.706666666666669,
+      "std": 1.0330967471098187
+    },
+    "T=50,sg(w=11)": {
+      "mean": 10.37,
+      "std": 0.8602325267042633
+    },
+    "T=50,sg(w=21)": {
+      "mean": 5.926666666666667,
+      "std": 0.0694422221866655
+    },
+    "T=80,raw_diff": {
+      "mean": 25.263333333333332,
+      "std": 1.865731908811005
+    },
+    "T=80,central_diff": {
+      "mean": 24.94333333333333,
+      "std": 2.8274409316946336
+    },
+    "T=80,sg(w=5)": {
+      "mean": 18.556666666666665,
+      "std": 1.9604818001932296
+    },
+    "T=80,sg(w=11)": {
+      "mean": 16.086666666666666,
+      "std": 1.3115215929937594
+    },
+    "T=80,sg(w=21)": {
+      "mean": 10.083333333333334,
+      "std": 0.6887831460062175
+    },
+    "T=100,raw_diff": {
+      "mean": 28.353333333333335,
+      "std": 3.112837219572452
+    },
+    "T=100,central_diff": {
+      "mean": 27.72,
+      "std": 3.7316305640653473
+    },
+    "T=100,sg(w=5)": {
+      "mean": 21.98333333333333,
+      "std": 2.265646829396751
+    },
+    "T=100,sg(w=11)": {
+      "mean": 19.263333333333332,
+      "std": 2.015975088029501
+    },
+    "T=100,sg(w=21)": {
+      "mean": 12.839999999999998,
+      "std": 0.39420806688854015
+    },
+    "T=150,raw_diff": {
+      "mean": 36.38666666666666,
+      "std": 2.7009915874647876
+    },
+    "T=150,central_diff": {
+      "mean": 36.306666666666665,
+      "std": 4.262693462536986
+    },
+    "T=150,sg(w=5)": {
+      "mean": 31.01333333333334,
+      "std": 3.7527441811145206
+    },
+    "T=150,sg(w=11)": {
+      "mean": 26.709999999999997,
+      "std": 3.34069852974893
+    },
+    "T=150,sg(w=21)": {
+      "mean": 17.75,
+      "std": 1.2668333223698638
+    },
+    "T=200,raw_diff": {
+      "mean": 40.25,
+      "std": 0.6400000000000006
+    },
+    "T=200,central_diff": {
+      "mean": 40.545,
+      "std": 3.6849999999999987
+    },
+    "T=200,sg(w=5)": {
+      "mean": 35.31,
+      "std": 3.780000000000001
+    },
+    "T=200,sg(w=11)": {
+      "mean": 31.23,
+      "std": 2.34
+    },
+    "T=200,sg(w=21)": {
+      "mean": 23.15,
+      "std": 0.7400000000000002
+    }
+  }
+}

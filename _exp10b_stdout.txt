@@ -1,0 +1,29 @@
+2026-07-09 19:52:47,769 - exp10b - INFO - ======================================================================
+2026-07-09 19:52:47,769 - exp10b - INFO - exp10b: 定理二专项验证 — τ/κ 共形不变性
+2026-07-09 19:52:47,769 - exp10b - INFO - 设备: cuda, 时间: 2026-07-09 19:52:47
+2026-07-09 19:52:47,769 - exp10b - INFO - 叙事: 最小代价争取第一个定理级 SUPPORT
+2026-07-09 19:52:47,769 - exp10b - INFO - ======================================================================
+2026-07-09 19:52:47,772 - exp10b - INFO - d_model=128, base_dim=32
+2026-07-09 19:52:47,772 - exp10b - INFO - 
+--- 创建 128D 模型 ---
+2026-07-09 19:52:47,900 - exp10b - INFO - 模型: 3,484,032 参数, 128D MVE, max_seq=256
+2026-07-09 19:52:47,900 - exp10b - INFO - 
+--- 生成数据 (200个故事) ---
+2026-07-09 19:52:48,131 - exp10b - INFO - train=320, val=40, test=40
+2026-07-09 19:52:48,131 - exp10b - INFO - 
+--- 训练模型 ---
+2026-07-09 19:52:48,133 - exp10b - INFO - [训练] 128D_exp10b: 15 epochs, train=320, val=40
+2026-07-09 19:55:16,622 - Trainer - INFO - Epoch 1/15 | Train Loss: 71.2920 | Val Loss: 2.6962 | LM: 3.9181 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.7736 | RigidFlex: 65.9871
+2026-07-09 19:57:12,097 - Trainer - INFO - Epoch 2/15 | Train Loss: 14.4269 | Val Loss: 2.5621 | LM: 2.5781 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0009 | RigidFlex: 10.8483
+2026-07-09 19:59:21,105 - Trainer - INFO - Epoch 3/15 | Train Loss: 5.0092 | Val Loss: 2.5446 | LM: 2.5559 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0001 | RigidFlex: 1.4532
+2026-07-09 20:01:18,206 - Trainer - INFO - Epoch 4/15 | Train Loss: 3.6957 | Val Loss: 2.5065 | LM: 2.5153 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.1803
+2026-07-09 20:03:32,285 - Trainer - INFO - Epoch 5/15 | Train Loss: 3.5911 | Val Loss: 2.4975 | LM: 2.4953 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0958
+2026-07-09 20:05:52,704 - Trainer - INFO - Epoch 6/15 | Train Loss: 3.5685 | Val Loss: 2.4924 | LM: 2.4877 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0809
+2026-07-09 20:07:27,993 - Trainer - INFO - Epoch 7/15 | Train Loss: 3.5561 | Val Loss: 2.4726 | LM: 2.4776 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0786
+2026-07-09 20:09:05,652 - Trainer - INFO - Epoch 8/15 | Train Loss: 3.5389 | Val Loss: 2.4535 | LM: 2.4618 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0772
+2026-07-09 20:10:44,760 - Trainer - INFO - Epoch 9/15 | Train Loss: 3.5184 | Val Loss: 2.4275 | LM: 2.4435 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0748
+2026-07-09 20:13:01,360 - Trainer - INFO - Epoch 10/15 | Train Loss: 3.4773 | Val Loss: 2.3288 | LM: 2.4027 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.0747
+2026-07-09 20:15:12,814 - Trainer - INFO - Epoch 11/15 | Train Loss: 3.2855 | Val Loss: 1.9623 | LM: 2.1833 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.1022
+2026-07-09 20:17:22,637 - Trainer - INFO - Epoch 12/15 | Train Loss: 2.9906 | Val Loss: 1.6614 | LM: 1.8669 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.1238
+2026-07-09 20:19:33,638 - Trainer - INFO - Epoch 13/15 | Train Loss: 2.7642 | Val Loss: 1.4837 | LM: 1.6271 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.1372
+2026-07-09 20:21:15,979 - Trainer - INFO - Epoch 14/15 | Train Loss: 2.6234 | Val Loss: 1.4275 | LM: 1.4948 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 2.0000 | RigidFlex: 0.1287

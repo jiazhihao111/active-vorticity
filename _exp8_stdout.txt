@@ -1,0 +1,253 @@
+2026-07-09 15:51:00,679 - Exp8 - INFO - ======================================================================
+2026-07-09 15:51:00,679 - Exp8 - INFO - exp8: 吸引子定向分化损失 公式(A) 三体制受控检验
+2026-07-09 15:51:00,679 - Exp8 - INFO - 时间: 2026-07-09T15:51:00.679045
+2026-07-09 15:51:00,679 - Exp8 - INFO - 配置: 300 故事, max_seq_len=160, epochs=8
+2026-07-09 15:51:00,679 - Exp8 - INFO - scipy 可用: True
+2026-07-09 15:51:00,679 - Exp8 - INFO - ======================================================================
+2026-07-09 15:51:00,679 - Exp8 - INFO - 生成增强闭合数据集 + 灵活标签...
+2026-07-09 15:51:00,895 - Exp8 - INFO - 数据统计: phys=300, flex_pos=300, flex_neg=300
+2026-07-09 15:51:00,917 - Exp8 - INFO - Exp8Trainer init: d_model=128, base_dim=32, hidden_dim=32, r=16 (🔥 维度修复: 投影矩阵用hidden_dim而非d_model)
+2026-07-09 15:51:00,917 - Exp8 - INFO - 
+======================================================================
+2026-07-09 15:51:00,917 - Exp8 - INFO - 体制 A: Baseline (纯LM)
+2026-07-09 15:51:00,917 - Exp8 - INFO - ======================================================================
+2026-07-09 15:51:00,917 - Exp8 - INFO - ============================================================
+2026-07-09 15:51:00,917 - Exp8 - INFO - 体制 A (A_baseline_LM): 开始训练
+2026-07-09 15:51:00,917 - Exp8 - INFO - ============================================================
+2026-07-09 15:51:03,184 - Trainer - INFO - Epoch 1/8 | Train Loss: 3.2269 | Val Loss: 2.7503 | LM: 3.2269 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:03,707 - Trainer - INFO - Epoch 2/8 | Train Loss: 2.6819 | Val Loss: 2.5871 | LM: 2.6819 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:04,271 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.5752 | Val Loss: 2.4549 | LM: 2.5752 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:04,796 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.3647 | Val Loss: 2.0337 | LM: 2.3647 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:05,370 - Trainer - INFO - Epoch 5/8 | Train Loss: 1.8790 | Val Loss: 1.4694 | LM: 1.8790 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:05,922 - Trainer - INFO - Epoch 6/8 | Train Loss: 1.4832 | Val Loss: 1.2414 | LM: 1.4832 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:06,447 - Trainer - INFO - Epoch 7/8 | Train Loss: 1.2980 | Val Loss: 1.1616 | LM: 1.2980 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:06,952 - Trainer - INFO - Epoch 8/8 | Train Loss: 1.2080 | Val Loss: 1.1229 | LM: 1.2080 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:09,119 - Exp8 - INFO - 
+======================================================================
+2026-07-09 15:51:09,119 - Exp8 - INFO - 体制 B: 旧阈值惩罚 公式(R)
+2026-07-09 15:51:09,119 - Exp8 - INFO - ======================================================================
+2026-07-09 15:51:09,119 - Exp8 - INFO - ============================================================
+2026-07-09 15:51:09,119 - Exp8 - INFO - 体制 B (B_threshold_R): 开始训练
+2026-07-09 15:51:09,119 - Exp8 - INFO - ============================================================
+2026-07-09 15:51:09,922 - Trainer - INFO - Epoch 1/8 | Train Loss: 7.4078 | Val Loss: 2.9313 | LM: 3.4824 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 3.9254
+2026-07-09 15:51:10,577 - Trainer - INFO - Epoch 2/8 | Train Loss: 3.2772 | Val Loss: 2.6349 | LM: 2.7727 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.5046
+2026-07-09 15:51:11,236 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.7510 | Val Loss: 2.5971 | LM: 2.6426 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.1085
+2026-07-09 15:51:11,925 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.6741 | Val Loss: 2.5823 | LM: 2.6213 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0528
+2026-07-09 15:51:12,580 - Trainer - INFO - Epoch 5/8 | Train Loss: 2.6464 | Val Loss: 2.5739 | LM: 2.6096 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0368
+2026-07-09 15:51:13,230 - Trainer - INFO - Epoch 6/8 | Train Loss: 2.6240 | Val Loss: 2.5476 | LM: 2.5929 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0311
+2026-07-09 15:51:13,885 - Trainer - INFO - Epoch 7/8 | Train Loss: 2.5963 | Val Loss: 2.5212 | LM: 2.5667 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0296
+2026-07-09 15:51:14,547 - Trainer - INFO - Epoch 8/8 | Train Loss: 2.5599 | Val Loss: 2.4565 | LM: 2.5327 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0272
+2026-07-09 15:51:16,424 - Exp8 - INFO - 
+======================================================================
+2026-07-09 15:51:16,424 - Exp8 - INFO - 体制 C: 吸引子定向分化 公式(A)
+2026-07-09 15:51:16,424 - Exp8 - INFO - ======================================================================
+2026-07-09 15:51:16,424 - Exp8 - INFO - ============================================================
+2026-07-09 15:51:16,424 - Exp8 - INFO - 体制 C (C_attractor_A): 开始训练
+2026-07-09 15:51:16,424 - Exp8 - INFO - ============================================================
+2026-07-09 15:51:16,879 - Exp8 - INFO - F_flex* = 0.002476, σ = 0.000045, m_param = 0.002566, m_perc = 0.002527, Shapiro-Wilk p = 1.0897034812725806e-13
+2026-07-09 15:51:16,879 - Exp8 - INFO - Phase 1 完成: F_flex*=0.002476, m=0.002566, Shapiro-Wilk p=1.0897034812725806e-13
+2026-07-09 15:51:17,517 - Trainer - INFO - Epoch 1/8 | Train Loss: 3.2054 | Val Loss: 2.7478 | LM: 3.2054 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:18,160 - Trainer - INFO - Epoch 2/8 | Train Loss: 2.6773 | Val Loss: 2.5788 | LM: 2.6773 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:18,840 - Trainer - INFO - Epoch 3/8 | Train Loss: 2.5571 | Val Loss: 2.4240 | LM: 2.5571 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:19,534 - Trainer - INFO - Epoch 4/8 | Train Loss: 2.3052 | Val Loss: 1.8603 | LM: 2.3052 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:20,301 - Trainer - INFO - Epoch 5/8 | Train Loss: 1.8072 | Val Loss: 1.4191 | LM: 1.8072 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:21,072 - Trainer - INFO - Epoch 6/8 | Train Loss: 1.4583 | Val Loss: 1.2578 | LM: 1.4583 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:21,834 - Trainer - INFO - Epoch 7/8 | Train Loss: 1.3001 | Val Loss: 1.1761 | LM: 1.3001 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+2026-07-09 15:51:22,612 - Trainer - INFO - Epoch 8/8 | Train Loss: 1.2173 | Val Loss: 1.1353 | LM: 1.2173 | Causal: 0.0000 | Closure: 0.0000 | ClosureContr: 0.0000 | RigidFlex: 0.0000
+C:\Users\51615\Desktop\2026.7.9.8.43对称、破缺与约束场\_run_exp8.py:866: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:839.)
+  phys_curv_log.append(float(p_curv.mean()))
+2026-07-09 15:51:22,807 - Exp8 - INFO -   Step 0/200: total=0.234851, phys=0.207698, flex_pos=0.027153, flex_neg=0.000000
+2026-07-09 15:51:31,445 - Exp8 - INFO -   Step 50/200: total=0.025233, phys=0.024852, flex_pos=0.000380, flex_neg=0.000000
+2026-07-09 15:51:40,315 - Exp8 - INFO -   Step 100/200: total=0.015019, phys=0.014784, flex_pos=0.000235, flex_neg=0.000000
+2026-07-09 15:51:49,258 - Exp8 - INFO -   Step 150/200: total=0.009568, phys=0.009424, flex_pos=0.000144, flex_neg=0.000000
+2026-07-09 15:51:57,847 - Exp8 - INFO -   Step 199/200: total=0.006753, phys=0.006645, flex_pos=0.000109, flex_neg=0.000000
+2026-07-09 15:52:00,053 - Exp8 - INFO - Phase 3: λ 扫描开始...
+2026-07-09 15:52:00,248 - Exp8 - INFO -   Step 0/100: total=0.005993, phys=0.005769, flex_pos=0.000224, flex_neg=0.000000
+2026-07-09 15:52:08,936 - Exp8 - INFO -   Step 50/100: total=0.000818, phys=0.000811, flex_pos=0.000006, flex_neg=0.000000
+2026-07-09 15:52:17,486 - Exp8 - INFO -   Step 99/100: total=0.000424, phys=0.000421, flex_pos=0.000003, flex_neg=0.000000
+2026-07-09 15:52:18,974 - Exp8 - INFO -   Step 0/100: total=0.005951, phys=0.005714, flex_pos=0.000237, flex_neg=0.000000
+2026-07-09 15:52:27,806 - Exp8 - INFO -   Step 50/100: total=0.000796, phys=0.000790, flex_pos=0.000006, flex_neg=0.000000
+2026-07-09 15:52:36,529 - Exp8 - INFO -   Step 99/100: total=0.000391, phys=0.000388, flex_pos=0.000003, flex_neg=0.000000
+2026-07-09 15:52:38,587 - Exp8 - INFO -   Step 0/100: total=0.005554, phys=0.005326, flex_pos=0.000227, flex_neg=0.000000
+2026-07-09 15:52:47,467 - Exp8 - INFO -   Step 50/100: total=0.000778, phys=0.000771, flex_pos=0.000007, flex_neg=0.000000
+2026-07-09 15:52:55,869 - Exp8 - INFO -   Step 99/100: total=0.000413, phys=0.000410, flex_pos=0.000003, flex_neg=0.000000
+2026-07-09 15:52:58,264 - Exp8 - INFO -   Step 0/100: total=0.007905, phys=0.005889, flex_pos=0.002015, flex_neg=0.000000
+2026-07-09 15:53:07,473 - Exp8 - INFO -   Step 50/100: total=0.001002, phys=0.000949, flex_pos=0.000053, flex_neg=0.000000
+2026-07-09 15:53:16,461 - Exp8 - INFO -   Step 99/100: total=0.000519, phys=0.000489, flex_pos=0.000030, flex_neg=0.000000
+2026-07-09 15:53:18,849 - Exp8 - INFO -   Step 0/100: total=0.007117, phys=0.005845, flex_pos=0.001271, flex_neg=0.000000
+2026-07-09 15:53:27,705 - Exp8 - INFO -   Step 50/100: total=0.000912, phys=0.000877, flex_pos=0.000035, flex_neg=0.000000
+2026-07-09 15:53:36,571 - Exp8 - INFO -   Step 99/100: total=0.000495, phys=0.000478, flex_pos=0.000016, flex_neg=0.000000
+2026-07-09 15:53:39,003 - Exp8 - INFO -   Step 0/100: total=0.007931, phys=0.006155, flex_pos=0.001776, flex_neg=0.000000
+2026-07-09 15:53:47,899 - Exp8 - INFO -   Step 50/100: total=0.000976, phys=0.000935, flex_pos=0.000041, flex_neg=0.000000
+2026-07-09 15:53:56,631 - Exp8 - INFO -   Step 99/100: total=0.000523, phys=0.000500, flex_pos=0.000023, flex_neg=0.000000
+2026-07-09 15:53:59,158 - Exp8 - INFO -   Step 0/100: total=0.010280, phys=0.006489, flex_pos=0.003791, flex_neg=0.000000
+2026-07-09 15:54:08,103 - Exp8 - INFO -   Step 50/100: total=0.001054, phys=0.000968, flex_pos=0.000085, flex_neg=0.000000
+2026-07-09 15:54:17,220 - Exp8 - INFO -   Step 99/100: total=0.000563, phys=0.000524, flex_pos=0.000038, flex_neg=0.000000
+2026-07-09 15:54:18,741 - Exp8 - INFO -   Step 0/100: total=0.010264, phys=0.006677, flex_pos=0.003587, flex_neg=0.000000
+2026-07-09 15:54:28,286 - Exp8 - INFO -   Step 50/100: total=0.001089, phys=0.000992, flex_pos=0.000097, flex_neg=0.000000
+2026-07-09 15:54:37,352 - Exp8 - INFO -   Step 99/100: total=0.000561, phys=0.000516, flex_pos=0.000044, flex_neg=0.000000
+2026-07-09 15:54:39,187 - Exp8 - INFO -   Step 0/100: total=0.008152, phys=0.005765, flex_pos=0.002387, flex_neg=0.000000
+2026-07-09 15:54:48,320 - Exp8 - INFO -   Step 50/100: total=0.000992, phys=0.000928, flex_pos=0.000064, flex_neg=0.000000
+2026-07-09 15:54:57,281 - Exp8 - INFO -   Step 99/100: total=0.000505, phys=0.000474, flex_pos=0.000031, flex_neg=0.000000
+2026-07-09 15:54:59,780 - Exp8 - INFO -   Step 0/100: total=0.010507, phys=0.005779, flex_pos=0.004728, flex_neg=0.000000
+2026-07-09 15:55:09,384 - Exp8 - INFO -   Step 50/100: total=0.001055, phys=0.000951, flex_pos=0.000104, flex_neg=0.000000
+2026-07-09 15:55:18,562 - Exp8 - INFO -   Step 99/100: total=0.000580, phys=0.000529, flex_pos=0.000051, flex_neg=0.000000
+2026-07-09 15:55:20,183 - Exp8 - INFO -   Step 0/100: total=0.015353, phys=0.007371, flex_pos=0.007982, flex_neg=0.000000
+2026-07-09 15:55:29,284 - Exp8 - INFO -   Step 50/100: total=0.001358, phys=0.001181, flex_pos=0.000177, flex_neg=0.000000
+2026-07-09 15:55:38,146 - Exp8 - INFO -   Step 99/100: total=0.000726, phys=0.000646, flex_pos=0.000080, flex_neg=0.000000
+2026-07-09 15:55:39,907 - Exp8 - INFO -   Step 0/100: total=0.014137, phys=0.006315, flex_pos=0.007822, flex_neg=0.000000
+2026-07-09 15:55:49,286 - Exp8 - INFO -   Step 50/100: total=0.001172, phys=0.000976, flex_pos=0.000196, flex_neg=0.000000
+2026-07-09 15:55:58,291 - Exp8 - INFO -   Step 99/100: total=0.000637, phys=0.000551, flex_pos=0.000086, flex_neg=0.000000
+2026-07-09 15:56:00,277 - Exp8 - INFO -   Step 0/100: total=0.034460, phys=0.034071, flex_pos=0.000389, flex_neg=0.000000
+2026-07-09 15:56:08,660 - Exp8 - INFO -   Step 50/100: total=0.004690, phys=0.004682, flex_pos=0.000008, flex_neg=0.000000
+2026-07-09 15:56:17,147 - Exp8 - INFO -   Step 99/100: total=0.002377, phys=0.002371, flex_pos=0.000006, flex_neg=0.000000
+2026-07-09 15:56:19,229 - Exp8 - INFO -   Step 0/100: total=0.031213, phys=0.030957, flex_pos=0.000256, flex_neg=0.000000
+2026-07-09 15:56:27,493 - Exp8 - INFO -   Step 50/100: total=0.004490, phys=0.004484, flex_pos=0.000007, flex_neg=0.000000
+2026-07-09 15:56:35,718 - Exp8 - INFO -   Step 99/100: total=0.002209, phys=0.002206, flex_pos=0.000003, flex_neg=0.000000
+2026-07-09 15:56:37,809 - Exp8 - INFO -   Step 0/100: total=0.030913, phys=0.030581, flex_pos=0.000332, flex_neg=0.000000
+2026-07-09 15:56:45,927 - Exp8 - INFO -   Step 50/100: total=0.004555, phys=0.004543, flex_pos=0.000012, flex_neg=0.000000
+2026-07-09 15:56:54,051 - Exp8 - INFO -   Step 99/100: total=0.002211, phys=0.002205, flex_pos=0.000006, flex_neg=0.000000
+2026-07-09 15:56:56,404 - Exp8 - INFO -   Step 0/100: total=0.027759, phys=0.026317, flex_pos=0.001441, flex_neg=0.000000
+2026-07-09 15:57:05,403 - Exp8 - INFO -   Step 50/100: total=0.003619, phys=0.003585, flex_pos=0.000035, flex_neg=0.000000
+2026-07-09 15:57:13,853 - Exp8 - INFO -   Step 99/100: total=0.001992, phys=0.001976, flex_pos=0.000016, flex_neg=0.000000
+2026-07-09 15:57:15,968 - Exp8 - INFO -   Step 0/100: total=0.034001, phys=0.032314, flex_pos=0.001687, flex_neg=0.000000
+2026-07-09 15:57:24,504 - Exp8 - INFO -   Step 50/100: total=0.004563, phys=0.004511, flex_pos=0.000052, flex_neg=0.000000
+2026-07-09 15:57:32,853 - Exp8 - INFO -   Step 99/100: total=0.002256, phys=0.002231, flex_pos=0.000025, flex_neg=0.000000
+2026-07-09 15:57:34,302 - Exp8 - INFO -   Step 0/100: total=0.036618, phys=0.034948, flex_pos=0.001670, flex_neg=0.000000
+2026-07-09 15:57:42,771 - Exp8 - INFO -   Step 50/100: total=0.004468, phys=0.004429, flex_pos=0.000039, flex_neg=0.000000
+2026-07-09 15:57:51,115 - Exp8 - INFO -   Step 99/100: total=0.002548, phys=0.002530, flex_pos=0.000018, flex_neg=0.000000
+2026-07-09 15:57:52,790 - Exp8 - INFO -   Step 0/100: total=0.037728, phys=0.034053, flex_pos=0.003674, flex_neg=0.000000
+2026-07-09 15:58:01,567 - Exp8 - INFO -   Step 50/100: total=0.004678, phys=0.004575, flex_pos=0.000103, flex_neg=0.000000
+2026-07-09 15:58:10,125 - Exp8 - INFO -   Step 99/100: total=0.002485, phys=0.002436, flex_pos=0.000048, flex_neg=0.000000
+2026-07-09 15:58:11,836 - Exp8 - INFO -   Step 0/100: total=0.035138, phys=0.032899, flex_pos=0.002239, flex_neg=0.000000
+2026-07-09 15:58:20,282 - Exp8 - INFO -   Step 50/100: total=0.005003, phys=0.004936, flex_pos=0.000067, flex_neg=0.000000
+2026-07-09 15:58:28,593 - Exp8 - INFO -   Step 99/100: total=0.002779, phys=0.002745, flex_pos=0.000034, flex_neg=0.000000
+2026-07-09 15:58:30,770 - Exp8 - INFO -   Step 0/100: total=0.030727, phys=0.027365, flex_pos=0.003362, flex_neg=0.000000
+2026-07-09 15:58:39,654 - Exp8 - INFO -   Step 50/100: total=0.003822, phys=0.003729, flex_pos=0.000093, flex_neg=0.000000
+2026-07-09 15:58:47,964 - Exp8 - INFO -   Step 99/100: total=0.002044, phys=0.001991, flex_pos=0.000052, flex_neg=0.000000
+2026-07-09 15:58:50,131 - Exp8 - INFO -   Step 0/100: total=0.033033, phys=0.027778, flex_pos=0.005255, flex_neg=0.000000
+2026-07-09 15:58:58,687 - Exp8 - INFO -   Step 50/100: total=0.004207, phys=0.004084, flex_pos=0.000123, flex_neg=0.000000
+2026-07-09 15:59:07,146 - Exp8 - INFO -   Step 99/100: total=0.002269, phys=0.002207, flex_pos=0.000062, flex_neg=0.000000
+2026-07-09 15:59:09,326 - Exp8 - INFO -   Step 0/100: total=0.032477, phys=0.025964, flex_pos=0.006513, flex_neg=0.000000
+2026-07-09 15:59:17,946 - Exp8 - INFO -   Step 50/100: total=0.004110, phys=0.003913, flex_pos=0.000196, flex_neg=0.000000
+2026-07-09 15:59:26,578 - Exp8 - INFO -   Step 99/100: total=0.002083, phys=0.001992, flex_pos=0.000091, flex_neg=0.000000
+2026-07-09 15:59:28,218 - Exp8 - INFO -   Step 0/100: total=0.032824, phys=0.025088, flex_pos=0.007736, flex_neg=0.000000
+2026-07-09 15:59:36,628 - Exp8 - INFO -   Step 50/100: total=0.003959, phys=0.003729, flex_pos=0.000229, flex_neg=0.000000
+2026-07-09 15:59:44,581 - Exp8 - INFO -   Step 99/100: total=0.002082, phys=0.001958, flex_pos=0.000124, flex_neg=0.000000
+2026-07-09 15:59:46,778 - Exp8 - INFO -   Step 0/100: total=0.060327, phys=0.059926, flex_pos=0.000401, flex_neg=0.000000
+2026-07-09 15:59:55,337 - Exp8 - INFO -   Step 50/100: total=0.008336, phys=0.008324, flex_pos=0.000012, flex_neg=0.000000
+2026-07-09 16:00:03,775 - Exp8 - INFO -   Step 99/100: total=0.004541, phys=0.004535, flex_pos=0.000006, flex_neg=0.000000
+2026-07-09 16:00:06,148 - Exp8 - INFO -   Step 0/100: total=0.061005, phys=0.060691, flex_pos=0.000314, flex_neg=0.000000
+2026-07-09 16:00:15,450 - Exp8 - INFO -   Step 50/100: total=0.008362, phys=0.008355, flex_pos=0.000007, flex_neg=0.000000
+2026-07-09 16:00:24,020 - Exp8 - INFO -   Step 99/100: total=0.004246, phys=0.004242, flex_pos=0.000004, flex_neg=0.000000
+2026-07-09 16:00:26,455 - Exp8 - INFO -   Step 0/100: total=0.056719, phys=0.056357, flex_pos=0.000362, flex_neg=0.000000
+2026-07-09 16:00:34,940 - Exp8 - INFO -   Step 50/100: total=0.008024, phys=0.008011, flex_pos=0.000012, flex_neg=0.000000
+2026-07-09 16:00:43,473 - Exp8 - INFO -   Step 99/100: total=0.004323, phys=0.004315, flex_pos=0.000007, flex_neg=0.000000
+2026-07-09 16:00:45,952 - Exp8 - INFO -   Step 0/100: total=0.064323, phys=0.062365, flex_pos=0.001958, flex_neg=0.000000
+2026-07-09 16:00:54,834 - Exp8 - INFO -   Step 50/100: total=0.008851, phys=0.008802, flex_pos=0.000050, flex_neg=0.000000
+2026-07-09 16:01:03,310 - Exp8 - INFO -   Step 99/100: total=0.004936, phys=0.004909, flex_pos=0.000027, flex_neg=0.000000
+2026-07-09 16:01:04,765 - Exp8 - INFO -   Step 0/100: total=0.060623, phys=0.059105, flex_pos=0.001517, flex_neg=0.000000
+2026-07-09 16:01:12,996 - Exp8 - INFO -   Step 50/100: total=0.008276, phys=0.008229, flex_pos=0.000047, flex_neg=0.000000
+2026-07-09 16:01:21,288 - Exp8 - INFO -   Step 99/100: total=0.004538, phys=0.004510, flex_pos=0.000028, flex_neg=0.000000
+2026-07-09 16:01:22,705 - Exp8 - INFO -   Step 0/100: total=0.056297, phys=0.054958, flex_pos=0.001338, flex_neg=0.000000
+2026-07-09 16:01:31,151 - Exp8 - INFO -   Step 50/100: total=0.007730, phys=0.007686, flex_pos=0.000044, flex_neg=0.000000
+2026-07-09 16:01:39,588 - Exp8 - INFO -   Step 99/100: total=0.004141, phys=0.004124, flex_pos=0.000017, flex_neg=0.000000
+2026-07-09 16:01:41,956 - Exp8 - INFO -   Step 0/100: total=0.061006, phys=0.056940, flex_pos=0.004066, flex_neg=0.000000
+2026-07-09 16:01:50,519 - Exp8 - INFO -   Step 50/100: total=0.008616, phys=0.008477, flex_pos=0.000139, flex_neg=0.000000
+2026-07-09 16:01:58,902 - Exp8 - INFO -   Step 99/100: total=0.004391, phys=0.004334, flex_pos=0.000056, flex_neg=0.000000
+2026-07-09 16:02:01,417 - Exp8 - INFO -   Step 0/100: total=0.064666, phys=0.059731, flex_pos=0.004935, flex_neg=0.000000
+2026-07-09 16:02:10,704 - Exp8 - INFO -   Step 50/100: total=0.008772, phys=0.008655, flex_pos=0.000117, flex_neg=0.000000
+2026-07-09 16:02:19,726 - Exp8 - INFO -   Step 99/100: total=0.004927, phys=0.004869, flex_pos=0.000059, flex_neg=0.000000
+2026-07-09 16:02:21,543 - Exp8 - INFO -   Step 0/100: total=0.067675, phys=0.065035, flex_pos=0.002640, flex_neg=0.000000
+2026-07-09 16:02:31,173 - Exp8 - INFO -   Step 50/100: total=0.008825, phys=0.008736, flex_pos=0.000089, flex_neg=0.000000
+2026-07-09 16:02:40,836 - Exp8 - INFO -   Step 99/100: total=0.005004, phys=0.004966, flex_pos=0.000037, flex_neg=0.000000
+2026-07-09 16:02:42,659 - Exp8 - INFO -   Step 0/100: total=0.063833, phys=0.059750, flex_pos=0.004084, flex_neg=0.000000
+2026-07-09 16:02:52,123 - Exp8 - INFO -   Step 50/100: total=0.008321, phys=0.008217, flex_pos=0.000105, flex_neg=0.000000
+2026-07-09 16:03:01,546 - Exp8 - INFO -   Step 99/100: total=0.004429, phys=0.004378, flex_pos=0.000051, flex_neg=0.000000
+2026-07-09 16:03:03,212 - Exp8 - INFO -   Step 0/100: total=0.078909, phys=0.070889, flex_pos=0.008020, flex_neg=0.000000
+2026-07-09 16:03:12,640 - Exp8 - INFO -   Step 50/100: total=0.009218, phys=0.009006, flex_pos=0.000212, flex_neg=0.000000
+2026-07-09 16:03:22,206 - Exp8 - INFO -   Step 99/100: total=0.004825, phys=0.004732, flex_pos=0.000093, flex_neg=0.000000
+2026-07-09 16:03:24,961 - Exp8 - INFO -   Step 0/100: total=0.063883, phys=0.057399, flex_pos=0.006485, flex_neg=0.000000
+2026-07-09 16:03:35,000 - Exp8 - INFO -   Step 50/100: total=0.007880, phys=0.007692, flex_pos=0.000188, flex_neg=0.000000
+2026-07-09 16:03:44,219 - Exp8 - INFO -   Step 99/100: total=0.004074, phys=0.003985, flex_pos=0.000089, flex_neg=0.000000
+2026-07-09 16:03:45,715 - Exp8 - INFO -   Step 0/100: total=0.111706, phys=0.111444, flex_pos=0.000262, flex_neg=0.000000
+2026-07-09 16:03:54,495 - Exp8 - INFO -   Step 50/100: total=0.015943, phys=0.015934, flex_pos=0.000009, flex_neg=0.000000
+2026-07-09 16:04:03,540 - Exp8 - INFO -   Step 99/100: total=0.008391, phys=0.008387, flex_pos=0.000004, flex_neg=0.000000
+2026-07-09 16:04:05,072 - Exp8 - INFO -   Step 0/100: total=0.125745, phys=0.125399, flex_pos=0.000347, flex_neg=0.000000
+2026-07-09 16:04:14,348 - Exp8 - INFO -   Step 50/100: total=0.016842, phys=0.016832, flex_pos=0.000011, flex_neg=0.000000
+2026-07-09 16:04:23,651 - Exp8 - INFO -   Step 99/100: total=0.008642, phys=0.008638, flex_pos=0.000004, flex_neg=0.000000
+2026-07-09 16:04:25,286 - Exp8 - INFO -   Step 0/100: total=0.117572, phys=0.117345, flex_pos=0.000226, flex_neg=0.000000
+2026-07-09 16:04:33,685 - Exp8 - INFO -   Step 50/100: total=0.015988, phys=0.015982, flex_pos=0.000006, flex_neg=0.000000
+2026-07-09 16:04:42,091 - Exp8 - INFO -   Step 99/100: total=0.008360, phys=0.008357, flex_pos=0.000003, flex_neg=0.000000
+2026-07-09 16:04:44,133 - Exp8 - INFO -   Step 0/100: total=0.104985, phys=0.103590, flex_pos=0.001396, flex_neg=0.000000
+2026-07-09 16:04:52,367 - Exp8 - INFO -   Step 50/100: total=0.014307, phys=0.014261, flex_pos=0.000047, flex_neg=0.000000
+2026-07-09 16:05:00,756 - Exp8 - INFO -   Step 99/100: total=0.007280, phys=0.007257, flex_pos=0.000023, flex_neg=0.000000
+2026-07-09 16:05:02,165 - Exp8 - INFO -   Step 0/100: total=0.118360, phys=0.116902, flex_pos=0.001458, flex_neg=0.000000
+2026-07-09 16:05:10,602 - Exp8 - INFO -   Step 50/100: total=0.016674, phys=0.016634, flex_pos=0.000040, flex_neg=0.000000
+2026-07-09 16:05:19,562 - Exp8 - INFO -   Step 99/100: total=0.008577, phys=0.008557, flex_pos=0.000020, flex_neg=0.000000
+2026-07-09 16:05:21,841 - Exp8 - INFO -   Step 0/100: total=0.099584, phys=0.097900, flex_pos=0.001684, flex_neg=0.000000
+2026-07-09 16:05:30,910 - Exp8 - INFO -   Step 50/100: total=0.013900, phys=0.013854, flex_pos=0.000046, flex_neg=0.000000
+2026-07-09 16:05:39,322 - Exp8 - INFO -   Step 99/100: total=0.007438, phys=0.007413, flex_pos=0.000025, flex_neg=0.000000
+2026-07-09 16:05:40,797 - Exp8 - INFO -   Step 0/100: total=0.096615, phys=0.094023, flex_pos=0.002592, flex_neg=0.000000
+2026-07-09 16:05:49,671 - Exp8 - INFO -   Step 50/100: total=0.014336, phys=0.014244, flex_pos=0.000091, flex_neg=0.000000
+2026-07-09 16:05:59,251 - Exp8 - INFO -   Step 99/100: total=0.006964, phys=0.006916, flex_pos=0.000048, flex_neg=0.000000
+2026-07-09 16:06:02,012 - Exp8 - INFO -   Step 0/100: total=0.124088, phys=0.120951, flex_pos=0.003138, flex_neg=0.000000
+2026-07-09 16:06:11,978 - Exp8 - INFO -   Step 50/100: total=0.016361, phys=0.016283, flex_pos=0.000078, flex_neg=0.000000
+2026-07-09 16:06:21,562 - Exp8 - INFO -   Step 99/100: total=0.008656, phys=0.008620, flex_pos=0.000036, flex_neg=0.000000
+2026-07-09 16:06:23,128 - Exp8 - INFO -   Step 0/100: total=0.112166, phys=0.109903, flex_pos=0.002263, flex_neg=0.000000
+2026-07-09 16:06:33,017 - Exp8 - INFO -   Step 50/100: total=0.016971, phys=0.016896, flex_pos=0.000076, flex_neg=0.000000
+2026-07-09 16:06:42,014 - Exp8 - INFO -   Step 99/100: total=0.008618, phys=0.008582, flex_pos=0.000035, flex_neg=0.000000
+2026-07-09 16:06:44,462 - Exp8 - INFO -   Step 0/100: total=0.128078, phys=0.121908, flex_pos=0.006170, flex_neg=0.000000
+2026-07-09 16:06:53,121 - Exp8 - INFO -   Step 50/100: total=0.017533, phys=0.017338, flex_pos=0.000195, flex_neg=0.000000
+2026-07-09 16:07:01,417 - Exp8 - INFO -   Step 99/100: total=0.008964, phys=0.008862, flex_pos=0.000101, flex_neg=0.000000
+2026-07-09 16:07:03,786 - Exp8 - INFO -   Step 0/100: total=0.122283, phys=0.113697, flex_pos=0.008586, flex_neg=0.000000
+2026-07-09 16:07:12,271 - Exp8 - INFO -   Step 50/100: total=0.017014, phys=0.016731, flex_pos=0.000284, flex_neg=0.000000
+2026-07-09 16:07:20,761 - Exp8 - INFO -   Step 99/100: total=0.008522, phys=0.008372, flex_pos=0.000150, flex_neg=0.000000
+2026-07-09 16:07:23,205 - Exp8 - INFO -   Step 0/100: total=0.150790, phys=0.143576, flex_pos=0.007214, flex_neg=0.000000
+2026-07-09 16:07:31,665 - Exp8 - INFO -   Step 50/100: total=0.019401, phys=0.019213, flex_pos=0.000188, flex_neg=0.000000
+2026-07-09 16:07:40,083 - Exp8 - INFO -   Step 99/100: total=0.010320, phys=0.010238, flex_pos=0.000082, flex_neg=0.000000
+2026-07-09 16:07:42,308 - Exp8 - INFO -   Step 0/100: total=0.345083, phys=0.344670, flex_pos=0.000413, flex_neg=0.000000
+2026-07-09 16:07:50,996 - Exp8 - INFO -   Step 50/100: total=0.044028, phys=0.044016, flex_pos=0.000012, flex_neg=0.000000
+2026-07-09 16:07:59,261 - Exp8 - INFO -   Step 99/100: total=0.022757, phys=0.022752, flex_pos=0.000005, flex_neg=0.000000
+2026-07-09 16:08:01,225 - Exp8 - INFO -   Step 0/100: total=0.293319, phys=0.292955, flex_pos=0.000363, flex_neg=0.000000
+2026-07-09 16:08:10,117 - Exp8 - INFO -   Step 50/100: total=0.038490, phys=0.038479, flex_pos=0.000011, flex_neg=0.000000
+2026-07-09 16:08:19,433 - Exp8 - INFO -   Step 99/100: total=0.020142, phys=0.020136, flex_pos=0.000005, flex_neg=0.000000
+2026-07-09 16:08:20,980 - Exp8 - INFO -   Step 0/100: total=0.272867, phys=0.272530, flex_pos=0.000336, flex_neg=0.000000
+2026-07-09 16:08:30,072 - Exp8 - INFO -   Step 50/100: total=0.040608, phys=0.040596, flex_pos=0.000012, flex_neg=0.000000
+2026-07-09 16:08:39,366 - Exp8 - INFO -   Step 99/100: total=0.021255, phys=0.021249, flex_pos=0.000005, flex_neg=0.000000
+2026-07-09 16:08:40,941 - Exp8 - INFO -   Step 0/100: total=0.325946, phys=0.324404, flex_pos=0.001542, flex_neg=0.000000
+2026-07-09 16:08:51,007 - Exp8 - INFO -   Step 50/100: total=0.042240, phys=0.042202, flex_pos=0.000037, flex_neg=0.000000
+2026-07-09 16:09:01,293 - Exp8 - INFO -   Step 99/100: total=0.021869, phys=0.021854, flex_pos=0.000015, flex_neg=0.000000
+2026-07-09 16:09:03,704 - Exp8 - INFO -   Step 0/100: total=0.257466, phys=0.256338, flex_pos=0.001129, flex_neg=0.000000
+2026-07-09 16:09:13,694 - Exp8 - INFO -   Step 50/100: total=0.037398, phys=0.037361, flex_pos=0.000038, flex_neg=0.000000
+2026-07-09 16:09:22,438 - Exp8 - INFO -   Step 99/100: total=0.018889, phys=0.018871, flex_pos=0.000018, flex_neg=0.000000
+2026-07-09 16:09:23,993 - Exp8 - INFO -   Step 0/100: total=0.335011, phys=0.333098, flex_pos=0.001913, flex_neg=0.000000
+2026-07-09 16:09:33,999 - Exp8 - INFO -   Step 50/100: total=0.042152, phys=0.042092, flex_pos=0.000060, flex_neg=0.000000
+2026-07-09 16:09:43,514 - Exp8 - INFO -   Step 99/100: total=0.022943, phys=0.022914, flex_pos=0.000029, flex_neg=0.000000
+2026-07-09 16:09:45,084 - Exp8 - INFO -   Step 0/100: total=0.360059, phys=0.356737, flex_pos=0.003322, flex_neg=0.000000
+2026-07-09 16:09:54,384 - Exp8 - INFO -   Step 50/100: total=0.046492, phys=0.046396, flex_pos=0.000096, flex_neg=0.000000
+2026-07-09 16:10:03,178 - Exp8 - INFO -   Step 99/100: total=0.024254, phys=0.024206, flex_pos=0.000049, flex_neg=0.000000
+2026-07-09 16:10:05,428 - Exp8 - INFO -   Step 0/100: total=0.305320, phys=0.301530, flex_pos=0.003790, flex_neg=0.000000
+2026-07-09 16:10:14,373 - Exp8 - INFO -   Step 50/100: total=0.041165, phys=0.041037, flex_pos=0.000128, flex_neg=0.000000
+2026-07-09 16:10:23,918 - Exp8 - INFO -   Step 99/100: total=0.021042, phys=0.020967, flex_pos=0.000075, flex_neg=0.000000
+2026-07-09 16:10:26,248 - Exp8 - INFO -   Step 0/100: total=0.243849, phys=0.241816, flex_pos=0.002033, flex_neg=0.000000
+2026-07-09 16:10:35,303 - Exp8 - INFO -   Step 50/100: total=0.035238, phys=0.035159, flex_pos=0.000079, flex_neg=0.000000
+2026-07-09 16:10:43,788 - Exp8 - INFO -   Step 99/100: total=0.018204, phys=0.018165, flex_pos=0.000039, flex_neg=0.000000
+2026-07-09 16:10:45,474 - Exp8 - INFO -   Step 0/100: total=0.275066, phys=0.271345, flex_pos=0.003721, flex_neg=0.000000
+2026-07-09 16:10:54,141 - Exp8 - INFO -   Step 50/100: total=0.038767, phys=0.038646, flex_pos=0.000121, flex_neg=0.000000
+2026-07-09 16:11:02,615 - Exp8 - INFO -   Step 99/100: total=0.020780, phys=0.020726, flex_pos=0.000054, flex_neg=0.000000
+2026-07-09 16:11:04,949 - Exp8 - INFO -   Step 0/100: total=0.334152, phys=0.327082, flex_pos=0.007070, flex_neg=0.000000
+2026-07-09 16:11:13,459 - Exp8 - INFO -   Step 50/100: total=0.045569, phys=0.045392, flex_pos=0.000177, flex_neg=0.000000
+2026-07-09 16:11:21,615 - Exp8 - INFO -   Step 99/100: total=0.024055, phys=0.023968, flex_pos=0.000087, flex_neg=0.000000
+2026-07-09 16:11:23,753 - Exp8 - INFO -   Step 0/100: total=0.315847, phys=0.308150, flex_pos=0.007696, flex_neg=0.000000
+2026-07-09 16:11:32,061 - Exp8 - INFO -   Step 50/100: total=0.042961, phys=0.042737, flex_pos=0.000224, flex_neg=0.000000
+2026-07-09 16:11:40,203 - Exp8 - INFO -   Step 99/100: total=0.023296, phys=0.023178, flex_pos=0.000118, flex_neg=0.000000
+2026-07-09 16:11:41,909 - Exp8 - INFO -  样本量消融: N+ = [10, 50, 100, 全量]...
+2026-07-09 16:11:41,934 - Exp8 - INFO - F_flex* = 0.003125, σ = 0.000040, m_param = 0.003205, m_perc = 0.003161, Shapiro-Wilk p = 0.024255468561937638
+2026-07-09 16:11:42,016 - Exp8 - INFO - F_flex* = 0.003249, σ = 0.000062, m_param = 0.003374, m_perc = 0.003340, Shapiro-Wilk p = 0.33975625269194637
+2026-07-09 16:11:42,177 - Exp8 - INFO - F_flex* = 0.002811, σ = 0.000054, m_param = 0.002920, m_perc = 0.002898, Shapiro-Wilk p = 0.45493016805433056
+2026-07-09 16:11:42,650 - Exp8 - INFO - F_flex* = 0.002709, σ = 0.000050, m_param = 0.002810, m_perc = 0.002801, Shapiro-Wilk p = 0.0016668136700673855
+2026-07-09 16:11:42,651 - Exp8 - INFO - 报告已保存: C:\Users\51615\Desktop\2026.7.9.8.43对称、破缺与约束场\exp8_report.md
+2026-07-09 16:11:42,652 - Exp8 - INFO - JSON已保存: C:\Users\51615\Desktop\2026.7.9.8.43对称、破缺与约束场\exp8_report.json
+2026-07-09 16:11:42,652 - Exp8 - INFO - exp8 完成.

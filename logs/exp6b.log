@@ -1,0 +1,5 @@
+2026-07-09 10:08:57,630 - Exp6b - INFO - === [no_closure] 训练 causal 模型 (closure_lambda=0.0) ===
+2026-07-09 10:09:06,276 - Exp6b - INFO - === [no_closure] 实验6 闭合 holonomy 受控检验 ===
+2026-07-09 10:09:25,408 - Exp6b - INFO - === [with_closure] 训练 causal 模型 (closure_lambda=1.0) ===
+2026-07-09 10:09:29,555 - Exp6b - INFO - === [with_closure] 实验6 闭合 holonomy 受控检验 ===
+2026-07-09 10:09:41,666 - Exp6b - INFO - 报告已保存: C:\Users\51615\Desktop\2026.7.9.8.43对称、破缺与约束场\exp6b_salvage_report.md

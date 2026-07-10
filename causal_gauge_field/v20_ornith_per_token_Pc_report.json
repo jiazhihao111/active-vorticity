@@ -1,0 +1,233 @@
+{
+  "model": "Ornith-1.0-9B",
+  "quantization": "4bit-nf4",
+  "gamma": 0.01,
+  "prompt": "Explain the concept of entropy in thermodynamics in two sentences.",
+  "num_generated": 50,
+  "per_layer": {
+    "0": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.4229061603546143,
+      "Pc_Praw_mean": 2.011088948767918,
+      "cos_v_a_mean": 0.8275598395885838,
+      "effective_rank": 37
+    },
+    "1": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.420450210571289,
+      "Pc_Praw_mean": 1.9893281057420658,
+      "cos_v_a_mean": 0.8323231514124374,
+      "effective_rank": 40
+    },
+    "2": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.4043240547180176,
+      "Pc_Praw_mean": 2.006021836965386,
+      "cos_v_a_mean": 0.825077225668726,
+      "effective_rank": 41
+    },
+    "3": {
+      "layer_type": "full_attention",
+      "alpha_star": -1.392215609550476,
+      "Pc_Praw_mean": 2.0048836705989745,
+      "cos_v_a_mean": 0.8242236063866811,
+      "effective_rank": 42
+    },
+    "4": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.4146101474761963,
+      "Pc_Praw_mean": 2.0090820132689142,
+      "cos_v_a_mean": 0.8286183333956622,
+      "effective_rank": 42
+    },
+    "5": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.4237711429595947,
+      "Pc_Praw_mean": 2.01926128621551,
+      "cos_v_a_mean": 0.8296748432216834,
+      "effective_rank": 42
+    },
+    "6": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.4055142402648926,
+      "Pc_Praw_mean": 2.0244411408518332,
+      "cos_v_a_mean": 0.8257406076386758,
+      "effective_rank": 42
+    },
+    "7": {
+      "layer_type": "full_attention",
+      "alpha_star": -1.4090696573257446,
+      "Pc_Praw_mean": 2.0150728270897784,
+      "cos_v_a_mean": 0.829067398047727,
+      "effective_rank": 42
+    },
+    "8": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.4192461967468262,
+      "Pc_Praw_mean": 2.0211871161164465,
+      "cos_v_a_mean": 0.8311592860308488,
+      "effective_rank": 42
+    },
+    "9": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.416695475578308,
+      "Pc_Praw_mean": 2.0223349827345616,
+      "cos_v_a_mean": 0.830228646234348,
+      "effective_rank": 42
+    },
+    "10": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.4129747152328491,
+      "Pc_Praw_mean": 2.0386361652795713,
+      "cos_v_a_mean": 0.8257704920283143,
+      "effective_rank": 42
+    },
+    "11": {
+      "layer_type": "full_attention",
+      "alpha_star": -1.4177498817443848,
+      "Pc_Praw_mean": 2.02212844510918,
+      "cos_v_a_mean": 0.8311810679821559,
+      "effective_rank": 42
+    },
+    "12": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.4198249578475952,
+      "Pc_Praw_mean": 2.0220370892562127,
+      "cos_v_a_mean": 0.8322575082946757,
+      "effective_rank": 42
+    },
+    "13": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.4169490337371826,
+      "Pc_Praw_mean": 2.019060234050611,
+      "cos_v_a_mean": 0.831769992964853,
+      "effective_rank": 42
+    },
+    "14": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.4143781661987305,
+      "Pc_Praw_mean": 2.0200268660849807,
+      "cos_v_a_mean": 0.8310089023964253,
+      "effective_rank": 43
+    },
+    "15": {
+      "layer_type": "full_attention",
+      "alpha_star": -1.4206727743148804,
+      "Pc_Praw_mean": 2.0109269023938547,
+      "cos_v_a_mean": 0.8365731102939151,
+      "effective_rank": 43
+    },
+    "16": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.4208500385284424,
+      "Pc_Praw_mean": 2.0077447964255444,
+      "cos_v_a_mean": 0.8377643975609335,
+      "effective_rank": 43
+    },
+    "17": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.4118597507476807,
+      "Pc_Praw_mean": 2.005675225937659,
+      "cos_v_a_mean": 0.8366998894866005,
+      "effective_rank": 43
+    },
+    "18": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.4002971649169922,
+      "Pc_Praw_mean": 2.002723015089472,
+      "cos_v_a_mean": 0.8350195221982792,
+      "effective_rank": 43
+    },
+    "19": {
+      "layer_type": "full_attention",
+      "alpha_star": -1.3983718156814575,
+      "Pc_Praw_mean": 2.0001860004171443,
+      "cos_v_a_mean": 0.8361728215619041,
+      "effective_rank": 43
+    },
+    "20": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.392056941986084,
+      "Pc_Praw_mean": 2.004241499375884,
+      "cos_v_a_mean": 0.832789980112559,
+      "effective_rank": 43
+    },
+    "21": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.387376308441162,
+      "Pc_Praw_mean": 2.0034726019545928,
+      "cos_v_a_mean": 0.8312967193309763,
+      "effective_rank": 43
+    },
+    "22": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.37920081615448,
+      "Pc_Praw_mean": 2.0025579971181418,
+      "cos_v_a_mean": 0.8286417033504763,
+      "effective_rank": 43
+    },
+    "23": {
+      "layer_type": "full_attention",
+      "alpha_star": -1.379949688911438,
+      "Pc_Praw_mean": 2.0018323553714494,
+      "cos_v_a_mean": 0.8286260852049281,
+      "effective_rank": 43
+    },
+    "24": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.3815221786499023,
+      "Pc_Praw_mean": 2.003594892548247,
+      "cos_v_a_mean": 0.8275099309714214,
+      "effective_rank": 43
+    },
+    "25": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.3782775402069092,
+      "Pc_Praw_mean": 2.0029581184134733,
+      "cos_v_a_mean": 0.8256749756683787,
+      "effective_rank": 43
+    },
+    "26": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.3785265684127808,
+      "Pc_Praw_mean": 2.0098788799878657,
+      "cos_v_a_mean": 0.8243762328063415,
+      "effective_rank": 43
+    },
+    "27": {
+      "layer_type": "full_attention",
+      "alpha_star": -1.3809916973114014,
+      "Pc_Praw_mean": 1.9984095380813711,
+      "cos_v_a_mean": 0.829615472767405,
+      "effective_rank": 43
+    },
+    "28": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.3709429502487183,
+      "Pc_Praw_mean": 1.997862346996514,
+      "cos_v_a_mean": 0.8237869971497566,
+      "effective_rank": 43
+    },
+    "29": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.3716363906860352,
+      "Pc_Praw_mean": 1.9946467179482583,
+      "cos_v_a_mean": 0.8249378664088258,
+      "effective_rank": 43
+    },
+    "30": {
+      "layer_type": "linear_attention",
+      "alpha_star": -1.3711758852005005,
+      "Pc_Praw_mean": 1.9952887722068382,
+      "cos_v_a_mean": 0.825073468299027,
+      "effective_rank": 43
+    },
+    "31": {
+      "layer_type": "full_attention",
+      "alpha_star": -1.3854186534881592,
+      "Pc_Praw_mean": 2.0038712557442633,
+      "cos_v_a_mean": 0.8281299753770042,
+      "effective_rank": 43
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "model": "Qwen1.5-7B-Chat",
+  "n_layers": 32,
+  "n_kv_heads": 32,
+  "n_attn_heads": 32,
+  "hidden_size": 4096,
+  "head_dim": 128,
+  "is_gqa": false,
+  "kv_bytes_per_token": 524288,
+  "prompt_tokens": 2473,
+  "baseline": {
+    "vram_gb": 14.14,
+    "time_s": 15.09,
+    "input_len": 2473
+  },
+  "hook_monitor": {
+    "vram_gb": 14.14,
+    "time_s": 13.69,
+    "stats": {
+      "ratio_mean": 0.14,
+      "ratio_std": 0.0803,
+      "num_decode_steps": 34
+    }
+  },
+  "KV-2048": {
+    "vram_gb": 15.44,
+    "time_s": 37.38,
+    "evictions": 524,
+    "ratio_mean": 0.2067,
+    "prefill_eviction": 425
+  },
+  "KV-1024": {
+    "vram_gb": 15.44,
+    "time_s": 38.15,
+    "evictions": 1548,
+    "ratio_mean": 0.1053,
+    "prefill_eviction": 1449
+  },
+  "KV-512": {
+    "vram_gb": 15.4,
+    "time_s": 21.06,
+    "evictions": 1969,
+    "ratio_mean": 0.2958,
+    "prefill_eviction": 1920,
+    "quality": "severely_degraded"
+  },
+  "kv_estimation": {
+    "kv_per_token_kb": 512.0,
+    "kv_2473_tokens_gb": 1.20751953125,
+    "kv_pct_of_peak": 8.53974208804809
+  },
+  "cross_model_comparison": {
+    "Qwen1.5-7B-Chat": {
+      "kv_heads": 32,
+      "layers": 32,
+      "kv_per_token_kb": 512.0,
+      "kv_4k_gb": 2.0
+    },
+    "Qwen2.5-7B-Instruct": {
+      "kv_heads": 4,
+      "layers": 28,
+      "kv_per_token_kb": 28.0,
+      "kv_4k_gb": 0.109375
+    },
+    "MiniCPM5-1B": {
+      "kv_heads": 2,
+      "layers": 24,
+      "kv_per_token_kb": 6.0,
+      "kv_4k_gb": 0.0234375
+    }
+  },
+  "critical_finding": "CausalKV逐token生成(with output_hidden_states=True)的VRAM反而高于Baseline，因为需要存储所有层隐状态。真正的VRAM节省需要Hook注入式淘汰（不开启output_hidden_states），这是v2验证的核心改进方向。"
+}

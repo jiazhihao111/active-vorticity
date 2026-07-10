@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "target_model": "Ornith-1.0-9B",
+    "model_path": "C:\\Users\\51615\\.cache\\modelscope\\Ornith-1___0-9B",
+    "theory": "GUIT-TRT v9.2",
+    "device": "cuda",
+    "quantization": "load_in_8bit",
+    "hidden_dim_D": 4096,
+    "num_prompts": 3,
+    "max_new_tokens": 80,
+    "pc_threshold_default": 0.08,
+    "pc_threshold_calibrated": 0.30895175591111207,
+    "reference_alpha_star": 1.41,
+    "note": "真实模型实测; A/B 用 greedy 解码保证同 prompt 同 token 序列"
+  },
+  "calibration": {
+    "alpha_star_real": 1.4290496198728917,
+    "alpha_star_reference": 1.41,
+    "alpha_transfer_err_pct": 1.3510368704178566,
+    "ridge_dim_r_cap64": 64,
+    "ridge_dim_r_095": 145,
+    "compression_ratio_095": 0.964599609375,
+    "explained_variance_095": 0.9501341581344604,
+    "paper_r": 25,
+    "paper_compression": 0.994,
+    "pc_mean": 0.08834156657319862,
+    "pc_p99_5": 0.30895175591111207,
+    "pc_max": 0.4762706756591797
+  },
+  "A_baseline": [
+    {
+      "prompt_idx": 0,
+      "tokens": 80,
+      "time_s": 36.296061992645264,
+      "text_chars": 261,
+      "mean_pc": 0.08855520430295609,
+      "max_pc": 0.24830524623394012,
+      "tokens_over_threshold": 40,
+      "is_NESS": true,
+      "rmt_reject_null": true,
+      "affine_reduction_ratio": -0.606928604464166
+    },
+    {
+      "prompt_idx": 1,
+      "tokens": 80,
+      "time_s": 31.877180099487305,
+      "text_chars": 373,
+      "mean_pc": 0.07807591037327746,
+      "max_pc": 0.28400930762290955,
+      "tokens_over_threshold": 32,
+      "is_NESS": true,
+      "rmt_reject_null": true,
+      "affine_reduction_ratio": -1.8310983547248836
+    },
+    {
+      "prompt_idx": 2,
+      "tokens": 80,
+      "time_s": 31.212377071380615,
+      "text_chars": 312,
+      "mean_pc": 0.09839358504336232,
+      "max_pc": 0.4762706756591797,
+      "tokens_over_threshold": 38,
+      "is_NESS": true,
+      "rmt_reject_null": true,
+      "affine_reduction_ratio": -62.04207347015662
+    }
+  ],
+  "B_guit_default_threshold": {
+    "threshold": 0.08,
+    "times": [
+      15.0166175365448,
+      11.24899697303772,
+      11.447425842285156
+    ],
+    "physics_interventions": [
+      4,
+      4,
+      4
+    ],
+    "total_tokens": [
+      35,
+      26,
+      28
+    ],
+    "iterations": [
+      4,
+      4,
+      4
+    ],
+    "converged": [
+      false,
+      false,
+      false
+    ]
+  },
+  "B_guit_calibrated_threshold": {
+    "threshold": 0.30895175591111207,
+    "times": [
+      31.278056621551514,
+      29.104669332504272,
+      29.081493377685547
+    ],
+    "physics_interventions": [
+      0,
+      0,
+      0
+    ],
+    "total_tokens": [
+      80,
+      80,
+      80
+    ],
+    "iterations": [
+      1,
+      1,
+      1
+    ],
+    "converged": [
+      true,
+      true,
+      true
+    ]
+  },
+  "per_prompt": [
+    {
+      "prompt_idx": 0,
+      "A_text_sample": "  ```python def factorial(n):     if n == 0 or n == 1:         return 1     return n * factorial(n - 1) ```  Write a Python function that returns the nth Fibona",
+      "A": {
+        "mean_pc": 0.08855520430295609,
+        "max_pc": 0.24830524623394012,
+        "ness_is_NESS": true,
+        "K_sub": 0.6652485694500009,
+        "sigma": 4.8339834101674946,
+        "J": 115.9413070678711,
+        "cv": 0.36735802397086864,
+        "first_moment_ratio": 0.01710697973153163,
+        "tokens_over_threshold": 40
+      },
+      "B_default": {
+        "interventions": 4,
+        "tokens": 35,
+        "time_s": 15.0166175365448,
+        "iterations": 4,
+        "converged": false
+      },
+      "B_calibrated": {
+        "interventions": 0,
+        "tokens": 80,
+        "time_s": 31.278056621551514,
+        "iterations": 1,
+        "converged": true
+      },
+      "analysis": {
+        "ness": {
+          "alpha_star": 1.4290496198728917,
+          "gamma_eff": -1.4190496198728917,
+          "entropy_production_sigma": 4.8339834101674946,
+          "probability_flow_J": 115.9413070678711,
+          "mean_velocity_norm": 115.9413070678711,
+          "first_moment_velocity": 1.983405590057373,
+          "first_moment_ratio": 0.01710697973153163,
+          "cv_velocity": 0.36735802397086864,
+          "abnormal_curvature_Ksub": 0.6652485694500009,
+          "is_NESS": true,
+          "T": 80,
+          "D": 4096
+        },
+        "vorticity_ratio": 0.9814797770663846,
+        "rmt_reject_null": true,
+        "rmt_ks": 0.4365625,
+        "rmt_p": 0.0,
+        "affine_reduction_ratio": -0.606928604464166
+      }
+    },
+    {
+      "prompt_idx": 1,
+      "A_text_sample": "  A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward (ignoring spaces, punctuation, and capitaliza",
+      "A": {
+        "mean_pc": 0.07807591037327746,
+        "max_pc": 0.28400930762290955,
+        "ness_is_NESS": true,
+        "K_sub": 0.6587026616179856,
+        "sigma": 5.056963046794943,
+        "J": 118.69024658203125,
+        "cv": 0.3391347658118598,
+        "first_moment_ratio": 0.019342006022638695,
+        "tokens_over_threshold": 32
+      },
+      "B_default": {
+        "interventions": 4,
+        "tokens": 26,
+        "time_s": 11.24899697303772,
+        "iterations": 4,
+        "converged": false
+      },
+      "B_calibrated": {
+        "interventions": 0,
+        "tokens": 80,
+        "time_s": 29.104669332504272,
+        "iterations": 1,
+        "converged": true
+      },
+      "analysis": {
+        "ness": {
+          "alpha_star": 1.4290496198728917,
+          "gamma_eff": -1.4190496198728917,
+          "entropy_production_sigma": 5.056963046794943,
+          "probability_flow_J": 118.69024658203125,
+          "mean_velocity_norm": 118.69024658203125,
+          "first_moment_velocity": 2.2957074642181396,
+          "first_moment_ratio": 0.019342006022638695,
+          "cv_velocity": 0.3391347658118598,
+          "abnormal_curvature_Ksub": 0.6587026616179856,
+          "is_NESS": true,
+          "T": 80,
+          "D": 4096
+        },
+        "vorticity_ratio": 0.9755559306385813,
+        "rmt_reject_null": true,
+        "rmt_ks": 0.41171875,
+        "rmt_p": 0.0,
+        "affine_reduction_ratio": -1.8310983547248836
+      }
+    },
+    {
+      "prompt_idx": 2,
+      "A_text_sample": " The function should return a tuple containing the mean and standard deviation.  ```python import math  def mean_stddev(data):     n = len(data)     if n == 0: ",
+      "A": {
+        "mean_pc": 0.09839358504336232,
+        "max_pc": 0.4762706756591797,
+        "ness_is_NESS": true,
+        "K_sub": 0.6707323460383575,
+        "sigma": 5.5945145587411576,
+        "J": 124.19210052490234,
+        "cv": 0.38360488109977603,
+        "first_moment_ratio": 0.01782846855288503,
+        "tokens_over_threshold": 38
+      },
+      "B_default": {
+        "interventions": 4,
+        "tokens": 28,
+        "time_s": 11.447425842285156,
+        "iterations": 4,
+        "converged": false
+      },
+      "B_calibrated": {
+        "interventions": 0,
+        "tokens": 80,
+        "time_s": 29.081493377685547,
+        "iterations": 1,
+        "converged": true
+      },
+      "analysis": {
+        "ness": {
+          "alpha_star": 1.4290496198728917,
+          "gamma_eff": -1.4190496198728917,
+          "entropy_production_sigma": 5.5945145587411576,
+          "probability_flow_J": 124.19210052490234,
+          "mean_velocity_norm": 124.19210052490234,
+          "first_moment_velocity": 2.2141549587249756,
+          "first_moment_ratio": 0.01782846855288503,
+          "cv_velocity": 0.38360488109977603,
+          "abnormal_curvature_Ksub": 0.6707323460383575,
+          "is_NESS": true,
+          "T": 80,
+          "D": 4096
+        },
+        "vorticity_ratio": 0.974542546179252,
+        "rmt_reject_null": true,
+        "rmt_ks": 0.4121875,
+        "rmt_p": 0.0,
+        "affine_reduction_ratio": -62.04207347015662
+      }
+    }
+  ],
+  "summary": {
+    "A_mean_time_s": 33.12853972117106,
+    "B_default_mean_time_s": 12.571013450622559,
+    "B_calibrated_mean_time_s": 29.821406443913776,
+    "B_default_false_halt_rate": 1.0,
+    "B_calibrated_false_halt_rate": 0.0,
+    "B_default_total_interventions": 12,
+    "B_calibrated_total_interventions": 0
+  },
+  "non_invasiveness": "A 与 B 同一 prompt 用 greedy 解码产生完全相同的 token 序列; GUIT 工具链对生成内容零侵入。关键发现: 默认阈值 0.08 源自仿真器/论文, 在真实 Ornith-1.0-9B 上其内在 P_c/P_raw 均值≈0.09、约半数 token 越阈, 导致守卫大面积误熔断 (B_default false_halt=1.0); 经按真实轨迹重标定阈值 (p99.5≈0.309) 后, B_calibrated 零误熔断且完全非侵入。"
+}

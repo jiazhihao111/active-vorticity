@@ -1,0 +1,59 @@
+{
+  "model": "Qwen2.5-7B-Instruct",
+  "quantization": "bf16",
+  "prompt": "Explain the concept of entropy in thermodynamics in two sentences.",
+  "method_A_prefill": {
+    "0": {
+      "Pc_Praw_ratio": 0.871909893333843,
+      "cos_Pc_mean": -0.8678245544433594,
+      "effective_rank": 27
+    },
+    "7": {
+      "Pc_Praw_ratio": 0.9882098655604447,
+      "cos_Pc_mean": -0.8177065253257751,
+      "effective_rank": 13
+    },
+    "14": {
+      "Pc_Praw_ratio": 0.9912974171843864,
+      "cos_Pc_mean": -0.8033555150032043,
+      "effective_rank": 18
+    },
+    "21": {
+      "Pc_Praw_ratio": 0.9902590220312741,
+      "cos_Pc_mean": -0.8044746518135071,
+      "effective_rank": 25
+    },
+    "27": {
+      "Pc_Praw_ratio": 0.9443688597967236,
+      "cos_Pc_mean": -0.8247410655021667,
+      "effective_rank": 36
+    }
+  },
+  "method_B_decode_hook": {
+    "0": {
+      "Pc_Praw_ratio": 0.8623216201275634,
+      "cos_Pc_mean": -0.8555194139480591,
+      "effective_rank": 32
+    },
+    "7": {
+      "Pc_Praw_ratio": 0.8436104018319777,
+      "cos_Pc_mean": -0.8267855644226074,
+      "effective_rank": 33
+    },
+    "14": {
+      "Pc_Praw_ratio": 0.8404253821192157,
+      "cos_Pc_mean": -0.8275626301765442,
+      "effective_rank": 33
+    },
+    "21": {
+      "Pc_Praw_ratio": 0.8358237083151577,
+      "cos_Pc_mean": -0.8296441435813904,
+      "effective_rank": 34
+    },
+    "27": {
+      "Pc_Praw_ratio": 0.8489548691133466,
+      "cos_Pc_mean": -0.8408958911895752,
+      "effective_rank": 34
+    }
+  }
+}

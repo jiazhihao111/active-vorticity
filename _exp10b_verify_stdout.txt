@@ -1,0 +1,35 @@
+Model loaded: 3,484,032 params
+Positive test stories: 20
+Variants: original=20, sentence=20, paragraph=20
+Extracting tanTheta for 3 variants...
+
+CV(original)  = 0.6596  mean=27.6731
+CV(sentence)  = 0.6594  mean=27.7112
+CV(paragraph) = 0.6583  mean=27.6745
+
+Per-story paired N = 20
+Paired t (orig vs sent): t=1.795, p=0.0443 *
+Paired t (orig vs para): t=0.334, p=0.3711 
+Cohen d (sentence): 0.150, (paragraph): 0.023
+
+Per-story CV means: orig=0.2718, sent=0.2720, para=0.2697
+
+Sliding window:
+  local_cv_mean = inf
+  cv_ratio = inf
+  pt_residual = 5.610166549682617
+  verdict = no_local_conservation
+
+============================================================
+VERDICT: INCONCLUSIVE (confidence=25%)
+  Gradient (batch): False
+  Gradient (per-story): False
+  Paired p (sent): 0.0443
+  Paired p (para): 0.3711
+  Window CV ratio: inf
+============================================================
+
+DIAGNOSIS:
+  tan_orig n_valid: 4480
+  tan_orig range: [0.00, 71.02]
+  N_per_story (orig/sent/para): 20/20/20

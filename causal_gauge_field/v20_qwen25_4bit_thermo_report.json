@@ -1,0 +1,204 @@
+{
+  "model": "Qwen2.5-7B-Instruct",
+  "quantization": "4bit-nf4",
+  "prompt": "Explain the concept of entropy in thermodynamics in two sentences.",
+  "num_generated": 50,
+  "per_layer": {
+    "0": {
+      "Pc_Praw_ratio": 0.8617667804487538,
+      "cos_Pc_mean": -0.856015145778656,
+      "effective_rank": 40,
+      "mean_vel_norm": 14.47594928741455,
+      "mean_acc_norm": 24.783082962036133
+    },
+    "1": {
+      "Pc_Praw_ratio": 0.862474629408261,
+      "cos_Pc_mean": -0.8499009013175964,
+      "effective_rank": 40,
+      "mean_vel_norm": 19.590980529785156,
+      "mean_acc_norm": 33.47441101074219
+    },
+    "2": {
+      "Pc_Praw_ratio": 0.8607029843967692,
+      "cos_Pc_mean": -0.8499603271484375,
+      "effective_rank": 41,
+      "mean_vel_norm": 23.8431453704834,
+      "mean_acc_norm": 40.53557205200195
+    },
+    "3": {
+      "Pc_Praw_ratio": 0.8498441699379309,
+      "cos_Pc_mean": -0.8374717235565186,
+      "effective_rank": 42,
+      "mean_vel_norm": 26.527416229248047,
+      "mean_acc_norm": 44.566707611083984
+    },
+    "4": {
+      "Pc_Praw_ratio": 0.851071546412521,
+      "cos_Pc_mean": -0.8330002427101135,
+      "effective_rank": 42,
+      "mean_vel_norm": 31.564905166625977,
+      "mean_acc_norm": 53.03298568725586
+    },
+    "5": {
+      "Pc_Praw_ratio": 0.8516396000255888,
+      "cos_Pc_mean": -0.8346951007843018,
+      "effective_rank": 42,
+      "mean_vel_norm": 34.5335693359375,
+      "mean_acc_norm": 58.137855529785156
+    },
+    "6": {
+      "Pc_Praw_ratio": 0.8495186675664168,
+      "cos_Pc_mean": -0.8330973982810974,
+      "effective_rank": 42,
+      "mean_vel_norm": 39.31167221069336,
+      "mean_acc_norm": 66.04684448242188
+    },
+    "7": {
+      "Pc_Praw_ratio": 0.8463868759056754,
+      "cos_Pc_mean": -0.8311477899551392,
+      "effective_rank": 42,
+      "mean_vel_norm": 46.22782516479492,
+      "mean_acc_norm": 77.67738342285156
+    },
+    "8": {
+      "Pc_Praw_ratio": 0.8445181301286768,
+      "cos_Pc_mean": -0.8309621810913086,
+      "effective_rank": 42,
+      "mean_vel_norm": 51.843544006347656,
+      "mean_acc_norm": 86.96318817138672
+    },
+    "9": {
+      "Pc_Praw_ratio": 0.8436831483059353,
+      "cos_Pc_mean": -0.8313208222389221,
+      "effective_rank": 42,
+      "mean_vel_norm": 51.91242980957031,
+      "mean_acc_norm": 87.07087707519531
+    },
+    "10": {
+      "Pc_Praw_ratio": 0.8455104149227566,
+      "cos_Pc_mean": -0.8324777483940125,
+      "effective_rank": 42,
+      "mean_vel_norm": 55.08169937133789,
+      "mean_acc_norm": 92.3778076171875
+    },
+    "11": {
+      "Pc_Praw_ratio": 0.8449661488712249,
+      "cos_Pc_mean": -0.832070529460907,
+      "effective_rank": 42,
+      "mean_vel_norm": 58.04179382324219,
+      "mean_acc_norm": 97.3734130859375
+    },
+    "12": {
+      "Pc_Praw_ratio": 0.8450691652518066,
+      "cos_Pc_mean": -0.8323472142219543,
+      "effective_rank": 42,
+      "mean_vel_norm": 59.95820617675781,
+      "mean_acc_norm": 100.69033813476562
+    },
+    "13": {
+      "Pc_Praw_ratio": 0.8438244523726066,
+      "cos_Pc_mean": -0.8328613638877869,
+      "effective_rank": 43,
+      "mean_vel_norm": 62.30391311645508,
+      "mean_acc_norm": 104.55265808105469
+    },
+    "14": {
+      "Pc_Praw_ratio": 0.8422573820488329,
+      "cos_Pc_mean": -0.8324394822120667,
+      "effective_rank": 43,
+      "mean_vel_norm": 65.96370697021484,
+      "mean_acc_norm": 110.59601593017578
+    },
+    "15": {
+      "Pc_Praw_ratio": 0.8414445155148144,
+      "cos_Pc_mean": -0.8329331278800964,
+      "effective_rank": 43,
+      "mean_vel_norm": 69.12862396240234,
+      "mean_acc_norm": 115.89254760742188
+    },
+    "16": {
+      "Pc_Praw_ratio": 0.8412675601453855,
+      "cos_Pc_mean": -0.8330792188644409,
+      "effective_rank": 43,
+      "mean_vel_norm": 72.6669921875,
+      "mean_acc_norm": 121.87173461914062
+    },
+    "17": {
+      "Pc_Praw_ratio": 0.8405735470174477,
+      "cos_Pc_mean": -0.8332014083862305,
+      "effective_rank": 43,
+      "mean_vel_norm": 76.80270385742188,
+      "mean_acc_norm": 128.66665649414062
+    },
+    "18": {
+      "Pc_Praw_ratio": 0.840342037610931,
+      "cos_Pc_mean": -0.833857536315918,
+      "effective_rank": 43,
+      "mean_vel_norm": 80.90950012207031,
+      "mean_acc_norm": 135.65542602539062
+    },
+    "19": {
+      "Pc_Praw_ratio": 0.837995489546126,
+      "cos_Pc_mean": -0.832878828048706,
+      "effective_rank": 44,
+      "mean_vel_norm": 88.99480438232422,
+      "mean_acc_norm": 149.00131225585938
+    },
+    "20": {
+      "Pc_Praw_ratio": 0.8382151234001617,
+      "cos_Pc_mean": -0.8324322700500488,
+      "effective_rank": 44,
+      "mean_vel_norm": 102.43782043457031,
+      "mean_acc_norm": 171.5903778076172
+    },
+    "21": {
+      "Pc_Praw_ratio": 0.8381764614038577,
+      "cos_Pc_mean": -0.8325160145759583,
+      "effective_rank": 44,
+      "mean_vel_norm": 123.91402435302734,
+      "mean_acc_norm": 207.66246032714844
+    },
+    "22": {
+      "Pc_Praw_ratio": 0.8397894010713753,
+      "cos_Pc_mean": -0.8340991139411926,
+      "effective_rank": 44,
+      "mean_vel_norm": 152.65943908691406,
+      "mean_acc_norm": 255.9539794921875
+    },
+    "23": {
+      "Pc_Praw_ratio": 0.8399139517169658,
+      "cos_Pc_mean": -0.8332208395004272,
+      "effective_rank": 44,
+      "mean_vel_norm": 182.146728515625,
+      "mean_acc_norm": 305.16461181640625
+    },
+    "24": {
+      "Pc_Praw_ratio": 0.8409466518195032,
+      "cos_Pc_mean": -0.8342766165733337,
+      "effective_rank": 44,
+      "mean_vel_norm": 215.91812133789062,
+      "mean_acc_norm": 362.517578125
+    },
+    "25": {
+      "Pc_Praw_ratio": 0.8435830225064919,
+      "cos_Pc_mean": -0.8362047672271729,
+      "effective_rank": 44,
+      "mean_vel_norm": 257.37969970703125,
+      "mean_acc_norm": 433.7279052734375
+    },
+    "26": {
+      "Pc_Praw_ratio": 0.846848952136312,
+      "cos_Pc_mean": -0.8391871452331543,
+      "effective_rank": 44,
+      "mean_vel_norm": 299.18194580078125,
+      "mean_acc_norm": 505.84210205078125
+    },
+    "27": {
+      "Pc_Praw_ratio": 0.8506948980098724,
+      "cos_Pc_mean": -0.8404648303985596,
+      "effective_rank": 44,
+      "mean_vel_norm": 343.1471862792969,
+      "mean_acc_norm": 581.7346801757812
+    }
+  }
+}

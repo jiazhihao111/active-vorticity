@@ -1,0 +1,234 @@
+{
+  "timestamp": "2026-07-09T21:04:12.450216",
+  "framework": "v7.0 Lagrangian Constraint Mechanics",
+  "constraint_power_results": {
+    "gamma_0.01": {
+      "constraint_power": {
+        "pos_mean": 14.954758653524985,
+        "neg_mean": 17.169930659953984,
+        "pos_std": 14.184321750447191,
+        "neg_std": 23.792531352548718,
+        "pos_skew": 2.9094700915295584,
+        "neg_skew": 5.273196311061088,
+        "pos_vs_zero_p": 0.0,
+        "pos_vs_neg_p": 0.00025881566778652846,
+        "ks_stat": 0.023953129676097515,
+        "ks_p": 0.59067130490367,
+        "cohens_d": -0.11309558357199602,
+        "criteria": {
+          "pos_near_zero": "False",
+          "neg_significantly_lower": "False",
+          "neg_left_skewed": "False"
+        },
+        "passed_count": 0,
+        "total_criteria": 3,
+        "verdict": "OPPOSE"
+      },
+      "velocity_effective_rank": {
+        "pos_effective_rank": 7,
+        "neg_effective_rank": 6,
+        "pos_top3_variance_ratio": 0.851740614029084,
+        "neg_top3_variance_ratio": 0.864601011790787,
+        "pos_lower_rank": false,
+        "verdict": "OPPOSE"
+      },
+      "overall_verdict": {
+        "support_count": 0,
+        "total_count": 2,
+        "verdict": "OPPOSE",
+        "framework": "v7.0 Lagrangian Constraint Mechanics",
+        "mass": 1.0,
+        "friction": 0.01
+      }
+    },
+    "gamma_0.1": {
+      "constraint_power": {
+        "pos_mean": 16.113228048382652,
+        "neg_mean": 18.446635270109027,
+        "pos_std": 14.933830301772291,
+        "neg_std": 25.06063397795786,
+        "pos_skew": 2.932495240762631,
+        "neg_skew": 5.299922763221234,
+        "pos_vs_zero_p": 0.0,
+        "pos_vs_neg_p": 0.00025809635933111557,
+        "ks_stat": 0.02473727525955938,
+        "ks_p": 0.5493339143038928,
+        "cohens_d": -0.11311672107825681,
+        "criteria": {
+          "pos_near_zero": "False",
+          "neg_significantly_lower": "False",
+          "neg_left_skewed": "False"
+        },
+        "passed_count": 0,
+        "total_criteria": 3,
+        "verdict": "OPPOSE"
+      },
+      "velocity_effective_rank": {
+        "pos_effective_rank": 7,
+        "neg_effective_rank": 6,
+        "pos_top3_variance_ratio": 0.851740614029084,
+        "neg_top3_variance_ratio": 0.864601011790787,
+        "pos_lower_rank": false,
+        "verdict": "OPPOSE"
+      },
+      "overall_verdict": {
+        "support_count": 0,
+        "total_count": 2,
+        "verdict": "OPPOSE",
+        "framework": "v7.0 Lagrangian Constraint Mechanics",
+        "mass": 1.0,
+        "friction": 0.1
+      }
+    },
+    "gamma_0.5": {
+      "constraint_power": {
+        "pos_mean": 21.2619811707284,
+        "neg_mean": 24.12087829345137,
+        "pos_std": 18.415887762598388,
+        "neg_std": 30.809964364654363,
+        "pos_skew": 2.970600881993486,
+        "neg_skew": 5.351493081188612,
+        "pos_vs_zero_p": 0.0,
+        "pos_vs_neg_p": 0.00027427964510127534,
+        "ks_stat": 0.02751032098651749,
+        "ks_p": 0.4132438200424443,
+        "cohens_d": -0.11263889080193888,
+        "criteria": {
+          "pos_near_zero": "False",
+          "neg_significantly_lower": "False",
+          "neg_left_skewed": "False"
+        },
+        "passed_count": 0,
+        "total_criteria": 3,
+        "verdict": "OPPOSE"
+      },
+      "velocity_effective_rank": {
+        "pos_effective_rank": 7,
+        "neg_effective_rank": 6,
+        "pos_top3_variance_ratio": 0.851740614029084,
+        "neg_top3_variance_ratio": 0.864601011790787,
+        "pos_lower_rank": false,
+        "verdict": "OPPOSE"
+      },
+      "overall_verdict": {
+        "support_count": 0,
+        "total_count": 2,
+        "verdict": "OPPOSE",
+        "framework": "v7.0 Lagrangian Constraint Mechanics",
+        "mass": 1.0,
+        "friction": 0.5
+      }
+    },
+    "gamma_1.0": {
+      "constraint_power": {
+        "pos_mean": 27.697922377739378,
+        "neg_mean": 31.213681841371173,
+        "pos_std": 22.983035290855867,
+        "neg_std": 38.159104800247086,
+        "pos_skew": 2.9566840716684304,
+        "neg_skew": 5.346702158162874,
+        "pos_vs_zero_p": 0.0,
+        "pos_vs_neg_p": 0.00031226911844961806,
+        "ks_stat": 0.029825348956774633,
+        "ks_p": 0.3162014577615966,
+        "cohens_d": -0.11161599016142014,
+        "criteria": {
+          "pos_near_zero": "False",
+          "neg_significantly_lower": "False",
+          "neg_left_skewed": "False"
+        },
+        "passed_count": 0,
+        "total_criteria": 3,
+        "verdict": "OPPOSE"
+      },
+      "velocity_effective_rank": {
+        "pos_effective_rank": 7,
+        "neg_effective_rank": 6,
+        "pos_top3_variance_ratio": 0.851740614029084,
+        "neg_top3_variance_ratio": 0.864601011790787,
+        "pos_lower_rank": false,
+        "verdict": "OPPOSE"
+      },
+      "overall_verdict": {
+        "support_count": 0,
+        "total_count": 2,
+        "verdict": "OPPOSE",
+        "framework": "v7.0 Lagrangian Constraint Mechanics",
+        "mass": 1.0,
+        "friction": 1.0
+      }
+    },
+    "gamma_2.0": {
+      "constraint_power": {
+        "pos_mean": 40.56980464000963,
+        "neg_mean": 45.399288688308125,
+        "pos_std": 32.44631095282362,
+        "neg_std": 53.11287904457144,
+        "pos_skew": 2.8963786593993324,
+        "neg_skew": 5.288305247816017,
+        "pos_vs_zero_p": 0.0,
+        "pos_vs_neg_p": 0.0003952288697058027,
+        "ks_stat": 0.02966851984008226,
+        "ks_p": 0.3222442514523138,
+        "cohens_d": -0.10973633282347758,
+        "criteria": {
+          "pos_near_zero": "False",
+          "neg_significantly_lower": "False",
+          "neg_left_skewed": "False"
+        },
+        "passed_count": 0,
+        "total_criteria": 3,
+        "verdict": "OPPOSE"
+      },
+      "velocity_effective_rank": {
+        "pos_effective_rank": 7,
+        "neg_effective_rank": 6,
+        "pos_top3_variance_ratio": 0.851740614029084,
+        "neg_top3_variance_ratio": 0.864601011790787,
+        "pos_lower_rank": false,
+        "verdict": "OPPOSE"
+      },
+      "overall_verdict": {
+        "support_count": 0,
+        "total_count": 2,
+        "verdict": "OPPOSE",
+        "framework": "v7.0 Lagrangian Constraint Mechanics",
+        "mass": 1.0,
+        "friction": 2.0
+      }
+    }
+  },
+  "newton_baseline": {
+    "hamiltonian_conservation": {
+      "H_var_pos_mean": 24.392997717857362,
+      "H_var_neg_mean": 66.1703726530075,
+      "t_stat": -2.5721651040791325,
+      "p_value": 0.01200544128117847,
+      "legal_more_conserved": "True",
+      "verdict": "SUPPORT"
+    },
+    "force_alignment": {
+      "alignment_pos_mean": 0.00698922137514903,
+      "alignment_neg_mean": 0.011702093069077407,
+      "t_stat": -1.314817619708243,
+      "p_value": 0.18864354148872092,
+      "legal_more_aligned": "False",
+      "verdict": "OPPOSE"
+    },
+    "potential_barrier": {
+      "delta_V_pos_mean": 1.5186411724520115e-06,
+      "delta_V_neg_mean": 1.473508523938432e-06,
+      "t_stat": 0.03900510158598505,
+      "p_value": 0.9688881892921777,
+      "legal_downhill": "False",
+      "verdict": "OPPOSE"
+    },
+    "overall_verdict": {
+      "support_count": 1,
+      "total_count": 3,
+      "verdict": "WEAK_SUPPORT",
+      "framework": "Newton (flat space + potential)",
+      "upgrade_condition": "If all 3 hypotheses pass, consider Einstein upgrade"
+    }
+  }
+}
